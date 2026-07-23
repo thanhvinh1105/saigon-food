@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Saigon Food Map</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --red:    #C0392B;
+    --red-dk: #922b21;
+    --gold:   #D4A843;
+    --cream:  #FDF8F0;
+    --ink:    #1a1208;
+    --muted:  #8B7355;
+    --panel:  #FFFDF7;
+    --border: #E8DCC8;
+    --must:   #F39C12;
+    --shadow: 0 2px 12px rgba(26,18,8,0.12);
+  }
+
+  html, body { height: 100%; font-family: 'Be Vietnam Pro', sans-serif; background: var(--cream); color: var(--ink); }
+
+  /* ── HEADER ── */
+  header {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+    background: var(--red);
+    padding: 0 20px;
+    height: 56px;
+    display: flex; align-items: center; gap: 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+  }
+  header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.35rem; font-weight: 700;
+    color: #fff; letter-spacing: 0.01em; white-space: nowrap;
+  }
+  header h1 span { font-style: italic; font-weight: 400; color: var(--gold); }
+  .header-count {
+    font-size: 0.75rem; color: rgba(255,255,255,0.65);
+    background: rgba(255,255,255,0.12);
+    padding: 3px 8px; border-radius: 20px;
+    white-space: nowrap;
+  }
+  .header-spacer { flex: 1; }
+  .must-toggle {
+    display: flex; align-items: center; gap: 6px;
+    font-size: 0.78rem; color: #fff; cursor: pointer;
+    background: rgba(255,255,255,0.12);
+    border: 1px solid rgba(255,255,255,0.2);
+    padding: 5px 11px; border-radius: 20px;
+    transition: background 0.15s;
+    white-space: nowrap;
+  }
+  .must-toggle:hover, .must-toggle.active { background: var(--gold); border-color: var(--gold); color: var(--ink); }
+  .must-toggle .star { font-size: 0.9rem; }
+
+  /* ── FILTER BAR ── */
+  #filter-bar {
+    position: fixed; top: 56px; left: 0; right: 0; z-index: 999;
+    background: var(--panel);
+    border-bottom: 1px solid var(--border);
+    padding: 8px 16px;
+    display: flex; gap: 6px; align-items: center; overflow-x: auto;
+    scrollbar-width: none;
+  }
+  #filter-bar::-webkit-scrollbar { display: none; }
+  .filter-label { font-size: 0.7rem; color: var(--muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; white-space: nowrap; margin-right: 4px; }
+  .chip {
+    font-size: 0.75rem; font-weight: 500;
+    padding: 4px 11px; border-radius: 20px;
+    border: 1.5px solid var(--border);
+    background: #fff; color: var(--ink);
+    cursor: pointer; white-space: nowrap;
+    transition: all 0.15s; user-select: none;
+  }
+  .chip:hover { border-color: var(--red); color: var(--red); }
+  .chip.active { background: var(--red); border-color: var(--red); color: #fff; }
+  .chip.all { border-color: var(--muted); color: var(--muted); }
+  .chip.all.active { background: var(--ink); border-color: var(--ink); color: #fff; }
+
+  /* ── SEARCH ── */
+  #search-wrap {
+    position: fixed; top: 56px; right: 16px; z-index: 1001;
+    top: 64px;
+  }
+  #search {
+    border: 1.5px solid var(--border);
+    border-radius: 8px; padding: 7px 12px;
+    font-size: 0.82rem; font-family: inherit;
+    background: #fff; color: var(--ink);
+    outline: none; width: 200px;
+    box-shadow: var(--shadow);
+    transition: border-color 0.15s, width 0.2s;
+  }
+  #search:focus { border-color: var(--red); width: 240px; }
+
+  /* ── MAP ── */
+  #map {
+    position: fixed;
+    top: 56px; left: 0; right: 0; bottom: 0;
+    /* shift down for filter bar height */
+    top: 104px;
+  }
+
+  /* ── SIDEBAR ── */
+  #sidebar {
+    position: fixed; top: 104px; right: 0; bottom: 0;
+    width: 320px;
+    background: var(--panel);
+    border-left: 1px solid var(--border);
+    overflow-y: auto;
+    z-index: 900;
+    transform: translateX(100%);
+    transition: transform 0.25s ease;
+    scrollbar-width: thin;
+    scrollbar-color: var(--border) transparent;
+  }
+  #sidebar.open { transform: translateX(0); }
+  #sidebar-close {
+    position: absolute; top: 10px; right: 12px;
+    background: none; border: none; font-size: 1.3rem;
+    color: var(--muted); cursor: pointer; padding: 4px;
+    line-height: 1;
+  }
+  #sidebar-close:hover { color: var(--red); }
+
+  .sidebar-inner { padding: 20px 18px 80px; }
+  .sb-tag {
+    display: inline-block;
+    font-size: 0.68rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.07em;
+    padding: 3px 8px; border-radius: 4px;
+    margin-bottom: 8px;
+  }
+  .sb-tag.must { background: #FEF3CD; color: #7B6010; }
+  .sb-tag.source { background: #EAF1FB; color: #2C5898; }
+  .sb-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem; font-weight: 700;
+    line-height: 1.25; margin-bottom: 6px;
+    color: var(--ink);
+  }
+  .sb-cuisine {
+    font-size: 0.8rem; color: var(--muted); font-weight: 500;
+    margin-bottom: 14px;
+  }
+  .sb-grid {
+    display: grid; grid-template-columns: 1fr 1fr;
+    gap: 8px; margin-bottom: 16px;
+  }
+  .sb-stat {
+    background: var(--cream); border-radius: 8px;
+    padding: 10px 12px;
+    border: 1px solid var(--border);
+  }
+  .sb-stat-label { font-size: 0.65rem; color: var(--muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 3px; }
+  .sb-stat-val { font-size: 1rem; font-weight: 700; color: var(--ink); }
+  .sb-stat-val.gold { color: var(--must); }
+  .sb-section { margin-bottom: 14px; }
+  .sb-section-label { font-size: 0.7rem; color: var(--muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.07em; margin-bottom: 5px; }
+  .sb-section-val { font-size: 0.88rem; color: var(--ink); line-height: 1.5; }
+  .sb-note { font-size: 0.78rem; color: var(--muted); font-style: italic; line-height: 1.45; padding: 8px 10px; background: var(--cream); border-radius: 6px; border-left: 2px solid var(--border); }
+  .sb-link {
+    display: block; margin-top: 16px;
+    background: var(--red); color: #fff;
+    text-align: center; text-decoration: none;
+    padding: 11px; border-radius: 8px;
+    font-weight: 600; font-size: 0.85rem;
+    transition: background 0.15s;
+  }
+  .sb-link:hover { background: var(--red-dk); }
+
+  /* ── RESULTS COUNT ── */
+  #results-bar {
+    position: fixed; bottom: 16px; left: 50%; transform: translateX(-50%);
+    z-index: 900;
+    background: rgba(26,18,8,0.82);
+    color: #fff; border-radius: 20px;
+    padding: 6px 16px; font-size: 0.78rem;
+    backdrop-filter: blur(6px);
+    pointer-events: none;
+    transition: opacity 0.3s;
+  }
+
+  /* ── CUSTOM MARKERS ── */
+  .pin-dot {
+    width: 14px; height: 14px;
+    border-radius: 50%;
+    border: 2.5px solid #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.35);
+    cursor: pointer;
+  }
+  .pin-dot.must { background: var(--must); width: 17px; height: 17px; }
+  .pin-dot.normal { background: var(--red); }
+
+  /* ── LEAFLET POPUP ── */
+  .leaflet-popup-content-wrapper {
+    border-radius: 10px !important;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.18) !important;
+    border: 1px solid var(--border) !important;
+    padding: 0 !important;
+    overflow: hidden;
+  }
+  .leaflet-popup-content { margin: 0 !important; width: 220px !important; }
+  .leaflet-popup-tip { background: #fff !important; }
+  .popup-inner { padding: 13px 14px; }
+  .popup-name { font-weight: 700; font-size: 0.9rem; margin-bottom: 3px; line-height: 1.3; }
+  .popup-cuisine { font-size: 0.73rem; color: var(--muted); margin-bottom: 8px; }
+  .popup-row { display: flex; gap: 6px; margin-bottom: 10px; }
+  .popup-pill {
+    font-size: 0.68rem; font-weight: 600;
+    padding: 2px 7px; border-radius: 20px;
+    background: var(--cream); color: var(--muted);
+    border: 1px solid var(--border);
+  }
+  .popup-pill.must { background: #FEF3CD; color: #7B6010; border-color: #F0DC82; }
+  .popup-btn {
+    display: block; text-align: center;
+    background: var(--red); color: #fff;
+    font-size: 0.75rem; font-weight: 600;
+    padding: 7px; border-radius: 6px;
+    border: none; width: 100%; cursor: pointer;
+    text-decoration: none;
+    transition: background 0.15s;
+  }
+  .popup-btn:hover { background: var(--red-dk); }
+
+  @media (max-width: 600px) {
+    header h1 { font-size: 1.05rem; }
+    #sidebar { width: 100%; }
+    #search { display: none; }
+    #map { top: 104px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Saigon <span>Food Map</span></h1>
+  <span class="header-count" id="hdr-count"></span>
+  <div class="header-spacer"></div>
+  <button class="must-toggle" id="must-btn">
+    <span class="star">⭐</span> Must Try only
+  </button>
+</header>
+
+<div id="filter-bar">
+  <span class="filter-label">Filter:</span>
+  <span class="chip all active" data-cat="all">All</span>
+  <span class="chip" data-cat="Cafes & Coffee">☕ Cafes</span>
+  <span class="chip" data-cat="Vietnamese">🍜 Vietnamese</span>
+  <span class="chip" data-cat="Japanese">🍣 Japanese</span>
+  <span class="chip" data-cat="Bars & Cocktails">🍸 Bars</span>
+  <span class="chip" data-cat="Western">🍔 Western</span>
+  <span class="chip" data-cat="Chinese & Taiwanese">🥟 Chinese</span>
+  <span class="chip" data-cat="BBQ & Korean">🔥 BBQ</span>
+  <span class="chip" data-cat="Bakery & Desserts">🧁 Bakery</span>
+  <span class="chip" data-cat="Asian Fusion & World">🌏 Fusion</span>
+  <span class="chip" data-price="$" data-type="price">$</span>
+  <span class="chip" data-price="$$" data-type="price">$$</span>
+  <span class="chip" data-price="$$$" data-type="price">$$$</span>
+  <span class="chip" data-price="$$$$" data-type="price">$$$$</span>
+</div>
+
+<div id="map"></div>
+
+<div id="sidebar">
+  <button id="sidebar-close">✕</button>
+  <div class="sidebar-inner" id="sidebar-content"></div>
+</div>
+
+<div id="results-bar"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+// ── CUISINE CATEGORISER ──
+function getCategory(cuisine) {
+  if (!cuisine) return 'Other';
+  const c = cuisine.toLowerCase();
+  if (/ramen|japanese|sushi|yakiniku|omakase|izakaya|robata/.test(c)) return 'Japanese';
+  if (/korean|bbq/.test(c)) return 'BBQ & Korean';
+  if (/viet|pho|com tam|bun |banh|cơm|phở|bún|bánh/.test(c)) return 'Vietnamese';
+  if (/cafe|coffee|matcha|tea|milk tea/.test(c)) return 'Cafes & Coffee';
+  if (/bar|cocktail|lounge|jazz/.test(c)) return 'Bars & Cocktails';
+  if (/italian|pizza|french|western|american|burger|diner|deli|steak/.test(c)) return 'Western';
+  if (/chinese|cantonese|taiwanese|dim sum|hotpot/.test(c)) return 'Chinese & Taiwanese';
+  if (/bakery|ice cream|dessert|cake|donut/.test(c)) return 'Bakery & Desserts';
+  if (/thai|mexican|nikkei|fusion|peruvian|spanish|basque|mediterranean/.test(c)) return 'Asian Fusion & World';
+  if (/vegan|vegetarian/.test(c)) return 'Vietnamese';
+  if (/seafood|oyster/.test(c)) return 'Bars & Cocktails';
+  return 'Other';
+}
+
+// ── STAR RATING ──
+function stars(r) {
+  if (!r) return '—';
+  const full = Math.round(r * 2) / 2;
+  return '⭐ ' + full.toFixed(1);
+}
+
+// ── MAP SETUP ──
+const map = L.map('map', {
+  center: [10.7967, 106.7200],
+  zoom: 13,
+  zoomControl: true,
+});
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+  maxZoom: 19,
+}).addTo(map);
+
+// ── STATE ──
+let activeCategory = 'all';
+let activePrices = new Set();
+let mustOnly = false;
+let allMarkers = [];
+let selectedMarker = null;
+
+// ── SIDEBAR ──
+const sidebar = document.getElementById('sidebar');
+const sidebarContent = document.getElementById('sidebar-content');
+document.getElementById('sidebar-close').addEventListener('click', () => {
+  sidebar.classList.remove('open');
+  selectedMarker = null;
+});
+
+function showSidebar(p) {
+  const cat = getCategory(p.cuisine);
+  const isMust = p.must_try === 'Yes';
+  sidebarContent.innerHTML = `
+    <div style="margin-bottom:4px;">
+      ${isMust ? '<span class="sb-tag must">⭐ Must Try</span> ' : ''}
+      <span class="sb-tag source">${p.source === 'Quan 2 list' ? 'Thảo Điền' : 'Saigon'}</span>
+    </div>
+    <div class="sb-name">${p.name}</div>
+    <div class="sb-cuisine">${p.cuisine || 'Restaurant / Cafe'}</div>
+    <div class="sb-grid">
+      <div class="sb-stat">
+        <div class="sb-stat-label">Rating</div>
+        <div class="sb-stat-val gold">${p.rating ? '⭐ ' + p.rating : '—'}</div>
+      </div>
+      <div class="sb-stat">
+        <div class="sb-stat-label">Price</div>
+        <div class="sb-stat-val">${p.price || '—'}</div>
+      </div>
+      <div class="sb-stat" style="grid-column: span 2;">
+        <div class="sb-stat-label">📍 Location</div>
+        <div class="sb-stat-val" style="font-size:0.82rem; font-weight:500;">${p.district || '—'}</div>
+      </div>
+    </div>
+    ${p.dishes ? `
+    <div class="sb-section">
+      <div class="sb-section-label">🍽️ Signature Dishes</div>
+      <div class="sb-section-val">${p.dishes}</div>
+    </div>` : ''}
+    ${p.notes ? `<div class="sb-note">${p.notes}</div>` : ''}
+    <a class="sb-link" href="${p.url}" target="_blank" rel="noopener">Open in Google Maps ↗</a>
+  `;
+  sidebar.classList.add('open');
+}
+
+// ── CREATE MARKER ──
+function makeMarker(p) {
+  const isMust = p.must_try === 'Yes';
+  const icon = L.divIcon({
+    className: '',
+    html: `<div class="pin-dot ${isMust ? 'must' : 'normal'}"></div>`,
+    iconSize: isMust ? [17, 17] : [14, 14],
+    iconAnchor: isMust ? [8.5, 8.5] : [7, 7],
+    popupAnchor: [0, -10],
+  });
+
+  const marker = L.marker([p.lat, p.lng], { icon });
+
+  const popup = L.popup({ closeButton: false, maxWidth: 220 }).setContent(`
+    <div class="popup-inner">
+      <div class="popup-name">${p.name}</div>
+      <div class="popup-cuisine">${p.cuisine || 'Restaurant / Cafe'}</div>
+      <div class="popup-row">
+        ${p.rating ? `<span class="popup-pill">⭐ ${p.rating}</span>` : ''}
+        ${p.price ? `<span class="popup-pill">${p.price}</span>` : ''}
+        ${isMust ? '<span class="popup-pill must">Must Try</span>' : ''}
+      </div>
+      <button class="popup-btn" onclick="openDetails(${allMarkers.length})">See details</button>
+    </div>
+  `);
+
+  marker.bindPopup(popup);
+  marker._placeData = p;
+  marker._idx = allMarkers.length;
+
+  marker.on('click', () => {
+    showSidebar(p);
+  });
+
+  return marker;
+}
+
+// ── LOAD DATA ──
+fetch('places.json')
+  .then(r => r.json())
+  .then(places => {
+    places.forEach(p => {
+      const m = makeMarker(p);
+      allMarkers.push(m);
+      m.addTo(map);
+    });
+    updateCount();
+    document.getElementById('hdr-count').textContent = places.length + ' places';
+  });
+
+// ── OPEN DETAILS FROM POPUP ──
+window.openDetails = function(idx) {
+  const m = allMarkers[idx];
+  if (m) showSidebar(m._placeData);
+};
+
+// ── FILTER LOGIC ──
+function passesFilter(p) {
+  const cat = getCategory(p.cuisine);
+  if (activeCategory !== 'all' && cat !== activeCategory) return false;
+  if (activePrices.size > 0 && !activePrices.has(p.price)) return false;
+  if (mustOnly && p.must_try !== 'Yes') return false;
+  if (searchTerm) {
+    const q = searchTerm.toLowerCase();
+    const haystack = [p.name, p.cuisine, p.district, p.dishes, p.notes].join(' ').toLowerCase();
+    if (!haystack.includes(q)) return false;
+  }
+  return true;
+}
+
+let searchTerm = '';
+
+function applyFilters() {
+  let visible = 0;
+  allMarkers.forEach(m => {
+    if (passesFilter(m._placeData)) {
+      if (!map.hasLayer(m)) m.addTo(map);
+      visible++;
+    } else {
+      if (map.hasLayer(m)) map.removeLayer(m);
+    }
+  });
+  const rb = document.getElementById('results-bar');
+  rb.textContent = visible + ' places shown';
+  rb.style.opacity = '1';
+  clearTimeout(window._rbTimer);
+  window._rbTimer = setTimeout(() => { rb.style.opacity = '0'; }, 3000);
+}
+
+// ── CATEGORY CHIPS ──
+document.querySelectorAll('.chip[data-cat]').forEach(chip => {
+  chip.addEventListener('click', () => {
+    document.querySelectorAll('.chip[data-cat]').forEach(c => c.classList.remove('active'));
+    chip.classList.add('active');
+    activeCategory = chip.dataset.cat;
+    applyFilters();
+  });
+});
+
+// ── PRICE CHIPS ──
+document.querySelectorAll('.chip[data-type="price"]').forEach(chip => {
+  chip.addEventListener('click', () => {
+    const p = chip.dataset.price;
+    if (activePrices.has(p)) {
+      activePrices.delete(p);
+      chip.classList.remove('active');
+    } else {
+      activePrices.add(p);
+      chip.classList.add('active');
+    }
+    applyFilters();
+  });
+});
+
+// ── MUST TRY TOGGLE ──
+document.getElementById('must-btn').addEventListener('click', () => {
+  mustOnly = !mustOnly;
+  document.getElementById('must-btn').classList.toggle('active', mustOnly);
+  applyFilters();
+});
+
+// ── SEARCH ──
+const searchEl = document.createElement('input');
+searchEl.id = 'search';
+searchEl.placeholder = '🔍 Search places…';
+searchEl.setAttribute('aria-label', 'Search places');
+document.getElementById('filter-bar').appendChild(searchEl);
+searchEl.addEventListener('input', e => {
+  searchTerm = e.target.value.trim();
+  applyFilters();
+});
+
+function updateCount() {
+  const visible = allMarkers.filter(m => map.hasLayer(m)).length;
+  document.getElementById('results-bar').textContent = visible + ' places shown';
+}
+
+// close sidebar on map click
+map.on('click', () => {
+  sidebar.classList.remove('open');
+});
+</script>
+</body>
+</html>

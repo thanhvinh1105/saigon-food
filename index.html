@@ -1,0 +1,1027 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>My Saigon</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,400;1,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --ink:#1C1814;
+  --cream:#FAF6EE;
+  --cream2:#F2EBD9;
+  --red:#D93025;
+  --red2:#b02018;
+  --gold:#C49A3C;
+  --sage:#7A8C6E;
+  --muted:#8A7D6A;
+  --border:#E0D5C0;
+  --card:#FFFDF9;
+  --shadow:0 4px 24px rgba(28,24,20,0.10);
+  --shadow-lg:0 8px 40px rgba(28,24,20,0.18);
+}
+html,body{height:100%;background:var(--cream);color:var(--ink);font-family:'Inter',sans-serif;overflow:hidden}
+
+/* ── SCREENS ── */
+.screen{position:fixed;inset:0;overflow-y:auto;overflow-x:hidden;background:var(--cream);transition:opacity .3s,transform .3s;opacity:0;pointer-events:none;transform:translateY(12px)}
+.screen.active{opacity:1;pointer-events:all;transform:translateY(0)}
+
+/* ── BACK NAV ── */
+.topbar{position:sticky;top:0;z-index:100;display:flex;align-items:center;gap:10px;padding:14px 20px;background:rgba(250,246,238,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--border)}
+.back-btn{display:flex;align-items:center;gap:6px;background:none;border:none;color:var(--muted);font-family:'Inter',sans-serif;font-size:.82rem;font-weight:500;cursor:pointer;padding:4px 0;transition:color .15s}
+.back-btn:hover{color:var(--red)}
+.topbar-title{font-family:'Cormorant Garamond',serif;font-size:1.1rem;font-weight:600;color:var(--ink)}
+
+/* ══════════════════════════════
+   LANDING
+══════════════════════════════ */
+#screen-landing{display:flex;flex-direction:column;min-height:100%;padding:0 0 48px}
+.landing-hero{padding:52px 28px 36px;text-align:center}
+.hero-eyebrow{font-size:.72rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin-bottom:12px}
+.hero-title{font-family:'Cormorant Garamond',serif;font-size:clamp(2.6rem,8vw,3.8rem);font-weight:700;line-height:1.05;color:var(--ink);margin-bottom:10px}
+.hero-title em{font-style:italic;color:var(--red)}
+.hero-sub{font-size:.88rem;color:var(--muted);line-height:1.55;max-width:300px;margin:0 auto}
+.hero-count{display:inline-flex;align-items:center;gap:6px;margin-top:16px;font-size:.75rem;font-weight:500;color:var(--muted);background:var(--cream2);padding:5px 12px;border-radius:20px;border:1px solid var(--border)}
+
+.mode-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:0 20px}
+.mode-card{position:relative;background:var(--card);border:1.5px solid var(--border);border-radius:18px;padding:26px 20px 22px;cursor:pointer;overflow:hidden;transition:transform .18s,box-shadow .18s,border-color .18s;user-select:none;-webkit-tap-highlight-color:transparent}
+.mode-card:hover{transform:translateY(-3px);box-shadow:var(--shadow-lg);border-color:var(--gold)}
+.mode-card:active{transform:scale(.97)}
+.mode-icon{font-size:2rem;margin-bottom:10px;display:block}
+.mode-label{font-family:'Cormorant Garamond',serif;font-size:1.3rem;font-weight:700;color:var(--ink);margin-bottom:4px;line-height:1.2}
+.mode-desc{font-size:.72rem;color:var(--muted);line-height:1.4}
+/* card textures */
+.mode-card::after{content:'';position:absolute;inset:0;opacity:.04;pointer-events:none}
+.mode-card[data-mode="map"]::after{background:repeating-linear-gradient(0deg,var(--ink) 0,var(--ink) 1px,transparent 1px,transparent 20px),repeating-linear-gradient(90deg,var(--ink) 0,var(--ink) 1px,transparent 1px,transparent 20px)}
+.mode-card[data-mode="cuisine"]::after{background:radial-gradient(circle at 70% 30%,var(--gold) 0,transparent 60%)}
+.mode-card[data-mode="meal"]::after{background:radial-gradient(circle at 30% 70%,var(--sage) 0,transparent 50%)}
+.mode-card[data-mode="swipe"]::after{background:linear-gradient(135deg,var(--red) 0,transparent 60%)}
+.mode-card-accent{position:absolute;top:12px;right:14px;width:28px;height:28px;border-radius:50%;opacity:.12}
+.mode-card[data-mode="map"] .mode-card-accent{background:var(--ink)}
+.mode-card[data-mode="cuisine"] .mode-card-accent{background:var(--gold)}
+.mode-card[data-mode="meal"] .mode-card-accent{background:var(--sage)}
+.mode-card[data-mode="swipe"] .mode-card-accent{background:var(--red)}
+
+/* ══════════════════════════════
+   MAP SCREEN
+══════════════════════════════ */
+#screen-map{padding-top:0}
+#map-topbar{position:sticky;top:0;z-index:200;background:rgba(250,246,238,.95);backdrop-filter:blur(8px);border-bottom:1px solid var(--border)}
+#map-header{display:flex;align-items:center;gap:10px;padding:12px 16px 0}
+#map-filter-chips{display:flex;gap:6px;padding:8px 16px 10px;overflow-x:auto;scrollbar-width:none}
+#map-filter-chips::-webkit-scrollbar{display:none}
+#map-container{height:calc(100vh - 110px);width:100%}
+.chip{font-size:.72rem;font-weight:600;padding:4px 11px;border-radius:20px;border:1.5px solid var(--border);background:#fff;color:var(--muted);cursor:pointer;white-space:nowrap;transition:all .15s;user-select:none}
+.chip:hover{border-color:var(--red);color:var(--red)}
+.chip.active{background:var(--red);border-color:var(--red);color:#fff}
+
+/* ── MAP SIDEBAR ── */
+#map-sidebar{position:fixed;top:0;right:0;bottom:0;width:min(340px,100vw);background:var(--card);border-left:1px solid var(--border);z-index:300;transform:translateX(100%);transition:transform .25s ease;overflow-y:auto}
+#map-sidebar.open{transform:translateX(0)}
+.sb-close{position:sticky;top:0;z-index:10;display:flex;justify-content:flex-end;padding:14px 16px 0;background:var(--card)}
+.sb-close button{background:none;border:none;font-size:1.2rem;color:var(--muted);cursor:pointer;line-height:1;padding:4px 6px}
+.sb-close button:hover{color:var(--red)}
+.sb-body{padding:8px 20px 80px}
+.sb-name{font-family:'Cormorant Garamond',serif;font-size:1.5rem;font-weight:700;line-height:1.2;margin-bottom:4px}
+.sb-cuisine-tag{font-size:.73rem;color:var(--muted);margin-bottom:14px}
+.sb-pills{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:14px}
+.sb-pill{font-size:.68rem;font-weight:600;padding:3px 9px;border-radius:12px;background:var(--cream2);color:var(--muted);border:1px solid var(--border)}
+.sb-pill.must{background:#FEF3CD;color:#7B6010;border-color:#F0DC82}
+.sb-pill.rating{background:#EBF5EB;color:#2D6A2D;border-color:#A8D5A8}
+.sb-section{margin-bottom:14px}
+.sb-label{font-size:.67rem;font-weight:600;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);margin-bottom:4px}
+.sb-val{font-size:.87rem;line-height:1.5}
+.sb-note{font-size:.77rem;color:var(--muted);font-style:italic;padding:8px 10px;background:var(--cream);border-radius:6px;border-left:2px solid var(--border);line-height:1.45}
+.sb-maps-link{display:block;text-align:center;background:var(--red);color:#fff;text-decoration:none;padding:11px;border-radius:10px;font-weight:600;font-size:.85rem;margin-top:16px;transition:background .15s}
+.sb-maps-link:hover{background:var(--red2)}
+
+/* ── MY RATING ── */
+.my-rating-wrap{margin:14px 0;padding:12px 14px;background:var(--cream);border-radius:10px;border:1px solid var(--border)}
+.my-rating-label{font-size:.67rem;font-weight:600;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);margin-bottom:8px}
+.my-stars{display:flex;gap:6px}
+.my-star{font-size:1.5rem;cursor:pointer;color:var(--border);transition:color .12s,transform .12s;line-height:1}
+.my-star.filled{color:var(--gold)}
+.my-star:hover{transform:scale(1.2)}
+.my-rating-note{font-size:.72rem;color:var(--muted);margin-top:6px}
+.visited-badge{display:inline-flex;align-items:center;gap:5px;font-size:.68rem;font-weight:600;background:#EBF5EB;color:#2D6A2D;border:1px solid #A8D5A8;border-radius:12px;padding:3px 9px;margin-top:6px}
+
+/* ══════════════════════════════
+   LOCATION SCREEN
+══════════════════════════════ */
+#screen-location{padding-bottom:48px}
+.location-intro{padding:16px 18px 8px;font-size:.82rem;color:var(--muted)}
+.location-grid{display:flex;flex-direction:column;gap:0}
+.location-row{display:flex;align-items:center;gap:14px;padding:16px 18px;border-bottom:1px solid var(--border);cursor:pointer;transition:background .12s}
+.location-row:hover{background:var(--cream2)}
+.location-row:active{background:var(--cream)}
+.location-map-thumb{width:44px;height:44px;border-radius:10px;background:var(--cream2);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;font-size:1.3rem;flex-shrink:0}
+.location-info{flex:1;min-width:0}
+.location-name{font-family:'Cormorant Garamond',serif;font-size:1.1rem;font-weight:700;color:var(--ink);margin-bottom:2px}
+.location-meta{font-size:.72rem;color:var(--muted);display:flex;gap:8px}
+.location-must{font-size:.68rem;font-weight:600;color:var(--gold)}
+.location-arrow{color:var(--border);font-size:1rem;flex-shrink:0}
+/* map area label */
+.map-area-badge{
+  position:absolute;top:12px;left:50%;transform:translateX(-50%);
+  z-index:200;background:rgba(28,24,20,.82);color:#fff;
+  padding:6px 14px;border-radius:20px;font-size:.78rem;font-weight:600;
+  backdrop-filter:blur(4px);pointer-events:none;white-space:nowrap;
+  transition:opacity .3s;
+}
+
+/* ══════════════════════════════
+   CUISINE SCREEN
+══════════════════════════════ */
+#screen-cuisine{padding-bottom:48px}
+.cuisine-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;padding:16px}
+.cuisine-tile{background:var(--card);border:1.5px solid var(--border);border-radius:14px;padding:18px 14px 14px;cursor:pointer;transition:all .15s;text-align:center}
+.cuisine-tile:hover{border-color:var(--red);transform:translateY(-2px);box-shadow:var(--shadow)}
+.cuisine-tile-icon{font-size:1.8rem;margin-bottom:8px}
+.cuisine-tile-name{font-family:'Cormorant Garamond',serif;font-size:1rem;font-weight:700;color:var(--ink);margin-bottom:2px}
+.cuisine-tile-count{font-size:.68rem;color:var(--muted)}
+
+/* ── PLACE LIST ── */
+#screen-list{padding-bottom:60px}
+.place-list{display:flex;flex-direction:column;gap:0}
+.place-item{display:flex;align-items:flex-start;gap:12px;padding:14px 18px;border-bottom:1px solid var(--border);cursor:pointer;transition:background .12s}
+.place-item:hover{background:var(--cream2)}
+.place-item:active{background:var(--cream)}
+.pi-dot{width:10px;height:10px;border-radius:50%;flex-shrink:0;margin-top:5px}
+.pi-dot.must{background:var(--gold)}
+.pi-dot.normal{background:var(--border)}
+.pi-body{flex:1;min-width:0}
+.pi-name{font-weight:600;font-size:.9rem;color:var(--ink);margin-bottom:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pi-meta{font-size:.73rem;color:var(--muted);display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.pi-price{font-weight:600;color:var(--gold);font-size:.72rem}
+.pi-my-rating{color:var(--gold);font-size:.72rem}
+.pi-arrow{color:var(--border);font-size:.9rem;margin-left:auto;flex-shrink:0;padding-top:2px}
+
+/* ══════════════════════════════
+   MEAL SCREEN
+══════════════════════════════ */
+#screen-meal{padding-bottom:48px}
+.meal-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:16px}
+.meal-card{background:var(--card);border:1.5px solid var(--border);border-radius:18px;padding:28px 18px 20px;cursor:pointer;text-align:center;transition:all .18s}
+.meal-card:hover{transform:translateY(-3px);box-shadow:var(--shadow-lg)}
+.meal-card:active{transform:scale(.97)}
+.meal-icon{font-size:2.2rem;margin-bottom:10px}
+.meal-label{font-family:'Cormorant Garamond',serif;font-size:1.4rem;font-weight:700;color:var(--ink);margin-bottom:4px}
+.meal-sub{font-size:.72rem;color:var(--muted)}
+.meal-card[data-meal="breakfast"]{border-color:#F0DC82}
+.meal-card[data-meal="lunch"]{border-color:var(--sage)}
+.meal-card[data-meal="dinner"]{border-color:#C49A3C}
+.meal-card[data-meal="drinks"]{border-color:var(--red)}
+
+/* ══════════════════════════════
+   SWIPE SCREEN
+══════════════════════════════ */
+#screen-swipe{display:flex;flex-direction:column;height:100%;overflow:hidden}
+#swipe-topbar{background:rgba(250,246,238,.95);backdrop-filter:blur(8px);border-bottom:1px solid var(--border)}
+#swipe-arena{flex:1;position:relative;display:flex;align-items:center;justify-content:center;padding:20px 20px 10px;overflow:hidden}
+.swipe-card{position:absolute;width:min(340px,calc(100vw - 32px));background:var(--card);border:1.5px solid var(--border);border-radius:22px;box-shadow:var(--shadow-lg);padding:0 0 24px;overflow:hidden;touch-action:none;user-select:none;cursor:grab;transition:transform .08s}
+.swipe-card.is-dragging{transition:none;cursor:grabbing}
+.swipe-card.fly-left{transition:transform .35s ease,opacity .35s;transform:translateX(-130%) rotate(-20deg)!important;opacity:0}
+.swipe-card.fly-right{transition:transform .35s ease,opacity .35s;transform:translateX(130%) rotate(20deg)!important;opacity:0}
+.swipe-card-img{width:100%;height:140px;background:linear-gradient(135deg,var(--cream2),var(--border));display:flex;align-items:center;justify-content:center;font-size:4rem;border-bottom:1px solid var(--border)}
+.swipe-card-body{padding:18px 20px 0}
+.swipe-card-must{display:inline-flex;align-items:center;gap:4px;font-size:.65rem;font-weight:600;background:#FEF3CD;color:#7B6010;border:1px solid #F0DC82;border-radius:10px;padding:2px 8px;margin-bottom:8px}
+.swipe-card-name{font-family:'Cormorant Garamond',serif;font-size:1.6rem;font-weight:700;line-height:1.2;margin-bottom:4px}
+.swipe-card-cuisine{font-size:.78rem;color:var(--muted);margin-bottom:12px}
+.swipe-card-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+.swipe-pill{font-size:.68rem;font-weight:600;padding:3px 9px;border-radius:12px;background:var(--cream2);color:var(--muted);border:1px solid var(--border)}
+.swipe-card-dishes{font-size:.8rem;color:var(--ink);line-height:1.5}
+.swipe-card-dishes strong{font-weight:600;font-size:.67rem;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);display:block;margin-bottom:2px}
+
+/* swipe indicators */
+.swipe-yes-overlay,.swipe-no-overlay{position:absolute;top:20px;padding:6px 14px;border-radius:8px;font-weight:700;font-size:1.1rem;opacity:0;transition:opacity .1s;pointer-events:none;border:3px solid}
+.swipe-yes-overlay{right:20px;color:#2D8A2D;border-color:#2D8A2D;background:rgba(45,138,45,.08)}
+.swipe-no-overlay{left:20px;color:var(--red);border-color:var(--red);background:rgba(217,48,37,.08)}
+
+.swipe-actions{display:flex;justify-content:center;gap:28px;padding:12px 20px 20px}
+.swipe-btn{width:58px;height:58px;border-radius:50%;border:none;font-size:1.5rem;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:transform .15s,box-shadow .15s;box-shadow:var(--shadow)}
+.swipe-btn.skip{background:#fff;color:var(--red)}
+.swipe-btn.skip:hover{transform:scale(1.08);box-shadow:var(--shadow-lg)}
+.swipe-btn.save{background:var(--red);color:#fff}
+.swipe-btn.save:hover{transform:scale(1.08);box-shadow:var(--shadow-lg)}
+.swipe-hint{text-align:center;font-size:.72rem;color:var(--muted);padding:0 20px 4px}
+.swipe-progress{text-align:center;font-size:.7rem;color:var(--muted);padding-top:6px}
+
+/* swipe empty state */
+#swipe-empty{display:none;flex-direction:column;align-items:center;justify-content:center;gap:12px;height:100%;text-align:center;padding:40px}
+#swipe-empty.show{display:flex}
+.empty-icon{font-size:3rem}
+.empty-title{font-family:'Cormorant Garamond',serif;font-size:1.6rem;font-weight:700}
+.empty-sub{font-size:.85rem;color:var(--muted);max-width:260px}
+
+/* ── LIKED LIST ── */
+.swipe-saved-section{padding:16px 18px 6px;border-top:1px solid var(--border);margin-top:4px}
+.swipe-saved-title{font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin-bottom:8px}
+
+/* ── DETAIL MODAL ── */
+#detail-modal{position:fixed;inset:0;z-index:500;display:flex;align-items:flex-end;pointer-events:none;opacity:0;transition:opacity .25s}
+#detail-modal.open{opacity:1;pointer-events:all}
+#detail-backdrop{position:absolute;inset:0;background:rgba(28,24,20,.45);backdrop-filter:blur(2px)}
+#detail-sheet{position:relative;background:var(--card);border-radius:22px 22px 0 0;width:100%;max-height:88vh;overflow-y:auto;padding:20px 20px 48px;transform:translateY(60px);transition:transform .28s ease;box-shadow:0 -8px 40px rgba(28,24,20,.2)}
+#detail-modal.open #detail-sheet{transform:translateY(0)}
+.detail-handle{width:40px;height:4px;background:var(--border);border-radius:2px;margin:0 auto 18px}
+.detail-name{font-family:'Cormorant Garamond',serif;font-size:1.6rem;font-weight:700;margin-bottom:4px;line-height:1.2}
+.detail-cuisine{font-size:.8rem;color:var(--muted);margin-bottom:14px}
+.detail-pills{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}
+.detail-pill{font-size:.68rem;font-weight:600;padding:3px 9px;border-radius:12px;background:var(--cream2);color:var(--muted);border:1px solid var(--border)}
+.detail-pill.must{background:#FEF3CD;color:#7B6010;border-color:#F0DC82}
+.detail-section{margin-bottom:12px}
+.detail-label{font-size:.67rem;font-weight:600;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);margin-bottom:4px}
+.detail-val{font-size:.87rem;line-height:1.5}
+.detail-note{font-size:.77rem;color:var(--muted);font-style:italic;padding:8px 10px;background:var(--cream);border-radius:6px;border-left:2px solid var(--border);line-height:1.45;margin-bottom:14px}
+.detail-maps{display:block;text-align:center;background:var(--red);color:#fff;text-decoration:none;padding:12px;border-radius:10px;font-weight:600;font-size:.85rem;transition:background .15s}
+.detail-maps:hover{background:var(--red2)}
+
+/* ── TOAST ── */
+#toast{position:fixed;bottom:80px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--ink);color:#fff;font-size:.8rem;font-weight:500;padding:9px 18px;border-radius:20px;opacity:0;transition:opacity .25s,transform .25s;z-index:600;white-space:nowrap;pointer-events:none}
+#toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+/* ── UTILS ── */
+.pin-dot-map{width:13px;height:13px;border-radius:50%;border:2.5px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.35)}
+.pin-dot-map.must{background:var(--gold);width:16px;height:16px}
+.pin-dot-map.normal{background:var(--red)}
+.pin-dot-map.visited{background:var(--sage)}
+
+@media(min-width:600px){
+  .mode-grid{grid-template-columns:1fr 1fr;max-width:500px;margin:0 auto}
+  .cuisine-grid{padding:20px;max-width:700px;margin:0 auto}
+  .meal-grid{max-width:480px;margin:0 auto}
+  .swipe-card{width:360px}
+}
+</style>
+</head>
+<body>
+
+<!-- ══ LANDING ══ -->
+<div class="screen active" id="screen-landing">
+  <div id="screen-landing-inner">
+    <div class="landing-hero">
+      <div class="hero-eyebrow">Personal food guide</div>
+      <h1 class="hero-title">My<br><em>Saigon</em></h1>
+      <p class="hero-sub">Your saved restaurants, cafés and bars — all in one place.</p>
+      <div class="hero-count" id="hero-count">Loading places…</div>
+    </div>
+    <div class="mode-grid">
+      <div class="mode-card" data-mode="map" onclick="goTo('location')">
+        <div class="mode-card-accent"></div>
+        <span class="mode-icon">🗺️</span>
+        <div class="mode-label">By location</div>
+        <div class="mode-desc">Pick a neighbourhood, explore on the map</div>
+      </div>
+      <div class="mode-card" data-mode="cuisine" onclick="goTo('cuisine')">
+        <div class="mode-card-accent"></div>
+        <span class="mode-icon">🍜</span>
+        <div class="mode-label">By cuisine</div>
+        <div class="mode-desc">Browse by food type or category</div>
+      </div>
+      <div class="mode-card" data-mode="meal" onclick="goTo('meal')">
+        <div class="mode-card-accent"></div>
+        <span class="mode-icon">🕐</span>
+        <div class="mode-label">By meal</div>
+        <div class="mode-desc">Breakfast, lunch, dinner or drinks</div>
+      </div>
+      <div class="mode-card" data-mode="swipe" onclick="goTo('swipe')">
+        <div class="mode-card-accent"></div>
+        <span class="mode-icon">👆</span>
+        <div class="mode-label">Discover</div>
+        <div class="mode-desc">Swipe through places, save the ones you want</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══ MAP ══ -->
+<div class="screen" id="screen-map">
+  <div id="map-topbar">
+    <div id="map-header">
+      <button class="back-btn" onclick="goTo('landing')">← Back</button>
+      <span class="topbar-title">Map</span>
+    </div>
+    <div id="map-filter-chips">
+      <span class="chip active" data-cat="all">All</span>
+      <span class="chip" data-cat="Cafes & Coffee">☕ Cafes</span>
+      <span class="chip" data-cat="Vietnamese">🍜 Viet</span>
+      <span class="chip" data-cat="Japanese">🍣 Japanese</span>
+      <span class="chip" data-cat="Bars & Cocktails">🍸 Bars</span>
+      <span class="chip" data-cat="Western">🍔 Western</span>
+      <span class="chip" data-cat="Chinese & Taiwanese">🥟 Chinese</span>
+      <span class="chip" data-cat="BBQ & Korean">🔥 BBQ</span>
+      <span class="chip" data-cat="Bakery & Desserts">🧁 Bakery</span>
+      <span class="chip must-chip" data-cat="must">⭐ Must Try</span>
+    </div>
+  </div>
+  <div id="map-container"></div>
+  <div id="map-sidebar">
+    <div class="sb-close"><button onclick="closeSidebar()">✕</button></div>
+    <div class="sb-body" id="sb-body"></div>
+  </div>
+</div>
+
+<!-- ══ LOCATION PICKER ══ -->
+<div class="screen" id="screen-location">
+  <div class="topbar">
+    <button class="back-btn" onclick="goTo('landing')">← Back</button>
+    <span class="topbar-title">Pick a neighbourhood</span>
+  </div>
+  <p class="location-intro">Tap an area to see its places on the map.</p>
+  <div class="location-grid" id="location-grid"></div>
+</div>
+
+<!-- ══ CUISINE ══ -->
+<div class="screen" id="screen-cuisine">
+  <div class="topbar">
+    <button class="back-btn" onclick="goTo('landing')">← Back</button>
+    <span class="topbar-title">Browse by cuisine</span>
+  </div>
+  <div class="cuisine-grid" id="cuisine-grid"></div>
+</div>
+
+<!-- ══ MEAL ══ -->
+<div class="screen" id="screen-meal">
+  <div class="topbar">
+    <button class="back-btn" onclick="goTo('landing')">← Back</button>
+    <span class="topbar-title">What are you after?</span>
+  </div>
+  <div class="meal-grid">
+    <div class="meal-card" data-meal="breakfast" onclick="goToList('meal','breakfast')">
+      <div class="meal-icon">☀️</div>
+      <div class="meal-label">Breakfast & brunch</div>
+      <div class="meal-sub" id="mc-breakfast"></div>
+    </div>
+    <div class="meal-card" data-meal="lunch" onclick="goToList('meal','lunch')">
+      <div class="meal-icon">🥗</div>
+      <div class="meal-label">Lunch</div>
+      <div class="meal-sub" id="mc-lunch"></div>
+    </div>
+    <div class="meal-card" data-meal="dinner" onclick="goToList('meal','dinner')">
+      <div class="meal-icon">🌙</div>
+      <div class="meal-label">Dinner</div>
+      <div class="meal-sub" id="mc-dinner"></div>
+    </div>
+    <div class="meal-card" data-meal="drinks" onclick="goToList('meal','drinks')">
+      <div class="meal-icon">🍹</div>
+      <div class="meal-label">Drinks only</div>
+      <div class="meal-sub" id="mc-drinks"></div>
+    </div>
+  </div>
+</div>
+
+<!-- ══ LIST ══ -->
+<div class="screen" id="screen-list">
+  <div class="topbar">
+    <button class="back-btn" id="list-back">← Back</button>
+    <span class="topbar-title" id="list-title"></span>
+  </div>
+  <div class="place-list" id="place-list"></div>
+</div>
+
+<!-- ══ SWIPE ══ -->
+<div class="screen" id="screen-swipe">
+  <div id="swipe-topbar" class="topbar">
+    <button class="back-btn" onclick="goTo('landing')">← Back</button>
+    <span class="topbar-title">Discover</span>
+    <span style="margin-left:auto;font-size:.72rem;color:var(--muted)" id="swipe-prog"></span>
+  </div>
+  <div id="swipe-arena">
+    <div id="swipe-empty">
+      <div class="empty-icon">🎉</div>
+      <div class="empty-title">All done!</div>
+      <div class="empty-sub">You've seen every place. Check your saved list below or go back to explore.</div>
+      <button onclick="resetSwipe()" style="margin-top:12px;padding:10px 20px;border-radius:20px;border:1.5px solid var(--red);background:#fff;color:var(--red);font-weight:600;cursor:pointer;font-family:'Inter',sans-serif">Start over</button>
+    </div>
+  </div>
+  <div class="swipe-hint" id="swipe-hint">Swipe right to save · left to skip</div>
+  <div class="swipe-actions" id="swipe-actions">
+    <button class="swipe-btn skip" onclick="swipeAction('skip')" title="Skip">✕</button>
+    <button class="swipe-btn save" onclick="swipeAction('save')" title="Save">♥</button>
+  </div>
+  <div id="swipe-saved-list" style="overflow-y:auto;max-height:220px;border-top:1px solid var(--border)"></div>
+</div>
+
+<!-- ══ DETAIL MODAL ══ -->
+<div id="detail-modal" onclick="closeDetail(event)">
+  <div id="detail-backdrop"></div>
+  <div id="detail-sheet">
+    <div class="detail-handle"></div>
+    <div id="detail-content"></div>
+  </div>
+</div>
+
+<!-- ══ TOAST ══ -->
+<div id="toast"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+// ══════════════════════════════
+//  DATA & STATE
+// ══════════════════════════════
+let PLACES = [];
+let mapInstance = null;
+let mapMarkers = [];
+let mapActiveCategory = 'all';
+let currentDetail = null;
+let swipeQueue = [];
+let swipeIndex = 0;
+let savedPlaces = [];
+
+// LocalStorage keys
+const LS_RATINGS = 'sg_ratings';
+const LS_VISITED = 'sg_visited';
+const LS_SWIPE_SAVED = 'sg_swipe_saved';
+const LS_SWIPE_SEEN = 'sg_swipe_seen';
+
+function getRatings(){ try{ return JSON.parse(localStorage.getItem(LS_RATINGS)||'{}') }catch(e){return{}} }
+function setRating(name,r){ const d=getRatings(); d[name]=r; localStorage.setItem(LS_RATINGS,JSON.stringify(d)) }
+function getVisited(){ try{ return JSON.parse(localStorage.getItem(LS_VISITED)||'[]') }catch(e){return[]} }
+function markVisited(name){ const v=getVisited(); if(!v.includes(name)){ v.push(name); localStorage.setItem(LS_VISITED,JSON.stringify(v)) } }
+function getSwipeSaved(){ try{ return JSON.parse(localStorage.getItem(LS_SWIPE_SAVED)||'[]') }catch(e){return[]} }
+function getSwipeSeen(){ try{ return JSON.parse(localStorage.getItem(LS_SWIPE_SEEN)||'[]') }catch(e){return[]} }
+
+// ══════════════════════════════
+//  CUISINE CATEGORISER
+// ══════════════════════════════
+const CATEGORIES = [
+  { id:'Cafes & Coffee',   icon:'☕', label:'Cafes & Coffee' },
+  { id:'Vietnamese',       icon:'🍜', label:'Vietnamese' },
+  { id:'Japanese',         icon:'🍣', label:'Japanese' },
+  { id:'Bars & Cocktails', icon:'🍸', label:'Bars & Cocktails' },
+  { id:'Western',          icon:'🍔', label:'Western' },
+  { id:'Chinese & Taiwanese', icon:'🥟', label:'Chinese & Taiwanese' },
+  { id:'BBQ & Korean',     icon:'🔥', label:'BBQ & Korean' },
+  { id:'Bakery & Desserts',icon:'🧁', label:'Bakery & Desserts' },
+  { id:'Asian Fusion & World', icon:'🌏', label:'Asian Fusion' },
+  { id:'Seafood',          icon:'🦞', label:'Seafood' },
+  { id:'Other',            icon:'🍽️', label:'Other' },
+];
+
+function getCategory(cuisine){
+  if(!cuisine) return 'Other';
+  const c=cuisine.toLowerCase();
+  if(/ramen|japanese|sushi|yakiniku|omakase|izakaya|robata/.test(c)) return 'Japanese';
+  if(/korean|bbq/.test(c)) return 'BBQ & Korean';
+  if(/viet|pho|com tam|bun |banh|cơm|phở|bún|bánh|vegan.*noodle/.test(c)) return 'Vietnamese';
+  if(/cafe|coffee|matcha|tea|milk tea|roastery|donut/.test(c)) return 'Cafes & Coffee';
+  if(/bar|cocktail|lounge|jazz|wine|speakeasy/.test(c)) return 'Bars & Cocktails';
+  if(/italian|pizza|french|western|american|burger|diner|deli|steak|brunch|mediterranean/.test(c)) return 'Western';
+  if(/chinese|cantonese|taiwanese|dim sum|hotpot/.test(c)) return 'Chinese & Taiwanese';
+  if(/bakery|ice cream|dessert|cake|donut/.test(c)) return 'Bakery & Desserts';
+  if(/thai|mexican|nikkei|fusion|peruvian|spanish|basque/.test(c)) return 'Asian Fusion & World';
+  if(/seafood|oyster/.test(c)) return 'Seafood';
+  return 'Other';
+}
+
+function getMealTags(p){
+  const c=(p.cuisine||'').toLowerCase();
+  const tags=[];
+  if(/cafe|coffee|matcha|tea|milk tea|bakery|brunch|donut|roastery/.test(c)) tags.push('breakfast');
+  if(/viet|pho|com tam|ramen|sushi|burger|diner|deli|sandwich|hotpot|chinese|taiwanese|vegan|noodle|banh|bun /.test(c)) tags.push('lunch');
+  if(/yakiniku|bbq|korean|omakase|fine dining|steakhouse|french|italian|pizza|nikkei|seafood|grill|fusion|izakaya|robata|bistro/.test(c)) tags.push('dinner');
+  if(/bar|cocktail|lounge|jazz|wine|speakeasy|rooftop/.test(c)) tags.push('drinks');
+  if(!tags.length) tags.push('lunch','dinner');
+  return tags;
+}
+
+// ══════════════════════════════
+//  NAVIGATION
+// ══════════════════════════════
+let currentScreen='landing';
+function goTo(screen){
+  document.getElementById('screen-'+currentScreen).classList.remove('active');
+  document.getElementById('screen-'+screen).classList.add('active');
+  currentScreen=screen;
+  if(screen==='map'){
+    initMap();
+    setTimeout(()=>{ mapInstance&&mapInstance.invalidateSize(); },120);
+    // Reset back button to go to landing if not coming from area picker
+    const backBtn=document.querySelector('#map-header .back-btn');
+    if(backBtn&&!mapAreaFilter) backBtn.onclick=()=>goTo('landing');
+  }
+  if(screen==='location') buildLocationGrid();
+  if(screen==='cuisine') buildCuisineGrid();
+  if(screen==='meal') buildMealScreen();
+  if(screen==='swipe') initSwipe();
+  window.scrollTo && document.getElementById('screen-'+screen).scrollTo(0,0);
+}
+
+function goToList(fromScreen, value){
+  let places=[], title='';
+  if(fromScreen==='meal'){
+    places=PLACES.filter(p=>getMealTags(p).includes(value));
+    const labels={breakfast:'Breakfast & Brunch',lunch:'Lunch',dinner:'Dinner',drinks:'Drinks Only'};
+    title=labels[value]||value;
+  } else if(fromScreen==='cuisine'){
+    places=PLACES.filter(p=>getCategory(p.cuisine)===value);
+    const cat=CATEGORIES.find(c=>c.id===value);
+    title=(cat?cat.icon+' ':'')+value;
+  }
+  places.sort((a,b)=>{
+    if(a.must_try==='Yes'&&b.must_try!=='Yes') return -1;
+    if(b.must_try==='Yes'&&a.must_try!=='Yes') return 1;
+    return (b.rating||0)-(a.rating||0);
+  });
+  buildList(places, title, fromScreen);
+  document.getElementById('list-back').onclick=()=>goTo(fromScreen);
+  goTo('list');
+}
+
+// ══════════════════════════════
+//  AREAS
+// ══════════════════════════════
+const AREAS = [
+  { id:'Thảo Điền / Thu Duc City', icon:'🌿', center:[10.8022,106.7333], zoom:14,
+    desc:'Expat hub — cafes, Japanese, fusion',
+    match: d => /thao dien|thu duc|district 2|an phu|an phú/i.test(d) },
+  { id:'District 1',               icon:'🏙️', center:[10.7741,106.7001], zoom:15,
+    desc:'City centre — cocktail bars, fine dining, street food',
+    match: d => /district 1|bến thành|ben thanh|tân định|tan dinh|japan town/i.test(d) },
+  { id:'District 3',               icon:'🛵', center:[10.7799,106.6890], zoom:15,
+    desc:'Local neighbourhood — pho, com tam, coffee',
+    match: d => /district 3/i.test(d) },
+  { id:'Bình Thạnh',               icon:'🌃', center:[10.8087,106.7120], zoom:15,
+    desc:'Saigon Pearl, Landmark 81, rooftop bars',
+    match: d => /binh thanh|bình thạnh|landmark/i.test(d) },
+  { id:'District 7',               icon:'🏘️', center:[10.7337,106.7224], zoom:15,
+    desc:'Phu My Hung — Korean BBQ, family dining',
+    match: d => /district 7|phu my hung/i.test(d) },
+  { id:'District 5',               icon:'🏮', center:[10.7553,106.6647], zoom:15,
+    desc:'Chinatown — dim sum, Chinese desserts',
+    match: d => /district 5/i.test(d) },
+  { id:'District 10',              icon:'🍵', center:[10.7744,106.6677], zoom:15,
+    desc:'Local cafes and street snacks',
+    match: d => /district 10/i.test(d) },
+  { id:'Phú Nhuận',                icon:'☕', center:[10.7997,106.6840], zoom:15,
+    desc:'Quiet residential — specialty coffee',
+    match: d => /phu nhuan|phú nhuận/i.test(d) },
+];
+
+function getAreaForPlace(p){
+  const d = p.district || '';
+  return AREAS.find(a => a.match(d)) || null;
+}
+
+function buildLocationGrid(){
+  const grid = document.getElementById('location-grid');
+  grid.innerHTML = '';
+  AREAS.forEach(area => {
+    const areaPlaces = PLACES.filter(p => getAreaForPlace(p) && getAreaForPlace(p).id === area.id);
+    if(!areaPlaces.length) return;
+    const mustCount = areaPlaces.filter(p => p.must_try === 'Yes').length;
+    const row = document.createElement('div');
+    row.className = 'location-row';
+    row.innerHTML = `
+      <div class="location-map-thumb">${area.icon}</div>
+      <div class="location-info">
+        <div class="location-name">${area.id}</div>
+        <div class="location-meta">
+          <span>${areaPlaces.length} places</span>
+          ${mustCount ? `<span class="location-must">⭐ ${mustCount} must-try</span>` : ''}
+        </div>
+        <div style="font-size:.71rem;color:var(--muted);margin-top:2px">${area.desc}</div>
+      </div>
+      <div class="location-arrow">›</div>`;
+    row.onclick = () => goToMapArea(area, areaPlaces);
+    grid.appendChild(row);
+  });
+}
+
+let mapAreaBadge = null;
+let mapAreaFilter = null; // null = show all
+
+function goToMapArea(area, areaPlaces){
+  mapAreaFilter = area.id;
+  goTo('map');
+  // After map initialises, fly to area and apply filter
+  setTimeout(()=>{
+    if(!mapInstance) return;
+    mapInstance.setView(area.center, area.zoom, {animate:true});
+    applyMapFilter();
+    // Show area badge
+    if(mapAreaBadge) mapAreaBadge.remove();
+    mapAreaBadge = document.createElement('div');
+    mapAreaBadge.className = 'map-area-badge';
+    mapAreaBadge.textContent = area.icon + ' ' + area.id + ' · ' + areaPlaces.length + ' places';
+    document.getElementById('map-container').appendChild(mapAreaBadge);
+    // Add back-to-location button to topbar
+    const topbar = document.getElementById('map-header');
+    topbar.querySelector('.back-btn').onclick = () => {
+      mapAreaFilter = null;
+      if(mapAreaBadge){ mapAreaBadge.remove(); mapAreaBadge=null; }
+      goTo('location');
+    };
+  }, 150);
+}
+
+// ══════════════════════════════
+//  MAP
+// ══════════════════════════════
+function initMap(){
+  if(mapInstance) return;
+  mapInstance=L.map('map-container',{center:[10.7967,106.7200],zoom:13,zoomControl:true});
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
+    attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',maxZoom:19
+  }).addTo(mapInstance);
+  PLACES.forEach(p=>{
+    const isMust=p.must_try==='Yes';
+    const visited=getVisited().includes(p.name);
+    const icon=L.divIcon({className:'',
+      html:`<div class="pin-dot-map ${visited?'visited':isMust?'must':'normal'}"></div>`,
+      iconSize:isMust?[16,16]:[13,13],iconAnchor:isMust?[8,8]:[6.5,6.5],popupAnchor:[0,-8]
+    });
+    const m=L.marker([p.lat,p.lng],{icon});
+    m._place=p;
+    m.on('click',()=>showSidebar(p));
+    m.addTo(mapInstance);
+    mapMarkers.push(m);
+  });
+  // filter chips
+  document.querySelectorAll('#map-filter-chips .chip').forEach(chip=>{
+    chip.addEventListener('click',()=>{
+      document.querySelectorAll('#map-filter-chips .chip').forEach(c=>c.classList.remove('active'));
+      chip.classList.add('active');
+      mapActiveCategory=chip.dataset.cat;
+      applyMapFilter();
+    });
+  });
+  mapInstance.on('click',()=>closeSidebar());
+  setTimeout(()=>mapInstance.invalidateSize(),100);
+}
+
+function applyMapFilter(){
+  mapMarkers.forEach(m=>{
+    const p=m._place;
+    const cat=getCategory(p.cuisine);
+    const catPass=mapActiveCategory==='all'||(mapActiveCategory==='must'&&p.must_try==='Yes')||cat===mapActiveCategory;
+    const area=getAreaForPlace(p);
+    const areaPass=!mapAreaFilter||(area&&area.id===mapAreaFilter);
+    if(catPass&&areaPass){ if(!mapInstance.hasLayer(m)) m.addTo(mapInstance); }
+    else { if(mapInstance.hasLayer(m)) mapInstance.removeLayer(m); }
+  });
+}
+
+function showSidebar(p){
+  const ratings=getRatings();
+  const visited=getVisited();
+  const myR=ratings[p.name]||0;
+  const isVisited=visited.includes(p.name);
+  const isMust=p.must_try==='Yes';
+  document.getElementById('sb-body').innerHTML=`
+    <div class="sb-name">${p.name}</div>
+    <div class="sb-cuisine-tag">${p.cuisine||'Restaurant / Café'}</div>
+    <div class="sb-pills">
+      ${isMust?'<span class="sb-pill must">⭐ Must Try</span>':''}
+      ${p.rating?`<span class="sb-pill rating">⭐ ${p.rating}</span>`:''}
+      ${p.price?`<span class="sb-pill">${p.price}</span>`:''}
+      ${p.district?`<span class="sb-pill">📍 ${p.district}</span>`:''}
+    </div>
+    ${p.dishes?`<div class="sb-section"><div class="sb-label">Signature dishes</div><div class="sb-val">${p.dishes}</div></div>`:''}
+    ${p.notes?`<div class="sb-note">${p.notes}</div>`:''}
+    <div class="my-rating-wrap">
+      <div class="my-rating-label">My rating ${isVisited?'<span class="visited-badge">✓ Visited</span>':''}</div>
+      <div class="my-stars" id="sb-stars">
+        ${[1,2,3,4,5].map(i=>`<span class="my-star ${i<=myR?'filled':''}" data-v="${i}" onclick="ratePlace('${escH(p.name)}',${i},'sb-stars')">★</span>`).join('')}
+      </div>
+      <div class="my-rating-note">${myR?`You rated this ${myR}/5`:'Tap a star to rate after visiting'}</div>
+    </div>
+    <a class="sb-maps-link" href="${p.url}" target="_blank" rel="noopener">Open in Google Maps ↗</a>
+  `;
+  document.getElementById('map-sidebar').classList.add('open');
+}
+
+function closeSidebar(){ document.getElementById('map-sidebar').classList.remove('open'); }
+
+// ══════════════════════════════
+//  CUISINE GRID
+// ══════════════════════════════
+function buildCuisineGrid(){
+  const grid=document.getElementById('cuisine-grid');
+  grid.innerHTML='';
+  CATEGORIES.forEach(cat=>{
+    const count=PLACES.filter(p=>getCategory(p.cuisine)===cat.id).length;
+    if(!count) return;
+    const tile=document.createElement('div');
+    tile.className='cuisine-tile';
+    tile.innerHTML=`<div class="cuisine-tile-icon">${cat.icon}</div><div class="cuisine-tile-name">${cat.label}</div><div class="cuisine-tile-count">${count} places</div>`;
+    tile.onclick=()=>goToList('cuisine',cat.id);
+    grid.appendChild(tile);
+  });
+}
+
+// ══════════════════════════════
+//  MEAL SCREEN
+// ══════════════════════════════
+function buildMealScreen(){
+  ['breakfast','lunch','dinner','drinks'].forEach(m=>{
+    const count=PLACES.filter(p=>getMealTags(p).includes(m)).length;
+    const el=document.getElementById('mc-'+m);
+    if(el) el.textContent=count+' places';
+  });
+}
+
+// ══════════════════════════════
+//  PLACE LIST
+// ══════════════════════════════
+function buildList(places, title, fromScreen){
+  document.getElementById('list-title').textContent=title;
+  const ratings=getRatings();
+  const visited=getVisited();
+  const container=document.getElementById('place-list');
+  container.innerHTML='';
+  if(!places.length){
+    container.innerHTML='<div style="padding:40px 20px;text-align:center;color:var(--muted)">No places found</div>';
+    return;
+  }
+  places.forEach(p=>{
+    const isMust=p.must_try==='Yes';
+    const myR=ratings[p.name]||0;
+    const isVisited=visited.includes(p.name);
+    const item=document.createElement('div');
+    item.className='place-item';
+    item.innerHTML=`
+      <div class="pi-dot ${isMust?'must':'normal'}"></div>
+      <div class="pi-body">
+        <div class="pi-name">${p.name}</div>
+        <div class="pi-meta">
+          ${p.district?`<span>${p.district.split(',')[0]}</span>`:''}
+          ${p.price?`<span class="pi-price">${p.price}</span>`:''}
+          ${p.rating?`<span>⭐ ${p.rating}</span>`:''}
+          ${myR?`<span class="pi-my-rating">My: ${myR}★</span>`:''}
+          ${isVisited?`<span style="color:var(--sage)">✓</span>`:''}
+        </div>
+      </div>
+      <div class="pi-arrow">›</div>`;
+    item.onclick=()=>showDetail(p);
+    container.appendChild(item);
+  });
+}
+
+// ══════════════════════════════
+//  DETAIL MODAL
+// ══════════════════════════════
+function showDetail(p){
+  currentDetail=p;
+  const ratings=getRatings();
+  const visited=getVisited();
+  const myR=ratings[p.name]||0;
+  const isVisited=visited.includes(p.name);
+  const isMust=p.must_try==='Yes';
+  document.getElementById('detail-content').innerHTML=`
+    <div class="detail-name">${p.name}</div>
+    <div class="detail-cuisine">${p.cuisine||'Restaurant / Café'}</div>
+    <div class="detail-pills">
+      ${isMust?'<span class="detail-pill must">⭐ Must Try</span>':''}
+      ${p.rating?`<span class="detail-pill">⭐ ${p.rating}</span>`:''}
+      ${p.price?`<span class="detail-pill">${p.price}</span>`:''}
+      ${p.district?`<span class="detail-pill">📍 ${p.district.split(',')[0]}</span>`:''}
+    </div>
+    ${p.dishes?`<div class="detail-section"><div class="detail-label">Signature dishes</div><div class="detail-val">${p.dishes}</div></div>`:''}
+    ${p.notes?`<div class="detail-note">${p.notes}</div>`:''}
+    <div class="my-rating-wrap">
+      <div class="my-rating-label">My rating ${isVisited?'<span class="visited-badge">✓ Visited</span>':''}</div>
+      <div class="my-stars" id="detail-stars">
+        ${[1,2,3,4,5].map(i=>`<span class="my-star ${i<=myR?'filled':''}" data-v="${i}" onclick="ratePlace('${escH(p.name)}',${i},'detail-stars')">★</span>`).join('')}
+      </div>
+      <div class="my-rating-note" id="detail-rating-note">${myR?`You rated this ${myR}/5`:'Tap to rate after visiting'}</div>
+    </div>
+    <a class="detail-maps" href="${p.url}" target="_blank" rel="noopener">Open in Google Maps ↗</a>
+  `;
+  document.getElementById('detail-modal').classList.add('open');
+}
+
+function closeDetail(e){
+  if(e.target===document.getElementById('detail-backdrop')||e.target===document.getElementById('detail-modal')){
+    document.getElementById('detail-modal').classList.remove('open');
+  }
+}
+
+// ══════════════════════════════
+//  RATINGS
+// ══════════════════════════════
+function ratePlace(name, rating, starsId){
+  setRating(name, rating);
+  markVisited(name);
+  const container=document.getElementById(starsId);
+  if(container){
+    container.querySelectorAll('.my-star').forEach((s,i)=>{
+      s.classList.toggle('filled', i<rating);
+    });
+    const note=container.parentElement.querySelector('.my-rating-note');
+    if(note) note.textContent=`You rated this ${rating}/5`;
+    const badge=container.parentElement.querySelector('.my-rating-label');
+    if(badge&&!badge.querySelector('.visited-badge')){
+      badge.insertAdjacentHTML('beforeend','<span class="visited-badge">✓ Visited</span>');
+    }
+  }
+  showToast(`Rated ${name.split(' ').slice(0,3).join(' ')} ${rating}★`);
+  // refresh map pin colour if map is open
+  if(mapInstance){
+    mapMarkers.forEach(m=>{
+      if(m._place.name===name){
+        const icon=L.divIcon({className:'',
+          html:`<div class="pin-dot-map visited"></div>`,
+          iconSize:[13,13],iconAnchor:[6.5,6.5],popupAnchor:[0,-8]
+        });
+        m.setIcon(icon);
+      }
+    });
+  }
+}
+
+// ══════════════════════════════
+//  SWIPE MODE
+// ══════════════════════════════
+let swipeCards=[];
+let swipeDragging=false;
+let swipeStartX=0, swipeCurrentX=0;
+let swipeTopCard=null;
+
+function initSwipe(){
+  const seen=new Set(getSwipeSeen());
+  swipeQueue=PLACES.filter(p=>!seen.has(p.name)&&p.cuisine&&p.name);
+  // Shuffle
+  for(let i=swipeQueue.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[swipeQueue[i],swipeQueue[j]]=[swipeQueue[j],swipeQueue[i]];}
+  swipeIndex=0;
+  renderSwipeArena();
+  renderSwipeSaved();
+}
+
+function resetSwipe(){
+  localStorage.removeItem(LS_SWIPE_SEEN);
+  initSwipe();
+}
+
+function renderSwipeArena(){
+  const arena=document.getElementById('swipe-arena');
+  // clear old cards
+  arena.querySelectorAll('.swipe-card').forEach(c=>c.remove());
+  document.getElementById('swipe-empty').classList.remove('show');
+
+  const remaining=swipeQueue.slice(swipeIndex);
+  if(!remaining.length){
+    document.getElementById('swipe-empty').classList.add('show');
+    document.getElementById('swipe-actions').style.display='none';
+    document.getElementById('swipe-hint').style.display='none';
+    document.getElementById('swipe-prog').textContent='';
+    return;
+  }
+  document.getElementById('swipe-actions').style.display='flex';
+  document.getElementById('swipe-hint').style.display='block';
+
+  // render top 2 cards (stack illusion)
+  const toRender=remaining.slice(0,2).reverse();
+  toRender.forEach((p,idx)=>{
+    const card=makeSwipeCard(p, idx===1);
+    arena.appendChild(card);
+  });
+  swipeTopCard=arena.querySelector('.swipe-card:last-child');
+  if(swipeTopCard) attachDrag(swipeTopCard, remaining[0]);
+
+  const total=swipeQueue.length;
+  document.getElementById('swipe-prog').textContent=`${swipeIndex+1} / ${total}`;
+}
+
+function makeSwipeCard(p, isTop){
+  const isMust=p.must_try==='Yes';
+  const cat=CATEGORIES.find(c=>c.id===getCategory(p.cuisine));
+  const card=document.createElement('div');
+  card.className='swipe-card';
+  if(!isTop) card.style.cssText='transform:scale(.96) translateY(12px);z-index:1;filter:brightness(.97)';
+  else card.style.zIndex='2';
+  card.innerHTML=`
+    <div class="swipe-card-img">${cat?cat.icon:'🍽️'}</div>
+    <div class="swipe-yes-overlay">SAVE ♥</div>
+    <div class="swipe-no-overlay">SKIP ✕</div>
+    <div class="swipe-card-body">
+      ${isMust?'<div class="swipe-card-must">⭐ Must Try</div>':''}
+      <div class="swipe-card-name">${p.name}</div>
+      <div class="swipe-card-cuisine">${p.cuisine||''}</div>
+      <div class="swipe-card-row">
+        ${p.rating?`<span class="swipe-pill">⭐ ${p.rating}</span>`:''}
+        ${p.price?`<span class="swipe-pill">${p.price}</span>`:''}
+        ${p.district?`<span class="swipe-pill">📍 ${p.district.split(',')[0]}</span>`:''}
+      </div>
+      ${p.dishes?`<div class="swipe-card-dishes"><strong>Try</strong>${p.dishes}</div>`:''}
+    </div>`;
+  card.addEventListener('click', e=>{
+    if(Math.abs(swipeCurrentX)<5) showDetail(p);
+  });
+  return card;
+}
+
+function attachDrag(card, place){
+  let startX=0, startY=0, dx=0;
+  const onStart=e=>{
+    swipeDragging=true; card.classList.add('is-dragging');
+    startX=e.touches?e.touches[0].clientX:e.clientX;
+    startY=e.touches?e.touches[0].clientY:e.clientY;
+    dx=0;
+  };
+  const onMove=e=>{
+    if(!swipeDragging) return;
+    const cx=e.touches?e.touches[0].clientX:e.clientX;
+    const cy=e.touches?e.touches[0].clientY:e.clientY;
+    dx=cx-startX; const dy=cy-startY;
+    if(Math.abs(dy)>Math.abs(dx)*1.5&&Math.abs(dx)<15) return; // vertical scroll
+    e.preventDefault();
+    swipeCurrentX=dx;
+    const rot=dx*0.12;
+    card.style.transform=`translateX(${dx}px) rotate(${rot}deg)`;
+    const ratio=Math.min(Math.abs(dx)/120,1);
+    card.querySelector('.swipe-yes-overlay').style.opacity=dx>0?ratio:0;
+    card.querySelector('.swipe-no-overlay').style.opacity=dx<0?ratio:0;
+  };
+  const onEnd=e=>{
+    if(!swipeDragging) return;
+    swipeDragging=false; card.classList.remove('is-dragging');
+    const threshold=80;
+    if(dx>threshold){ doSwipe('save',card,place); }
+    else if(dx<-threshold){ doSwipe('skip',card,place); }
+    else {
+      card.style.transition='transform .3s'; card.style.transform='';
+      card.querySelector('.swipe-yes-overlay').style.opacity=0;
+      card.querySelector('.swipe-no-overlay').style.opacity=0;
+      setTimeout(()=>card.style.transition='',300);
+    }
+    swipeCurrentX=0;
+  };
+  card.addEventListener('mousedown',onStart);
+  card.addEventListener('touchstart',onStart,{passive:false});
+  window.addEventListener('mousemove',onMove);
+  window.addEventListener('touchmove',onMove,{passive:false});
+  window.addEventListener('mouseup',onEnd);
+  window.addEventListener('touchend',onEnd);
+}
+
+function swipeAction(action){
+  if(!swipeTopCard) return;
+  const remaining=swipeQueue.slice(swipeIndex);
+  if(!remaining.length) return;
+  doSwipe(action,swipeTopCard,remaining[0]);
+}
+
+function doSwipe(action,card,place){
+  const flyClass=action==='save'?'fly-right':'fly-left';
+  card.classList.add(flyClass);
+  // record seen
+  const seen=getSwipeSeen(); seen.push(place.name); localStorage.setItem(LS_SWIPE_SEEN,JSON.stringify(seen));
+  // save if liked
+  if(action==='save'){
+    const saved=getSwipeSaved();
+    if(!saved.includes(place.name)){ saved.push(place.name); localStorage.setItem(LS_SWIPE_SAVED,JSON.stringify(saved)); }
+    showToast('Saved ♥ '+place.name.split(' ').slice(0,3).join(' '));
+  }
+  swipeIndex++;
+  setTimeout(()=>{ card.remove(); renderSwipeArena(); renderSwipeSaved(); }, 350);
+}
+
+function renderSwipeSaved(){
+  const savedNames=getSwipeSaved();
+  const savedPlaces=PLACES.filter(p=>savedNames.includes(p.name));
+  const container=document.getElementById('swipe-saved-list');
+  if(!savedPlaces.length){ container.innerHTML=''; return; }
+  container.innerHTML=`
+    <div class="swipe-saved-section">
+      <div class="swipe-saved-title">Saved (${savedPlaces.length})</div>
+      ${savedPlaces.map(p=>`
+        <div class="place-item" onclick="showDetail(PLACES.find(x=>x.name===\`${escH(p.name)}\`))">
+          <div class="pi-dot ${p.must_try==='Yes'?'must':'normal'}"></div>
+          <div class="pi-body"><div class="pi-name">${p.name}</div><div class="pi-meta"><span>${(p.district||'').split(',')[0]}</span>${p.price?`<span class="pi-price">${p.price}</span>`:''}</div></div>
+          <div class="pi-arrow">›</div>
+        </div>`).join('')}
+    </div>`;
+}
+
+// ══════════════════════════════
+//  TOAST
+// ══════════════════════════════
+let toastTimer;
+function showToast(msg){
+  const t=document.getElementById('toast');
+  t.textContent=msg; t.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer=setTimeout(()=>t.classList.remove('show'),2200);
+}
+
+function escH(s){ return (s||'').replace(/`/g,"'"); }
+
+// ══════════════════════════════
+//  LOAD PLACES.JSON
+// ══════════════════════════════
+fetch('places.json')
+  .then(r=>r.json())
+  .then(data=>{
+    PLACES=data;
+    document.getElementById('hero-count').innerHTML=`<span>📍</span> ${data.length} places across Saigon`;
+  })
+  .catch(()=>{
+    document.getElementById('hero-count').textContent='Could not load places.json';
+  });
+</script>
+</body>
+</html>

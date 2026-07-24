@@ -2,7 +2,7 @@
 
 A personal interactive food map of Ho Chi Minh City, hosted free on GitHub Pages.
 
-**Live map:** `https://YOUR-USERNAME.github.io/YOUR-REPO-NAME`
+**Live map:** `(https://thanhvinh1105.github.io/saigon-food/)`
 
 ---
 

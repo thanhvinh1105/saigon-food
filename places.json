@@ -1,5 +1,31 @@
 [
   {
+  "name": "Marbling Korean BBQ - 마블링",
+  "url": "https://www.google.com/maps/place/Marbling+Korean+BBQ+-+%EB%A7%88%EB%B8%94%EB%A7%81/",
+  "cuisine": "Korean BBQ",
+  "district": "Thảo Điền / An Khánh, Thủ Đức City",
+  "rating": 5.0,
+  "price": "$$$",
+  "dishes": [
+    "Premium beef cuts",
+    "Wagyu beef",
+    "Marinated beef ribs (Galbi)",
+    "Pork belly",
+    "Kimchi stew",
+    "Korean side dishes (Banchan)"
+  ],
+  "must_try": [
+    "Marbled beef",
+    "Wagyu beef",
+    "LA Galbi",
+    "Pork belly"
+  ],
+  "notes": "Popular premium Korean BBQ restaurant in the Thảo Điền area. Known for high-quality marbled beef, attentive table-side grilling service, and authentic Korean side dishes. Suitable for groups, family gatherings, and business dinners.",
+  "source": "Quan 2 list",
+  "lat": 10.8035947,
+  "lng": 106.732471
+},
+  {
     "name": "羊不同 Yangbutong BBQ Quan 1",
     "url": "https://www.google.com/maps/place/%E7%BE%8A%E4%B8%8D%E5%90%8C+Yangbutong+BBQ+Quan+1/data=!4m2!3m1!1s0x31752f92b4dcd333:0xd1681905606ef6d7",
     "cuisine": "Chinese BBQ (skewers)",

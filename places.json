@@ -2740,5 +2740,19 @@
     "source": "Added via script",
     "lat": 10.7769,
     "lng": 106.7009
+  },
+  {
+    "name": "BARTELS Thao Dien - Sourdough Sandwiches, Coffee & Juicery",
+    "url": "https://www.google.com/maps/place/BARTELS+Thao+Dien+-+Sourdough+Sandwiches,+Coffee+%26+Juicery/@10.802364,106.7382042,3a,111y,90t/data=!3m8!1e2!3m6!1sCIABIhASA12rxDl6LkblCRiB3hi2!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-cs-s%2FAHRPTWkzd8mLA1Y4YGSOeOnn2yvNICrkyHxklFvS915JnGKe3vALMFC-vB6fl9wTFtG8ggIih-MsEw_MCMUQU9Veog0veOqnan3fo_-5nBuF__jbkmse7nef6sZO9d9wot_HADeDYj28dl6RvOgw%3Dw114-h86-k-no!7i400!8i300!4m15!1m7!3m6!1s0x31752717ce567705:0x2ca941fd73c0b698!2sShamoji+Robata+Yaki+-+Japanese+Izakaya!8m2!3d10.8036727!4d106.7329101!16s%2Fg%2F11hv0d8wzy!3m6!1s0x3175273fa57624cb:0x264b4af4de6eec93!8m2!3d10.8023202!4d106.738116!10e5!16s%2Fg%2F11x951j37f?entry=ttu&g_ep=EgoyMDI2MDcyMi4wIKXMDSoASAFQAw%3D%3D",
+    "cuisine": "Café / Coffee",
+    "district": "Ho Chi Minh City",
+    "rating": null,
+    "price": "$$",
+    "dishes": null,
+    "must_try": "No",
+    "notes": "Details not available — please update manually.",
+    "source": "Added via script",
+    "lat": 10.7769,
+    "lng": 106.7009
   }
 ]

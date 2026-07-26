@@ -2744,13 +2744,13 @@
   {
     "name": "Miso Chikura - Thao Dien",
     "url": "https://www.google.com/maps/place/Miso+Chikura+-+Thao+Dien/@10.8041731,106.7315215,20z/data=!4m14!1m7!3m6!1s0x3175276c4625494b:0x9c3c4299c75b28e4!2zTWFyYmxpbmcgS29yZWFuIEJCUSAtIOuniOu4lOungQ!8m2!3d10.8035947!4d106.732471!16s%2Fg%2F11zjxdq08d!3m5!1s0x317527a3248b9af1:0xff0bc143103b49d0!8m2!3d10.8041398!4d106.7315995!16s%2Fg%2F11vkkjv40v?entry=ttu&g_ep=EgoyMDI2MDcyMi4wIKXMDSoASAFQAw%3D%3D",
-    "cuisine": "Restaurant / Café",
+    "cuisine": "Japanese",
     "district": "Ho Chi Minh City",
-    "rating": null,
+    "rating": 4.4,
     "price": "$$",
-    "dishes": null,
+    "dishes": Miso,
     "must_try": "No",
-    "notes": "Details not available — please update manually.",
+    "notes": "",
     "source": "Added via script",
     "lat": 10.7769,
     "lng": 106.7009

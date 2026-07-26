@@ -1,7 +1,7 @@
 [
   {
     "name": "Marbling Korean BBQ - 마블링",
-    "url": "https://www.google.com/maps/place/Marbling+Korean+BBQ+-+%EB%A7%88%EB%B8%94%EB%A7%81/",
+    "url": "https://www.google.com/maps/place/marbling+korean+bbq+sai+gon/data=!4m2!3m1!1s0x3175276c4625494b:0x9c3c4299c75b28e4?sa=X&ved=1t:242&ictx=111",
     "cuisine": "Korean BBQ",
     "district": "Thảo Điền / An Khánh, Thủ Đức City",
     "rating": 5.0,
@@ -2726,20 +2726,6 @@
     "source": "Quan 2 list",
     "lat": 10.776686,
     "lng": 106.69938
-  },
-  {
-    "name": "marbling korean bbq sai gon",
-    "url": "https://www.google.com/maps/place/marbling+korean+bbq+sai+gon/data=!4m2!3m1!1s0x3175276c4625494b:0x9c3c4299c75b28e4?sa=X&ved=1t:242&ictx=111",
-    "cuisine": null,
-    "district": null,
-    "rating": null,
-    "price": null,
-    "dishes": null,
-    "must_try": null,
-    "notes": "",
-    "source": "Added via script",
-    "lat": 10.7769,
-    "lng": 106.7009
   },
   {
     "name": "Miso Chikura - Thao Dien",

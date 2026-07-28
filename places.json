@@ -1,0 +1,4942 @@
+[
+  {
+    "name": "羊不同 Yangbutong BBQ Quan 1",
+    "url": "https://www.google.com/maps/place/%E7%BE%8A%E4%B8%8D%E5%90%8C+Yangbutong+BBQ+Quan+1/data=!4m2!3m1!1s0x31752f92b4dcd333:0xd1681905606ef6d7",
+    "cuisine": "Chinese BBQ (skewers)",
+    "district": "District 1, Ho Chi Minh City",
+    "rating": 5.0,
+    "price": "$$",
+    "dishes": "Lamb & pork skewers",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.780813,
+    "lng": 106.698985,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "District 1",
+    "category": "BBQ & Korean",
+    "tagline": "Perfect 5.0 — the lamb skewers here have a cult following.",
+    "tags": [
+      "dinner",
+      "late night",
+      "BBQ"
+    ]
+  },
+  {
+    "name": "266 Trần Hưng Đạo",
+    "url": "https://www.google.com/maps/place/266+Tr%E1%BA%A7n+H%C6%B0ng+%C4%90%E1%BA%A1o/data=!4m2!3m1!1s0x31752f1a85b75cdd:0x7998576367dac0ba",
+    "cuisine": null,
+    "district": null,
+    "rating": null,
+    "price": null,
+    "dishes": null,
+    "must_try": null,
+    "notes": "Address only (dropped pin) - no business data found",
+    "source": "Vietnam list",
+    "lat": 10.773104,
+    "lng": 106.699074,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "Other",
+    "category": "Other",
+    "tagline": "",
+    "tags": []
+  },
+  {
+    "name": "Matchandeul BBQ Ton That Tung",
+    "url": "https://www.google.com/maps/place/Matchandeul+BBQ+Ton+That+Tung/data=!4m2!3m1!1s0x31752f6bdd9ec807:0xe2446b4265511760",
+    "cuisine": "Korean BBQ",
+    "district": "Bến Thành, District 1",
+    "rating": 4.7,
+    "price": "$$",
+    "dishes": "LA galbi, pork set",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.774607,
+    "lng": 106.704015,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "District 1",
+    "category": "BBQ & Korean",
+    "tagline": "Korean BBQ done properly — LA galbi that actually hits.",
+    "tags": [
+      "dinner",
+      "BBQ",
+      "Korean"
+    ]
+  },
+  {
+    "name": "BBQ Ông Mập chi nhánh Quận 2 - 똥보집 2군 안푸",
+    "url": "https://www.google.com/maps/place/BBQ+%C3%94ng+M%E1%BA%ADp+chi+nh%C3%A1nh+Qu%E1%BA%ADn+2+-+%EB%98%A5%EB%B3%B4%EC%A7%91+2%EA%B5%B0+%EC%95%88%ED%91%B8/data=!4m2!3m1!1s0x317527127cb72905:0x3c6d2d9fa1953d6f",
+    "cuisine": "Korean BBQ",
+    "district": "An Phú, Thu Duc City (District 2)",
+    "rating": 4.8,
+    "price": "$$",
+    "dishes": "Grilled pork/beef sets, banchan",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.798857,
+    "lng": 106.73781,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "BBQ & Korean",
+    "tagline": "The Thao Dien Korean BBQ locals swear by.",
+    "tags": [
+      "dinner",
+      "BBQ",
+      "Korean"
+    ]
+  },
+  {
+    "name": "Aburiya - Nhà hàng Nhật Bản",
+    "url": "https://www.google.com/maps/place/Aburiya+-+Nh%C3%A0+h%C3%A0ng+Nh%E1%BA%ADt+B%E1%BA%A3n/data=!4m2!3m1!1s0x31752f006596cb4b:0x6b31fb36e25e4216",
+    "cuisine": "Japanese Yakiniku (AYCE)",
+    "district": "District 3",
+    "rating": 4.9,
+    "price": "$$",
+    "dishes": "All-you-can-eat wagyu buffet",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.782957,
+    "lng": 106.691621,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "District 3",
+    "category": "Japanese",
+    "tagline": "All-you-can-eat wagyu. Yes, really. One of the best deals in the city.",
+    "tags": [
+      "dinner",
+      "BBQ",
+      "splurge"
+    ]
+  },
+  {
+    "name": "Sango Sushi",
+    "url": "https://www.google.com/maps/place/Sango+Sushi/data=!4m2!3m1!1s0x31752fbc88495423:0x9116fb7c95b9cec",
+    "cuisine": "Japanese Sushi",
+    "district": "District 3",
+    "rating": 4.8,
+    "price": "$$",
+    "dishes": "Sushi & sashimi rolls",
+    "must_try": "No",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.78296,
+    "lng": 106.689079,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "District 3",
+    "category": "Japanese",
+    "tagline": "Reliable sushi in D3 — solid for a quick Japanese fix.",
+    "tags": [
+      "lunch",
+      "dinner",
+      "Japanese"
+    ]
+  },
+  {
+    "name": "THÈM GÌ CŨNG CÓ - RẠCH BÙNG BINH",
+    "url": "https://www.google.com/maps/place/TH%C3%88M+G%C3%8C+C%C5%A8NG+C%C3%93+-+R%E1%BA%A0CH+B%C3%99NG+BINH/data=!4m2!3m1!1s0x31752f0573cad1d3:0xcc2ce9aa65ec10fb",
+    "cuisine": "Vietnamese (rice paper snacks)",
+    "district": "District 3",
+    "rating": 2.9,
+    "price": "$",
+    "dishes": "Bánh tráng trộn (rice paper salad)",
+    "must_try": "No",
+    "notes": "Low rating - mixed reviews",
+    "source": "Vietnam list",
+    "lat": 10.778486,
+    "lng": 106.687253,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "District 3",
+    "category": "Vietnamese",
+    "tagline": "Mixed bag — worth knowing about but go in with low expectations.",
+    "tags": [
+      "snacks",
+      "street food"
+    ]
+  },
+  {
+    "name": "INDUSLISM",
+    "url": "https://www.google.com/maps/place/INDUSLISM/data=!4m2!3m1!1s0x3175290011a5089f:0xaf20a62075b4c395",
+    "cuisine": "Cafe / Wine Bar",
+    "district": "District 3",
+    "rating": 4.1,
+    "price": "$$",
+    "dishes": "Coffee, wine by the glass",
+    "must_try": "No",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.782178,
+    "lng": 106.686051,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch"
+    ],
+    "area": "District 3",
+    "category": "Cafes & Coffee",
+    "tagline": "Wine by the glass in a laid-back D3 corner.",
+    "tags": [
+      "drinks",
+      "casual"
+    ]
+  },
+  {
+    "name": "Nhâm Coffee",
+    "url": "https://www.google.com/maps/place/Nh%C3%A2m+Coffee/data=!4m2!3m1!1s0x31752700732358e3:0xc201daca3f962e43",
+    "cuisine": "Vietnamese Coffee Shop",
+    "district": "District 10",
+    "rating": 4.3,
+    "price": "$",
+    "dishes": "Vietnamese coffee, cake",
+    "must_try": "No",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.77278,
+    "lng": 106.666865,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "area": "District 1",
+    "category": "Vietnamese",
+    "tagline": "Neighbourhood coffee shop that gets the basics right.",
+    "tags": [
+      "breakfast",
+      "coffee"
+    ]
+  },
+  {
+    "name": "Mam Mam - Vietnamese Eatery & Lounge",
+    "url": "https://www.google.com/maps/place/Mam+Mam+-+Vietnamese+Eatery+%26+Lounge/data=!4m2!3m1!1s0x31752f54155805e9:0xa936849573b64a1d",
+    "cuisine": "Vietnamese Fusion",
+    "district": "District 1",
+    "rating": 4.9,
+    "price": "$$$",
+    "dishes": "Tilapia sashimi, salmon guacamole, dry-aged duck breast",
+    "must_try": "Yes",
+    "notes": "By KOTO social enterprise",
+    "source": "Vietnam list",
+    "lat": 10.776692,
+    "lng": 106.697892,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "District 1",
+    "category": "Vietnamese",
+    "tagline": "Social enterprise kitchen turning out some of the most creative Vietnamese fusion in the city.",
+    "tags": [
+      "lunch",
+      "dinner",
+      "date night"
+    ]
+  },
+  {
+    "name": "Apero Bistro & Bar",
+    "url": "https://www.google.com/maps/place/Apero+Bistro+%26+Bar/data=!4m2!3m1!1s0x31752740013b0d91:0xd5a75f976c3748f9",
+    "cuisine": "Italian",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.6,
+    "price": "$$",
+    "dishes": "Spicy vodka pasta, carbonara, pizza",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.802254,
+    "lng": 106.733314,
+    "meals": [
+      "dinner"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Western",
+    "tagline": "Spicy vodka pasta and proper carbonara — the Italian spot Thao Dien needed.",
+    "tags": [
+      "dinner",
+      "date night",
+      "Italian"
+    ]
+  },
+  {
+    "name": "Taco Del Sol",
+    "url": "https://www.google.com/maps/place/Taco+Del+Sol/data=!4m2!3m1!1s0x31752faf5be014e1:0xbc7831332ddeb22f",
+    "cuisine": "Mexican",
+    "district": "Bến Thành, District 1",
+    "rating": 4.8,
+    "price": "$$",
+    "dishes": "Birria tacos, elote (grilled corn), horchata",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.77819,
+    "lng": 106.697659,
+    "meals": [
+      "dinner"
+    ],
+    "area": "District 1",
+    "category": "Fusion & World",
+    "tagline": "Birria tacos so good you'll forget you're in Vietnam.",
+    "tags": [
+      "lunch",
+      "dinner",
+      "casual"
+    ]
+  },
+  {
+    "name": "Little Chiang Mai Signature - Thai Kitchen Garden",
+    "url": "https://www.google.com/maps/place/Little+Chiang+Mai+Signature+-+Thai+Kitchen+Garden/data=!4m2!3m1!1s0x31752996621bbb89:0x7d9610c8ee55b360",
+    "cuisine": "Thai",
+    "district": "Tân Định, District 1/3",
+    "rating": 4.6,
+    "price": "$$",
+    "dishes": "Tom yum noodles, pineapple fried rice",
+    "must_try": "No",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.786938,
+    "lng": 106.687595,
+    "meals": [
+      "dinner"
+    ],
+    "area": "District 1",
+    "category": "Fusion & World",
+    "tagline": "Tom yum noodles and a garden setting — a reliable Thai escape.",
+    "tags": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  {
+    "name": "Fluid Saigon",
+    "url": "https://www.google.com/maps/place/Fluid+Saigon/data=!4m2!3m1!1s0x31752f5013c521fd:0x646999a95e7dacd8",
+    "cuisine": "Fusion / Tapas",
+    "district": "District 3",
+    "rating": 4.7,
+    "price": "$$$",
+    "dishes": "Shrimp curry ramyun, caramelised yogurt soft serve",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.778373,
+    "lng": 106.691894,
+    "meals": [
+      "dinner"
+    ],
+    "area": "District 3",
+    "category": "Fusion & World",
+    "tagline": "Shrimp curry ramyun + a yogurt soft serve to finish. Tiny menu, all hits.",
+    "tags": [
+      "lunch",
+      "dinner",
+      "date night"
+    ]
+  },
+  {
+    "name": "Yakiuo Ishikawa Thảo Điền",
+    "url": "https://www.google.com/maps/place/Yakiuo+Ishikawa+Th%E1%BA%A3o+%C4%90i%E1%BB%81n/data=!4m2!3m1!1s0x317527830874f6ad:0xcae7fba62cbac181",
+    "cuisine": "Japanese Omakase",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.9,
+    "price": "$$$",
+    "dishes": "Sanshokudon course, omakase sushi",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.800415,
+    "lng": 106.73169,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Japanese",
+    "tagline": "Omakase in Thao Dien that rivals what you'd find in Tokyo.",
+    "tags": [
+      "dinner",
+      "splurge",
+      "Japanese",
+      "date night"
+    ]
+  },
+  {
+    "name": "Thuận Ký - Cơm Phủ Trứng - Q3",
+    "url": "https://www.google.com/maps/place/Thu%E1%BA%ADn+K%C3%BD+-+C%C6%A1m+Ph%E1%BB%A7+Tr%E1%BB%A9ng+-+Q3/data=!4m2!3m1!1s0x31752fd51277205f:0x14c7ec74a349e514",
+    "cuisine": "Vietnamese Bistro",
+    "district": "District 3",
+    "rating": 4.9,
+    "price": "$",
+    "dishes": "Cơm gà (chicken rice)",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.776972,
+    "lng": 106.686036,
+    "meals": [
+      "brunch",
+      "lunch",
+      "dinner"
+    ],
+    "area": "District 3",
+    "category": "Vietnamese",
+    "tagline": "The chicken rice here is criminally underrated. Queue up.",
+    "tags": [
+      "lunch",
+      "budget"
+    ]
+  },
+  {
+    "name": "Anan Saigon",
+    "url": "https://www.google.com/maps/place/Anan+Saigon/data=!4m2!3m1!1s0x31752f412769f767:0xef37ef32f9a503e7",
+    "cuisine": "Vietnamese Fusion (Michelin)",
+    "district": "District 1",
+    "rating": 4.1,
+    "price": "$$$$",
+    "dishes": "Le Petit Bánh Mì, foie gras spring rolls, cơm tấm with grilled pork",
+    "must_try": "Yes",
+    "notes": "1 Michelin star",
+    "source": "Vietnam list",
+    "lat": 10.773479,
+    "lng": 106.702281,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "District 1",
+    "category": "Vietnamese",
+    "tagline": "Michelin-starred bánh mì and foie gras spring rolls under one roof.",
+    "tags": [
+      "lunch",
+      "dinner",
+      "splurge",
+      "date night"
+    ]
+  },
+  {
+    "name": "POT AU PHO 2.0",
+    "url": "https://www.google.com/maps/place/POT+AU+PHO+2.0/data=!4m2!3m1!1s0x31752f000deef541:0x3cbab07bf111e546",
+    "cuisine": "Vietnamese Fine Dining (Michelin)",
+    "district": "District 1",
+    "rating": 4.6,
+    "price": "$$$$",
+    "dishes": "Pot au pho, molecular pho jelly bite",
+    "must_try": "Yes",
+    "notes": "From the team behind Anan",
+    "source": "Vietnam list",
+    "lat": 10.777809,
+    "lng": 106.704633,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "District 1",
+    "category": "Vietnamese",
+    "tagline": "Molecular pho from the Anan team — fine dining that still feels like Vietnam.",
+    "tags": [
+      "dinner",
+      "splurge",
+      "date night"
+    ]
+  },
+  {
+    "name": "BaoNGON Thảo Điền",
+    "url": "https://www.google.com/maps/place/BaoNGON+Th%E1%BA%A3o+%C4%90i%E1%BB%81n/data=!4m2!3m1!1s0x3175270063469565:0x5af0b67044f09d34",
+    "cuisine": "Vietnamese / Yogurt Cafe",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 5.0,
+    "price": "$",
+    "dishes": "Sữa chua (yogurt)",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.799837,
+    "lng": 106.735626,
+    "meals": [
+      "drinks",
+      "brunch",
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Vietnamese",
+    "tagline": "Perfect yogurt, perfect rating. Simple pleasures.",
+    "tags": [
+      "breakfast",
+      "snacks",
+      "budget"
+    ]
+  },
+  {
+    "name": "탄광 - Tan Kwang Korean BBQ",
+    "url": "https://www.google.com/maps/place/%ED%83%84%EA%B4%91+-+Tan+Kwang+Korean+BBQ/data=!4m2!3m1!1s0x317527b57462a047:0x162e40c4d5b89ca0",
+    "cuisine": "Korean BBQ",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.9,
+    "price": "$$",
+    "dishes": "Beef with pepper salt & kimchi, Bulldak noodles",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.803686,
+    "lng": 106.733857,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "BBQ & Korean",
+    "tagline": "The Korean BBQ spot that always has a queue outside. That's all you need to know.",
+    "tags": [
+      "dinner",
+      "BBQ",
+      "Korean"
+    ]
+  },
+  {
+    "name": "61 Nguyễn Bá Huân",
+    "url": "https://www.google.com/maps/place/61+Nguy%E1%BB%85n+B%C3%A1+Hu%C3%A2n/data=!4m2!3m1!1s0x3175261eb83797d9:0xc52d46d8f9b19f58",
+    "cuisine": null,
+    "district": null,
+    "rating": null,
+    "price": null,
+    "dishes": null,
+    "must_try": null,
+    "notes": "Address only - no business data found",
+    "source": "Vietnam list",
+    "lat": 10.777639,
+    "lng": 106.702532,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "Other",
+    "category": "Other",
+    "tagline": "",
+    "tags": []
+  },
+  {
+    "name": "Don't U Donut?",
+    "url": "https://www.google.com/maps/place/Don't+U+Donut%3F/data=!4m2!3m1!1s0x317527ba7d752717:0x88ded86b97e07b78",
+    "cuisine": "Japanese-style Donuts",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 5.0,
+    "price": "$",
+    "dishes": "Plain glazed donut",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.798325,
+    "lng": 106.7371,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Japanese",
+    "tagline": "A 5.0 donut. Japanese-style, plain glazed, somehow unforgettable.",
+    "tags": [
+      "breakfast",
+      "snacks",
+      "budget"
+    ]
+  },
+  {
+    "name": "La Creme - Finest Ice Cream (Ben Thanh)",
+    "url": "https://www.google.com/maps/place/La+Creme+-+Finest+Ice+Cream+(Ben+Thanh)/data=!4m2!3m1!1s0x31752fe40c2d66e7:0x580e2371fd00314c",
+    "cuisine": "Ice Cream (Vietnamese flavors)",
+    "district": "Bến Thành, District 1",
+    "rating": 4.9,
+    "price": "$$",
+    "dishes": "Tasting set: fish sauce, pho, durian sticky rice flavors",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.777257,
+    "lng": 106.703777,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "District 1",
+    "category": "Vietnamese",
+    "tagline": "Fish sauce ice cream that actually works. The durian sticky rice flavour is wild.",
+    "tags": [
+      "snacks",
+      "date night",
+      "dessert"
+    ]
+  },
+  {
+    "name": "Tiệm chè Kai Kai - 佳佳糖水 - Chè người Hoa",
+    "url": "https://www.google.com/maps/place/Ti%E1%BB%87m+ch%C3%A8+Kai+Kai+-+%E4%BD%B3%E4%BD%B3%E7%B3%96%E6%B0%B4+-+Ch%C3%A8+ng%C6%B0%E1%BB%9Di+Hoa/data=!4m2!3m1!1s0x3175293a918ab531:0x3a2e23a551e2cac5",
+    "cuisine": "Chinese Dessert (chè)",
+    "district": "Thạnh Mỹ Tây, Binh Thanh",
+    "rating": 4.5,
+    "price": "$",
+    "dishes": "Black sesame soup, mixed dessert combo",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.805781,
+    "lng": 106.70543,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "Binh Thanh",
+    "category": "Chinese & Taiwanese",
+    "tagline": "Hong Kong-style chè in Binh Thanh — black sesame soup that fixes everything.",
+    "tags": [
+      "dessert",
+      "snacks",
+      "budget"
+    ]
+  },
+  {
+    "name": "MÙA Sando",
+    "url": "https://www.google.com/maps/place/M%C3%99A+Sando/data=!4m2!3m1!1s0x31752f20ec258d8f:0x4013d92975be1050",
+    "cuisine": "Sandwich Shop",
+    "district": "District 3",
+    "rating": 3.9,
+    "price": "$$",
+    "dishes": "Beef sando",
+    "must_try": "No",
+    "notes": "Mixed reviews on value",
+    "source": "Vietnam list",
+    "lat": 10.778811,
+    "lng": 106.68553,
+    "meals": [
+      "lunch"
+    ],
+    "area": "District 3",
+    "category": "Other",
+    "tagline": "The beef sando looks great on camera. Results are mixed in real life.",
+    "tags": [
+      "lunch"
+    ]
+  },
+  {
+    "name": "Cabri Eatery",
+    "url": "https://www.google.com/maps/place/Cabri+Eatery/data=!4m2!3m1!1s0x3175275ec5c71a43:0x89a8c24ae0e087d1",
+    "cuisine": "French / Mexican Fusion",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.9,
+    "price": "$$",
+    "dishes": "Black boudin, tacos",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.803699,
+    "lng": 106.731313,
+    "meals": [
+      "dinner"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Western",
+    "tagline": "Black boudin and tacos from a French-Mexican kitchen in Thao Dien. Weird, wonderful.",
+    "tags": [
+      "dinner",
+      "date night"
+    ]
+  },
+  {
+    "name": "Yakiniku Yazawa Saigon",
+    "url": "https://www.google.com/maps/place/Yakiniku+Yazawa+Saigon/data=!4m2!3m1!1s0x31752f4cf0c1eecf:0x3935464bd2d2e7eb",
+    "cuisine": "Japanese Yakiniku (premium)",
+    "district": "District 3",
+    "rating": 4.8,
+    "price": "$$$$",
+    "dishes": "Wagyu beef sets",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.775971,
+    "lng": 106.692581,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "District 3",
+    "category": "Japanese",
+    "tagline": "Premium wagyu sets in a sleek Japanese setting. Worth every dong.",
+    "tags": [
+      "dinner",
+      "splurge",
+      "Japanese"
+    ]
+  },
+  {
+    "name": "TOMIDAYA Ramen",
+    "url": "https://www.google.com/maps/place/TOMIDAYA+Ramen/data=!4m2!3m1!1s0x317529cc58264add:0xaf88b3868531fe45",
+    "cuisine": "Japanese Ramen",
+    "district": "Thạnh Mỹ Tây, Binh Thanh",
+    "rating": 3.9,
+    "price": "$$",
+    "dishes": "Tsukemen, tonkotsu ramen",
+    "must_try": "No",
+    "notes": "Mixed reviews",
+    "source": "Vietnam list",
+    "lat": 10.812934,
+    "lng": 106.705628,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "Binh Thanh",
+    "category": "Japanese",
+    "tagline": "The ramen is decent but the reviews are inconsistent — go on a good day.",
+    "tags": [
+      "lunch",
+      "dinner",
+      "Japanese"
+    ]
+  },
+  {
+    "name": "GrillDog Burger",
+    "url": "https://www.google.com/maps/place/GrillDog+Burger/data=!4m2!3m1!1s0x31752f006af7ab2d:0x296b5d5374813ae2",
+    "cuisine": "American Burgers",
+    "district": "District 1",
+    "rating": 4.6,
+    "price": "$",
+    "dishes": "Smash burger, bún chả burger",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.773178,
+    "lng": 106.696928,
+    "meals": [
+      "lunch"
+    ],
+    "area": "District 1",
+    "category": "Western",
+    "tagline": "Smash burger and bún chả in the same menu. This place gets Saigon.",
+    "tags": [
+      "lunch",
+      "casual",
+      "budget"
+    ]
+  },
+  {
+    "name": "TONKOTSU RAMEN ICHIBANKEN",
+    "url": "https://www.google.com/maps/place/TONKOTSU+RAMEN+ICHIBANKEN/data=!4m2!3m1!1s0x31752fc6c148144b:0x2817163ab6ca4842",
+    "cuisine": "Japanese Ramen",
+    "district": "District 1 (Japan Town)",
+    "rating": 4.9,
+    "price": "$$",
+    "dishes": "Tonkotsu ramen, garlic ramen",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.771806,
+    "lng": 106.696615,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "District 1",
+    "category": "Japanese",
+    "tagline": "The best tonkotsu ramen in Japan Town, full stop.",
+    "tags": [
+      "lunch",
+      "dinner",
+      "Japanese"
+    ]
+  },
+  {
+    "name": "Lại La Modern Cocktail Club",
+    "url": "https://www.google.com/maps/place/L%E1%BA%A1i+La+Modern+Cocktail+Club/data=!4m2!3m1!1s0x31752f005d49277f:0xaa598843ecfe7f9a",
+    "cuisine": "Cocktail Bar",
+    "district": "District 1",
+    "rating": 4.5,
+    "price": "$$",
+    "dishes": "Craft cocktails",
+    "must_try": "No",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.779969,
+    "lng": 106.700617,
+    "meals": [
+      "drinks"
+    ],
+    "area": "District 1",
+    "category": "Bars & Cocktails",
+    "tagline": "Moody cocktail bar with a short but strong menu.",
+    "tags": [
+      "drinks",
+      "date night"
+    ]
+  },
+  {
+    "name": "CieL Dining",
+    "url": "https://www.google.com/maps/place/CieL+Dining/data=!4m2!3m1!1s0x31752700131590d7:0x910a4832ed60b3eb",
+    "cuisine": "French-Vietnamese Fine Dining (Michelin)",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.8,
+    "price": "$$$$",
+    "dishes": "Tasting menu, lobster amuse bouche",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.803577,
+    "lng": 106.733007,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Vietnamese",
+    "tagline": "Michelin-starred French-Vietnamese tasting menu in Thao Dien. The lobster amuse bouche alone is worth it.",
+    "tags": [
+      "dinner",
+      "splurge",
+      "date night"
+    ]
+  },
+  {
+    "name": "Cửu Long Cà Phê",
+    "url": "https://www.google.com/maps/place/C%E1%BB%ADu+Long+C%C3%A0+Ph%C3%AA/data=!4m2!3m1!1s0x31752f004752ee87:0x349d62326721602b",
+    "cuisine": "Vietnamese Coffee Shop",
+    "district": "District 1",
+    "rating": 4.1,
+    "price": "$",
+    "dishes": "Cà phê sữa đá (iced milk coffee)",
+    "must_try": "No",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.774806,
+    "lng": 106.696971,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "area": "District 1",
+    "category": "Vietnamese",
+    "tagline": "Old-school cà phê sữa đá spot. Nothing fancy, everything right.",
+    "tags": [
+      "breakfast",
+      "coffee",
+      "budget"
+    ]
+  },
+  {
+    "name": "Yu Tang Vạn Hạnh Mall",
+    "url": "https://www.google.com/maps/place/Yu+Tang+V%E1%BA%A1n+H%E1%BA%A1nh+Mall/data=!4m2!3m1!1s0x31752f66351dab23:0xc8753dce3c33e6ce",
+    "cuisine": "Taiwanese Fried Chicken",
+    "district": "District 10 (Van Hanh Mall)",
+    "rating": 4.4,
+    "price": "$",
+    "dishes": "Taiwanese crispy chicken",
+    "must_try": "No",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.774489,
+    "lng": 106.664228,
+    "meals": [
+      "lunch"
+    ],
+    "area": "District 1",
+    "category": "Chinese & Taiwanese",
+    "tagline": "Taiwanese crispy chicken done right in Van Hanh Mall.",
+    "tags": [
+      "lunch",
+      "snacks",
+      "budget"
+    ]
+  },
+  {
+    "name": "ngâm CAFE",
+    "url": "https://www.google.com/maps/place/ng%C3%A2m+CAFE/data=!4m2!3m1!1s0x31752f00525a63b5:0x1e9b925864832cf5",
+    "cuisine": "Cafe",
+    "district": "District 3",
+    "rating": 4.5,
+    "price": "$",
+    "dishes": "Matcha tiramisu, spiral chocolate",
+    "must_try": "No",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.778015,
+    "lng": 106.685964,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch"
+    ],
+    "area": "District 3",
+    "category": "Cafes & Coffee",
+    "tagline": "Matcha tiramisu in a quiet D3 cafe. The spiral chocolate is worth ordering.",
+    "tags": [
+      "breakfast",
+      "coffee",
+      "dessert"
+    ]
+  },
+  {
+    "name": "Basilico",
+    "url": "https://www.google.com/maps/place/Basilico/data=!4m2!3m1!1s0x31752f49b7c0d01b:0x2443a1ffcbce648d",
+    "cuisine": "Italian",
+    "district": "District 1 (JW Marriott)",
+    "rating": 4.4,
+    "price": "$$$",
+    "dishes": "Tiramisu, arancini balls",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.777212,
+    "lng": 106.697985,
+    "meals": [
+      "dinner"
+    ],
+    "area": "District 1",
+    "category": "Western",
+    "tagline": "Arancini and tiramisu in a proper Italian setting near the Marriott.",
+    "tags": [
+      "dinner",
+      "date night",
+      "Italian"
+    ]
+  },
+  {
+    "name": "BOCĀO Basque Izakaya",
+    "url": "https://www.google.com/maps/place/BOC%C4%80O+Basque+Izakaya/data=!4m2!3m1!1s0x31752786d721e1ed:0xbf1c4659bd823cf1",
+    "cuisine": "Spanish / Basque",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.6,
+    "price": "$$$",
+    "dishes": "Basque-style tapas",
+    "must_try": "No",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.801936,
+    "lng": 106.731766,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Fusion & World",
+    "tagline": "Basque izakaya vibes in Thao Dien — the pintxos and txakoli are the real deal.",
+    "tags": [
+      "dinner",
+      "date night",
+      "drinks"
+    ]
+  },
+  {
+    "name": "BÀ BAR",
+    "url": "https://www.google.com/maps/place/B%C3%80+BAR/data=!4m2!3m1!1s0x3175279aecdca04f:0x3571b60d02fd12af",
+    "cuisine": "Cocktail Bar (Vietnamese-inspired)",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.8,
+    "price": "$$",
+    "dishes": "Bắp xào (fried corn), 'canh chua' cocktail",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.803072,
+    "lng": 106.734184,
+    "meals": [
+      "drinks",
+      "lunch",
+      "dinner"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Vietnamese",
+    "tagline": "Vietnamese cocktails that taste like the city — try the canh chua-inspired one.",
+    "tags": [
+      "drinks",
+      "late night",
+      "date night"
+    ]
+  },
+  {
+    "name": "Matte Matcha & Teabar",
+    "url": "https://www.google.com/maps/place/Matte+Matcha+%26+Teabar/data=!4m2!3m1!1s0x31752f353a9ca94d:0x3f77ceb83f60555f",
+    "cuisine": "Matcha Cafe",
+    "district": "District 3",
+    "rating": 4.5,
+    "price": "$$",
+    "dishes": "Signature matcha menu",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.778232,
+    "lng": 106.692414,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch"
+    ],
+    "area": "District 3",
+    "category": "Cafes & Coffee",
+    "tagline": "The matcha bar Saigon matcha lovers use as a benchmark.",
+    "tags": [
+      "breakfast",
+      "coffee",
+      "casual"
+    ]
+  },
+  {
+    "name": "ZEN Tea - Võ Thị Sáu",
+    "url": "https://www.google.com/maps/place/ZEN+Tea+-+V%C3%B5+Th%E1%BB%8B+S%C3%A1u/data=!4m2!3m1!1s0x3174df699e5ec993:0xeb095b3073c57cb9",
+    "cuisine": "Milk Tea / Cafe",
+    "district": "Biên Hòa, Đồng Nai (outside HCMC)",
+    "rating": 4.1,
+    "price": "$$",
+    "dishes": "Matcha latte, handmade boba",
+    "must_try": "Yes",
+    "notes": "Note: located in Bien Hoa, not central HCMC",
+    "source": "Vietnam list",
+    "lat": 10.951395,
+    "lng": 106.823166,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch"
+    ],
+    "area": "Other",
+    "category": "Cafes & Coffee",
+    "tagline": "Handmade boba and matcha in Bien Hoa — worth noting if you're passing through.",
+    "tags": [
+      "drinks",
+      "casual"
+    ]
+  },
+  {
+    "name": "Mobeya - Trà Sữa Ít Béo Từ Hạt",
+    "url": "https://www.google.com/maps/place/Mobeya+-+Tr%C3%A0+S%E1%BB%AFa+%C3%8Dt+B%C3%A9o+T%E1%BB%AB+H%E1%BA%A1t/data=!4m2!3m1!1s0x3175297e283d7159:0x4d24f5865737df01",
+    "cuisine": "Milk Tea",
+    "district": "Tân Định, District 1",
+    "rating": 4.4,
+    "price": "$",
+    "dishes": "Oolong almond milk tea",
+    "must_try": "No",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.787239,
+    "lng": 106.691739,
+    "meals": [
+      "drinks",
+      "breakfast"
+    ],
+    "area": "District 1",
+    "category": "Cafes & Coffee",
+    "tagline": "Oolong almond milk tea that's lighter than it sounds. Good for an afternoon.",
+    "tags": [
+      "drinks",
+      "casual"
+    ]
+  },
+  {
+    "name": "House Of Merlin - Cocktail Bar & Eatery",
+    "url": "https://www.google.com/maps/place/House+Of+Merlin+-+Cocktail+Bar+%26+Eatery/data=!4m2!3m1!1s0x31752f381e3c5ff5:0x9d3947aefe17aa08",
+    "cuisine": "Cocktail Bar / Pizza",
+    "district": "District 1",
+    "rating": 4.8,
+    "price": "$$$",
+    "dishes": "Aged rum cocktails",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.780019,
+    "lng": 106.698751,
+    "meals": [
+      "drinks"
+    ],
+    "area": "District 1",
+    "category": "Bars & Cocktails",
+    "tagline": "Aged rum cocktails and wood-fired pizza until late. One of the best bars in D1.",
+    "tags": [
+      "drinks",
+      "dinner",
+      "late night",
+      "date night"
+    ]
+  },
+  {
+    "name": "Dropped pin",
+    "url": "https://www.google.com/maps/search/-34.0362497,151.1115159",
+    "cuisine": null,
+    "district": null,
+    "rating": null,
+    "price": null,
+    "dishes": null,
+    "must_try": null,
+    "notes": "Dropped pin with coordinates pointing to Sydney, Australia - not a valid Vietnam location",
+    "source": "Vietnam list",
+    "lat": 10.776533,
+    "lng": 106.696923,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "Other",
+    "category": "Other",
+    "tagline": "",
+    "tags": []
+  },
+  {
+    "name": "KYO WATAMI Grill & Sushi",
+    "url": "https://www.google.com/maps/place/KYO+WATAMI+Grill+%26+Sushi/data=!4m2!3m1!1s0x31752f710ac86d77:0xa6b02258f892eb57",
+    "cuisine": "Japanese Grill & Sushi",
+    "district": "District 3",
+    "rating": 4.3,
+    "price": "$$",
+    "dishes": "Wagyu dishes, sukiyaki",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.783667,
+    "lng": 106.688572,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "District 3",
+    "category": "Japanese",
+    "tagline": "Wagyu and sukiyaki in a solid Japanese grill — reliable for a group dinner.",
+    "tags": [
+      "dinner",
+      "Japanese"
+    ]
+  },
+  {
+    "name": "Bánh cuốn Hải Nam",
+    "url": "https://www.google.com/maps/place/B%C3%A1nh+cu%E1%BB%91n+H%E1%BA%A3i+Nam/data=!4m2!3m1!1s0x31752f220dae548f:0xba0976ccd7f183d",
+    "cuisine": "Vietnamese (Bánh Cuốn)",
+    "district": "District 3",
+    "rating": 3.8,
+    "price": "$",
+    "dishes": "Bánh cuốn (steamed rice rolls)",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.781254,
+    "lng": 106.690747,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "District 3",
+    "category": "Vietnamese",
+    "tagline": "Old-school bánh cuốn spot — steamed rice rolls the way your Vietnamese grandmother made them.",
+    "tags": [
+      "breakfast",
+      "lunch",
+      "budget",
+      "street food"
+    ]
+  },
+  {
+    "name": "Làm ngon đem bán",
+    "url": "https://www.google.com/maps/place/L%C3%A0m+ngon+%C4%91em+b%C3%A1n/data=!4m2!3m1!1s0x3175270030ab8697:0x3adc5d7a796e6497",
+    "cuisine": null,
+    "district": null,
+    "rating": null,
+    "price": null,
+    "dishes": null,
+    "must_try": null,
+    "notes": "Not found / no data collected",
+    "source": "Vietnam list",
+    "lat": 10.774882,
+    "lng": 106.698125,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "Other",
+    "category": "Other",
+    "tagline": "",
+    "tags": []
+  },
+  {
+    "name": "Union Station Bakery & Café",
+    "url": "https://www.google.com/maps/place/Union+Station+Bakery+%26+Caf%C3%A9/data=!4m2!3m1!1s0x317527dae1f15b23:0x699b2d035faa4d93",
+    "cuisine": "Hong Kong-style Bakery",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.8,
+    "price": "$",
+    "dishes": "HK egg tart, assorted buns",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.799911,
+    "lng": 106.736332,
+    "meals": [
+      "breakfast",
+      "brunch"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Bakery & Desserts",
+    "tagline": "Hong Kong egg tarts and assorted buns baked fresh. A Thao Dien staple.",
+    "tags": [
+      "breakfast",
+      "snacks",
+      "budget"
+    ]
+  },
+  {
+    "name": "Cheho Tea",
+    "url": "https://www.google.com/maps/place/Cheho+Tea/data=!4m2!3m1!1s0x31752f00650d4525:0x354fbe3f05a92e74",
+    "cuisine": "Milk Tea",
+    "district": "District 1",
+    "rating": 3.7,
+    "price": "$",
+    "dishes": "Mango jelly tea",
+    "must_try": "No",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.773335,
+    "lng": 106.698702,
+    "meals": [
+      "drinks",
+      "breakfast"
+    ],
+    "area": "District 1",
+    "category": "Cafes & Coffee",
+    "tagline": "Mango jelly tea — decent enough but not a destination.",
+    "tags": [
+      "drinks",
+      "casual"
+    ]
+  },
+  {
+    "name": "LE CLUB",
+    "url": "https://www.google.com/maps/place/LE+CLUB/data=!4m2!3m1!1s0x317527006a960943:0xf3fae8e718309f6a",
+    "cuisine": "Matcha Cafe",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.8,
+    "price": "$$",
+    "dishes": "Houjicha, jasmine matcha",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.805245,
+    "lng": 106.731825,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Cafes & Coffee",
+    "tagline": "Houjicha and jasmine matcha done with the kind of care you'd expect in Kyoto.",
+    "tags": [
+      "breakfast",
+      "coffee",
+      "date night"
+    ]
+  },
+  {
+    "name": "Bánh Mì Bảy Hổ",
+    "url": "https://www.google.com/maps/place/B%C3%A1nh+M%C3%AC+B%E1%BA%A3y+H%E1%BB%95/data=!4m2!3m1!1s0x317528cb26b4b097:0xa09c90d1302bea4d",
+    "cuisine": "Bánh Mì",
+    "district": "District 1",
+    "rating": 4.1,
+    "price": "$",
+    "dishes": "Bánh mì thịt / xíu mại",
+    "must_try": "Yes",
+    "notes": "Featured on Netflix Street Food: Asia",
+    "source": "Vietnam list",
+    "lat": 10.773779,
+    "lng": 106.700002,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "District 1",
+    "category": "Vietnamese",
+    "tagline": "Featured on Netflix Street Food: Asia. The xíu mại bánh mì lives up to the hype.",
+    "tags": [
+      "breakfast",
+      "lunch",
+      "budget",
+      "street food"
+    ]
+  },
+  {
+    "name": "Hybrid Saigon",
+    "url": "https://www.google.com/maps/place/Hybrid+Saigon/data=!4m2!3m1!1s0x31752f0fcf810f99:0xb113d6dcd41d70c2",
+    "cuisine": "Cocktail Bar",
+    "district": "District 1",
+    "rating": 4.8,
+    "price": "$$$",
+    "dishes": "Sun Down cocktail, oysters",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.780062,
+    "lng": 106.703398,
+    "meals": [
+      "drinks"
+    ],
+    "area": "District 1",
+    "category": "Bars & Cocktails",
+    "tagline": "Oysters and cocktails in a slick D1 bar. The Sun Down is the one to order.",
+    "tags": [
+      "drinks",
+      "dinner",
+      "date night"
+    ]
+  },
+  {
+    "name": "Gent Steak Plus",
+    "url": "https://www.google.com/maps/place/Gent+Steak+Plus/data=!4m2!3m1!1s0x3135abef572d34a1:0x2e7397a9b41650e4",
+    "cuisine": "Steakhouse",
+    "district": null,
+    "rating": 4.4,
+    "price": "$$",
+    "dishes": "Steak, salad",
+    "must_try": null,
+    "notes": "Address resolves to Hanoi - likely wrong branch/city, verify before visiting",
+    "source": "Vietnam list",
+    "lat": 10.78026,
+    "lng": 106.69806,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "dinner"
+    ],
+    "area": "Other",
+    "category": "Cafes & Coffee",
+    "tagline": "Steak and salad — reliable if you're in the area, but verify the D1 location first.",
+    "tags": [
+      "dinner",
+      "casual"
+    ]
+  },
+  {
+    "name": "Nhâm Coffee",
+    "url": "https://www.google.com/maps/place/Nh%C3%A2m+Coffee/data=!4m2!3m1!1s0x317529005500f03d:0xc26935c6c699002a",
+    "cuisine": "Vietnamese Coffee Shop",
+    "district": "District 1 (2nd branch)",
+    "rating": null,
+    "price": "$",
+    "dishes": "Vietnamese coffee",
+    "must_try": null,
+    "notes": "Duplicate 'Nhâm Coffee' listing, different address",
+    "source": "Vietnam list",
+    "lat": 10.77528,
+    "lng": 106.700065,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "area": "District 1",
+    "category": "Vietnamese",
+    "tagline": "",
+    "tags": []
+  },
+  {
+    "name": "Atelier Matcha",
+    "url": "https://www.google.com/maps/place/Atelier+Matcha/data=!4m2!3m1!1s0x31752f005e475cd9:0x1066f9da36abcaa8",
+    "cuisine": "Matcha Cafe",
+    "district": "District 1",
+    "rating": 4.9,
+    "price": "$$",
+    "dishes": "Shikibu no Mukashi latte + almond croissant",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.774663,
+    "lng": 106.700118,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch"
+    ],
+    "area": "District 1",
+    "category": "Cafes & Coffee",
+    "tagline": "Shikibu no Mukashi matcha latte + almond croissant. This is why people queue.",
+    "tags": [
+      "breakfast",
+      "coffee",
+      "date night"
+    ]
+  },
+  {
+    "name": "Umatcha Se - Matcha Artisan - HVB",
+    "url": "https://www.google.com/maps/place/Umatcha+Se+-+Matcha+Artisan+-+HVB/data=!4m2!3m1!1s0x31752ffe0106e7df:0x8a0a709c56c1cf5a",
+    "cuisine": "Matcha 'Omakase' Cafe",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.9,
+    "price": "$$",
+    "dishes": "Cold whisked matcha",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.799734,
+    "lng": 106.737298,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch",
+      "dinner"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Japanese",
+    "tagline": "Cold-whisked matcha served like a Japanese tea ceremony. Quiet, precise, memorable.",
+    "tags": [
+      "breakfast",
+      "coffee",
+      "date night"
+    ]
+  },
+  {
+    "name": "No.96 Món Ngon Hà Nội",
+    "url": "https://www.google.com/maps/place/No.96+M%C3%B3n+Ngon+H%C3%A0+N%E1%BB%99i/data=!4m2!3m1!1s0x31752f3b1f0e31e9:0x87c12781adc6f662",
+    "cuisine": "Northern Vietnamese (Hanoi-style)",
+    "district": "District 3",
+    "rating": 4.4,
+    "price": "$$",
+    "dishes": "Tofu, nem chua rán (fried fermented pork), young chicken eggs",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.776468,
+    "lng": 106.688215,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "District 3",
+    "category": "Vietnamese",
+    "tagline": "Hanoi-style tofu and nem chua rán in D3. The northern Vietnamese food the city doesn't have enough of.",
+    "tags": [
+      "lunch",
+      "dinner",
+      "casual"
+    ]
+  },
+  {
+    "name": "RT BAKERY - Cake- Dessert- Coffee",
+    "url": "https://www.google.com/maps/place/RT+BAKERY+-+Cake-+Dessert-+Coffee/data=!4m2!3m1!1s0x31752fc196fc1ee5:0xe03c3d50c00a427a",
+    "cuisine": "Bakery",
+    "district": "District 11",
+    "rating": 4.0,
+    "price": "$",
+    "dishes": "Flan gato, cheese tart",
+    "must_try": "No",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.759435,
+    "lng": 106.64632,
+    "meals": [
+      "breakfast",
+      "brunch"
+    ],
+    "area": "District 1",
+    "category": "Bakery & Desserts",
+    "tagline": "Flan gato and cheese tart from a small D11 bakery worth the detour.",
+    "tags": [
+      "breakfast",
+      "dessert",
+      "budget"
+    ]
+  },
+  {
+    "name": "CHẠM Cafe & Kem Bơ Đà Lạt - Hoa Hồng",
+    "url": "https://www.google.com/maps/place/CH%E1%BA%A0M+Cafe+%26+Kem+B%C6%A1+%C4%90%C3%A0+L%E1%BA%A1t+-+Hoa+H%E1%BB%93ng/data=!4m2!3m1!1s0x31752982ddb4fc35:0x6201380c28c59b1b",
+    "cuisine": "Avocado Ice Cream Cafe",
+    "district": "Phú Nhuận/District 3",
+    "rating": 4.9,
+    "price": "$",
+    "dishes": "Kem bơ đặc biệt (special avocado ice cream)",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.798375,
+    "lng": 106.687059,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch"
+    ],
+    "area": "District 3",
+    "category": "Cafes & Coffee",
+    "tagline": "Avocado ice cream so good it has its own fan club. The special is non-negotiable.",
+    "tags": [
+      "dessert",
+      "snacks",
+      "casual"
+    ]
+  },
+  {
+    "name": "The Cloudest - Swim, Dine & Vibe",
+    "url": "https://www.google.com/maps/place/The+Cloudest+-+Swim,+Dine+%26+Vibe/data=!4m2!3m1!1s0x317527001a5080e9:0xb4cbc1b3c0ca7c3e",
+    "cuisine": "Beach Club / Bar",
+    "district": "Thu Duc City",
+    "rating": 4.4,
+    "price": "$$",
+    "dishes": "Pool day menu",
+    "must_try": "No",
+    "notes": "Mixed reviews on upkeep",
+    "source": "Vietnam list",
+    "lat": 10.80023,
+    "lng": 106.737241,
+    "meals": [
+      "drinks"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Bars & Cocktails",
+    "tagline": "Pool day meets restaurant — a Thao Dien escape when you need to decompress.",
+    "tags": [
+      "lunch",
+      "casual"
+    ]
+  },
+  {
+    "name": "Mille Mille",
+    "url": "https://www.google.com/maps/place/Mille+Mille/data=!4m2!3m1!1s0x31752f862e0a1f4f:0xeca96060618dfac5",
+    "cuisine": "Bakery / Cafe",
+    "district": "District 3",
+    "rating": 4.5,
+    "price": "$$",
+    "dishes": "Croissants (Yuzu, red velvet, matcha charcoal)",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.781611,
+    "lng": 106.692995,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch"
+    ],
+    "area": "District 3",
+    "category": "Cafes & Coffee",
+    "tagline": "Yuzu croissant, red velvet croissant, matcha charcoal croissant. Pick any two.",
+    "tags": [
+      "breakfast",
+      "snacks",
+      "casual"
+    ]
+  },
+  {
+    "name": "Blank Lounge Landmark",
+    "url": "https://www.google.com/maps/place/Blank+Lounge+Landmark/data=!4m2!3m1!1s0x317529f5fd2b5015:0x8f622292d0e38db2",
+    "cuisine": "Sky Bar",
+    "district": "Landmark 81, Binh Thanh",
+    "rating": 4.5,
+    "price": "$$$",
+    "dishes": "Cocktails, thick-cut fries",
+    "must_try": "Yes",
+    "notes": "Highest bar in Vietnam",
+    "source": "Vietnam list",
+    "lat": 10.791206,
+    "lng": 106.718841,
+    "meals": [
+      "drinks"
+    ],
+    "area": "Binh Thanh",
+    "category": "Bars & Cocktails",
+    "tagline": "The highest bar in Vietnam, inside Landmark 81. Cocktails with a view worth the splurge.",
+    "tags": [
+      "drinks",
+      "splurge",
+      "date night"
+    ]
+  },
+  {
+    "name": "Forest Therapy Kitchen & Bar",
+    "url": "https://www.google.com/maps/place/Forest+Therapy+Kitchen+%26+Bar/data=!4m2!3m1!1s0x31752f9b18e66943:0x1624f98df0500102",
+    "cuisine": "Asian Fusion / Vietnamese",
+    "district": "Bến Thành, District 1",
+    "rating": 4.9,
+    "price": "$$$",
+    "dishes": "Olive scorched rice tapas, Bruschetta Bò Kho, beef steak phở",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.775807,
+    "lng": 106.697262,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "District 1",
+    "category": "Vietnamese",
+    "tagline": "Scorched rice tapas and beef steak pho in one menu. This is Vietnamese fusion at its best.",
+    "tags": [
+      "dinner",
+      "date night",
+      "splurge"
+    ]
+  },
+  {
+    "name": "Laairai Thao Dien",
+    "url": "https://www.google.com/maps/place/Laairai+Thao+Dien/data=!4m2!3m1!1s0x31752d6dc8cbcff9:0x23a7178db2a345ed",
+    "cuisine": "Vietnamese-Japanese Fusion Grill",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.8,
+    "price": "$$",
+    "dishes": "Charcoal grill fusion dishes",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.803347,
+    "lng": 106.736782,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Japanese",
+    "tagline": "Charcoal grill meets Japanese technique in Thao Dien. The fusion actually works.",
+    "tags": [
+      "dinner",
+      "date night"
+    ]
+  },
+  {
+    "name": "Takailao",
+    "url": "https://www.google.com/maps/place/Takailao/data=!4m2!3m1!1s0x31752fa21a1d5c77:0x691accf2bb5c2325",
+    "cuisine": "Taiwanese Hot Pot",
+    "district": "Bến Thành, District 1",
+    "rating": 4.4,
+    "price": "$$",
+    "dishes": "Black and white hotpot",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.773156,
+    "lng": 106.70483,
+    "meals": [
+      "lunch"
+    ],
+    "area": "District 1",
+    "category": "Chinese & Taiwanese",
+    "tagline": "Black and white hotpot in Ben Thanh — the Taiwanese version that Saigon needed.",
+    "tags": [
+      "dinner",
+      "group",
+      "casual"
+    ]
+  },
+  {
+    "name": "Nhà Hàng Chay Làng Ta",
+    "url": "https://www.google.com/maps/place/Nh%C3%A0+H%C3%A0ng+Chay+L%C3%A0ng+Ta/data=!4m2!3m1!1s0x31752fe491fe2fc7:0xf488eb665e37b575",
+    "cuisine": "Vegetarian Vietnamese",
+    "district": "District 3",
+    "rating": 4.9,
+    "price": "$",
+    "dishes": "Mushroom congee, tofu, bún đậu chay",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.7759,
+    "lng": 106.68943,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "District 3",
+    "category": "Vietnamese",
+    "tagline": "Mushroom congee and bún đậu chay that'll make you forget it's vegetarian.",
+    "tags": [
+      "lunch",
+      "dinner",
+      "vegetarian",
+      "budget"
+    ]
+  },
+  {
+    "name": "Cơm Tấm Ba Ghiền",
+    "url": "https://www.google.com/maps/place/C%C6%A1m+T%E1%BA%A5m+Ba+Ghi%E1%BB%81n/data=!4m2!3m1!1s0x3175293a10b59b99:0xc8881bc0d1ff6da3",
+    "cuisine": "Vietnamese (Cơm Tấm)",
+    "district": "District 3",
+    "rating": 2.9,
+    "price": "$",
+    "dishes": "Honey glazed pork chop broken rice",
+    "must_try": "Yes",
+    "notes": "Rating dropped recently despite enthusiastic reviews - verify current standing",
+    "source": "Vietnam list",
+    "lat": 10.776869,
+    "lng": 106.688102,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "District 3",
+    "category": "Vietnamese",
+    "tagline": "The pork chop broken rice has passionate fans. The rating doesn't reflect the quality — verify before going.",
+    "tags": [
+      "lunch",
+      "budget",
+      "street food"
+    ]
+  },
+  {
+    "name": "A Xỉu - Quán Ăn Ngon",
+    "url": "https://www.google.com/maps/place/A+X%E1%BB%89u+-+Qu%C3%A1n+%C4%82n+Ngon/data=!4m2!3m1!1s0x31752f567f8aff87:0x4500be51748e772b",
+    "cuisine": "Vietnamese Chicken Rice",
+    "district": "District 1",
+    "rating": 4.7,
+    "price": "$",
+    "dishes": "Cơm gà (chicken rice), pork chop rice",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.77489,
+    "lng": 106.700032,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "District 1",
+    "category": "Vietnamese",
+    "tagline": "Chicken rice and pork chop rice done with real care. Queue outside is the point.",
+    "tags": [
+      "lunch",
+      "budget"
+    ]
+  },
+  {
+    "name": "Bloom - Cocktail & Whisky Bar",
+    "url": "https://www.google.com/maps/place/Bloom+-+Cocktail+%26+Whisky+Bar/data=!4m2!3m1!1s0x31752fa6e03742a7:0xc23f84d21a550513",
+    "cuisine": "Cocktail / Jazz Bar",
+    "district": "District 1",
+    "rating": 4.5,
+    "price": "$$$",
+    "dishes": "Live jazz + cocktails",
+    "must_try": "No",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.775537,
+    "lng": 106.70221,
+    "meals": [
+      "drinks"
+    ],
+    "area": "District 1",
+    "category": "Bars & Cocktails",
+    "tagline": "Live jazz and well-made cocktails in D1. A Saigon classic.",
+    "tags": [
+      "drinks",
+      "late night",
+      "date night"
+    ]
+  },
+  {
+    "name": "L’Entrecote - Social Meating",
+    "url": "https://www.google.com/maps/place/L%E2%80%99Entrecote+-+Social+Meating/data=!4m2!3m1!1s0x31752fbba5c3008f:0x6f4e96e3aff8d93",
+    "cuisine": "French Steakhouse",
+    "district": "District 1",
+    "rating": 4.9,
+    "price": "$$$",
+    "dishes": "Steak frites, crème brûlée",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.77606,
+    "lng": 106.70048,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "dinner"
+    ],
+    "area": "District 1",
+    "category": "Cafes & Coffee",
+    "tagline": "Steak frites and crème brûlée. The most convincing French bistro in the city.",
+    "tags": [
+      "dinner",
+      "splurge",
+      "date night"
+    ]
+  },
+  {
+    "name": "YUNKA - Nikkei Cuisine & Cocktails",
+    "url": "https://www.google.com/maps/place/YUNKA+-+Nikkei+Cuisine+%26+Cocktails/data=!4m2!3m1!1s0x31752f48916f97b5:0x1596bde35e41d6ad",
+    "cuisine": "Nikkei (Japanese-Peruvian)",
+    "district": "District 1",
+    "rating": 4.7,
+    "price": "$$$",
+    "dishes": "Ceviche, arroz con pato (duck rice)",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.780108,
+    "lng": 106.704221,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "District 1",
+    "category": "Japanese",
+    "tagline": "Nikkei cuisine — ceviche meets duck rice in a D1 setting that gets the balance right.",
+    "tags": [
+      "dinner",
+      "date night",
+      "splurge"
+    ]
+  },
+  {
+    "name": "Besoverse Cosmic Cafe",
+    "url": "https://www.google.com/maps/place/Besoverse+Cosmic+Cafe/data=!4m2!3m1!1s0x31752f6cfeea56ab:0x8e4923452dc86c1a",
+    "cuisine": "Cafe",
+    "district": "Thao Dien / An Khanh, Thu Duc City",
+    "rating": 4.9,
+    "price": "$$",
+    "dishes": "Iced americano, kombucha",
+    "must_try": "No",
+    "notes": "Matched to 'BESO Cafe Thiso Mall Sala' - verify name",
+    "source": "Vietnam list",
+    "lat": 10.779659,
+    "lng": 106.70432,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Cafes & Coffee",
+    "tagline": "A 4.9-rated café that feels like you've stumbled into a secret.",
+    "tags": [
+      "breakfast",
+      "coffee",
+      "casual"
+    ]
+  },
+  {
+    "name": "Dotori Dining",
+    "url": "https://www.google.com/maps/place/Dotori+Dining/data=!4m2!3m1!1s0x3175274a5e8d8f6b:0xdf85fce0f315afd4",
+    "cuisine": "Japanese",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.5,
+    "price": "$$",
+    "dishes": "Tornado omelette rice, pork cutlet",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.805254,
+    "lng": 106.732624,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Japanese",
+    "tagline": "Tornado omelette rice and crispy pork cutlet — Japanese comfort food in Thao Dien.",
+    "tags": [
+      "lunch",
+      "dinner",
+      "casual"
+    ]
+  },
+  {
+    "name": "SOKO Cake Bake & Brunch - Hồ Tùng Mậu",
+    "url": "https://www.google.com/maps/place/SOKO+Cake+Bake+%26+Brunch+-+H%E1%BB%93+T%C3%B9ng+M%E1%BA%ADu/data=!4m2!3m1!1s0x31752f503d7ee52b:0xbd52133ff694f0b1",
+    "cuisine": "Brunch Cafe",
+    "district": "District 1",
+    "rating": 4.8,
+    "price": "$$$",
+    "dishes": "Avocado espresso cloud, steak Benedict",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.773223,
+    "lng": 106.697439,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch"
+    ],
+    "area": "District 1",
+    "category": "Cafes & Coffee",
+    "tagline": "Avocado espresso cloud and a steak Benedict. The brunch that earns its price tag.",
+    "tags": [
+      "breakfast",
+      "date night",
+      "splurge"
+    ]
+  },
+  {
+    "name": "Barista Collective II",
+    "url": "https://www.google.com/maps/place/Barista+Collective+II/data=!4m2!3m1!1s0x31752fa4ae0afea7:0xc44a3255ce2ae690",
+    "cuisine": "Specialty Coffee",
+    "district": "District 3",
+    "rating": 4.6,
+    "price": "$$",
+    "dishes": "Coffee, fruit pancake",
+    "must_try": "Yes",
+    "notes": "Matched to 'Barista Collective' - verify if same as 'II' branch",
+    "source": "Vietnam list",
+    "lat": 10.782801,
+    "lng": 106.691198,
+    "meals": [
+      "drinks",
+      "breakfast"
+    ],
+    "area": "District 3",
+    "category": "Cafes & Coffee",
+    "tagline": "Specialty coffee and a fruit pancake in D3. The kind of café you sit in for two hours.",
+    "tags": [
+      "breakfast",
+      "coffee",
+      "casual"
+    ]
+  },
+  {
+    "name": "Sushi Shinkon 心魂",
+    "url": "https://www.google.com/maps/place/Sushi+Shinkon+%E5%BF%83%E9%AD%82/data=!4m2!3m1!1s0x31752f369f370e09:0x2e6239cf985f4504",
+    "cuisine": "Japanese Omakase Sushi",
+    "district": "District 1",
+    "rating": 4.8,
+    "price": "$$$",
+    "dishes": "Omakase sushi set",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.77889,
+    "lng": 106.704265,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "District 1",
+    "category": "Japanese",
+    "tagline": "Omakase sushi in D1 — the chef's attention to detail is rare at this price point.",
+    "tags": [
+      "dinner",
+      "splurge",
+      "Japanese",
+      "date night"
+    ]
+  },
+  {
+    "name": "Tiệm Bánh mì Xíu mại Trứng muối cô Lành",
+    "url": "https://www.google.com/maps/place/Ti%E1%BB%87m+B%C3%A1nh+m%C3%AC+X%C3%ADu+m%E1%BA%A1i+Tr%E1%BB%A9ng+mu%E1%BB%91i+c%C3%B4+L%C3%A0nh/data=!4m2!3m1!1s0x317529ea89a09f2d:0xa0b930bbcf545a6e",
+    "cuisine": "Bánh Mì Bakery",
+    "district": "Binh Thanh",
+    "rating": 4.4,
+    "price": "$",
+    "dishes": "Bánh mì with xíu mại & salted egg",
+    "must_try": "Yes",
+    "notes": "Matched to 'Mrs. Lanh Bakery'",
+    "source": "Vietnam list",
+    "lat": 10.804745,
+    "lng": 106.715384,
+    "meals": [
+      "breakfast",
+      "brunch"
+    ],
+    "area": "Binh Thanh",
+    "category": "Vietnamese",
+    "tagline": "Bánh mì with xíu mại and salted egg from a Binh Thanh institution.",
+    "tags": [
+      "breakfast",
+      "lunch",
+      "budget",
+      "street food"
+    ]
+  },
+  {
+    "name": "Trên Tầng Thượng",
+    "url": "https://www.google.com/maps/place/Tr%C3%AAn+T%E1%BA%A7ng+Th%C6%B0%E1%BB%A3ng/data=!4m2!3m1!1s0x31752fa3eba8f8df:0x18a6b4e2eb77bb8e",
+    "cuisine": "Rooftop Cafe / Bar",
+    "district": "District 3",
+    "rating": 4.7,
+    "price": "$$",
+    "dishes": "Rooftop coffee + live acoustic music",
+    "must_try": "Yes",
+    "notes": "Matched to 'On the Upper Floor'",
+    "source": "Vietnam list",
+    "lat": 10.783491,
+    "lng": 106.692995,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch"
+    ],
+    "area": "District 3",
+    "category": "Cafes & Coffee",
+    "tagline": "Rooftop coffee and live acoustic music above D3's rooftops. The kind of spot you bring visitors to.",
+    "tags": [
+      "drinks",
+      "casual",
+      "date night"
+    ]
+  },
+  {
+    "name": "Zion Sky Lounge and Dining",
+    "url": "https://www.google.com/maps/place/Zion+Sky+Lounge+and+Dining/data=!4m2!3m1!1s0x31752faf00463ecd:0x8f9cae0ea3ac9a5f",
+    "cuisine": "Rooftop Lounge",
+    "district": "District 1",
+    "rating": 4.3,
+    "price": "$$$",
+    "dishes": "Lychee martini",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.776684,
+    "lng": 106.69829,
+    "meals": [
+      "drinks"
+    ],
+    "area": "District 1",
+    "category": "Bars & Cocktails",
+    "tagline": "Lychee martini and city views from a D1 rooftop lounge.",
+    "tags": [
+      "drinks",
+      "date night",
+      "splurge"
+    ]
+  },
+  {
+    "name": "Nanaimo Oyster Bar",
+    "url": "https://www.google.com/maps/place/Nanaimo+Oyster+Bar/data=!4m2!3m1!1s0x317527d478fa8ea3:0xce460f90bf8a9943",
+    "cuisine": "Seafood / Oyster Bar",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.7,
+    "price": "$$$",
+    "dishes": "Fresh oysters, lobster roll",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.805633,
+    "lng": 106.736368,
+    "meals": [
+      "drinks",
+      "dinner"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Bars & Cocktails",
+    "tagline": "Fresh oysters and a lobster roll — Thao Dien's best seafood stop.",
+    "tags": [
+      "dinner",
+      "splurge",
+      "date night"
+    ]
+  },
+  {
+    "name": "Mister Lai Kitchen",
+    "url": "https://www.google.com/maps/place/Mister+Lai+Kitchen/data=!4m2!3m1!1s0x31752fa74afb8817:0xc443d0bc61503a23",
+    "cuisine": "Restaurant",
+    "district": null,
+    "rating": null,
+    "price": null,
+    "dishes": null,
+    "must_try": null,
+    "notes": "Could not verify - search returned an unrelated venue ('Mr.Saigon'); recommend re-checking on Google Maps",
+    "source": "Vietnam list",
+    "lat": 10.775575,
+    "lng": 106.703644,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "Other",
+    "category": "Other",
+    "tagline": "",
+    "tags": []
+  },
+  {
+    "name": "Dynasty House (Điện Biên Phủ, Bình Thạnh)",
+    "url": "https://www.google.com/maps/place/Dynasty+House+(%C4%90i%E1%BB%87n+Bi%C3%AAn+Ph%E1%BB%A7,+B%C3%ACnh+Th%E1%BA%A1nh)/data=!4m2!3m1!1s0x317529b0304ff667:0x184793b7bf2e3cc1",
+    "cuisine": "Chinese Dim Sum / Hot Pot",
+    "district": "Binh Thanh",
+    "rating": 4.7,
+    "price": "$$$",
+    "dishes": "Dim sum, seafood hotpot",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.807675,
+    "lng": 106.709367,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "Binh Thanh",
+    "category": "Chinese & Taiwanese",
+    "tagline": "Dim sum and seafood hotpot in Binh Thanh. The Chinese family dinner spot the city needed.",
+    "tags": [
+      "dinner",
+      "group",
+      "Chinese"
+    ]
+  },
+  {
+    "name": "Yuna Alaska Coffee",
+    "url": "https://www.google.com/maps/place/Yuna+Alaska+Coffee/data=!4m2!3m1!1s0x317528a44156e061:0x88d7b76916de2d21",
+    "cuisine": "Cafe",
+    "district": "District 7 (Phu My Hung)",
+    "rating": 4.1,
+    "price": "$",
+    "dishes": "Shake milk coffee + croffle",
+    "must_try": "No",
+    "notes": "Matched to 'Yuna Coffee' - low review count",
+    "source": "Vietnam list",
+    "lat": 10.731435,
+    "lng": 106.722305,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch"
+    ],
+    "area": "District 7",
+    "category": "Cafes & Coffee",
+    "tagline": "Shake milk coffee and a croffle in Phu My Hung. A solid local find.",
+    "tags": [
+      "breakfast",
+      "coffee",
+      "casual"
+    ]
+  },
+  {
+    "name": "La Crêperie Ho Chi Minh City",
+    "url": "https://www.google.com/maps/place/La+Cr%C3%AAperie+Ho+Chi+Minh+City/data=!4m2!3m1!1s0x31752f48c2b9884b:0x64b11bf040eb6970",
+    "cuisine": "French Crêperie",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.5,
+    "price": "$$",
+    "dishes": "Savory & sweet crêpes",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.805167,
+    "lng": 106.731983,
+    "meals": [
+      "dinner"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Western",
+    "tagline": "Savoury and sweet crêpes done the proper French way in Thao Dien.",
+    "tags": [
+      "breakfast",
+      "lunch",
+      "casual"
+    ]
+  },
+  {
+    "name": "Quan Bui Garden",
+    "url": "https://www.google.com/maps/place/Quan+Bui+Garden/data=!4m2!3m1!1s0x317526176671636b:0x471be660ffc59db",
+    "cuisine": "Vietnamese",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.4,
+    "price": "$$",
+    "dishes": "Catfish clay pot, bitter melon soup",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.800299,
+    "lng": 106.732057,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Vietnamese",
+    "tagline": "Catfish clay pot and bitter melon soup at a Vietnamese garden restaurant.",
+    "tags": [
+      "lunch",
+      "dinner",
+      "casual"
+    ]
+  },
+  {
+    "name": "Okee Cafe",
+    "url": "https://www.google.com/maps/place/Okee+Cafe/data=!4m2!3m1!1s0x31752f2f692ea3c9:0x217f92ed48021fea",
+    "cuisine": "Cafe",
+    "district": null,
+    "rating": 4.6,
+    "price": "$$",
+    "dishes": "Coconut coffee",
+    "must_try": null,
+    "notes": "Matched to 'OKKIO Caffe' (Fine Arts Museum) - name doesn't exactly match 'Okee Cafe', verify",
+    "source": "Vietnam list",
+    "lat": 10.778095,
+    "lng": 106.699529,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch"
+    ],
+    "area": "Other",
+    "category": "Cafes & Coffee",
+    "tagline": "Coconut coffee near the Fine Arts Museum. A good stop mid-afternoon.",
+    "tags": [
+      "breakfast",
+      "coffee",
+      "casual"
+    ]
+  },
+  {
+    "name": "Off-dry Cocktail & Wine Bar",
+    "url": "https://www.google.com/maps/place/Off-dry+Cocktail+%26+Wine+Bar/data=!4m2!3m1!1s0x31752f00b5e7ed93:0x5bd9d7f3df50f19a",
+    "cuisine": "Cocktail Bar",
+    "district": "District 1",
+    "rating": 5.0,
+    "price": "$$$",
+    "dishes": "Craft cocktails, tarot card nights",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.776827,
+    "lng": 106.703416,
+    "meals": [
+      "drinks"
+    ],
+    "area": "District 1",
+    "category": "Bars & Cocktails",
+    "tagline": "Tarot card nights and craft cocktails. The D1 bar that stays interesting.",
+    "tags": [
+      "drinks",
+      "late night",
+      "date night"
+    ]
+  },
+  {
+    "name": "Aloha Poke and Beer",
+    "url": "https://www.google.com/maps/place/Aloha+Poke+and+Beer/data=!4m2!3m1!1s0x31752f04fe137159:0x7cd9d9b21eb7222c",
+    "cuisine": "Poke / Hawaiian",
+    "district": null,
+    "rating": null,
+    "price": null,
+    "dishes": null,
+    "must_try": null,
+    "notes": "Could not verify - search returned an unrelated venue ('Ola Hale'); recommend re-checking on Google Maps",
+    "source": "Vietnam list",
+    "lat": 10.775501,
+    "lng": 106.700419,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "Other",
+    "category": "Other",
+    "tagline": "",
+    "tags": []
+  },
+  {
+    "name": "Kowal.cafes",
+    "url": "https://www.google.com/maps/place/Kowal.cafes/data=!4m2!3m1!1s0x31752f8edc23f3b7:0xf5d21c26672f8d9b",
+    "cuisine": "Specialty Coffee",
+    "district": "District 3",
+    "rating": 4.7,
+    "price": "$$",
+    "dishes": "Specialty coffee & tea art",
+    "must_try": "Yes",
+    "notes": "Matched to 'Kowal Cafe'",
+    "source": "Vietnam list",
+    "lat": 10.782613,
+    "lng": 106.687576,
+    "meals": [
+      "drinks",
+      "breakfast"
+    ],
+    "area": "District 3",
+    "category": "Cafes & Coffee",
+    "tagline": "Specialty coffee and tea art in a D3 space that's worth the visit.",
+    "tags": [
+      "breakfast",
+      "coffee",
+      "casual"
+    ]
+  },
+  {
+    "name": "Kalita Kafé",
+    "url": "https://www.google.com/maps/place/Kalita+Kaf%C3%A9/data=!4m2!3m1!1s0x3175290e5df2879b:0xcc7256c998b74dec",
+    "cuisine": "24/7 Cafe",
+    "district": "Binh Thanh",
+    "rating": 4.1,
+    "price": "$$",
+    "dishes": "Coffee, bread",
+    "must_try": "No",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.809101,
+    "lng": 106.715041,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch"
+    ],
+    "area": "Binh Thanh",
+    "category": "Cafes & Coffee",
+    "tagline": "",
+    "tags": []
+  },
+  {
+    "name": "The O’Palm cafe",
+    "url": "https://www.google.com/maps/place/The+O%E2%80%99Palm+cafe/data=!4m2!3m1!1s0x31752f09712da6db:0x77e3a0536cfcd481",
+    "cuisine": "Cafe",
+    "district": "District 3",
+    "rating": 4.0,
+    "price": "$$",
+    "dishes": "Instagram-worthy plates",
+    "must_try": "No",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.780155,
+    "lng": 106.688198,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch"
+    ],
+    "area": "District 3",
+    "category": "Cafes & Coffee",
+    "tagline": "",
+    "tags": []
+  },
+  {
+    "name": "L'Usine Phu My Hung",
+    "url": "https://www.google.com/maps/place/L'Usine+Phu+My+Hung/data=!4m2!3m1!1s0x31752f80f21770f5:0xb90d1db0c9fee6d6",
+    "cuisine": "Western / Cafe-Bistro",
+    "district": "District 7",
+    "rating": 4.7,
+    "price": "$$",
+    "dishes": "Mushroom bruschetta, teriyaki seabass rice bowl",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.73493,
+    "lng": 106.718866,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch",
+      "dinner"
+    ],
+    "area": "District 7",
+    "category": "Cafes & Coffee",
+    "tagline": "Kappou-style omakase — 16 courses including abalone. A proper occasion restaurant.",
+    "tags": [
+      "dinner",
+      "splurge",
+      "Japanese",
+      "date night"
+    ]
+  },
+  {
+    "name": "Okee Cafe",
+    "url": "https://www.google.com/maps/place/Okee+Cafe/data=!4m2!3m1!1s0x31752fb6e2cca527:0xde31075e2fb6e3ea",
+    "cuisine": "Cafe",
+    "district": null,
+    "rating": 4.6,
+    "price": "$$",
+    "dishes": "Coconut coffee",
+    "must_try": null,
+    "notes": "Second 'Okee Cafe' listing - same caveat as #88",
+    "source": "Vietnam list",
+    "lat": 10.778095,
+    "lng": 106.699529,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch"
+    ],
+    "area": "Other",
+    "category": "Cafes & Coffee",
+    "tagline": "",
+    "tags": []
+  },
+  {
+    "name": "Black Vinegar",
+    "url": "https://www.google.com/maps/place/Black+Vinegar/data=!4m2!3m1!1s0x31752fc6c69d997f:0x8f2f67c8eda23c65",
+    "cuisine": "Cantonese Fine Dining",
+    "district": "District 1",
+    "rating": 4.7,
+    "price": "$$$",
+    "dishes": "Peking duck, há cảo dumplings, mango sago",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.774979,
+    "lng": 106.701043,
+    "meals": [
+      "dinner"
+    ],
+    "area": "District 1",
+    "category": "Chinese & Taiwanese",
+    "tagline": "The 2046 bar — a D1 concept bar with strong cocktails and a film-noir feel.",
+    "tags": [
+      "drinks",
+      "late night",
+      "date night"
+    ]
+  },
+  {
+    "name": "Phò Mã-89A Nguyễn Đình Chiểu",
+    "url": "https://www.google.com/maps/place/Ph%C3%B2+M%C3%A3-89A+Nguy%E1%BB%85n+%C4%90%C3%ACnh+Chi%E1%BB%83u/data=!4m2!3m1!1s0x31752f07af515793:0x6bea64190186117b",
+    "cuisine": "Phở",
+    "district": "District 3",
+    "rating": null,
+    "price": null,
+    "dishes": null,
+    "must_try": null,
+    "notes": "Not enough verified data collected",
+    "source": "Vietnam list",
+    "lat": 10.779825,
+    "lng": 106.688672,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "District 3",
+    "category": "Vietnamese",
+    "tagline": "Japanese bakery breads in D1 — the mentai baguette and BBQ croissant are the moves.",
+    "tags": [
+      "breakfast",
+      "snacks",
+      "budget"
+    ]
+  },
+  {
+    "name": "Ba Hí Sài Gòn",
+    "url": "https://www.google.com/maps/place/Ba+H%C3%AD+S%C3%A0i+G%C3%B2n/data=!4m2!3m1!1s0x317529cfb0016edb:0xa59871a389ae5de6",
+    "cuisine": "Vietnamese-Fusion Sandwiches",
+    "district": "Binh Thanh",
+    "rating": 4.4,
+    "price": "$",
+    "dishes": "Sandwich bò phô mai, honey garlic chicken",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.812292,
+    "lng": 106.709068,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "Binh Thanh",
+    "category": "Vietnamese",
+    "tagline": "Old-school izakaya energy in D1 — Fujisan wagyu and proper sashimi.",
+    "tags": [
+      "dinner",
+      "drinks",
+      "Japanese",
+      "date night"
+    ]
+  },
+  {
+    "name": "ASA Bistro",
+    "url": "https://www.google.com/maps/place/ASA+Bistro/data=!4m2!3m1!1s0x3175292c13c81c49:0x51e56b42347a421b",
+    "cuisine": "Vietnamese-Western Bistro",
+    "district": "Binh Thanh (Vinhomes)",
+    "rating": 4.8,
+    "price": "$$",
+    "dishes": "Pumpkin soup, Caesar salad, comfort mains",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.79076,
+    "lng": 106.721292,
+    "meals": [
+      "brunch",
+      "lunch",
+      "dinner"
+    ],
+    "area": "Binh Thanh",
+    "category": "Vietnamese",
+    "tagline": "Shrimp spicy ramen and tsukemen in Japan Town. One of the most consistent bowls in the city.",
+    "tags": [
+      "lunch",
+      "dinner",
+      "Japanese"
+    ]
+  },
+  {
+    "name": "Lạc concept",
+    "url": "https://www.google.com/maps/place/L%E1%BA%A1c+concept/data=!4m2!3m1!1s0xaa8ac43a76806aab:0xc7c37e5de90c509d",
+    "cuisine": "Cafe",
+    "district": null,
+    "rating": 4.6,
+    "price": "$",
+    "dishes": "Coconut coffee",
+    "must_try": null,
+    "notes": "Matched to 'Lạc Café' - name differs slightly from 'Lạc concept', verify",
+    "source": "Vietnam list",
+    "lat": 10.780202,
+    "lng": 106.697451,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch"
+    ],
+    "area": "Other",
+    "category": "Cafes & Coffee",
+    "tagline": "Mango sago and oolong tea in D5 — the Taiwanese café that quietly does everything well.",
+    "tags": [
+      "drinks",
+      "dessert",
+      "casual"
+    ]
+  },
+  {
+    "name": "Kappou Nishiyama | Traditional Authentic Omakase Restaurant",
+    "url": "https://www.google.com/maps/place/Kappou+Nishiyama+%7C+Traditional+Authentic+Omakase+Restaurant/data=!4m2!3m1!1s0x31752f7620858ca7:0xc1189b3827a847f8",
+    "cuisine": "Japanese Omakase",
+    "district": "District 1",
+    "rating": 4.6,
+    "price": "$$$",
+    "dishes": "16-course omakase, abalone",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.777069,
+    "lng": 106.701444,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "District 1",
+    "category": "Japanese",
+    "tagline": "Premium yakiniku on Pasteur — the Sumo chain's most central location.",
+    "tags": [
+      "dinner",
+      "BBQ",
+      "Japanese",
+      "splurge"
+    ]
+  },
+  {
+    "name": "TRÀ SỮA NAILA | Trà sữa trân chân Nguyễn Thiện Thuật",
+    "url": "https://www.google.com/maps/place/TR%C3%80+S%E1%BB%AEA+NAILA+%7C+Tr%C3%A0+s%E1%BB%AFa+tr%C3%A2n+ch%C3%A2n+Nguy%E1%BB%85n+Thi%E1%BB%87n+Thu%E1%BA%ADt/data=!4m2!3m1!1s0x31752f2e0d230fd9:0xfa3bf65d0cc53b90",
+    "cuisine": "Milk Tea (plant-based)",
+    "district": "District 3",
+    "rating": 3.7,
+    "price": "$$",
+    "dishes": "Plant-based milk tea, banana boba",
+    "must_try": "No",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.779463,
+    "lng": 106.692559,
+    "meals": [
+      "drinks",
+      "breakfast"
+    ],
+    "area": "District 3",
+    "category": "Cafes & Coffee",
+    "tagline": "Premium yakiniku on Cao Thắng — the other Sumo branch, equally good.",
+    "tags": [
+      "dinner",
+      "BBQ",
+      "Japanese",
+      "splurge"
+    ]
+  },
+  {
+    "name": "The 2046",
+    "url": "https://www.google.com/maps/place/The+2046/data=!4m2!3m1!1s0x31752f7e80739afb:0x7b9a912583efcc6f",
+    "cuisine": "Cocktail Bar / Cafe",
+    "district": "District 3",
+    "rating": 4.9,
+    "price": "$$",
+    "dishes": "Cocktails + coffee",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.778234,
+    "lng": 106.690335,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch"
+    ],
+    "area": "District 3",
+    "category": "Cafes & Coffee",
+    "tagline": "Hazelnut chocolate kiss cake and a pork floss salted egg lava bun. This bakery is the one.",
+    "tags": [
+      "breakfast",
+      "dessert",
+      "casual"
+    ]
+  },
+  {
+    "name": "Conservo - Japanese Breads & Café",
+    "url": "https://www.google.com/maps/place/Conservo+-+Japanese+Breads+%26+Caf%C3%A9/data=!4m2!3m1!1s0x31752f0c0d9f8b2b:0x589c94f53636541e",
+    "cuisine": "Japanese Bakery / Cafe",
+    "district": "District 1",
+    "rating": 4.3,
+    "price": "$",
+    "dishes": "Mentai France baguette, BBQ croissant",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.774877,
+    "lng": 106.697396,
+    "meals": [
+      "drinks",
+      "brunch",
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "area": "District 1",
+    "category": "Japanese",
+    "tagline": "Same Bakes magic, Thao Dien location. The croissants here are the reason people move to the area.",
+    "tags": [
+      "breakfast",
+      "casual"
+    ]
+  },
+  {
+    "name": "izakaya Matsuki",
+    "url": "https://www.google.com/maps/place/izakaya+Matsuki/data=!4m2!3m1!1s0x3175297a45ca06b7:0x78995ec8755c4bd5",
+    "cuisine": "Japanese Izakaya",
+    "district": "District 1",
+    "rating": 4.9,
+    "price": "$$$",
+    "dishes": "Sashimi, Fujisan wagyu",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.779212,
+    "lng": 106.697301,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "District 1",
+    "category": "Japanese",
+    "tagline": "Rose linguine and wasabi chicken pasta — Italian with a Japanese twist that works.",
+    "tags": [
+      "lunch",
+      "dinner",
+      "casual"
+    ]
+  },
+  {
+    "name": "ITTOU RAMEN LÊ THÁNH TÔN",
+    "url": "https://www.google.com/maps/place/ITTOU+RAMEN+L%C3%8A+TH%C3%81NH+T%C3%94N/data=!4m2!3m1!1s0x31752f31783c615d:0xe616fc1b762f97bd",
+    "cuisine": "Japanese Ramen",
+    "district": "District 1 (Japan Town)",
+    "rating": 4.6,
+    "price": "$$",
+    "dishes": "Shrimp spicy ramen, tsukemen",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.777473,
+    "lng": 106.701126,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "District 1",
+    "category": "Japanese",
+    "tagline": "Caviar and cocktails in a D1 lounge that leans into the theatrics.",
+    "tags": [
+      "drinks",
+      "late night",
+      "splurge"
+    ]
+  },
+  {
+    "name": "YoshiYoshi Coffee & Tea",
+    "url": "https://www.google.com/maps/place/YoshiYoshi+Coffee+%26+Tea/data=!4m2!3m1!1s0x31752ff7febfa211:0x75dd69435559ff68",
+    "cuisine": "Cafe",
+    "district": "District 5",
+    "rating": 4.3,
+    "price": "$$",
+    "dishes": "Mango sago, Dương Chi Cam Lộ",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.752525,
+    "lng": 106.661459,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch"
+    ],
+    "area": "Districts 5/10/11",
+    "category": "Cafes & Coffee",
+    "tagline": "Coffee and workspace in An Phu — good for a working afternoon.",
+    "tags": [
+      "breakfast",
+      "coffee",
+      "casual"
+    ]
+  },
+  {
+    "name": "SUMO YAKINIKU PASTEUR",
+    "url": "https://www.google.com/maps/place/SUMO+YAKINIKU+PASTEUR/data=!4m2!3m1!1s0x31752f8696fcfba9:0x5a4b5dad67a0c328",
+    "cuisine": "Japanese Yakiniku",
+    "district": "District 3",
+    "rating": 4.7,
+    "price": "$$$",
+    "dishes": "Premium beef sets",
+    "must_try": "Yes",
+    "notes": "Sumo Yakiniku chain - Pasteur branch",
+    "source": "Vietnam list",
+    "lat": 10.780127,
+    "lng": 106.689184,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "District 3",
+    "category": "Japanese",
+    "tagline": "Cheesecake and carrot cake in Thao Dien. A reliable dessert stop.",
+    "tags": [
+      "dessert",
+      "snacks",
+      "casual"
+    ]
+  },
+  {
+    "name": "Sumo Yakiniku BBQ",
+    "url": "https://www.google.com/maps/place/Sumo+Yakiniku+BBQ/data=!4m2!3m1!1s0x3175261158a16071:0x18201bb4c568446e",
+    "cuisine": "Japanese Yakiniku",
+    "district": "District 3",
+    "rating": 4.7,
+    "price": "$$$",
+    "dishes": "Premium beef sets",
+    "must_try": "Yes",
+    "notes": "Sumo Yakiniku chain - Cao Thắng branch",
+    "source": "Vietnam list",
+    "lat": 10.77692,
+    "lng": 106.691235,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "District 3",
+    "category": "Japanese",
+    "tagline": "Bún đậu mắm tôm platter done the traditional way — funky, fermented, fantastic.",
+    "tags": [
+      "lunch",
+      "casual",
+      "street food"
+    ]
+  },
+  {
+    "name": "Bakes Ho Con Rua",
+    "url": "https://www.google.com/maps/place/Bakes+Ho+Con+Rua/data=!4m2!3m1!1s0x31752fff1cbd100f:0x985941bff9b61c88",
+    "cuisine": "French Bakery / Cafe",
+    "district": "District 3",
+    "rating": 4.7,
+    "price": "$$",
+    "dishes": "Hazelnut chocolate kiss cake, pork floss salted egg lava bun",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.779101,
+    "lng": 106.685012,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch",
+      "dinner"
+    ],
+    "area": "District 3",
+    "category": "Cafes & Coffee",
+    "tagline": "The burrata pizza and squid-mango salad are the reason Pizza 4P's became a Saigon institution.",
+    "tags": [
+      "dinner",
+      "group",
+      "date night"
+    ]
+  },
+  {
+    "name": "Bakes Thao Dien",
+    "url": "https://www.google.com/maps/place/Bakes+Thao+Dien/data=!4m2!3m1!1s0x317527c8e96d7cfb:0xef179cdf4fb2d5f2",
+    "cuisine": "French Bakery / Cafe",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.7,
+    "price": "$$",
+    "dishes": "Croissants",
+    "must_try": "Yes",
+    "notes": "Same chain as Bakes Ho Con Rua",
+    "source": "Vietnam list",
+    "lat": 10.805949,
+    "lng": 106.732781,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch",
+      "dinner"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Cafes & Coffee",
+    "tagline": "Greek, Indian, Filipino street food stalls under one roof in Thao Dien. Good for groups who can't agree.",
+    "tags": [
+      "lunch",
+      "dinner",
+      "group",
+      "casual"
+    ]
+  },
+  {
+    "name": "no-ne",
+    "url": "https://www.google.com/maps/place/no-ne/data=!4m2!3m1!1s0x31752f4bd1e5e3a1:0xa7372d9fcc67133b",
+    "cuisine": "Italian Pasta",
+    "district": "District 3",
+    "rating": 4.5,
+    "price": "$$",
+    "dishes": "Rose linguine, wasabi chicken pasta",
+    "must_try": "Yes",
+    "notes": "Matched to 'nonê pasta'",
+    "source": "Vietnam list",
+    "lat": 10.781486,
+    "lng": 106.690845,
+    "meals": [
+      "dinner"
+    ],
+    "area": "District 3",
+    "category": "Western",
+    "tagline": "The Vietnamese milk coffee chain you'll see on every corner. Reliable when you need a quick fix.",
+    "tags": [
+      "breakfast",
+      "coffee",
+      "budget"
+    ]
+  },
+  {
+    "name": "The Arth Saigon",
+    "url": "https://www.google.com/maps/place/The+Arth+Saigon/data=!4m2!3m1!1s0x31752fc465d0249b:0x88da39a9d350a925",
+    "cuisine": "Lounge / Nightclub",
+    "district": "District 1",
+    "rating": 4.3,
+    "price": "$$$",
+    "dishes": "Caviar finger foods, cocktails",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.778837,
+    "lng": 106.70011,
+    "meals": [
+      "drinks"
+    ],
+    "area": "District 1",
+    "category": "Bars & Cocktails",
+    "tagline": "Tea, cake and a quiet table in Thao Dien.",
+    "tags": [
+      "breakfast",
+      "casual"
+    ]
+  },
+  {
+    "name": "The Vibes",
+    "url": "https://www.google.com/maps/place/The+Vibes/data=!4m2!3m1!1s0x317527f82c4f3dfb:0xab957e9f7570e593",
+    "cuisine": "Cafe / Event Space",
+    "district": "Thu Duc City (An Phu)",
+    "rating": 4.2,
+    "price": "$$",
+    "dishes": "Coffee, workspace menu",
+    "must_try": "No",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.803261,
+    "lng": 106.735399,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Cafes & Coffee",
+    "tagline": "Live acoustic music and cold beers in Thao Dien. The neighbourhood bar.",
+    "tags": [
+      "drinks",
+      "casual",
+      "late night"
+    ]
+  },
+  {
+    "name": "Cheesecake Ngon Cake Shop",
+    "url": "https://www.google.com/maps/place/Cheesecake+Ngon+Cake+Shop/data=!4m2!3m1!1s0x31752f330a0d7c89:0xf0659735889eefd6",
+    "cuisine": "Bakery (Cheesecake)",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.7,
+    "price": "$$",
+    "dishes": "Cheesecake, carrot cake",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.804227,
+    "lng": 106.737249,
+    "meals": [
+      "breakfast",
+      "brunch"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Bakery & Desserts",
+    "tagline": "Lobster pasta rebranded as 'not so Italian' — still very good.",
+    "tags": [
+      "dinner",
+      "date night",
+      "splurge"
+    ]
+  },
+  {
+    "name": "Bún Đậu Mắm Tôm - Đậu Homemade",
+    "url": "https://www.google.com/maps/place/B%C3%BAn+%C4%90%E1%BA%ADu+M%E1%BA%AFm+T%C3%B4m+-+%C4%90%E1%BA%ADu+Homemade/data=!4m2!3m1!1s0x317527ede7f89155:0x5b4155edafdc70d2",
+    "cuisine": "Vietnamese (Bún Đậu)",
+    "district": "District 1",
+    "rating": 4.4,
+    "price": "$$",
+    "dishes": "Bún đậu mắm tôm platter",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.777663,
+    "lng": 106.69759,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "District 1",
+    "category": "Vietnamese",
+    "tagline": "Cashew cheese paninis and plant-based deli in Thao Dien. A genuinely good vegan option.",
+    "tags": [
+      "lunch",
+      "vegetarian",
+      "casual"
+    ]
+  },
+  {
+    "name": "Pizza 4P's Xuan Thuy",
+    "url": "https://www.google.com/maps/place/Pizza+4P's+Xuan+Thuy/data=!4m2!3m1!1s0x3175270ab4793e09:0x1ab416c71ad38bcf",
+    "cuisine": "Japanese-Italian Pizza Fusion",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 5.0,
+    "price": "$$",
+    "dishes": "Squid dish with mango salad, burrata pizza",
+    "must_try": "Yes",
+    "notes": "Popular international chain",
+    "source": "Vietnam list",
+    "lat": 10.798875,
+    "lng": 106.733196,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Japanese",
+    "tagline": "Grilled beef sets and beef udon from a Japanese yakiniku spot in Thao Dien.",
+    "tags": [
+      "dinner",
+      "Japanese",
+      "BBQ"
+    ]
+  },
+  {
+    "name": "Beer Hall & Food Court Thao Dien",
+    "url": "https://www.google.com/maps/place/Beer+Hall+%26+Food+Court+Thao+Dien/data=!4m2!3m1!1s0x317529a68c400617:0xa9ad12545f0a6f1c",
+    "cuisine": "Multi-cuisine Food Court / Beer Hall",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.3,
+    "price": "$",
+    "dishes": "Greek, Indian, Filipino street food stalls",
+    "must_try": "No",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.802969,
+    "lng": 106.734032,
+    "meals": [
+      "drinks"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Other",
+    "tagline": "Steak, roasted duck and prawn skewer — the Thao Dien fusion restaurant doing everything right.",
+    "tags": [
+      "dinner",
+      "splurge",
+      "date night"
+    ]
+  },
+  {
+    "name": "Phúc Long Coffee & Tea",
+    "url": "https://www.google.com/maps/place/Ph%C3%BAc+Long+Coffee+%26+Tea/data=!4m2!3m1!1s0x317527c7331451b5:0x33b53c6bf216457b",
+    "cuisine": "Vietnamese Coffee/Tea Chain",
+    "district": "District 1",
+    "rating": 4.0,
+    "price": "$",
+    "dishes": "Vietnamese milk coffee",
+    "must_try": "No",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.775978,
+    "lng": 106.704049,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "area": "District 1",
+    "category": "Vietnamese",
+    "tagline": "All-you-can-eat Taiwanese hotpot with a dessert buffet in Saigon Centre.",
+    "tags": [
+      "dinner",
+      "group",
+      "casual"
+    ]
+  },
+  {
+    "name": "The Uni - Tea Coffee & Cake",
+    "url": "https://www.google.com/maps/place/The+Uni+-+Tea+Coffee+%26+Cake/data=!4m2!3m1!1s0x3175278a9ffa8973:0x5f35fba6639b834a",
+    "cuisine": "Tea / Coffee & Cake",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.6,
+    "price": "$$",
+    "dishes": "Tea, cake",
+    "must_try": "No",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.805166,
+    "lng": 106.734517,
+    "meals": [
+      "drinks",
+      "breakfast"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Cafes & Coffee",
+    "tagline": "",
+    "tags": []
+  },
+  {
+    "name": "Acoustic Bar Thao Dien",
+    "url": "https://www.google.com/maps/place/Acoustic+Bar+Thao+Dien/data=!4m2!3m1!1s0x31752733db0ecfd3:0x39b964caae330168",
+    "cuisine": "Live Music Bar",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.2,
+    "price": "$$",
+    "dishes": "Drinks + live acoustic sets",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.803932,
+    "lng": 106.736251,
+    "meals": [
+      "drinks"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Bars & Cocktails",
+    "tagline": "Koi pond café in Thao Dien — the vibe is the main event here.",
+    "tags": [
+      "breakfast",
+      "coffee",
+      "casual"
+    ]
+  },
+  {
+    "name": "TINTO - Nikkei Cuisine & Bar",
+    "url": "https://www.google.com/maps/place/TINTO+-+Nikkei+Cuisine+%26+Bar/data=!4m2!3m1!1s0x317527fb3356a26f:0xe2a49b88468bf588",
+    "cuisine": "Italian Fusion",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.7,
+    "price": "$$$",
+    "dishes": "Lobster pasta, carbonara tagliatelle",
+    "must_try": "Yes",
+    "notes": "Rebranded from 'Tinto' to 'Pasta Club - Not So Italian'",
+    "source": "Vietnam list",
+    "lat": 10.799106,
+    "lng": 106.731348,
+    "meals": [
+      "dinner"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Western",
+    "tagline": "",
+    "tags": []
+  },
+  {
+    "name": "Kashew Cheese Deli",
+    "url": "https://www.google.com/maps/place/Kashew+Cheese+Deli/data=!4m2!3m1!1s0x3175274ee9f5fb59:0x6c9e640fb0838eee",
+    "cuisine": "Vegan / Vegetarian Deli",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.7,
+    "price": "$$",
+    "dishes": "Cashew cheese paninis",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.805532,
+    "lng": 106.734864,
+    "meals": [
+      "lunch"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Vietnamese",
+    "tagline": "",
+    "tags": []
+  },
+  {
+    "name": "Phổ Đình Thảo Điền - Uraetei Yakiniku",
+    "url": "https://www.google.com/maps/place/Ph%E1%BB%95+%C4%90%C3%ACnh+Th%E1%BA%A3o+%C4%90i%E1%BB%81n+-+Uraetei+Yakiniku/data=!4m2!3m1!1s0x317526111f81f41b:0xa2b295a5835d986",
+    "cuisine": "Japanese Yakiniku",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.4,
+    "price": "$$",
+    "dishes": "Grilled beef sets, beef udon",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.800798,
+    "lng": 106.732413,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Japanese",
+    "tagline": "Matcha crepe and matcha coconut milk in a dedicated matcha café.",
+    "tags": [
+      "breakfast",
+      "coffee",
+      "dessert"
+    ]
+  },
+  {
+    "name": "ZumWhere Thảo Điền",
+    "url": "https://www.google.com/maps/place/ZumWhere+Th%E1%BA%A3o+%C4%90i%E1%BB%81n/data=!4m2!3m1!1s0x3175273a04b59d85:0xd7d1847dae6e2716",
+    "cuisine": "Modern Vietnamese-Japanese Fusion",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.8,
+    "price": "$$$",
+    "dishes": "Steak, roasted duck, prawn skewer",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.798634,
+    "lng": 106.736189,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Japanese",
+    "tagline": "Xôi xéo the proper Hanoi way — sticky rice with chicken and mung bean in D7.",
+    "tags": [
+      "breakfast",
+      "budget",
+      "street food"
+    ]
+  },
+  {
+    "name": "Manwah",
+    "url": "https://www.google.com/maps/place/Manwah/data=!4m2!3m1!1s0x31752fc4298879cf:0xc5fc2b81d69bd1f0",
+    "cuisine": "Taiwanese Hot Pot (AYCE)",
+    "district": "District 1 (Saigon Centre)",
+    "rating": 4.6,
+    "price": "$$",
+    "dishes": "AYCE hotpot, dessert buffet",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.773526,
+    "lng": 106.695857,
+    "meals": [
+      "lunch"
+    ],
+    "area": "District 1",
+    "category": "Chinese & Taiwanese",
+    "tagline": "Cheese-foam coffee that started a trend. The original D1 location.",
+    "tags": [
+      "breakfast",
+      "coffee",
+      "casual"
+    ]
+  },
+  {
+    "name": "Moshi Sushi",
+    "url": "https://www.google.com/maps/place/Moshi+Sushi/data=!4m2!3m1!1s0x31752f080bc2c1f1:0x1c0bfc3c254ed34b",
+    "cuisine": "Japanese Sushi",
+    "district": null,
+    "rating": null,
+    "price": null,
+    "dishes": null,
+    "must_try": null,
+    "notes": "Could not verify - search returned an unrelated overseas venue; recommend re-checking on Google Maps",
+    "source": "Vietnam list",
+    "lat": 10.775105,
+    "lng": 106.702629,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "Other",
+    "category": "Japanese",
+    "tagline": "Bánh tráng trộn since 1992 — the rice paper salad institution in D10.",
+    "tags": [
+      "snacks",
+      "budget",
+      "street food"
+    ]
+  },
+  {
+    "name": "Dalaland Coffee",
+    "url": "https://www.google.com/maps/place/Dalaland+Coffee/data=!4m2!3m1!1s0x317527ff2489f2b1:0xbd49afd78718b2aa",
+    "cuisine": "Cafe (Instagram spot)",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.2,
+    "price": "$$",
+    "dishes": "Cafe fare with koi pond views",
+    "must_try": "No",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.802105,
+    "lng": 106.731203,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Cafes & Coffee",
+    "tagline": "",
+    "tags": []
+  },
+  {
+    "name": "JAPANIT Matcha & Coffee House",
+    "url": "https://www.google.com/maps/place/JAPANIT+Matcha+%26+Coffee+House/data=!4m2!3m1!1s0x31752f166075c339:0x45978120747bcdc6",
+    "cuisine": "Matcha Dessert Cafe",
+    "district": "District 1",
+    "rating": 4.5,
+    "price": "$$",
+    "dishes": "Matcha crepe, matcha coconut milk",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.780401,
+    "lng": 106.70025,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch"
+    ],
+    "area": "District 1",
+    "category": "Cafes & Coffee",
+    "tagline": "Tiger cocktail and a speakeasy vibe — one of D1's most characterful bars.",
+    "tags": [
+      "drinks",
+      "late night",
+      "date night"
+    ]
+  },
+  {
+    "name": "Xôi Xéo Bà 3 Béo",
+    "url": "https://www.google.com/maps/place/X%C3%B4i+X%C3%A9o+B%C3%A0+3+B%C3%A9o/data=!4m2!3m1!1s0x317525c1ddc90ca5:0x8ec0d558d33f1c61",
+    "cuisine": "Vietnamese (Xôi)",
+    "district": "District 7",
+    "rating": 4.2,
+    "price": "$",
+    "dishes": "Xôi xéo (sticky rice with chicken & mung bean)",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.732888,
+    "lng": 106.719149,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "District 7",
+    "category": "Vietnamese",
+    "tagline": "",
+    "tags": []
+  },
+  {
+    "name": "Cheese Coffee (15 Pasteur)",
+    "url": "https://www.google.com/maps/place/Cheese+Coffee+(15+Pasteur)/data=!4m2!3m1!1s0x31752f5e662ca24f:0x56dd16536af25a6d",
+    "cuisine": "Cafe",
+    "district": "District 1",
+    "rating": 4.4,
+    "price": "$$",
+    "dishes": "Signature cheese-foam coffee",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.778813,
+    "lng": 106.70299,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch"
+    ],
+    "area": "District 1",
+    "category": "Cafes & Coffee",
+    "tagline": "Coffee and pastries in a garden setting in Tan Dinh.",
+    "tags": [
+      "breakfast",
+      "coffee",
+      "casual"
+    ]
+  },
+  {
+    "name": "436 Đ. 3 Tháng 2",
+    "url": "https://www.google.com/maps/place/436+%C4%90.+3+Th%C3%A1ng+2/data=!4m2!3m1!1s0x31752ee75db6ff71:0xa1f4aecb45c840c7",
+    "cuisine": "Vietnamese Street Snack (Bánh Tráng)",
+    "district": "District 10",
+    "rating": 4.0,
+    "price": "$",
+    "dishes": "Bánh tráng trộn (mixed rice paper salad)",
+    "must_try": "Yes",
+    "notes": "Matched to 'Bánh Tráng Lạc Hồng since 1992'",
+    "source": "Vietnam list",
+    "lat": 10.777551,
+    "lng": 106.668426,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "District 1",
+    "category": "Vietnamese",
+    "tagline": "Roast duck, char siu and dim sum from a Cantonese kitchen in D3.",
+    "tags": [
+      "lunch",
+      "dinner",
+      "Chinese"
+    ]
+  },
+  {
+    "name": "67C Đinh Công Tráng",
+    "url": "https://www.google.com/maps/place/67C+%C4%90inh+C%C3%B4ng+Tr%C3%A1ng/data=!4m2!3m1!1s0x31752f33253eefd7:0x1179f9f86d879190",
+    "cuisine": null,
+    "district": null,
+    "rating": null,
+    "price": null,
+    "dishes": null,
+    "must_try": null,
+    "notes": "Address only - no business listing found",
+    "source": "Vietnam list",
+    "lat": 10.780003,
+    "lng": 106.697165,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "Other",
+    "category": "Other",
+    "tagline": "Korean bingsu — shaved ice done properly, the Seoul way.",
+    "tags": [
+      "dessert",
+      "snacks",
+      "casual"
+    ]
+  },
+  {
+    "name": "Zodiac Bar",
+    "url": "https://www.google.com/maps/place/Zodiac+Bar/data=!4m2!3m1!1s0x31752f6265928251:0x1bad60eaff46a647",
+    "cuisine": "Cocktail Bar",
+    "district": "District 1",
+    "rating": 4.7,
+    "price": "$$",
+    "dishes": "Tiger signature cocktail",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.776434,
+    "lng": 106.702987,
+    "meals": [
+      "drinks"
+    ],
+    "area": "District 1",
+    "category": "Bars & Cocktails",
+    "tagline": "Bánh tráng cuốn — rice paper rolls from a Binh Thanh street stall.",
+    "tags": [
+      "snacks",
+      "budget",
+      "street food"
+    ]
+  },
+  {
+    "name": "The Hyemin Cafe & Cosmetics",
+    "url": "https://www.google.com/maps/place/The+Hyemin+Cafe+%26+Cosmetics/data=!4m2!3m1!1s0x31752fe252cadedd:0x5f86730fbc856f82",
+    "cuisine": "Cafe",
+    "district": null,
+    "rating": null,
+    "price": null,
+    "dishes": null,
+    "must_try": null,
+    "notes": "Could not verify - search returned an unrelated venue ('Little Saigon Restaurant & Pub'); recommend re-checking on Google Maps",
+    "source": "Vietnam list",
+    "lat": 10.77834,
+    "lng": 106.69737,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch"
+    ],
+    "area": "Other",
+    "category": "Cafes & Coffee",
+    "tagline": "Sourdough baguette with butter and jam, and a flan parisien that rivals Paris.",
+    "tags": [
+      "breakfast",
+      "casual"
+    ]
+  },
+  {
+    "name": "CPH Saigon Cafe",
+    "url": "https://www.google.com/maps/place/CPH+Saigon+Cafe/data=!4m2!3m1!1s0x31752fa2d9f6cb59:0x862fc06659ae870",
+    "cuisine": "Garden Cafe",
+    "district": "Tân Định, District 1",
+    "rating": 4.1,
+    "price": "$$",
+    "dishes": "Coffee, pastries",
+    "must_try": "No",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.788483,
+    "lng": 106.692697,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch"
+    ],
+    "area": "District 1",
+    "category": "Cafes & Coffee",
+    "tagline": "The 'Ủ Blossom' cocktail in a hidden Tan Dinh bar. Worth finding.",
+    "tags": [
+      "drinks",
+      "late night",
+      "date night"
+    ]
+  },
+  {
+    "name": "Baozi",
+    "url": "https://www.google.com/maps/place/Baozi/data=!4m2!3m1!1s0x317527326c95aa97:0x2da4e6f3ac8894e7",
+    "cuisine": "Cantonese Chinese",
+    "district": "District 3",
+    "rating": 4.0,
+    "price": "$$$",
+    "dishes": "Roast duck, char siu, dim sum",
+    "must_try": "Yes",
+    "notes": "Matched to 'Baozi Restaurant'",
+    "source": "Vietnam list",
+    "lat": 10.777935,
+    "lng": 106.691305,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "District 3",
+    "category": "Chinese & Taiwanese",
+    "tagline": "The second Cheese Coffee branch — same cheese-foam coffee, closer to Japan Town.",
+    "tags": [
+      "breakfast",
+      "coffee",
+      "casual"
+    ]
+  },
+  {
+    "name": "Coconino Phan Văn Trị",
+    "url": "https://www.google.com/maps/place/Coconino+Phan+V%C4%83n+Tr%E1%BB%8B/data=!4m2!3m1!1s0x31752f3090a90d6b:0x3ca1af8b8e69e71e",
+    "cuisine": "Korean Shaved Ice Dessert",
+    "district": "District 5/10",
+    "rating": 4.0,
+    "price": "$",
+    "dishes": "Bingsu",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.778356,
+    "lng": 106.698769,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "Districts 5/10/11",
+    "category": "BBQ & Korean",
+    "tagline": "Sushi sets and zaru soba from a reliable Japanese chain.",
+    "tags": [
+      "lunch",
+      "Japanese",
+      "casual"
+    ]
+  },
+  {
+    "name": "Bánh Tráng cô bé",
+    "url": "https://www.google.com/maps/place/B%C3%A1nh+Tr%C3%A1ng+c%C3%B4+b%C3%A9/data=!4m2!3m1!1s0x3175297339d43541:0x6354191148c3af20",
+    "cuisine": "Vietnamese (Rice Paper Rolls)",
+    "district": "Binh Thanh",
+    "rating": 3.7,
+    "price": "$",
+    "dishes": "Bánh tráng cuốn",
+    "must_try": "No",
+    "notes": "Low review count",
+    "source": "Vietnam list",
+    "lat": 10.811965,
+    "lng": 106.709066,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "Binh Thanh",
+    "category": "Vietnamese",
+    "tagline": "Rooftop cocktails and bar snacks on Cộng Hoà — the D10 rooftop nobody talks about enough.",
+    "tags": [
+      "drinks",
+      "casual",
+      "date night"
+    ]
+  },
+  {
+    "name": "Breadventure",
+    "url": "https://www.google.com/maps/place/Breadventure/data=!4m2!3m1!1s0x317527274d9c6fef:0x5d4dc56b1bd393b",
+    "cuisine": "Sourdough Bakery / Cafe",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.3,
+    "price": "$$",
+    "dishes": "Sourdough baguette with butter & jam, flan parisien",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.80536,
+    "lng": 106.73555,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Cafes & Coffee",
+    "tagline": "",
+    "tags": []
+  },
+  {
+    "name": "Ủ Bar",
+    "url": "https://www.google.com/maps/place/%E1%BB%A6+Bar/data=!4m2!3m1!1s0x317529621828952b:0x2fb4a53285b86396",
+    "cuisine": "Speakeasy Cocktail Bar",
+    "district": "Tân Định, District 1",
+    "rating": 4.6,
+    "price": "$$$",
+    "dishes": "'Ủ Blossom' signature cocktail",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.785752,
+    "lng": 106.691758,
+    "meals": [
+      "drinks"
+    ],
+    "area": "District 1",
+    "category": "Bars & Cocktails",
+    "tagline": "Cold brew and specialty coffee in D3.",
+    "tags": [
+      "breakfast",
+      "coffee",
+      "casual"
+    ]
+  },
+  {
+    "name": "Cheese Coffee - Le Thanh Ton",
+    "url": "https://www.google.com/maps/place/Cheese+Coffee+-+Le+Thanh+Ton/data=!4m2!3m1!1s0x31752f2b17b4ebc3:0x4cc86c89e56264dd",
+    "cuisine": "Cafe",
+    "district": "District 1",
+    "rating": 4.7,
+    "price": "$$",
+    "dishes": "Signature cheese-foam coffee",
+    "must_try": "Yes",
+    "notes": "Second Cheese Coffee branch",
+    "source": "Vietnam list",
+    "lat": 10.780404,
+    "lng": 106.698666,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch"
+    ],
+    "area": "District 1",
+    "category": "Cafes & Coffee",
+    "tagline": "Oolong milk tea with pearls from a proper Taiwanese chain.",
+    "tags": [
+      "drinks",
+      "casual",
+      "budget"
+    ]
+  },
+  {
+    "name": "Sushi Tei Vietnam Nguyễn Thị Minh Khai",
+    "url": "https://www.google.com/maps/place/Sushi+Tei+Vietnam+Nguy%E1%BB%85n+Th%E1%BB%8B+Minh+Khai/data=!4m2!3m1!1s0x317529442e139ca5:0x23dcf9cadcda6319",
+    "cuisine": "Japanese Sushi Chain",
+    "district": "District 1",
+    "rating": 4.4,
+    "price": "$$",
+    "dishes": "Sushi sets, zaru soba",
+    "must_try": "No",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.778048,
+    "lng": 106.702177,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "District 1",
+    "category": "Japanese",
+    "tagline": "Bạc xỉu and condensed milk coffee in a quiet Phu My Hung café.",
+    "tags": [
+      "breakfast",
+      "coffee",
+      "casual"
+    ]
+  },
+  {
+    "name": "Củi Rooftop - Chi nhánh Cộng Hoà",
+    "url": "https://www.google.com/maps/place/C%E1%BB%A7i+Rooftop+-+Chi+nh%C3%A1nh+C%E1%BB%99ng+Ho%C3%A0/data=!4m2!3m1!1s0x3175290cb6153e97:0xb561a1fba3418e86",
+    "cuisine": "Rooftop Bar",
+    "district": "District 10",
+    "rating": 4.7,
+    "price": "$$",
+    "dishes": "Cocktails & bar snacks",
+    "must_try": "Yes",
+    "notes": "Matched to 'Củi Bistro Bar'",
+    "source": "Vietnam list",
+    "lat": 10.775911,
+    "lng": 106.669533,
+    "meals": [
+      "drinks"
+    ],
+    "area": "District 1",
+    "category": "Bars & Cocktails",
+    "tagline": "Classic Vietnamese iced coffee in a vintage D3 setting.",
+    "tags": [
+      "breakfast",
+      "coffee",
+      "budget",
+      "casual"
+    ]
+  },
+  {
+    "name": "스타회관",
+    "url": "https://www.google.com/maps/place/%EC%8A%A4%ED%83%80%ED%9A%8C%EA%B4%80/data=!4m2!3m1!1s0x317527693bb5873b:0x701da128089eca8a",
+    "cuisine": "Korean Restaurant",
+    "district": null,
+    "rating": null,
+    "price": null,
+    "dishes": null,
+    "must_try": null,
+    "notes": "Could not verify - search returned an unrelated venue; recommend re-checking on Google Maps",
+    "source": "Vietnam list",
+    "lat": 10.777797,
+    "lng": 106.704457,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "Other",
+    "category": "BBQ & Korean",
+    "tagline": "Hazelnut Vietnamese coffee and coconut matcha — one of Phu Nhuan's best cafés.",
+    "tags": [
+      "breakfast",
+      "coffee",
+      "casual"
+    ]
+  },
+  {
+    "name": "Cafe Oshima's",
+    "url": "https://www.google.com/maps/place/Cafe+Oshima's/data=!4m2!3m1!1s0x31752f3051e48bf7:0xb8301c8d0c138e3a",
+    "cuisine": "Cafe",
+    "district": "District 3",
+    "rating": 4.2,
+    "price": "$$",
+    "dishes": "Specialty coffee, cold brew",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.778924,
+    "lng": 106.687047,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch"
+    ],
+    "area": "District 3",
+    "category": "Cafes & Coffee",
+    "tagline": "Salmon and bagels in Thao Dien for a lazy brunch morning.",
+    "tags": [
+      "breakfast",
+      "casual"
+    ]
+  },
+  {
+    "name": "Chicha San Chen Huỳnh Thúc Kháng",
+    "url": "https://www.google.com/maps/place/Chicha+San+Chen+Hu%E1%BB%B3nh+Th%C3%BAc+Kh%C3%A1ng/data=!4m2!3m1!1s0x31752f34405ed439:0x33cf4419e2d2a230",
+    "cuisine": "Taiwanese Milk Tea Chain",
+    "district": "District 1",
+    "rating": 4.4,
+    "price": "$$",
+    "dishes": "Oolong milk tea with pearls",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.776709,
+    "lng": 106.70408,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "lunch"
+    ],
+    "area": "District 1",
+    "category": "Cafes & Coffee",
+    "tagline": "",
+    "tags": []
+  },
+  {
+    "name": "YASA CAFE MIDTOWN",
+    "url": "https://www.google.com/maps/place/YASA+CAFE+MIDTOWN/data=!4m2!3m1!1s0x317525bf4c6f5e75:0xd7ddc219673dcf16",
+    "cuisine": "Cafe",
+    "district": "District 7 (Phu My Hung)",
+    "rating": 4.7,
+    "price": "$$",
+    "dishes": "Bạc xỉu (condensed milk coffee)",
+    "must_try": "No",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.730023,
+    "lng": 106.718596,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch"
+    ],
+    "area": "District 7",
+    "category": "Cafes & Coffee",
+    "tagline": "Caramel honeycomb toffee from the café chain that gets consistent things right.",
+    "tags": [
+      "breakfast",
+      "coffee",
+      "casual"
+    ]
+  },
+  {
+    "name": "THẢO CAFE",
+    "url": "https://www.google.com/maps/place/TH%E1%BA%A2O+CAFE/data=!4m2!3m1!1s0x31752f24da37cf59:0x3104d592df6efcf3",
+    "cuisine": "Vintage Cafe",
+    "district": "District 3",
+    "rating": 4.8,
+    "price": "$",
+    "dishes": "Classic Vietnamese coffee",
+    "must_try": "No",
+    "notes": "Matched to 'Thao Coffee'",
+    "source": "Vietnam list",
+    "lat": 10.779508,
+    "lng": 106.692164,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch"
+    ],
+    "area": "District 3",
+    "category": "Cafes & Coffee",
+    "tagline": "Smoke Oak pour-over from a D1 roastery that takes coffee seriously.",
+    "tags": [
+      "breakfast",
+      "coffee",
+      "casual"
+    ]
+  },
+  {
+    "name": "Hôm nào cafe",
+    "url": "https://www.google.com/maps/place/H%C3%B4m+n%C3%A0o+cafe/data=!4m2!3m1!1s0x3175290eb1837913:0xb25cc3d939d2919e",
+    "cuisine": "Cafe",
+    "district": "Phú Nhuận",
+    "rating": 4.8,
+    "price": "$$",
+    "dishes": "Hazelnut Vietnamese coffee, coconut matcha",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.801956,
+    "lng": 106.684668,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch"
+    ],
+    "area": "Phu Nhuan",
+    "category": "Cafes & Coffee",
+    "tagline": "Lunch combo and daily specials in a Thao Dien café.",
+    "tags": [
+      "lunch",
+      "casual",
+      "budget"
+    ]
+  },
+  {
+    "name": "Cafe luia Thảo Điền",
+    "url": "https://www.google.com/maps/place/Cafe+luia+Th%E1%BA%A3o+%C4%90i%E1%BB%81n/data=!4m2!3m1!1s0x317527e63270b1cb:0xc98ae741733cf7a",
+    "cuisine": "Cafe / Brunch",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.2,
+    "price": "$$",
+    "dishes": "Salmon dish, bagels",
+    "must_try": "No",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.805711,
+    "lng": 106.733085,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Cafes & Coffee",
+    "tagline": "Eggs Benedict and squid ink pasta with crab — L'Usine's Thao Dien outpost is the best one.",
+    "tags": [
+      "breakfast",
+      "dinner",
+      "date night",
+      "splurge"
+    ]
+  },
+  {
+    "name": "LENGKENG COFFEE",
+    "url": "https://www.google.com/maps/place/LENGKENG+COFFEE/data=!4m2!3m1!1s0x317521c4df7f78c9:0x2fc63732f9a317d5",
+    "cuisine": "Coffee Shop",
+    "district": null,
+    "rating": null,
+    "price": null,
+    "dishes": null,
+    "must_try": null,
+    "notes": "Could not verify - search returned a venue in Can Tho, not HCMC; recommend re-checking on Google Maps",
+    "source": "Vietnam list",
+    "lat": 10.776373,
+    "lng": 106.700931,
+    "meals": [
+      "drinks",
+      "breakfast"
+    ],
+    "area": "Other",
+    "category": "Cafes & Coffee",
+    "tagline": "Perfect 4.9 smash burger and buffalo wrap. MAD ROOSTA earns every point.",
+    "tags": [
+      "lunch",
+      "dinner",
+      "casual"
+    ]
+  },
+  {
+    "name": "Early Morning Tea & Coffee",
+    "url": "https://www.google.com/maps/place/Early+Morning+Tea+%26+Coffee/data=!4m2!3m1!1s0x3175297a3b777c4d:0x79685ba6728f36b2",
+    "cuisine": "Cafe Chain",
+    "district": "Binh Thanh (Saigon Pearl)",
+    "rating": 4.7,
+    "price": "$$",
+    "dishes": "Caramel honeycomb toffee",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.797966,
+    "lng": 106.721081,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch"
+    ],
+    "area": "Binh Thanh",
+    "category": "Cafes & Coffee",
+    "tagline": "",
+    "tags": []
+  },
+  {
+    "name": "Bosgaurus Coffee Roasters",
+    "url": "https://www.google.com/maps/place/Bosgaurus+Coffee+Roasters/data=!4m2!3m1!1s0x31752919665bb315:0x61a84ad53007412",
+    "cuisine": "Specialty Coffee Roaster",
+    "district": "District 1",
+    "rating": 4.6,
+    "price": "$$",
+    "dishes": "Smoke Oak pour-over",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.774996,
+    "lng": 106.704756,
+    "meals": [
+      "drinks",
+      "breakfast"
+    ],
+    "area": "District 1",
+    "category": "Cafes & Coffee",
+    "tagline": "Dirty matcha latte done with actual care. A Thao Dien morning essential.",
+    "tags": [
+      "breakfast",
+      "coffee",
+      "casual"
+    ]
+  },
+  {
+    "name": "50/50 Coffee_Tea",
+    "url": "https://www.google.com/maps/place/50%2F50+Coffee_Tea/data=!4m2!3m1!1s0x3175259620e9bc77:0xc831785ae9df006",
+    "cuisine": "Cafe",
+    "district": "Thao Dien/An Khanh, Thu Duc City",
+    "rating": 4.5,
+    "price": "$$",
+    "dishes": "Daily lunch combo",
+    "must_try": "No",
+    "notes": "Matched to '5050 Coffee Tea - Sala'",
+    "source": "Vietnam list",
+    "lat": 10.780057,
+    "lng": 106.70183,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Cafes & Coffee",
+    "tagline": "Seafood risotto and ragu pasta with fresh fettuccine — Today With You quietly hits every time.",
+    "tags": [
+      "dinner",
+      "date night",
+      "Italian"
+    ]
+  },
+  {
+    "name": "L'Usine Thao Dien",
+    "url": "https://www.google.com/maps/place/L'Usine+Thao+Dien/data=!4m2!3m1!1s0x317527e848f423db:0x6ae37003f28a9d42",
+    "cuisine": "Brunch Cafe / Bistro",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.7,
+    "price": "$$$",
+    "dishes": "Eggs Benedict, squid ink pasta with crab",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Vietnam list",
+    "lat": 10.805557,
+    "lng": 106.735743,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch",
+      "dinner"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Cafes & Coffee",
+    "tagline": "Vegan Hue noodle soup that convinced meat-eaters it was the real thing.",
+    "tags": [
+      "lunch",
+      "vegetarian",
+      "casual"
+    ]
+  },
+  {
+    "name": "MAD ROOSTA",
+    "url": "https://www.google.com/maps/place/MAD+ROOSTA/data=!4m2!3m1!1s0x3175293a0e81d683:0xca6d9c69d293900d",
+    "cuisine": "American Burgers",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.9,
+    "price": "$$",
+    "dishes": "Smash burger, buffalo wrap",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Quan 2 list",
+    "lat": 10.805919,
+    "lng": 106.73702,
+    "meals": [
+      "lunch"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Western",
+    "tagline": "Truffle fries and a smash burger from the most consistent burger spot in Thao Dien.",
+    "tags": [
+      "lunch",
+      "casual",
+      "budget"
+    ]
+  },
+  {
+    "name": "Spa Bar",
+    "url": "https://www.google.com/maps/place/Spa+Bar/data=!4m2!3m1!1s0x317527bb51ff4509:0xf40ec47135512fb8",
+    "cuisine": "Spa",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.6,
+    "price": "$$$",
+    "dishes": null,
+    "must_try": null,
+    "notes": "Spa, not a restaurant",
+    "source": "Quan 2 list",
+    "lat": 10.798535,
+    "lng": 106.729735,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Other",
+    "tagline": "Classic smash burger at an honest price. Ducky's doesn't overthink it.",
+    "tags": [
+      "lunch",
+      "casual",
+      "budget"
+    ]
+  },
+  {
+    "name": "The Orange Ball - Coffee Thao Dien",
+    "url": "https://www.google.com/maps/place/The+Orange+Ball+-+Coffee+Thao+Dien/data=!4m2!3m1!1s0x3175270032f69a13:0x3cc1542d4ac13784",
+    "cuisine": "Cafe",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.5,
+    "price": "$",
+    "dishes": "Dirty matcha latte",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Quan 2 list",
+    "lat": 10.801767,
+    "lng": 106.737118,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Cafes & Coffee",
+    "tagline": "Smash burger and truffle fries from the neighbourhood spot that Thao Dien locals actually use.",
+    "tags": [
+      "lunch",
+      "casual",
+      "budget"
+    ]
+  },
+  {
+    "name": "Today With You (Pasta & Pizza Restaurant)",
+    "url": "https://www.google.com/maps/place/Today+With+You+(Pasta+%26+Pizza+Restaurant)/data=!4m2!3m1!1s0x317527eb709a1147:0x5f9cee2f1c3aeb94",
+    "cuisine": "Italian / Pizza",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.9,
+    "price": "$$",
+    "dishes": "Seafood risotto, ragu pasta, shrimp pesto pizza",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Quan 2 list",
+    "lat": 10.801999,
+    "lng": 106.734597,
+    "meals": [
+      "dinner"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Western",
+    "tagline": "Sleek café-bistro inside The Galleria — one of Saigon's more handsome new openings.",
+    "tags": [
+      "breakfast",
+      "coffee",
+      "casual",
+      "date night"
+    ]
+  },
+  {
+    "name": "ChanChan Vegan Noodle",
+    "url": "https://www.google.com/maps/place/ChanChan+Vegan+Noodle/data=!4m2!3m1!1s0x3175274bf6f32151:0x1a7edc796d12db41",
+    "cuisine": "Vegan Vietnamese Noodles",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.5,
+    "price": "$$",
+    "dishes": "Vegan Hue noodle soup",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Quan 2 list",
+    "lat": 10.805333,
+    "lng": 106.735551,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Vietnamese",
+    "tagline": "Coffee with a grilled seafood menu — the chargrilled squid here is worth ordering.",
+    "tags": [
+      "lunch",
+      "dinner",
+      "casual"
+    ]
+  },
+  {
+    "name": "Bunz Smash Burgers",
+    "url": "https://www.google.com/maps/place/Bunz+Smash+Burgers/data=!4m2!3m1!1s0x317527000c2c4cbf:0x8eb5f96ecc32994f",
+    "cuisine": "American Burgers",
+    "district": "District 1",
+    "rating": 4.8,
+    "price": "$$",
+    "dishes": "Truffle fries, smash burger",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Quan 2 list",
+    "lat": 10.776023,
+    "lng": 106.703448,
+    "meals": [
+      "lunch"
+    ],
+    "area": "District 1",
+    "category": "Western",
+    "tagline": "Dragon Claw tea in a no-phones, no-noise teahouse. One of the most intentional spaces in the city.",
+    "tags": [
+      "drinks",
+      "date night",
+      "casual"
+    ]
+  },
+  {
+    "name": "Ducky's Smash Burger",
+    "url": "https://www.google.com/maps/place/Ducky's+Smash+Burger/data=!4m2!3m1!1s0x317527f7df57fbd9:0x10f2804ba62ad9c5",
+    "cuisine": "American Burgers",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.7,
+    "price": "$",
+    "dishes": "Classic smash burger",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Quan 2 list",
+    "lat": 10.802053,
+    "lng": 106.732043,
+    "meals": [
+      "lunch"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Western",
+    "tagline": "Cold braised aubergine and Taiwanese noodles — Yeshi is the Thao Dien Taiwanese restaurant you didn't know you needed.",
+    "tags": [
+      "lunch",
+      "dinner",
+      "casual"
+    ]
+  },
+  {
+    "name": "crust smashburger",
+    "url": "https://www.google.com/maps/place/crust+smashburger/data=!4m2!3m1!1s0x31752700141ddf91:0x48402afcdebd89ff",
+    "cuisine": "American Burgers",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.7,
+    "price": "$$",
+    "dishes": "Smash burger, truffle fries",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Quan 2 list",
+    "lat": 10.802377,
+    "lng": 106.737251,
+    "meals": [
+      "lunch"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Western",
+    "tagline": "",
+    "tags": []
+  },
+  {
+    "name": "NOIRE Cafe & Bistro - The Galleria - Sơn Kim Capital",
+    "url": "https://www.google.com/maps/place/NOIRE+Cafe+%26+Bistro+-+The+Galleria+-+S%C6%A1n+Kim+Capital/data=!4m2!3m1!1s0x31752fc0110883af:0x7479657d06d3407a",
+    "cuisine": "Cafe / Bistro",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.7,
+    "price": "$$",
+    "dishes": null,
+    "must_try": "No",
+    "notes": "",
+    "source": "Quan 2 list",
+    "lat": 10.802485,
+    "lng": 106.731426,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch",
+      "dinner"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Cafes & Coffee",
+    "tagline": "Matcha lattes and cats to pet. The only café where that combination makes sense.",
+    "tags": [
+      "breakfast",
+      "coffee",
+      "casual",
+      "date night"
+    ]
+  },
+  {
+    "name": "Dala Story Coffee",
+    "url": "https://www.google.com/maps/place/Dala+Story+Coffee/data=!4m2!3m1!1s0x317527cae0863c09:0x119113055a6a9bb0",
+    "cuisine": "Cafe / Restaurant",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.7,
+    "price": "$$",
+    "dishes": "Grilled squid & beef, coffee",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Quan 2 list",
+    "lat": 10.802053,
+    "lng": 106.736818,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Cafes & Coffee",
+    "tagline": "Afternoon tea, soft serve and live jazz on Saturdays. L'Apella is the most charming café in Thao Dien.",
+    "tags": [
+      "breakfast",
+      "coffee",
+      "date night",
+      "drinks"
+    ]
+  },
+  {
+    "name": "The Dao Teahouse",
+    "url": "https://www.google.com/maps/place/The+Dao+Teahouse/data=!4m2!3m1!1s0x31752751460a200b:0xe498329f1d4edbc5",
+    "cuisine": "Tea House",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.7,
+    "price": "$$",
+    "dishes": "Dragon Claw tea, Lucid Dream blend",
+    "must_try": "Yes",
+    "notes": "No photos allowed inside",
+    "source": "Quan 2 list",
+    "lat": 10.8017,
+    "lng": 106.736814,
+    "meals": [
+      "drinks",
+      "breakfast"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Cafes & Coffee",
+    "tagline": "Charcoal grills in a Minecraft-themed underground space. Genuinely fun, genuinely good food.",
+    "tags": [
+      "dinner",
+      "group",
+      "casual"
+    ]
+  },
+  {
+    "name": "Yeshi Taiwanese Kitchen",
+    "url": "https://www.google.com/maps/place/Yeshi+Taiwanese+Kitchen/data=!4m2!3m1!1s0x317527005ba6fd9f:0x6b243f3ca25b362c",
+    "cuisine": "Taiwanese",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.7,
+    "price": "$$",
+    "dishes": "Cold braised aubergine, Taiwanese noodles",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Quan 2 list",
+    "lat": 10.798848,
+    "lng": 106.729834,
+    "meals": [
+      "lunch"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Chinese & Taiwanese",
+    "tagline": "",
+    "tags": []
+  },
+  {
+    "name": "Lê Mai Store",
+    "url": "https://www.google.com/maps/place/L%C3%AA+Mai+Store/data=!4m2!3m1!1s0x3175291adfd00181:0x2c221a4d29d4f1b5",
+    "cuisine": "Cosmetics / Perfume Store",
+    "district": null,
+    "rating": 4.9,
+    "price": null,
+    "dishes": null,
+    "must_try": null,
+    "notes": "Not a restaurant",
+    "source": "Quan 2 list",
+    "lat": 10.775622,
+    "lng": 106.700937,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "Other",
+    "category": "Other",
+    "tagline": "",
+    "tags": []
+  },
+  {
+    "name": "Kin Neko Dog & Cat Cafe",
+    "url": "https://www.google.com/maps/place/Kin+Neko+Dog+%26+Cat+Cafe/data=!4m2!3m1!1s0x317527f69f2d5e4b:0x7a7160bd77f5619e",
+    "cuisine": "Cat & Dog Cafe",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.9,
+    "price": "$",
+    "dishes": "Matcha, Thai milk tea",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Quan 2 list",
+    "lat": 10.800531,
+    "lng": 106.731902,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Cafes & Coffee",
+    "tagline": "",
+    "tags": []
+  },
+  {
+    "name": "L' Apella Cafe & Lounge",
+    "url": "https://www.google.com/maps/place/L'+Apella+Cafe+%26+Lounge/data=!4m2!3m1!1s0x3175278fbf8a3315:0xc6f30f94ba1163e6",
+    "cuisine": "Cafe / Cocktail Lounge",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.9,
+    "price": "$$",
+    "dishes": "Afternoon tea, desserts, soft serve",
+    "must_try": "Yes",
+    "notes": "Live jazz Saturdays",
+    "source": "Quan 2 list",
+    "lat": 10.804237,
+    "lng": 106.731702,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Cafes & Coffee",
+    "tagline": "Grilled skewers and fresh oysters in a D1 izakaya that gets the Japanese pub vibe exactly right.",
+    "tags": [
+      "dinner",
+      "drinks",
+      "Japanese",
+      "date night"
+    ]
+  },
+  {
+    "name": "Trạm Hầm Thảo Điền",
+    "url": "https://www.google.com/maps/place/Tr%E1%BA%A1m+H%E1%BA%A7m+Th%E1%BA%A3o+%C4%90i%E1%BB%81n/data=!4m2!3m1!1s0x317527000ef9d56d:0x82060b6f03a9f11",
+    "cuisine": "Vietnamese Grill (themed)",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.8,
+    "price": "$$",
+    "dishes": "Charcoal grilled meats",
+    "must_try": "Yes",
+    "notes": "Minecraft-style mining theme",
+    "source": "Quan 2 list",
+    "lat": 10.799888,
+    "lng": 106.735468,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Vietnamese",
+    "tagline": "Poolside steaks and Italian-leaning food in Thao Dien. Go for the setting as much as the food.",
+    "tags": [
+      "dinner",
+      "casual",
+      "date night"
+    ]
+  },
+  {
+    "name": "Thảo điền quán",
+    "url": "https://www.google.com/maps/place/Th%E1%BA%A3o+%C4%91i%E1%BB%81n+qu%C3%A1n/data=!4m2!3m1!1s0x31752700482c0379:0x4f7209aae2131500",
+    "cuisine": "Cafe",
+    "district": null,
+    "rating": null,
+    "price": null,
+    "dishes": null,
+    "must_try": null,
+    "notes": "Could not verify",
+    "source": "Quan 2 list",
+    "lat": 10.775486,
+    "lng": 106.704491,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch"
+    ],
+    "area": "Other",
+    "category": "Cafes & Coffee",
+    "tagline": "Crab fried rice and grilled beef skewers — Nam Mê is the Vietnamese grill restaurant Thao Dien locals love.",
+    "tags": [
+      "dinner",
+      "casual",
+      "group"
+    ]
+  },
+  {
+    "name": "Café'In",
+    "url": "https://www.google.com/maps/place/Caf%C3%A9'In/data=!4m2!3m1!1s0x317527d321a303c5:0xaad229fb50a316ea",
+    "cuisine": "Cafe",
+    "district": null,
+    "rating": null,
+    "price": null,
+    "dishes": null,
+    "must_try": null,
+    "notes": "Could not verify",
+    "source": "Quan 2 list",
+    "lat": 10.777592,
+    "lng": 106.700112,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch"
+    ],
+    "area": "Other",
+    "category": "Cafes & Coffee",
+    "tagline": "Passion fruit mango tart and a durian tart. The 350F is the dessert stop on Xuân Thủy.",
+    "tags": [
+      "dessert",
+      "snacks",
+      "casual"
+    ]
+  },
+  {
+    "name": "Cafe'in",
+    "url": "https://www.google.com/maps/place/Cafe'in/data=!4m2!3m1!1s0x31752f32e446773d:0x74fd9c9ac47e1433",
+    "cuisine": "Cafe",
+    "district": null,
+    "rating": null,
+    "price": null,
+    "dishes": null,
+    "must_try": null,
+    "notes": "Likely duplicate of Cafe'In",
+    "source": "Quan 2 list",
+    "lat": 10.778268,
+    "lng": 106.700126,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch"
+    ],
+    "area": "Other",
+    "category": "Cafes & Coffee",
+    "tagline": "Oysters and grilled seafood by the river. CLAY is the cocktail-and-candle spot for a proper evening out.",
+    "tags": [
+      "dinner",
+      "drinks",
+      "date night",
+      "splurge"
+    ]
+  },
+  {
+    "name": "Shamoji Robata Yaki - Japanese Izakaya",
+    "url": "https://www.google.com/maps/place/Shamoji+Robata+Yaki+-+Japanese+Izakaya/data=!4m2!3m1!1s0x31752717ce567705:0x2ca941fd73c0b698",
+    "cuisine": "Japanese Izakaya",
+    "district": "District 1",
+    "rating": 4.5,
+    "price": "$$",
+    "dishes": "Grilled skewers, oysters",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Quan 2 list",
+    "lat": 10.776874,
+    "lng": 106.700335,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "District 1",
+    "category": "Japanese",
+    "tagline": "Baked oysters, ceviche and lava cake from a French seafood kitchen in Thao Dien.",
+    "tags": [
+      "dinner",
+      "date night",
+      "splurge"
+    ]
+  },
+  {
+    "name": "THE BRIX - Eatery & Bar Lounge",
+    "url": "https://www.google.com/maps/place/THE+BRIX+-+Eatery+%26+Bar+Lounge/data=!4m2!3m1!1s0x317527c62bccb44b:0xa8b1c4a3997864d",
+    "cuisine": "Restaurant / Bar (poolside)",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.6,
+    "price": "$$$",
+    "dishes": "Steaks, Italian-leaning fare",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Quan 2 list",
+    "lat": 10.800244,
+    "lng": 106.730574,
+    "meals": [
+      "drinks"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Bars & Cocktails",
+    "tagline": "Cold drip coffee and oatmilk matcha from a Thao Dien roastery that sources well.",
+    "tags": [
+      "breakfast",
+      "coffee",
+      "casual"
+    ]
+  },
+  {
+    "name": "Nam Mê Saigon",
+    "url": "https://www.google.com/maps/place/Nam+M%C3%AA+Saigon/data=!4m2!3m1!1s0x3175275b57f6c49b:0x22ec7c39aad234d7",
+    "cuisine": "Vietnamese Grill",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.9,
+    "price": "$$",
+    "dishes": "Crab fried rice, grilled beef skewers",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Quan 2 list",
+    "lat": 10.799674,
+    "lng": 106.73694,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Vietnamese",
+    "tagline": "Mud crab salad and crab fried rice — An's Saigon is fine Vietnamese dining without the fuss.",
+    "tags": [
+      "dinner",
+      "date night",
+      "splurge"
+    ]
+  },
+  {
+    "name": "The 350F - Xuân Thủy",
+    "url": "https://www.google.com/maps/place/The+350F+-+Xu%C3%A2n+Th%E1%BB%A7y/data=!4m2!3m1!1s0x3175273d2a5f0327:0x64465af548316d1",
+    "cuisine": "Bakery / Desserts",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.4,
+    "price": "$$",
+    "dishes": "Passion fruit mango tart, durian tart",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Quan 2 list",
+    "lat": 10.803146,
+    "lng": 106.731684,
+    "meals": [
+      "breakfast",
+      "brunch"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Bakery & Desserts",
+    "tagline": "Fruit juice and specialty coffee in a Thao Dien café with good natural light.",
+    "tags": [
+      "breakfast",
+      "coffee",
+      "casual"
+    ]
+  },
+  {
+    "name": "CLAY - Cocktails & Cuisine",
+    "url": "https://www.google.com/maps/place/CLAY+-+Cocktails+%26+Cuisine/data=!4m2!3m1!1s0x31752752280eca6d:0x7254050ac6326a17",
+    "cuisine": "Cocktail / Riverside Dining",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.8,
+    "price": "$$$",
+    "dishes": "Oysters, grilled seafood, cheeseboard",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Quan 2 list",
+    "lat": 10.798904,
+    "lng": 106.729798,
+    "meals": [
+      "drinks"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Bars & Cocktails",
+    "tagline": "Coconut coffee and bagels in a clean Thao Dien space.",
+    "tags": [
+      "breakfast",
+      "coffee",
+      "casual"
+    ]
+  },
+  {
+    "name": "La Poissonnerie - Shops & Restaurants",
+    "url": "https://www.google.com/maps/place/La+Poissonnerie+-+Shops+%26+Restaurants/data=!4m2!3m1!1s0x317527f8a8c08b03:0x936a5b94cecc8d62",
+    "cuisine": "French Seafood",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.5,
+    "price": "$$$",
+    "dishes": "Baked oysters, ceviche, lava cake",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Quan 2 list",
+    "lat": 10.805278,
+    "lng": 106.735162,
+    "meals": [
+      "dinner"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Western",
+    "tagline": "Torched scallops and octopus — Nage Eatery is the Thao Dien seafood spot that keeps surprising.",
+    "tags": [
+      "dinner",
+      "date night",
+      "splurge"
+    ]
+  },
+  {
+    "name": "Aramour Coffee Roasters Thao Dien",
+    "url": "https://www.google.com/maps/place/Aramour+Coffee+Roasters+Thao+Dien/data=!4m2!3m1!1s0x3175271cc13f1fcb:0xddc25cdd159e6145",
+    "cuisine": "Coffee Roastery",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.5,
+    "price": "$$",
+    "dishes": "Cold drip coffee, oatmilk matcha",
+    "must_try": "No",
+    "notes": "",
+    "source": "Quan 2 list",
+    "lat": 10.804957,
+    "lng": 106.734335,
+    "meals": [
+      "drinks",
+      "breakfast"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Cafes & Coffee",
+    "tagline": "",
+    "tags": []
+  },
+  {
+    "name": "An's Saigon",
+    "url": "https://www.google.com/maps/place/An's+Saigon/data=!4m2!3m1!1s0x3175273185a607d9:0x52fbcbf1e412838b",
+    "cuisine": "Vietnamese Fine Dining",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.5,
+    "price": "$$$",
+    "dishes": "Mud crab salad, crab fried rice",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Quan 2 list",
+    "lat": 10.801095,
+    "lng": 106.731783,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Vietnamese",
+    "tagline": "Good coffee, quiet space, red cold brew you won't find anywhere else.",
+    "tags": [
+      "breakfast",
+      "coffee",
+      "casual"
+    ]
+  },
+  {
+    "name": "Rang Rang Coffee - Thảo Điền",
+    "url": "https://www.google.com/maps/place/Rang+Rang+Coffee+-+Th%E1%BA%A3o+%C4%90i%E1%BB%81n/data=!4m2!3m1!1s0x317527b9fd3eaa91:0x2e774c644d437e88",
+    "cuisine": "Cafe",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.3,
+    "price": "$$",
+    "dishes": "Fruit juice, specialty coffee",
+    "must_try": "No",
+    "notes": "",
+    "source": "Quan 2 list",
+    "lat": 10.800866,
+    "lng": 106.734454,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Cafes & Coffee",
+    "tagline": "Vietnamese storytelling tasting menu — the most ambitious dinner in Thao Dien.",
+    "tags": [
+      "dinner",
+      "splurge",
+      "date night"
+    ]
+  },
+  {
+    "name": "OKKIO",
+    "url": "https://www.google.com/maps/place/OKKIO/data=!4m2!3m1!1s0x317527a4487ccde7:0xed1209ea6b0ce7af",
+    "cuisine": "Cafe",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.4,
+    "price": "$$",
+    "dishes": "Coconut coffee, bagels",
+    "must_try": "No",
+    "notes": "",
+    "source": "Quan 2 list",
+    "lat": 10.799229,
+    "lng": 106.735521,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Cafes & Coffee",
+    "tagline": "Eggs Benedict and a seabass dish for a slower morning in Thao Dien.",
+    "tags": [
+      "breakfast",
+      "casual"
+    ]
+  },
+  {
+    "name": "Nage Eatery",
+    "url": "https://www.google.com/maps/place/Nage+Eatery/data=!4m2!3m1!1s0x317527baba72e9dd:0x940912e411b4ae73",
+    "cuisine": "Seafood",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.5,
+    "price": "$$$",
+    "dishes": "Torched scallops, octopus",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Quan 2 list",
+    "lat": 10.802677,
+    "lng": 106.729326,
+    "meals": [
+      "dinner"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Fusion & World",
+    "tagline": "Classic diner burgers, hot dogs and milkshakes from a D2 American institution.",
+    "tags": [
+      "lunch",
+      "casual",
+      "group"
+    ]
+  },
+  {
+    "name": "Mia Saigon - Luxury Boutique Hotel",
+    "url": "https://www.google.com/maps/place/Mia+Saigon+-+Luxury+Boutique+Hotel/data=!4m2!3m1!1s0x317527d0757c15b7:0x3afdf063537f428",
+    "cuisine": "Hotel",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.6,
+    "price": "$$$$",
+    "dishes": "Riverside breakfast buffet",
+    "must_try": null,
+    "notes": "Boutique hotel",
+    "source": "Quan 2 list",
+    "lat": 10.804067,
+    "lng": 106.730057,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Other",
+    "tagline": "Koi pond café with the Dalaland vibe — more about the atmosphere than the coffee.",
+    "tags": [
+      "breakfast",
+      "coffee",
+      "casual"
+    ]
+  },
+  {
+    "name": "Ollin Café",
+    "url": "https://www.google.com/maps/place/Ollin+Caf%C3%A9/data=!4m2!3m1!1s0x3175270ea390f055:0x443dc1913794c195",
+    "cuisine": "Cafe",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.4,
+    "price": "$$",
+    "dishes": "Traditional latte, red cold brew",
+    "must_try": "No",
+    "notes": "",
+    "source": "Quan 2 list",
+    "lat": 10.798882,
+    "lng": 106.729587,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Cafes & Coffee",
+    "tagline": "",
+    "tags": []
+  },
+  {
+    "name": "Cheesecake Ngon Cake Shop - Thao Dien",
+    "url": "https://www.google.com/maps/place/Cheesecake+Ngon+Cake+Shop+-+Thao+Dien/data=!4m2!3m1!1s0x31752f330a0d7c89:0xf0659735889eefd6",
+    "cuisine": "Vietnamese Fine Dining",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.8,
+    "price": "$$$",
+    "dishes": "Tasting menu inspired by Vietnamese folklore",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Quan 2 list",
+    "lat": 10.803563,
+    "lng": 106.735823,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Vietnamese",
+    "tagline": "Beer, crispy chicken lollipops and live music most evenings. The unpretentious Thao Dien local bar.",
+    "tags": [
+      "drinks",
+      "late night",
+      "casual",
+      "group"
+    ]
+  },
+  {
+    "name": "Sóno Grill & Bar",
+    "url": "https://www.google.com/maps/place/S%C3%B3no+Grill+%26+Bar/data=!4m2!3m1!1s0x3175270b5da0c1ed:0xd50a002470f149da",
+    "cuisine": "Mediterranean / Breakfast",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.2,
+    "price": "$$",
+    "dishes": "Seabass, Eggs Benedict, Cuban sandwich",
+    "must_try": "No",
+    "notes": "",
+    "source": "Quan 2 list",
+    "lat": 10.801639,
+    "lng": 106.736937,
+    "meals": [
+      "breakfast",
+      "brunch"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Fusion & World",
+    "tagline": "Oyster bar and seafood in Thao Dien. The lobster roll alone is worth the visit.",
+    "tags": [
+      "dinner",
+      "date night",
+      "splurge"
+    ]
+  },
+  {
+    "name": "The Loop",
+    "url": "https://www.google.com/maps/place/The+Loop/data=!4m2!3m1!1s0x317526177e2dcc81:0xffa61eb8e6df24fb",
+    "cuisine": "American Diner",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.7,
+    "price": "$$",
+    "dishes": "Burgers, hot dogs, milkshakes",
+    "must_try": "Yes",
+    "notes": "",
+    "source": "Quan 2 list",
+    "lat": 10.80374,
+    "lng": 106.729343,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Western",
+    "tagline": "Seoul Street vibes — Korean fried chicken and soju in Thao Dien.",
+    "tags": [
+      "dinner",
+      "drinks",
+      "Korean",
+      "late night"
+    ]
+  },
+  {
+    "name": "Eddie's (DISTRICT 2) New York Deli & Diner",
+    "url": "https://www.google.com/maps/place/Eddie's+(DISTRICT+2)+New+York+Deli+%26+Diner/data=!4m2!3m1!1s0x31752718249b207f:0x155ad9addf454f13",
+    "cuisine": "Cafe",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.2,
+    "price": "$$",
+    "dishes": "Cafe fare with koi pond views",
+    "must_try": "No",
+    "notes": "Same as Dalaland",
+    "source": "Quan 2 list",
+    "lat": 10.80137,
+    "lng": 106.732428,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Cafes & Coffee",
+    "tagline": "",
+    "tags": []
+  },
+  {
+    "name": "Dalaland.saigon",
+    "url": "https://www.google.com/maps/place/Dalaland.saigon/data=!4m2!3m1!1s0x317527ff2489f2b1:0xbd49afd78718b2aa",
+    "cuisine": "Cafe",
+    "district": null,
+    "rating": 4.6,
+    "price": "$$",
+    "dishes": null,
+    "must_try": null,
+    "notes": "Could not verify branch",
+    "source": "Quan 2 list",
+    "lat": 10.773397,
+    "lng": 106.704891,
+    "meals": [
+      "drinks",
+      "breakfast",
+      "brunch"
+    ],
+    "area": "Other",
+    "category": "Cafes & Coffee",
+    "tagline": "",
+    "tags": []
+  },
+  {
+    "name": "Không có",
+    "url": "https://www.google.com/maps/place/Kh%C3%B4ng+c%C3%B3/data=!4m2!3m1!1s0x317527693bb5873b:0x701da128089eca8a",
+    "cuisine": "Bar / Grill",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.3,
+    "price": "$$",
+    "dishes": "Beer, pizza, crispy chicken lollipops",
+    "must_try": "Yes",
+    "notes": "Live music evenings",
+    "source": "Quan 2 list",
+    "lat": 10.801559,
+    "lng": 106.734774,
+    "meals": [
+      "drinks",
+      "dinner"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Bars & Cocktails",
+    "tagline": "",
+    "tags": []
+  },
+  {
+    "name": "SOO COFFEE",
+    "url": "https://www.google.com/maps/place/SOO+COFFEE/data=!4m2!3m1!1s0x317527b086abca39:0x1cce1ca8dc5d1500",
+    "cuisine": "Seafood / Oyster Bar",
+    "district": "Thao Dien, Thu Duc City",
+    "rating": 4.7,
+    "price": "$$$",
+    "dishes": "Fresh oysters, lobster roll",
+    "must_try": "Yes",
+    "notes": "Also in first list",
+    "source": "Quan 2 list",
+    "lat": 10.804591,
+    "lng": 106.731182,
+    "meals": [
+      "drinks",
+      "dinner"
+    ],
+    "area": "Thao Dien / D2",
+    "category": "Bars & Cocktails",
+    "tagline": "",
+    "tags": []
+  },
+  {
+    "name": "Hem Chill - Seoul Street",
+    "url": "https://www.google.com/maps/place/Hem+Chill+-+Seoul+Street/data=!4m2!3m1!1s0x317527987064b03b:0x68f06b241123f236",
+    "cuisine": null,
+    "district": null,
+    "rating": null,
+    "price": null,
+    "dishes": null,
+    "must_try": null,
+    "notes": "No data collected",
+    "source": "Quan 2 list",
+    "lat": 10.776686,
+    "lng": 106.69938,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "Other",
+    "category": "Other",
+    "tagline": "",
+    "tags": []
+  }
+]

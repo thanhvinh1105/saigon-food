@@ -4938,5 +4938,19 @@
     "category": "Other",
     "tagline": "",
     "tags": []
+  },
+  {
+    "name": "Marbling Korean BBQ - 마블링",
+    "url": "https://www.google.com/maps/search/Marbling%20Korean%20BBQ%20-%20%EB%A7%88%EB%B8%94%EB%A7%81",
+    "cuisine": "BBQ & Korean",
+    "district": "Ho Chi Minh City",
+    "rating": null,
+    "price": "$$",
+    "dishes": null,
+    "must_try": "No",
+    "notes": "Details not available — please update manually.",
+    "source": "Added via script",
+    "lat": 10.7769,
+    "lng": 106.7009
   }
 ]

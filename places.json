@@ -4939,18 +4939,118 @@
     "tagline": "",
     "tags": []
   },
+{
+  "name": "Marbling Korean BBQ - 마블링",
+  "url": "https://www.google.com/maps/place/Marbling+Korean+BBQ+-+마블링/",
+  "cuisine": "Korean BBQ",
+  "district": "An Khánh, Thu Duc City, Ho Chi Minh City",
+  "rating": 4.8,
+  "price": "$$$",
+  "dishes": "Premium beef, pork belly, marinated galbi, kimchi",
+  "must_try": "Yes",
+  "notes": "Popular premium Korean BBQ with high-quality meats and attentive service.",
+  "source": "Vietnam list",
+  "lat": 10.8035947,
+  "lng": 106.732471,
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "area": "Thao Dien",
+  "category": "BBQ & Korean",
+  "tagline": "Premium Korean BBQ featuring beautifully marbled beef.",
+  "tags": [
+    "BBQ",
+    "Korean",
+    "dinner",
+    "groups"
+  ]
+},
+{
+  "name": "Banan Patisserie Ngo Quang Huy",
+  "url": "https://www.google.com/maps/place/Banan+Patisserie+Ngo+Quang+Huy/",
+  "cuisine": "French Bakery & Patisserie",
+  "district": "An Khánh, Thu Duc City, Ho Chi Minh City",
+  "rating": 4.8,
+  "price": "$$",
+  "dishes": "Croissants, pastries, cakes, coffee",
+  "must_try": "Yes",
+  "notes": "Excellent artisan bakery known for buttery pastries and specialty coffee.",
+  "source": "Vietnam list",
+  "lat": 10.8042109,
+  "lng": 106.7344061,
+  "meals": [
+    "breakfast",
+    "brunch",
+    "lunch"
+  ],
+  "area": "Thao Dien",
+  "category": "Cafe & Bakery",
+  "tagline": "One of Thao Dien's best artisan bakeries for fresh pastries.",
+  "tags": [
+    "cafe",
+    "bakery",
+    "coffee",
+    "dessert",
+    "breakfast"
+  ]
+},
+{
+  "name": "MINDFULLY",
+  "url": "https://www.google.com/maps/place/MINDFULLY/",
+  "cuisine": "Cafe",
+  "district": "An Khánh, Thu Duc City, Ho Chi Minh City",
+  "rating": 4.9,
+  "price": "$$",
+  "dishes": "Specialty coffee, matcha, pastries, brunch",
+  "must_try": "Yes",
+  "notes": "Minimalist café with excellent coffee and a calm atmosphere for working or relaxing.",
+  "source": "Vietnam list",
+  "lat": 10.8039,
+  "lng": 106.7337,
+  "meals": [
+    "breakfast",
+    "brunch",
+    "lunch"
+  ],
+  "area": "Thao Dien",
+  "category": "Cafe",
+  "tagline": "A peaceful specialty coffee spot tucked away in Thao Dien.",
+  "tags": [
+    "cafe",
+    "coffee",
+    "brunch",
+    "work-friendly"
+  ]
+},
   {
-    "name": "Marbling Korean BBQ - 마블링",
-    "url": "https://www.google.com/maps/search/Marbling%20Korean%20BBQ%20-%20%EB%A7%88%EB%B8%94%EB%A7%81",
-    "cuisine": "BBQ & Korean",
-    "district": "Ho Chi Minh City",
-    "rating": "5.0",
-    "price": "$$",
-    "dishes": null,
-    "must_try": "No",
-    "notes": "People love the tableside grilling where the friendly staff cooks your meat perfectly",
-    "source": "Added via script",
-    "lat": 10.7769,
-    "lng": 106.7009
-  }
+  "name": "KYO CHA - Matcha Tân Định",
+  "url": "https://www.google.com/maps/place/KYO+CHA+-+Matcha+Tân+Định/",
+  "cuisine": "Japanese Matcha Cafe",
+  "district": "Tân Định, District 1, Ho Chi Minh City",
+  "rating": 4.9,
+  "price": "$$",
+  "dishes": "Ceremonial matcha, matcha latte, hojicha latte, matcha desserts",
+  "must_try": "Yes",
+  "notes": "Specialty matcha café serving high-quality Japanese matcha in a minimalist setting.",
+  "source": "Vietnam list",
+  "lat": 10.7949821,
+  "lng": 106.6907738,
+  "meals": [
+    "breakfast",
+    "brunch",
+    "afternoon tea"
+  ],
+  "area": "Tan Dinh",
+  "category": "Cafe",
+  "tagline": "A must-visit for authentic Japanese matcha lovers.",
+  "tags": [
+    "matcha",
+    "cafe",
+    "dessert",
+    "coffee",
+    "Japanese",
+    "afternoon tea"
+  ]
+}
 ]

@@ -4874,7 +4874,7 @@
     "tags": []
   },
   {
-    "name": "Không có",
+    "name": "Star Hall",
     "url": "https://www.google.com/maps/place/Kh%C3%B4ng+c%C3%B3/data=!4m2!3m1!1s0x317527693bb5873b:0x701da128089eca8a",
     "cuisine": "Bar / Grill",
     "district": "Thao Dien, Thu Duc City",
@@ -4944,11 +4944,11 @@
     "url": "https://www.google.com/maps/search/Marbling%20Korean%20BBQ%20-%20%EB%A7%88%EB%B8%94%EB%A7%81",
     "cuisine": "BBQ & Korean",
     "district": "Ho Chi Minh City",
-    "rating": null,
+    "rating": "5.0",
     "price": "$$",
     "dishes": null,
     "must_try": "No",
-    "notes": "Details not available — please update manually.",
+    "notes": "People love the tableside grilling where the friendly staff cooks your meat perfectly",
     "source": "Added via script",
     "lat": 10.7769,
     "lng": 106.7009

@@ -1,5 +1,35 @@
 [
   {
+  "name": "Oculus Saigon",
+  "url": "https://www.google.com/maps/place/Oculus+Saigon/",
+  "cuisine": "Specialty Coffee & Brunch",
+  "district": "Xuân Hòa, District 3, Ho Chi Minh City",
+  "rating": 4.9,
+  "price": "$$",
+  "dishes": "Specialty coffee, pour-over, espresso, pastries, brunch plates",
+  "must_try": "Yes",
+  "notes": "Modern minimalist café known for expertly brewed specialty coffee, quality beans, and a relaxed atmosphere popular with both locals and visitors.",
+  "source": "Vietnam list",
+  "lat": 10.77823,
+  "lng": 106.690597,
+  "meals": [
+    "breakfast",
+    "brunch",
+    "lunch"
+  ],
+  "area": "District 3",
+  "category": "Cafe",
+  "tagline": "One of Saigon's top specialty coffee cafés with beautifully crafted brews.",
+  "tags": [
+    "coffee",
+    "specialty coffee",
+    "cafe",
+    "brunch",
+    "work-friendly",
+    "minimalist"
+  ]
+},
+  {
     "name": "羊不同 Yangbutong BBQ Quan 1",
     "url": "https://www.google.com/maps/place/%E7%BE%8A%E4%B8%8D%E5%90%8C+Yangbutong+BBQ+Quan+1/data=!4m2!3m1!1s0x31752f92b4dcd333:0xd1681905606ef6d7",
     "cuisine": "Chinese BBQ (skewers)",

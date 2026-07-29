@@ -1,32 +1,29 @@
 [
-  {
+ {
   "name": "Oculus Saigon",
   "url": "https://www.google.com/maps/place/Oculus+Saigon/",
-  "cuisine": "Specialty Coffee & Brunch",
+  "cuisine": "Cocktail Bar",
   "district": "Xuân Hòa, District 3, Ho Chi Minh City",
   "rating": 4.9,
-  "price": "$$",
-  "dishes": "Specialty coffee, pour-over, espresso, pastries, brunch plates",
+  "price": "$$$",
+  "dishes": "Signature cocktails, classic cocktails, bar snacks",
   "must_try": "Yes",
-  "notes": "Modern minimalist café known for expertly brewed specialty coffee, quality beans, and a relaxed atmosphere popular with both locals and visitors.",
+  "notes": "Award-winning cocktail bar featuring creative drinks, an intimate atmosphere, and expertly crafted cocktails.",
   "source": "Vietnam list",
   "lat": 10.77823,
   "lng": 106.690597,
   "meals": [
-    "breakfast",
-    "brunch",
-    "lunch"
+    "drinks"
   ],
   "area": "District 3",
-  "category": "Cafe",
-  "tagline": "One of Saigon's top specialty coffee cafés with beautifully crafted brews.",
+  "category": "Bars & Nightlife",
+  "tagline": "One of Saigon's best cocktail bars with inventive, world-class drinks.",
   "tags": [
-    "coffee",
-    "specialty coffee",
-    "cafe",
-    "brunch",
-    "work-friendly",
-    "minimalist"
+    "cocktails",
+    "bar",
+    "nightlife",
+    "date night",
+    "speakeasy"
   ]
 },
   {

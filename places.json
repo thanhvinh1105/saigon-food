@@ -1,5 +1,37 @@
 [
  {
+  "name": "Ther Thẩn Cafe - Quận 1",
+  "url": "https://www.google.com/maps/place/Ther+Thẩn+Cafe+-+Quận+1/",
+  "cuisine": "Specialty Coffee & Cafe",
+  "district": "Bến Thành, District 1, Ho Chi Minh City",
+  "rating": 4.9,
+  "price": "$$",
+  "dishes": "Vietnamese coffee, specialty coffee, matcha, cakes, pastries",
+  "must_try": "Yes",
+  "notes": "A cosy, minimalist café known for its quality coffee, house-made drinks, and peaceful atmosphere despite being in the heart of District 1.",
+  "source": "Vietnam list",
+  "lat": 10.7725069,
+  "lng": 106.6885989,
+  "meals": [
+    "breakfast",
+    "brunch",
+    "lunch",
+    "afternoon tea"
+  ],
+  "area": "District 1",
+  "category": "Cafe",
+  "tagline": "A hidden gem for specialty coffee and a relaxing escape in central Saigon.",
+  "tags": [
+    "coffee",
+    "specialty coffee",
+    "cafe",
+    "brunch",
+    "dessert",
+    "work-friendly",
+    "hidden gem"
+  ]
+},
+ {
   "name": "Oculus Saigon",
   "url": "https://www.google.com/maps/place/Oculus+Saigon/",
   "cuisine": "Cocktail Bar",

@@ -1,5 +1,33 @@
 [
  {
+  "name": "Yakitori Ginza | Japanese Izakaya",
+  "url": "https://www.google.com/maps/place/Yakitori+Ginza+%7C+Japanese+Izakaya/data=!4m2!3m1!1s0x3175270070f827b3:0xb414af0ab0fb80d3",
+  "cuisine": "Japanese Izakaya",
+  "district": "An Khánh, Thu Duc City, Ho Chi Minh City",
+  "rating": 4.8,
+  "price": "$$$",
+  "dishes": "Yakitori skewers, grilled chicken, sashimi, Japanese small plates, sake",
+  "must_try": "Yes",
+  "notes": "A cosy Japanese-style izakaya specialising in charcoal-grilled yakitori and traditional Japanese drinking culture.",
+  "source": "Vietnam list",
+  "lat": 10.8051297,
+  "lng": 106.7313094,
+  "meals": [
+    "dinner"
+  ],
+  "area": "Thao Dien",
+  "category": "Japanese",
+  "tagline": "Authentic Japanese izakaya vibes with charcoal yakitori and sake.",
+  "tags": [
+    "Japanese",
+    "izakaya",
+    "yakitori",
+    "sake",
+    "date night",
+    "dinner"
+  ]
+},
+ {
   "name": "Phê Men Bakehouse & Eatery",
   "url": "https://www.google.com/maps/place/Ph%C3%AA+Men+Bakehouse+%26+Eatery/data=!4m2!3m1!1s0x31752f77a3d7c11b:0xd57359746c7d1ec8",
   "cuisine": "Bakery & Modern Cafe",

@@ -1,5 +1,89 @@
 [
  {
+  "name": "Ăn Cơm Uống Nước Garden",
+  "url": "https://www.google.com/maps/place/%C4%82n+C%C6%A1m+U%E1%BB%91ng+N%C6%B0%E1%BB%9Bc+Garden/",
+  "cuisine": "Vietnamese",
+  "district": "Xuân Hòa, District 3, Ho Chi Minh City",
+  "rating": 4.8,
+  "price": "$$$",
+  "dishes": "Family-style Vietnamese dishes, grilled meats, seafood, traditional hot pots",
+  "must_try": "Yes",
+  "notes": "Beautiful garden restaurant serving elevated Vietnamese cuisine in a lush, tranquil setting.",
+  "source": "Vietnam list",
+  "lat": 10.783146,
+  "lng": 106.6971477,
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "area": "District 3",
+  "category": "Vietnamese",
+  "tagline": "A peaceful garden oasis for refined Vietnamese dining.",
+  "tags": [
+    "Vietnamese",
+    "garden",
+    "date night",
+    "family",
+    "traditional"
+  ]
+},
+{
+  "name": "PIZZA 777",
+  "url": "https://www.google.com/maps/place/PIZZA+777/",
+  "cuisine": "Italian Pizza",
+  "district": "An Đông, District 5, Ho Chi Minh City",
+  "rating": 4.9,
+  "price": "$$",
+  "dishes": "Wood-fired pizza, burrata pizza, pasta, tiramisu",
+  "must_try": "Yes",
+  "notes": "Neighbourhood favourite serving authentic Neapolitan-style pizzas with quality imported ingredients.",
+  "source": "Vietnam list",
+  "lat": 10.7508148,
+  "lng": 106.6672066,
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "area": "District 5",
+  "category": "Italian",
+  "tagline": "Some of Saigon's best Neapolitan-style pizza outside the city centre.",
+  "tags": [
+    "pizza",
+    "Italian",
+    "wood-fired",
+    "casual",
+    "dinner"
+  ]
+},
+{
+  "name": "Cẩm Thị 2",
+  "url": "https://www.google.com/maps/place/C%E1%BA%A9m+Th%E1%BB%8B+2/",
+  "cuisine": "Vietnamese",
+  "district": "An Khánh, Thu Duc City, Ho Chi Minh City",
+  "rating": 4.8,
+  "price": "$$",
+  "dishes": "Home-style Vietnamese rice dishes, braised pork, grilled meats, seasonal vegetables",
+  "must_try": "Yes",
+  "notes": "A cosy local favourite specialising in authentic home-style Vietnamese cooking with generous portions.",
+  "source": "Vietnam list",
+  "lat": 10.8045,
+  "lng": 106.7340,
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "area": "Thao Dien",
+  "category": "Vietnamese",
+  "tagline": "Comforting Vietnamese home cooking that feels like eating at a local family's table.",
+  "tags": [
+    "Vietnamese",
+    "local favourite",
+    "comfort food",
+    "family",
+    "rice"
+  ]
+},
+ {
   "name": "Ther Thẩn Cafe - Quận 1",
   "url": "https://www.google.com/maps/place/Ther+Thẩn+Cafe+-+Quận+1/",
   "cuisine": "Specialty Coffee & Cafe",

@@ -1,5 +1,33 @@
 [
  {
+  "name": "Bar Rơm",
+  "url": "https://www.google.com/maps/place/Bar+R%C6%A1m/data=!4m2!3m1!1s0x317527ff022dae77:0x76d6fe62933bf8ba",
+  "cuisine": "Vietnamese Bar & Modern Dining",
+  "district": "An Khánh, Thu Duc City, Ho Chi Minh City",
+  "rating": 4.9,
+  "price": "$$$",
+  "dishes": "Vietnamese-inspired small plates, grilled dishes, cocktails, wine",
+  "must_try": "Yes",
+  "notes": "A stylish neighbourhood bar in Thao Dien combining creative drinks with modern Vietnamese flavours and a relaxed atmosphere. ",
+  "source": "Vietnam list",
+  "lat": 10.8085,
+  "lng": 106.7293,
+  "meals": [
+    "dinner",
+    "drinks"
+  ],
+  "area": "Thao Dien",
+  "category": "Bars & Nightlife",
+  "tagline": "A cosy Thao Dien bar for cocktails, conversation and modern Vietnamese bites.",
+  "tags": [
+    "cocktails",
+    "bar",
+    "Vietnamese",
+    "date night",
+    "nightlife"
+  ]
+},
+ {
   "name": "One Wing Sai Gon",
   "url": "https://www.google.com/maps/place/One+Wing+Sai+Gon/data=!4m2!3m1!1s0x3175270702aa6a0d:0xb2ee75783f95181a",
   "cuisine": "American Fried Chicken",

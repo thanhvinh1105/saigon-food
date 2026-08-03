@@ -5137,16 +5137,16 @@
     "groups"
   ]
 },
-{
+{{
   "name": "Banan Patisserie Ngo Quang Huy",
-  "url": "https://www.google.com/maps/place/Banan+Patisserie+Ngo+Quang+Huy,+34+Ngô+Quang+Huy,+An+Khánh,+Hồ+Chí+Minh+700000,+Vietnam/@10.8042109,106.7344061,16z/data=!4m6!3m5!1s0x317527eb3931fe6d:0xcbdc17b174ea3c5a!8m2!3d10.8042109!4d106.7344061!16s%2Fg%2F11nnl7sg7z?utm_campaign=ml-sul&g_ep=Eg1tbF8yMDI2MDcyOF8wIJvbDyoASAJQAg%3D%3D",
-  "cuisine": "French Bakery & Patisserie",
+  "url": "https://www.google.com/maps/place/Banan+Patisserie+Ngo+Quang+Huy/data=!4m2!3m1!1s0x317527eb3931fe6d:0xcbdc17b174ea3c5a",
+  "cuisine": "French Bakery & Cafe",
   "district": "An Khánh, Thu Duc City, Ho Chi Minh City",
   "rating": 4.8,
   "price": "$$",
-  "dishes": "Croissants, pastries, cakes, coffee",
+  "dishes": "Croissants, kouign-amann, tarts, cakes, specialty coffee",
   "must_try": "Yes",
-  "notes": "Excellent artisan bakery known for buttery pastries and specialty coffee.",
+  "notes": "One of Thao Dien's best artisan bakeries, known for buttery pastries made fresh daily.",
   "source": "Vietnam list",
   "lat": 10.8042109,
   "lng": 106.7344061,
@@ -5157,28 +5157,29 @@
   ],
   "area": "Thao Dien",
   "category": "Cafe & Bakery",
-  "tagline": "One of Thao Dien's best artisan bakeries for fresh pastries.",
+  "tagline": "A must-visit artisan bakery for exceptional French pastries and coffee.",
   "tags": [
-    "cafe",
     "bakery",
+    "cafe",
     "coffee",
     "dessert",
-    "breakfast"
+    "breakfast",
+    "French"
   ]
 },
 {
   "name": "MINDFULLY",
-  "url": "https://www.google.com/maps/place/MINDFULLY/",
-  "cuisine": "Cafe",
+  "url": "https://www.google.com/maps/place/MINDFULLY/data=!4m2!3m1!1s0x3175274c39b63465:0xc0f80b1d86f9b1ca",
+  "cuisine": "Specialty Coffee & Brunch",
   "district": "An Khánh, Thu Duc City, Ho Chi Minh City",
   "rating": 4.9,
   "price": "$$",
-  "dishes": "Specialty coffee, matcha, pastries, brunch",
+  "dishes": "Specialty coffee, matcha, pastries, brunch plates",
   "must_try": "Yes",
-  "notes": "Minimalist café with excellent coffee and a calm atmosphere for working or relaxing.",
+  "notes": "A minimalist café with excellent specialty coffee, quality brunch and a peaceful atmosphere.",
   "source": "Vietnam list",
-  "lat": 10.8039,
-  "lng": 106.7337,
+  "lat": 10.8044457,
+  "lng": 106.7442856,
   "meals": [
     "breakfast",
     "brunch",
@@ -5186,12 +5187,14 @@
   ],
   "area": "Thao Dien",
   "category": "Cafe",
-  "tagline": "A peaceful specialty coffee spot tucked away in Thao Dien.",
+  "tagline": "A stylish Thao Dien café serving excellent coffee and relaxed brunches.",
   "tags": [
     "cafe",
     "coffee",
+    "specialty coffee",
     "brunch",
-    "work-friendly"
+    "work-friendly",
+    "minimalist"
   ]
 },
   {

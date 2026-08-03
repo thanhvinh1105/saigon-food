@@ -1,5 +1,18 @@
 [
   {
+  "name": "The New Playground",
+  "category": "Shopping & Experience",
+  "subcategory": "Creative Lifestyle Space",
+  "tagline": "A hidden underground hub with independent fashion brands, streetwear, cafés and a youthful Saigon vibe.",
+  "district": "Bến Nghé, District 1",
+  "price": "$$",
+  "rating": 4.3,
+  "notes": "A unique underground shopping complex beneath an old apartment building, popular with younger locals for fashion, street culture and photography.",
+  "url": "https://www.google.com/maps/place/The+New+Playground/data=!4m2!3m1!1s0x31752f480a0fb8c1:0xcadd1acca8a7c0af",
+  "lat": 10.7782185,
+  "lng": 106.701092
+},
+  {
   "name": "Bremiere Wellness Center",
   "category": "Spa & Wellness",
   "subcategory": "Luxury Spa",

@@ -1,4 +1,17 @@
 [
+{
+  "name": "The New Playground",
+  "category": "Shopping & Experience",
+  "subcategory": "Creative Lifestyle Space",
+  "tagline": "A hidden underground hub featuring independent fashion, streetwear, cafés and Saigon's creative youth culture.",
+  "district": "Bến Nghé, District 1",
+  "price": "$$",
+  "rating": 4.3,
+  "notes": "A unique underground shopping destination beneath an old apartment building, popular for local brands, fashion, photography and creative experiences.",
+  "url": "https://www.google.com/maps/place/The+New+Playground/data=!4m2!3m1!1s0x31752f480a0fb8c1:0xcadd1acca8a7c0af",
+  "lat": 10.7782185,
+  "lng": 106.701092
+},
   {
   "name": "Nomad Perfumery",
   "category": "Shopping & Experience",

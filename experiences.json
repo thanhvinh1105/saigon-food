@@ -1,5 +1,58 @@
 [
   {
+  "name": "Nomad Perfumery",
+  "category": "Shopping & Experience",
+  "subcategory": "Perfume & Fragrance Boutique",
+  "tagline": "A niche fragrance boutique in Thao Dien offering unique scents and personalised perfume discoveries.",
+  "district": "An Khánh, Thu Duc City",
+  "price": "$$$",
+  "rating": 4.9,
+  "notes": "A boutique perfumery focused on curated fragrances, premium scents and a personalised shopping experience.",
+  "url": "https://www.google.com/maps/place/Nomad+Perfumery/data=!4m2!3m1!1s0x3175270fdf21d145:0x7376c3b01f37d5a0",
+  "lat": 10.8042127,
+  "lng": 106.7314919
+},
+  {
+  "name": "NOI Space",
+  "category": "Shopping & Experience",
+  "subcategory": "Lifestyle Concept Store",
+  "tagline": "A creative lifestyle space combining design, art, fashion and local creativity.",
+  "district": "Cầu Ông Lãnh, District 1",
+  "price": "$$",
+  "rating": 4.8,
+  "notes": "A curated concept space featuring Vietnamese designers, handmade products and creative lifestyle items.",
+  "url": "https://www.google.com/maps/place/NOI+Space/data=!4m2!3m1!1s0x31752faf1914f2c9:0x4f2508def311d9dd",
+  "lat": 10.7589776,
+  "lng": 106.6850461
+},
+{
+  "name": "Forward Perfume",
+  "category": "Shopping & Experience",
+  "subcategory": "Perfume & Fragrance Boutique",
+  "tagline": "A modern fragrance boutique offering unique perfumes and personalised scent experiences.",
+  "district": "Bến Nghé, District 1",
+  "price": "$$$",
+  "rating": 4.8,
+  "notes": "A niche fragrance store specialising in curated perfumes and premium scents.",
+  "url": "https://www.google.com/maps/place/Forward+Perfume/data=!4m2!3m1!1s0x31752f818a543575:0xa63410dc17b76a0c",
+  "lat": 10.7739,
+  "lng": 106.702525
+},
+
+{
+  "name": "R PARFUMS",
+  "category": "Shopping & Experience",
+  "subcategory": "Perfume & Fragrance Boutique",
+  "tagline": "A niche perfume boutique in Thao Dien offering curated luxury fragrances.",
+  "district": "An Khánh, Thu Duc City",
+  "price": "$$$",
+  "rating": 4.9,
+  "notes": "A boutique fragrance store popular for premium perfumes and personalised recommendations.",
+  "url": "https://www.google.com/maps/place/R+PARFUMS/data=!4m2!3m1!1s0x3175270fcb687a43:0x240924750612e7b9",
+  "lat": 10.8024683,
+  "lng": 106.735006
+},
+  {
   "name": "Airy Workshop",
   "category": "Shopping & Experience",
   "subcategory": "Gift Shop & Local Design",

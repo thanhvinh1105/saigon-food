@@ -1,5 +1,293 @@
 [
  {
+  "name": "One Wing Sai Gon",
+  "url": "https://www.google.com/maps/place/One+Wing+Sai+Gon/data=!4m2!3m1!1s0x3175270702aa6a0d:0xb2ee75783f95181a",
+  "cuisine": "American Fried Chicken",
+  "district": "An Khánh, Thu Duc City, Ho Chi Minh City",
+  "rating": 4.9,
+  "price": "$$",
+  "dishes": "Chicken wings, buffalo wings, Nashville hot wings, loaded fries, burgers",
+  "must_try": "Yes",
+  "notes": "A popular Thao Dien spot specialising in crispy American-style wings with a variety of sauces and spice levels.",
+  "source": "Vietnam list",
+  "lat": 10.8101548,
+  "lng": 106.7300291,
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "area": "Thao Dien",
+  "category": "American",
+  "tagline": "Some of the best chicken wings in Saigon with plenty of heat and flavour.",
+  "tags": [
+    "wings",
+    "fried chicken",
+    "American",
+    "casual",
+    "groups",
+    "beer"
+  ]
+},
+ {
+  "name": "NANAYA IZAKAYA Thảo Điền",
+  "url": "https://www.google.com/maps/place/NANAYA+IZAKAYA+Th%E1%BA%A3o+%C4%90i%E1%BB%81n/data=!4m2!3m1!1s0x317527ea72ccd535:0xc307f32d747a4af1",
+  "cuisine": "Japanese Izakaya",
+  "district": "An Khánh, Thu Duc City, Ho Chi Minh City",
+  "rating": 4.9,
+  "price": "$$$",
+  "dishes": "Yakitori, sashimi, sushi, grilled skewers, sake",
+  "must_try": "Yes",
+  "notes": "Authentic Japanese izakaya serving small sharing plates, premium seafood and sake.",
+  "source": "Vietnam list",
+  "lat": 10.8065376,
+  "lng": 106.7343159,
+  "meals": [
+    "dinner"
+  ],
+  "area": "Thao Dien",
+  "category": "Japanese",
+  "tagline": "A cosy izakaya perfect for skewers, sashimi and sake.",
+  "tags": [
+    "Japanese",
+    "izakaya",
+    "yakitori",
+    "sake",
+    "dinner"
+  ]
+},
+{
+  "name": "UGO CAFE",
+  "url": "https://www.google.com/maps/place/UGO+CAFE/data=!4m2!3m1!1s0x317527291d3296ad:0xdff5f56ffce74b6a",
+  "cuisine": "Specialty Coffee",
+  "district": "An Khánh, Thu Duc City, Ho Chi Minh City",
+  "rating": 4.8,
+  "price": "$$",
+  "dishes": "Espresso, pour-over coffee, pastries",
+  "must_try": "Yes",
+  "notes": "Minimalist café with quality specialty coffee and a relaxed atmosphere.",
+  "source": "Vietnam list",
+  "lat": 10.8061,
+  "lng": 106.7318,
+  "meals": [
+    "breakfast",
+    "brunch",
+    "lunch"
+  ],
+  "area": "Thao Dien",
+  "category": "Cafe",
+  "tagline": "A minimalist café for quality coffee and slow mornings.",
+  "tags": [
+    "coffee",
+    "specialty coffee",
+    "cafe",
+    "work-friendly"
+  ]
+},
+{
+  "name": "Oishi Town",
+  "url": "https://www.google.com/maps/place/Oishi+Town/data=!4m2!3m1!1s0x3175271b08fe6a51:0x88f56ec83032b8a6",
+  "cuisine": "Japanese Food Hall",
+  "district": "An Khánh, Thu Duc City, Ho Chi Minh City",
+  "rating": 4.8,
+  "price": "$$",
+  "dishes": "Japanese street food, sushi, ramen, desserts",
+  "must_try": "Yes",
+  "notes": "A Japanese-inspired laneway featuring multiple cafés, restaurants and boutique stores.",
+  "source": "Vietnam list",
+  "lat": 10.8046882,
+  "lng": 106.7369223,
+  "meals": [
+    "breakfast",
+    "lunch",
+    "dinner"
+  ],
+  "area": "Thao Dien",
+  "category": "Japanese",
+  "tagline": "A charming Japanese-style laneway packed with cafés and eateries.",
+  "tags": [
+    "Japanese",
+    "food hall",
+    "shopping",
+    "dessert",
+    "cafe"
+  ]
+},
+{
+  "name": "Cafe 1/4 (Một Phần Tư 茶寮さいごん)",
+  "url": "https://www.google.com/maps/place/Cafe+1%2F4+Mot+Phan+Tu+%E8%8C%B6%E5%AF%AE%E3%81%95%E3%81%84%E3%81%94%E3%82%93/data=!4m2!3m1!1s0x31752717679aaad9:0x457fddd7253d7d5d",
+  "cuisine": "Japanese Tea Cafe",
+  "district": "An Khánh, Thu Duc City, Ho Chi Minh City",
+  "rating": 4.9,
+  "price": "$$",
+  "dishes": "Matcha, Japanese tea, wagashi, desserts",
+  "must_try": "Yes",
+  "notes": "A tranquil Japanese tea café tucked inside Oishi Town.",
+  "source": "Vietnam list",
+  "lat": 10.8049,
+  "lng": 106.7372,
+  "meals": [
+    "breakfast",
+    "brunch",
+    "afternoon tea"
+  ],
+  "area": "Thao Dien",
+  "category": "Cafe",
+  "tagline": "A peaceful Japanese tea house hidden inside Oishi Town.",
+  "tags": [
+    "matcha",
+    "Japanese",
+    "tea",
+    "dessert",
+    "cafe"
+  ]
+},
+{
+  "name": "Cà Phê Cà Pháo",
+  "url": "https://www.google.com/maps/place/C%C3%A0+Ph%C3%AA+C%C3%A0+Ph%C3%A1o/data=!4m2!3m1!1s0x3175270022f6fd91:0xed6aa40484b8980",
+  "cuisine": "Vietnamese Cafe",
+  "district": "An Khánh, Thu Duc City, Ho Chi Minh City",
+  "rating": 4.9,
+  "price": "$$",
+  "dishes": "Vietnamese coffee, coconut coffee, pastries",
+  "must_try": "Yes",
+  "notes": "Modern café serving Vietnamese coffee classics in a stylish setting.",
+  "source": "Vietnam list",
+  "lat": 10.80546,
+  "lng": 106.737806,
+  "meals": [
+    "breakfast",
+    "brunch",
+    "lunch"
+  ],
+  "area": "Thao Dien",
+  "category": "Cafe",
+  "tagline": "A stylish café for excellent Vietnamese coffee in Thao Dien.",
+  "tags": [
+    "coffee",
+    "Vietnamese coffee",
+    "cafe",
+    "brunch"
+  ]
+},
+ {
+  "name": "Smoo Smoothies & Yogurt",
+  "url": "https://www.google.com/maps/place/Smoo+Smoothies+%26+Yogurt/data=!4m2!3m1!1s0x31752779c35cb5cb:0xe9efb3aa59788391",
+  "cuisine": "Smoothies & Healthy Cafe",
+  "district": "An Khánh, Thu Duc City, Ho Chi Minh City",
+  "rating": 5.0,
+  "price": "$",
+  "dishes": "Greek yogurt bowls, fruit smoothies, acai bowls, fresh juices",
+  "must_try": "Yes",
+  "notes": "A healthy café specialising in fresh smoothies, yogurt bowls and fruit-based drinks."
+  ,
+  "source": "Vietnam list",
+  "lat": 10.8055,
+  "lng": 106.7378,
+  "meals": [
+    "breakfast",
+    "brunch",
+    "lunch"
+  ],
+  "area": "Thao Dien",
+  "category": "Cafe",
+  "tagline": "Fresh smoothies and yogurt bowls perfect for a healthy start to the day.",
+  "tags": [
+    "healthy",
+    "smoothies",
+    "acai",
+    "cafe",
+    "breakfast"
+  ]
+},
+{
+  "name": "ThisThat Bakery Cafe",
+  "url": "https://www.google.com/maps/place/ThisThat+Bakery+Cafe/data=!4m2!3m1!1s0x317527f81cdbc3e5:0xd87c52d604e87763",
+  "cuisine": "Korean Bakery & Cafe",
+  "district": "An Khánh, Thu Duc City, Ho Chi Minh City",
+  "rating": 4.9,
+  "price": "$$",
+  "dishes": "Salt bread, pastries, matcha drinks, specialty coffee",
+  "must_try": "Yes",
+  "notes": "A trendy Korean-inspired bakery famous for its freshly baked salt bread and beautifully crafted pastries. [oai_citation:0‡corner](https://www.corner.inc/place/pkRNE9i7wgPD?utm_source=chatgpt.com)",
+  "source": "Vietnam list",
+  "lat": 10.8049,
+  "lng": 106.7368,
+  "meals": [
+    "breakfast",
+    "brunch",
+    "lunch"
+  ],
+  "area": "Thao Dien",
+  "category": "Cafe & Bakery",
+  "tagline": "One of Thao Dien's hottest bakery cafés for Korean-style pastries.",
+  "tags": [
+    "bakery",
+    "coffee",
+    "brunch",
+    "dessert",
+    "Korean"
+  ]
+},
+{
+  "name": "MIETTE & CO (BAKERY)",
+  "url": "https://www.google.com/maps/place/MIETTE+%26+CO+(BAKERY)/data=!4m2!3m1!1s0x3175270013a43bb1:0xaeeafabc187b985",
+  "cuisine": "French Bakery & Cafe",
+  "district": "An Khánh, Thu Duc City, Ho Chi Minh City",
+  "rating": 4.9,
+  "price": "$$",
+  "dishes": "Croissants, sourdough, pastries, sandwiches, coffee",
+  "must_try": "Yes",
+  "notes": "A boutique artisan bakery producing high-quality French breads and pastries.",
+  "source": "Vietnam list",
+  "lat": 10.8046,
+  "lng": 106.7374,
+  "meals": [
+    "breakfast",
+    "brunch",
+    "lunch"
+  ],
+  "area": "Thao Dien",
+  "category": "Cafe & Bakery",
+  "tagline": "An artisan bakery known for buttery pastries and excellent bread.",
+  "tags": [
+    "bakery",
+    "French",
+    "coffee",
+    "breakfast",
+    "pastries"
+  ]
+},
+{
+  "name": "Café Carré Thảo Điền",
+  "url": "https://www.google.com/maps/place/Caf%C3%A9+Carr%C3%A9+Th%E1%BA%A3o+%C4%90i%E1%BB%81n/data=!4m2!3m1!1s0x31752786d2409573:0x30778029595fad2d",
+  "cuisine": "French Cafe & Bistro",
+  "district": "An Khánh, Thu Duc City, Ho Chi Minh City",
+  "rating": 5.0,
+  "price": "$$$",
+  "dishes": "French brunch, croque monsieur, pastries, coffee, wine",
+  "must_try": "Yes",
+  "notes": "A stylish French-inspired café and bistro serving all-day brunch and classic French favourites.",
+  "source": "Vietnam list",
+  "lat": 10.8039494,
+  "lng": 106.7394949,
+  "meals": [
+    "breakfast",
+    "brunch",
+    "lunch",
+    "dinner"
+  ],
+  "area": "Thao Dien",
+  "category": "Cafe",
+  "tagline": "A charming French café perfect for brunch, coffee and leisurely afternoons.",
+  "tags": [
+    "French",
+    "brunch",
+    "coffee",
+    "wine",
+    "cafe"
+  ]
+},
+ {
   "name": "Lãng Coffee",
   "url": "https://www.google.com/maps/place/L%C3%A3ng+Coffee/data=!4m2!3m1!1s0x31752714e4cf2495:0x2129bd88fd895ac4",
   "cuisine": "Specialty Coffee",

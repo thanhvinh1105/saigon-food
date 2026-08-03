@@ -1,5 +1,44 @@
 [
   {
+  "name": "Airy Workshop",
+  "category": "Shopping & Experience",
+  "subcategory": "Gift Shop & Local Design",
+  "tagline": "A quirky gift shop filled with cute handmade items, stickers, accessories and creations from Vietnamese artists.",
+  "district": "Nhiêu Lộc, District 3",
+  "price": "$$",
+  "rating": 4.8,
+  "notes": "A fun stop for unique Vietnamese-designed gifts, handmade goods and quirky souvenirs. Products include artist-designed items, stickers, charms and home décor. [oai_citation:0‡airyworkshop.info](https://airyworkshop.info/pages/about-us?utm_source=chatgpt.com)",
+  "url": "https://www.google.com/maps/place/Airy+Workshop/data=!4m2!3m1!1s0x31752f00578eec89:0x9ba0dc4aea562ca2",
+  "lat": 10.7935,
+  "lng": 106.6885
+},
+{
+  "name": "Paradise4saigon",
+  "category": "Shopping & Experience",
+  "subcategory": "Independent Fashion Store",
+  "tagline": "A curated fashion boutique showcasing unique streetwear and contemporary Vietnamese style.",
+  "district": "Bến Nghé, District 1",
+  "price": "$$$",
+  "rating": 4.7,
+  "notes": "A boutique clothing store popular for fashion pieces with a strong individual style and creative identity. ",
+  "url": "https://www.google.com/maps/place/Paradise4saigon/data=!4m2!3m1!1s0x31752f007d19e3f9:0x74ef56d522b4fd27",
+  "lat": 10.7736133,
+  "lng": 106.7023098
+},
+{
+  "name": "LIDER 02 COMMONS",
+  "category": "Shopping & Experience",
+  "subcategory": "Fashion & Lifestyle Store",
+  "tagline": "A creative fashion space in Thao Dien featuring curated clothing and lifestyle pieces.",
+  "district": "An Khánh, Thu Duc City",
+  "price": "$$$",
+  "rating": 5.0,
+  "notes": "A boutique fashion destination located in the Thao Dien area, ideal for discovering independent styles and unique pieces. ",
+  "url": "https://www.google.com/maps/place/LIDER+02+COMMONS/data=!4m2!3m1!1s0x317527e44724b0b9:0x8d8ab006f8789849",
+  "lat": 10.8042,
+  "lng": 106.7395
+},
+  {
   "name": "11 Garmentory",
   "category": "Shopping & Experience",
   "subcategory": "Independent Fashion Store",

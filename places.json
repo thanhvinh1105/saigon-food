@@ -1,5 +1,34 @@
 [
  {
+  "name": "Bánh Mì Chấm Hung Tubes - Hai Bà Trưng",
+  "url": "https://www.google.com/maps/place/B%C3%A1nh+M%C3%AC+Ch%E1%BA%A5m+Hung+Tubes+-+Hai+B%C3%A0+Tr%C6%B0ng/data=!4m2!3m1!1s0x31752f51d228449d:0x44777833e2c64223",
+  "cuisine": "Vietnamese Street Food",
+  "district": "Xuân Hòa, District 3, Ho Chi Minh City",
+  "rating": 4.8,
+  "price": "$",
+  "dishes": "Bánh mì chấm, grilled meats, Vietnamese dipping sauces, pate",
+  "must_try": "Yes",
+  "notes": "A popular local street food spot specialising in bánh mì served with dipping sauces — a unique take on the classic Vietnamese sandwich.",
+  "source": "Vietnam list",
+  "lat": 10.785,
+  "lng": 106.695,
+  "meals": [
+    "breakfast",
+    "lunch",
+    "late night"
+  ],
+  "area": "Hai Ba Trung",
+  "category": "Vietnamese",
+  "tagline": "A must-try Saigon street food experience featuring bánh mì with rich dipping sauces.",
+  "tags": [
+    "banh mi",
+    "street food",
+    "Vietnamese",
+    "local favourite",
+    "cheap eats"
+  ]
+},
+ {
   "name": "Yakitori Ginza | Japanese Izakaya",
   "url": "https://www.google.com/maps/place/Yakitori+Ginza+%7C+Japanese+Izakaya/data=!4m2!3m1!1s0x3175270070f827b3:0xb414af0ab0fb80d3",
   "cuisine": "Japanese Izakaya",

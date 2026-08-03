@@ -1,5 +1,147 @@
 [
  {
+  "name": "Lãng Coffee",
+  "url": "https://www.google.com/maps/place/L%C3%A3ng+Coffee/data=!4m2!3m1!1s0x31752714e4cf2495:0x2129bd88fd895ac4",
+  "cuisine": "Specialty Coffee",
+  "district": "An Khánh, Thu Duc City, Ho Chi Minh City",
+  "rating": 4.9,
+  "price": "$$",
+  "dishes": "Vietnamese coffee, espresso, pour-over, pastries",
+  "must_try": "Yes",
+  "notes": "A cosy neighbourhood café with quality specialty coffee and a relaxed atmosphere.",
+  "source": "Vietnam list",
+  "lat": 10.8046945,
+  "lng": 106.7293163,
+  "meals": [
+    "breakfast",
+    "brunch",
+    "lunch"
+  ],
+  "area": "Thao Dien",
+  "category": "Cafe",
+  "tagline": "A peaceful Thao Dien café serving excellent specialty coffee.",
+  "tags": [
+    "coffee",
+    "specialty coffee",
+    "cafe",
+    "work-friendly",
+    "brunch"
+  ]
+},
+{
+  "name": "Matte Matcha & Teabar",
+  "url": "https://www.google.com/maps/place/Matte+Matcha+%26+Teabar/data=!4m2!3m1!1s0x310b2b16b93e4c03:0x8e986f2c8e7be47c",
+  "cuisine": "Japanese Matcha Cafe",
+  "district": "An Khánh, Thu Duc City, Ho Chi Minh City",
+  "rating": 4.9,
+  "price": "$$",
+  "dishes": "Ceremonial matcha, hojicha, matcha lattes, Japanese desserts",
+  "must_try": "Yes",
+  "notes": "A modern café dedicated to premium Japanese matcha and tea.",
+  "source": "Vietnam list",
+  "lat": 10.8058,
+  "lng": 106.7349,
+  "meals": [
+    "breakfast",
+    "brunch",
+    "afternoon tea"
+  ],
+  "area": "Thao Dien",
+  "category": "Cafe",
+  "tagline": "A haven for matcha lovers serving authentic Japanese tea.",
+  "tags": [
+    "matcha",
+    "Japanese",
+    "tea",
+    "dessert",
+    "cafe"
+  ]
+},
+{
+  "name": "XÀO XẠC BAR - Quán Rượu Dưới Hiên",
+  "url": "https://www.google.com/maps/place/X%C3%80O+X%E1%BA%A0C+BAR+-+Qu%C3%A1n+R%C6%B0%E1%BB%A3u+D%C6%B0%E1%BB%9Bi+Hi%C3%AAn/data=!4m2!3m1!1s0x31752730e1c450f1:0x5b78e2ba792824fa",
+  "cuisine": "Cocktail Bar",
+  "district": "An Khánh, Thu Duc City, Ho Chi Minh City",
+  "rating": 4.9,
+  "price": "$$",
+  "dishes": "Signature cocktails, classic cocktails, craft beer, bar snacks",
+  "must_try": "Yes",
+  "notes": "A laid-back neighbourhood cocktail bar with creative drinks and a welcoming atmosphere.",
+  "source": "Vietnam list",
+  "lat": 10.8086709,
+  "lng": 106.7293439,
+  "meals": [
+    "drinks"
+  ],
+  "area": "Thao Dien",
+  "category": "Bars & Nightlife",
+  "tagline": "A cosy local bar for creative cocktails and relaxed evenings.",
+  "tags": [
+    "cocktails",
+    "bar",
+    "nightlife",
+    "date night",
+    "craft cocktails"
+  ]
+},
+{
+  "name": "Sushi O Buffet - Hotpot Sushi and Korean Chicken",
+  "url": "https://www.google.com/maps/place/Sushi+O+Buffet+-+Hotpot+Sushi+and+Korean+Chicken/data=!4m2!3m1!1s0x31752b74e1527227:0x306dbb4b9fbecfa9",
+  "cuisine": "Japanese Buffet",
+  "district": "Thảo Điền, Thu Duc City, Ho Chi Minh City",
+  "rating": 4.7,
+  "price": "$$$",
+  "dishes": "Sushi buffet, sashimi, hotpot, Korean fried chicken",
+  "must_try": "Yes",
+  "notes": "All-you-can-eat restaurant combining Japanese sushi, hotpot and Korean favourites.",
+  "source": "Vietnam list",
+  "lat": 10.8044,
+  "lng": 106.7348,
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "area": "Thao Dien",
+  "category": "Japanese",
+  "tagline": "A popular all-you-can-eat spot for sushi, hotpot and Korean fried chicken.",
+  "tags": [
+    "buffet",
+    "sushi",
+    "Japanese",
+    "hotpot",
+    "groups"
+  ]
+},
+{
+  "name": "Every Half Coffee Roasters - Tống Hữu Định",
+  "url": "https://www.google.com/maps/place/Every+Half+Coffee+Roasters+-+T%E1%BB%91ng+H%E1%BB%AFu+%C4%90%E1%BB%8Bnh/data=!4m2!3m1!1s0x317527219f41cb3d:0x8ef4554fcb432e03",
+  "cuisine": "Specialty Coffee",
+  "district": "An Khánh, Thu Duc City, Ho Chi Minh City",
+  "rating": 4.9,
+  "price": "$$",
+  "dishes": "Espresso, pour-over, filter coffee, pastries",
+  "must_try": "Yes",
+  "notes": "Highly regarded specialty coffee roaster serving expertly brewed coffee with beans roasted in-house.",
+  "source": "Vietnam list",
+  "lat": 10.806478,
+  "lng": 106.734592,
+  "meals": [
+    "breakfast",
+    "brunch",
+    "lunch"
+  ],
+  "area": "Thao Dien",
+  "category": "Cafe",
+  "tagline": "One of Thao Dien's top destinations for specialty coffee enthusiasts.",
+  "tags": [
+    "coffee",
+    "specialty coffee",
+    "roastery",
+    "cafe",
+    "work-friendly"
+  ]
+},
+ {
   "name": "SÂM Saigon",
   "url": "https://www.google.com/maps/place/S%C3%82M+Saigon/data=!4m2!3m1!1s0x317529d62c64a84f:0xfab11e2e3eb9b9a9",
   "cuisine": "Vietnamese Contemporary",

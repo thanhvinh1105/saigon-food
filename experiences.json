@@ -1,5 +1,18 @@
 [
   {
+  "name": "11 Garmentory",
+  "category": "Shopping & Experience",
+  "subcategory": "Independent Fashion Store",
+  "tagline": "A curated fashion space showcasing unique local designers, contemporary clothing and Vietnamese creativity.",
+  "district": "Cầu Kiệu, Phú Nhuận District",
+  "price": "$$",
+  "rating": 4.8,
+  "notes": "A boutique fashion destination featuring carefully selected Vietnamese brands and modern streetwear pieces.",
+  "url": "https://www.google.com/maps/place/11+Garmentory/data=!4m2!3m1!1s0x3175290061fbd50f:0x3494e0534e6dcb13",
+  "lat": 10.7950745,
+  "lng": 106.6784691
+},
+  {
   "name": "The New Playground",
   "category": "Shopping & Experience",
   "subcategory": "Creative Lifestyle Space",

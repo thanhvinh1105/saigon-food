@@ -1,5 +1,44 @@
 [
   {
+  "name": "Bremiere Wellness Center",
+  "category": "Spa & Wellness",
+  "subcategory": "Luxury Spa",
+  "tagline": "A five-star hotel spa offering premium massages, facials and wellness treatments.",
+  "district": "Ben Nghe, District 1",
+  "price": "$$$$",
+  "rating": 4.8,
+  "notes": "Located inside the JW Marriott Hotel & Suites Saigon.",
+  "url": "https://www.google.com/maps/place/Bremiere+Wellness+Center/data=!4m2!3m1!1s0x31752fab247cadb5:0x62caf87a61ea590",
+  "lat": 10.7841151,
+  "lng": 106.7025682
+},
+{
+  "name": "Lang Spa",
+  "category": "Spa & Wellness",
+  "subcategory": "Massage Spa",
+  "tagline": "A hidden Thao Dien favourite for relaxing massages at excellent value.",
+  "district": "Thao Dien, Thu Duc City",
+  "price": "$$",
+  "rating": 5.0,
+  "notes": "Known for friendly therapists and a calm atmosphere.",
+  "url": "https://www.google.com/maps/place/Lang+Spa/data=!4m2!3m1!1s0x317527bd84ef450f:0x187f668e9e321867",
+  "lat": 10.804285,
+  "lng": 106.7446804
+},
+{
+  "name": "Massage Hạ Spa Quận 1",
+  "category": "Spa & Wellness",
+  "subcategory": "Massage Spa",
+  "tagline": "Affordable therapeutic massages just minutes from Ben Thanh Market.",
+  "district": "Cau Ong Lanh, District 1",
+  "price": "$$",
+  "rating": 4.9,
+  "notes": "Popular for traditional Vietnamese and hot stone massages.",
+  "url": "https://www.google.com/maps/place/MASSAGE+H%E1%BA%A0+SPA+QU%E1%BA%ACN+1/data=!4m2!3m1!1s0x31752fc5417a6d1d:0x4d3916400248499b",
+  "lat": 10.7628,
+  "lng": 106.6958
+},
+  {
     "name": "Spa Bar",
     "category": "Spa & Wellness",
     "subcategory": "Spa",

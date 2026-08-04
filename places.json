@@ -1,5 +1,92 @@
 [
  {
+  "name": "I HATE MONDAY DINING",
+  "url": "https://www.google.com/maps/place/I+HATE+MONDAY+DINING/data=!4m2!3m1!1s0x317527b760400b15:0x12d8f12e9423f02b",
+  "cuisine": "Modern Fusion",
+  "district": "An Khánh, Thu Duc City, Ho Chi Minh City",
+  "rating": 4.9,
+  "price": "$$$",
+  "dishes": "Fusion sharing plates, grilled meats, handmade pasta, cocktails",
+  "must_try": "Yes",
+  "notes": "A stylish neighbourhood restaurant blending contemporary cuisine with an intimate dining atmosphere, popular for date nights.",
+  "source": "Vietnam list",
+  "lat": 10.802817,
+  "lng": 106.7353767,
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "area": "Thao Dien",
+  "category": "Modern Fusion",
+  "tagline": "One of Thao Dien's trendiest restaurants for creative fusion dining.",
+  "tags": [
+    "fusion",
+    "date night",
+    "cocktails",
+    "modern",
+    "dinner"
+  ]
+},
+{
+  "name": "Nhà Ba Teria - Craft Matcha & Coffee",
+  "url": "https://www.google.com/maps/place/Nh%C3%A0+Ba+Teria+-+Craft+Matcha+%26+Coffee/data=!4m2!3m1!1s0x31752fcfb7c3bd55:0x71b7fe2200df2262",
+  "cuisine": "Matcha & Specialty Coffee",
+  "district": "Xuân Hòa, District 3, Ho Chi Minh City",
+  "rating": 4.9,
+  "price": "$$",
+  "dishes": "Ceremonial matcha, matcha lattes, specialty coffee, pastries",
+  "must_try": "Yes",
+  "notes": "A cosy café specialising in premium matcha and expertly brewed coffee with a minimalist aesthetic.",
+  "source": "Vietnam list",
+  "lat": 10.7874978,
+  "lng": 106.6872779,
+  "meals": [
+    "breakfast",
+    "brunch",
+    "afternoon tea"
+  ],
+  "area": "District 3",
+  "category": "Cafe",
+  "tagline": "A hidden gem for authentic matcha and specialty coffee lovers.",
+  "tags": [
+    "matcha",
+    "coffee",
+    "specialty coffee",
+    "cafe",
+    "dessert"
+  ]
+},
+{
+  "name": "Nicotin Cafe II",
+  "url": "https://www.google.com/maps/place/Nicotin+Cafe+II/data=!4m2!3m1!1s0x31752f003be5670b:0xe2b72509bc7e9200",
+  "cuisine": "Cafe",
+  "district": "Bến Nghé, District 1, Ho Chi Minh City",
+  "rating": 4.8,
+  "price": "$$",
+  "dishes": "Vietnamese coffee, espresso, cocktails, pastries",
+  "must_try": "Yes",
+  "notes": "A stylish café tucked inside one of Nguyễn Huệ's iconic apartment buildings, known for its vintage atmosphere and excellent coffee.",
+  "source": "Vietnam list",
+  "lat": 10.7738,
+  "lng": 106.7042,
+  "meals": [
+    "breakfast",
+    "brunch",
+    "lunch",
+    "afternoon tea"
+  ],
+  "area": "District 1",
+  "category": "Cafe",
+  "tagline": "A hidden apartment café with great coffee and classic Saigon charm.",
+  "tags": [
+    "coffee",
+    "hidden cafe",
+    "Nguyen Hue",
+    "vintage",
+    "cafe"
+  ]
+},
+ {
   "name": "Bánh Mì Chấm Hung Tubes - Hai Bà Trưng",
   "url": "https://www.google.com/maps/place/B%C3%A1nh+M%C3%AC+Ch%E1%BA%A5m+Hung+Tubes+-+Hai+B%C3%A0+Tr%C6%B0ng/data=!4m2!3m1!1s0x31752f51d228449d:0x44777833e2c64223",
   "cuisine": "Vietnamese Street Food",

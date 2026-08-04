@@ -1,5 +1,145 @@
 [
  {
+  "name": "El Toro - Home for Steaks & Wines",
+  "url": "https://www.google.com/maps/place/El+Toro+-+Home+for+Steaks+%26+Wines/data=!4m2!3m1!1s0x3175270638214229:0xa0093625a24db2ea",
+  "cuisine": "Steakhouse",
+  "district": "An Khánh, Thu Duc City, Ho Chi Minh City",
+  "rating": 4.9,
+  "price": "$$$$",
+  "dishes": "Dry-aged steaks, Wagyu beef, grilled seafood, wine",
+  "must_try": "Yes",
+  "notes": "An upscale steakhouse known for premium cuts of beef, an extensive wine list and elegant service.",
+  "source": "Vietnam list",
+  "lat": 10.802945,
+  "lng": 106.7315265,
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "area": "Thao Dien",
+  "category": "Steakhouse",
+  "tagline": "One of Thao Dien's best destinations for premium steaks and fine wine.",
+  "tags": [
+    "steak",
+    "wine",
+    "date night",
+    "fine dining",
+    "wagyu"
+  ]
+},
+{
+  "name": "Yue Dian",
+  "url": "https://www.google.com/maps/place/Yue+Dian/data=!4m2!3m1!1s0x3175290043461d0b:0x7d8d15f5e0d2796b",
+  "cuisine": "Chinese (Cantonese)",
+  "district": "Cầu Kiệu, Phu Nhuan District, Ho Chi Minh City",
+  "rating": 4.9,
+  "price": "$$$",
+  "dishes": "Dim sum, roast duck, BBQ pork, wontons",
+  "must_try": "Yes",
+  "notes": "A modern Cantonese restaurant specialising in handcrafted dim sum and classic Hong Kong flavours.",
+  "source": "Vietnam list",
+  "lat": 10.7971956,
+  "lng": 106.6894923,
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "area": "Phu Nhuan",
+  "category": "Chinese",
+  "tagline": "Excellent Cantonese cuisine with beautifully crafted dim sum.",
+  "tags": [
+    "Chinese",
+    "dim sum",
+    "Cantonese",
+    "family",
+    "dinner"
+  ]
+},
+{
+  "name": "Little Bear Wine Bar",
+  "url": "https://www.google.com/maps/place/Little+Bear+Wine+Bar/data=!4m2!3m1!1s0x3175274179ae127f:0xab478b2a0911c516",
+  "cuisine": "Wine Bar",
+  "district": "An Khánh, Thu Duc City, Ho Chi Minh City",
+  "rating": 4.9,
+  "price": "$$$",
+  "dishes": "Wine, cheese boards, charcuterie, small plates",
+  "must_try": "Yes",
+  "notes": "A cosy neighbourhood wine bar offering curated wines paired with cheese, charcuterie and seasonal sharing plates.",
+  "source": "Vietnam list",
+  "lat": 10.8046,
+  "lng": 106.7353,
+  "meals": [
+    "dinner",
+    "drinks"
+  ],
+  "area": "Thao Dien",
+  "category": "Bars & Nightlife",
+  "tagline": "An intimate wine bar perfect for relaxed evenings and date nights.",
+  "tags": [
+    "wine",
+    "bar",
+    "charcuterie",
+    "date night",
+    "cocktails"
+  ]
+},
+{
+  "name": "Salon Saigon - Taqueria y Cantina",
+  "url": "https://www.google.com/maps/place/Salon+Saigon+-+Taqueria+y+Cantina/data=!4m2!3m1!1s0x31752fdf22b5127b:0xa7cd911651733ac7",
+  "cuisine": "Mexican",
+  "district": "Bến Thành, District 1, Ho Chi Minh City",
+  "rating": 4.8,
+  "price": "$$$",
+  "dishes": "Tacos, burritos, ceviche, margaritas, mezcal",
+  "must_try": "Yes",
+  "notes": "A vibrant Mexican restaurant and cantina known for authentic tacos, tequila and handcrafted cocktails.",
+  "source": "Vietnam list",
+  "lat": 10.7732,
+  "lng": 106.6978,
+  "meals": [
+    "lunch",
+    "dinner",
+    "drinks"
+  ],
+  "area": "District 1",
+  "category": "Mexican",
+  "tagline": "Authentic Mexican flavours paired with excellent margaritas and mezcal.",
+  "tags": [
+    "Mexican",
+    "tacos",
+    "margaritas",
+    "cocktails",
+    "date night"
+  ]
+},
+{
+  "name": "A GOOD BAR",
+  "url": "https://www.google.com/maps/place/A+GOOD+BAR/data=!4m2!3m1!1s0x31752f8ae8a824e7:0x51cdf88d72b64450",
+  "cuisine": "Cocktail Bar",
+  "district": "Bến Nghé, District 1, Ho Chi Minh City",
+  "rating": 4.9,
+  "price": "$$$",
+  "dishes": "Signature cocktails, classic cocktails, spirits, bar snacks",
+  "must_try": "Yes",
+  "notes": "A stylish cocktail bar celebrated for creative drinks, quality spirits and a sophisticated atmosphere.",
+  "source": "Vietnam list",
+  "lat": 10.7767,
+  "lng": 106.7008,
+  "meals": [
+    "drinks"
+  ],
+  "area": "District 1",
+  "category": "Bars & Nightlife",
+  "tagline": "One of central Saigon's best cocktail bars for expertly crafted drinks.",
+  "tags": [
+    "cocktails",
+    "bar",
+    "nightlife",
+    "date night",
+    "speakeasy"
+  ]
+},
+ {
   "name": "I HATE MONDAY DINING",
   "url": "https://www.google.com/maps/place/I+HATE+MONDAY+DINING/data=!4m2!3m1!1s0x317527b760400b15:0x12d8f12e9423f02b",
   "cuisine": "Modern Fusion",

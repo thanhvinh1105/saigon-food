@@ -1,4 +1,30 @@
 [
+  {
+  "name": "MASSAGE HẠ SPA QUẬN 1",
+  "category": "Spa & Wellness",
+  "subcategory": "Massage Spa",
+  "tagline": "A popular District 1 massage spa offering affordable full-body treatments in a relaxed setting.",
+  "district": "Cầu Ông Lãnh, District 1",
+  "price": "$$",
+  "rating": 4.8,
+  "notes": "Offers traditional Vietnamese massage, hot stone massage, foot reflexology and body treatments. A convenient option close to Bui Vien and District 1 attractions.",
+  "url": "https://www.google.com/maps/place/MASSAGE+H%E1%BA%A0+SPA+QU%E1%BA%ACN+1/data=!4m2!3m1!1s0x31752fc5417a6d1d:0x4d3916400248499b",
+  "lat": 10.7661785,
+  "lng": 106.682926
+},
+{
+  "name": "Sả Spa & Onsen",
+  "category": "Spa & Wellness",
+  "subcategory": "Spa & Onsen",
+  "tagline": "A modern Japanese-inspired wellness retreat featuring private onsen baths and premium spa treatments.",
+  "district": "Bến Thành, District 1",
+  "price": "$$$",
+  "rating": 4.9,
+  "notes": "Offers Japanese-style onsen experiences, massages, facials and body treatments in a tranquil, luxury setting.",
+  "url": "https://www.google.com/maps/place/S%E1%BA%A3+Spa+%26+Onsen/data=!4m2!3m1!1s0x31752f0055fe4aad:0xa8ea76e7c68ee853",
+  "lat": 10.7730852,
+  "lng": 106.6899802
+},
 {
   "name": "The New Playground",
   "category": "Shopping & Experience",

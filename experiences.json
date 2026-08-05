@@ -1,4 +1,84 @@
 [
+  [
+  {
+    "name": "Mây Concept - Thảo Điền",
+    "category": "Shopping & Experience",
+    "subcategory": "Home Décor & Lifestyle Store",
+    "tagline": "A beautifully curated concept store for minimalist home décor, gifts and lifestyle pieces.",
+    "district": "An Khánh, Thu Duc City",
+    "price": "$$",
+    "rating": 4.9,
+    "notes": "Known for Scandinavian and Japandi-inspired homewares, ceramics, fragrances and thoughtfully designed gifts.",
+    "url": "https://www.google.com/maps/place/M%C3%A2y+Concept+-+Th%E1%BA%A3o+%C4%90i%E1%BB%81n/data=!4m2!3m1!1s0x3175272e80ad398d:0xb140d95cc0bb98c5",
+    "lat": 10.8038153,
+    "lng": 106.7287386
+  },
+  {
+    "name": "Forward Perfume",
+    "category": "Shopping & Experience",
+    "subcategory": "Perfume & Fragrance Boutique",
+    "tagline": "A niche fragrance boutique specialising in unique perfumes and personalised scent discoveries.",
+    "district": "Bến Nghé, District 1",
+    "price": "$$$",
+    "rating": 4.8,
+    "notes": "Carries a curated collection of niche and independent fragrance brands with knowledgeable staff.",
+    "url": "https://www.google.com/maps/place/Forward+Perfume/data=!4m2!3m1!1s0x31752f818a543575:0xa63410dc17b76a0c",
+    "lat": 10.7739,
+    "lng": 106.702525
+  },
+  {
+    "name": "Gia Perfumerie Saigon",
+    "category": "Shopping & Experience",
+    "subcategory": "Perfume & Fragrance Boutique",
+    "tagline": "A premium perfume boutique offering an impressive collection of luxury and niche fragrances.",
+    "district": "Bến Thành, District 1",
+    "price": "$$$$",
+    "rating": 4.9,
+    "notes": "One of Saigon's best-known destinations for authentic designer and niche perfumes.",
+    "url": "https://www.google.com/maps/place/Gia+Perfumerie+Saigon/data=!4m2!3m1!1s0x31752f000981b31b:0x6ff04a963e2c5216",
+    "lat": 10.7726,
+    "lng": 106.6948
+  },
+  {
+    "name": "ANNORA PERFUME HOUSE",
+    "category": "Shopping & Experience",
+    "subcategory": "Perfume & Fragrance Boutique",
+    "tagline": "A trusted perfume house offering authentic designer fragrances and personalised recommendations.",
+    "district": "Nhiêu Lộc, District 3",
+    "price": "$$$",
+    "rating": 4.9,
+    "notes": "Specialises in genuine luxury perfumes with an extensive collection for both men and women.",
+    "url": "https://www.google.com/maps/place/ANNORA+PERFUME+HOUSE+-+C%E1%BB%ADa+H%C3%A0ng+N%C6%B0%E1%BB%9Bc+Hoa+Ch%C3%ADnh+H%C3%A3ng/data=!4m2!3m1!1s0x31752f0015af24ad:0xf3a10a091a3833fd",
+    "lat": 10.7884,
+    "lng": 106.6848
+  },
+  {
+    "name": "Scentury Concept",
+    "category": "Shopping & Experience",
+    "subcategory": "Perfume & Lifestyle Boutique",
+    "tagline": "A refined concept store blending niche fragrances with elegant lifestyle products.",
+    "district": "Tân Định, District 1",
+    "price": "$$$$",
+    "rating": 4.9,
+    "notes": "Offers luxury niche perfumes alongside premium home fragrances and curated lifestyle products.",
+    "url": "https://www.google.com/maps/place/Scentury+Concept/data=!4m2!3m1!1s0x31752f94389d2635:0x993d1d8d8154dd43",
+    "lat": 10.7900895,
+    "lng": 106.6960719
+  },
+  {
+    "name": "TOOUCH PERFUME & CANDLE/DIFFUSER",
+    "category": "Shopping & Experience",
+    "subcategory": "Perfume & Home Fragrance Store",
+    "tagline": "A boutique specialising in handcrafted perfumes, candles and premium home fragrances.",
+    "district": "Tân Sơn Hòa, Tân Bình District",
+    "price": "$$$",
+    "rating": 4.9,
+    "notes": "Known for bespoke fragrances, scented candles and diffusers with a modern minimalist aesthetic.",
+    "url": "https://www.google.com/maps/place/TOOUCH+PERFUME+%26+CANDLE%2FDIFFUSER/data=!4m2!3m1!1s0x31752915ce6a9159:0xf59adc9f1f5b5533",
+    "lat": 10.7944046,
+    "lng": 106.6683053
+  }
+],
   {
   "name": "MASSAGE HẠ SPA QUẬN 1",
   "category": "Spa & Wellness",

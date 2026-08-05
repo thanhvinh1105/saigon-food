@@ -1220,29 +1220,40 @@ function initSearch(){
     const q = input.value.trim().toLowerCase();
     if(!q){ results.classList.remove('open'); return; }
 
-    const matches = PLACES.filter(p => {
+    const placeMatches = PLACES.filter(p => {
       const hay = [p.name, p.cuisine, p.district, p.dishes, p.notes].join(' ').toLowerCase();
       return hay.includes(q);
-    }).slice(0, 10);
+    }).slice(0, 6);
 
-    if(!matches.length){
+    const expMatches = EXPERIENCES.filter(e => {
+      const hay = [e.name, e.category, e.subcategory, e.district, e.tagline, e.notes].join(' ').toLowerCase();
+      return hay.includes(q);
+    }).slice(0, 4);
+
+    const allMatches = [...placeMatches, ...expMatches];
+
+    if(!allMatches.length){
       results.innerHTML = '<div class="sr-empty">No places found</div>';
     } else {
-      results.innerHTML = matches.map(p => {
-        const cat=CATEGORIES.find(c=>c.id===getCategory(p.cuisine));
+      results.innerHTML = allMatches.map(item => {
+        const isExp = EXPERIENCES.includes(item);
+        const idx = isExp ? EXPERIENCES.indexOf(item) : PLACES.indexOf(item);
+        const fn = isExp ? 'searchSelectExp' : 'searchSelect';
+        const subtitle = item.tagline || (isExp ? (item.subcategory||item.category) : (item.cuisine||''));
+        const dot = item.must_try === 'Yes' ? 'must' : isExp ? 'normal' : 'normal';
         return `
-        <div class="sr-item" onclick="searchSelect(${PLACES.indexOf(p)})">
-          <div class="sr-dot ${p.must_try==='Yes'?'must':'normal'}"></div>
+        <div class="sr-item" onclick="${fn}(${idx})">
+          <div class="sr-dot ${dot}"></div>
           <div>
-            <div class="sr-name">${p.name}</div>
-            <div class="sr-meta">${p.tagline || (p.cuisine||'') + (p.district?' · '+p.district.split(',')[0]:'') + (p.price?' · '+p.price:'')}</div>
+            <div class="sr-name">${item.name}</div>
+            <div class="sr-meta">${subtitle}</div>
           </div>
-        </div>`}).join('');
+        </div>`;
+      }).join('');
     }
     results.classList.add('open');
   });
 
-  // Close on outside tap
   document.addEventListener('click', e => {
     if(!e.target.closest('.landing-search-wrap')){
       results.classList.remove('open');
@@ -1260,6 +1271,14 @@ function searchSelect(idx){
   document.getElementById('landing-search').value = '';
   document.getElementById('search-results').classList.remove('open');
   showDetail(p);
+}
+
+function searchSelectExp(idx){
+  const e = EXPERIENCES[idx];
+  if(!e) return;
+  document.getElementById('landing-search').value = '';
+  document.getElementById('search-results').classList.remove('open');
+  showExpDetail(e);
 }
 
 // ══════════════════════════════

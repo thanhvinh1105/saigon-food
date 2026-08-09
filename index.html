@@ -1212,6 +1212,13 @@ function renderDiscSaved(){
 // ══════════════════════════════
 //  SEARCH
 // ══════════════════════════════
+function normalize(s){
+  return (s||'').toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/đ/g,'d').replace(/Đ/g,'d');
+}
+
 function initSearch(){
   const input = document.getElementById('landing-search');
   const results = document.getElementById('search-results');
@@ -1220,24 +1227,17 @@ function initSearch(){
     const q = input.value.trim().toLowerCase();
     if(!q){ results.classList.remove('open'); return; }
 
-    function normalize(s){
-  return (s||'').toLowerCase()
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .replace(/đ/g,'d').replace(/Đ/g,'d');
-}
+    const nq = normalize(q);
 
-const nq = normalize(q);
+    const placeMatches = PLACES.filter(p => {
+      const hay = normalize([p.name, p.cuisine, p.district, p.dishes, p.notes].join(' '));
+      return hay.includes(nq);
+    }).slice(0, 6);
 
-const placeMatches = PLACES.filter(p => {
-  const hay = normalize([p.name, p.cuisine, p.district, p.dishes, p.notes].join(' '));
-  return hay.includes(nq);
-}).slice(0, 6);
-
-const expMatches = EXPERIENCES.filter(e => {
-  const hay = normalize([e.name, e.category, e.subcategory, e.district, e.tagline, e.notes].join(' '));
-  return hay.includes(nq);
-}).slice(0, 4);
+    const expMatches = EXPERIENCES.filter(e => {
+      const hay = normalize([e.name, e.category, e.subcategory, e.district, e.tagline, e.notes].join(' '));
+      return hay.includes(nq);
+    }).slice(0, 4);
 
     const allMatches = [...placeMatches, ...expMatches];
 
@@ -1249,10 +1249,9 @@ const expMatches = EXPERIENCES.filter(e => {
         const idx = isExp ? EXPERIENCES.indexOf(item) : PLACES.indexOf(item);
         const fn = isExp ? 'searchSelectExp' : 'searchSelect';
         const subtitle = item.tagline || (isExp ? (item.subcategory||item.category) : (item.cuisine||''));
-        const dot = item.must_try === 'Yes' ? 'must' : isExp ? 'normal' : 'normal';
         return `
         <div class="sr-item" onclick="${fn}(${idx})">
-          <div class="sr-dot ${dot}"></div>
+          <div class="sr-dot ${item.must_try==='Yes'?'must':'normal'}"></div>
           <div>
             <div class="sr-name">${item.name}</div>
             <div class="sr-meta">${subtitle}</div>

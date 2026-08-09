@@ -1295,7 +1295,7 @@
     "name": "Nhâm Coffee",
     "url": "https://www.google.com/maps/place/Nh%C3%A2m+Coffee/data=!4m2!3m1!1s0x31752700732358e3:0xc201daca3f962e43",
     "cuisine": "Vietnamese Coffee Shop",
-    "district": "District 10",
+    "district": "District 2",
     "rating": 4.3,
     "price": "$",
     "dishes": "Vietnamese coffee, cake",
@@ -1310,7 +1310,7 @@
       "lunch",
       "dinner"
     ],
-    "area": "District 1",
+    "area": "District 2",
     "category": "Vietnamese",
     "tagline": "Neighbourhood coffee shop that gets the basics right.",
     "tags": [

@@ -1220,15 +1220,24 @@ function initSearch(){
     const q = input.value.trim().toLowerCase();
     if(!q){ results.classList.remove('open'); return; }
 
-    const placeMatches = PLACES.filter(p => {
-      const hay = [p.name, p.cuisine, p.district, p.dishes, p.notes].join(' ').toLowerCase();
-      return hay.includes(q);
-    }).slice(0, 6);
+    function normalize(s){
+  return (s||'').toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/đ/g,'d').replace(/Đ/g,'d');
+}
 
-    const expMatches = EXPERIENCES.filter(e => {
-      const hay = [e.name, e.category, e.subcategory, e.district, e.tagline, e.notes].join(' ').toLowerCase();
-      return hay.includes(q);
-    }).slice(0, 4);
+const nq = normalize(q);
+
+const placeMatches = PLACES.filter(p => {
+  const hay = normalize([p.name, p.cuisine, p.district, p.dishes, p.notes].join(' '));
+  return hay.includes(nq);
+}).slice(0, 6);
+
+const expMatches = EXPERIENCES.filter(e => {
+  const hay = normalize([e.name, e.category, e.subcategory, e.district, e.tagline, e.notes].join(' '));
+  return hay.includes(nq);
+}).slice(0, 4);
 
     const allMatches = [...placeMatches, ...expMatches];
 

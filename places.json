@@ -1,4 +1,64 @@
 [
+  {
+    "name": "Sipply Coffee Roastery",
+    "url": "https://www.google.com/maps/place/Sipply+Coffee+Roastery/@10.7891184,106.6910435,3a,75y,90t/data=!3m8!1e2!3m6!1sCIABIhDZTcLuWELRzkKulrYVT11j!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-cs-s%2FAHRPTWksZwONbYuX8TA0GURB2GgqTRf3Poa89Iu1JQV_-umgGeFkRQxUHl9DCJa-mKmLLPK_WYb0dHQbDleha2gKfyZBMej3725eF8p7DuAvWXSvOsZJKzXFCkUyr652mE-jkARFh_t6GAjqfdC2%3Dw86-h128-k-no!7i4145!8i6217!4m7!3m6!1s0x31752f097f69a819:0x4c7348a2708942e!8m2!3d10.7890627!4d106.6911128!10e5!16s%2Fg%2F11v6vv29gk",
+    "cuisine": "Specialty Coffee",
+    "district": "Tân Định, District 1, Ho Chi Minh City",
+    "rating": 4.8,
+    "price": "$",
+    "dishes": "Espresso, pour-over coffee, iced coffee, croissants, cheesecake",
+    "must_try": "Yes",
+    "notes": "A cosy specialty coffee roastery known for carefully brewed espresso and filter coffee, its own roasted beans, friendly service and a relaxed atmosphere suitable for working or unwinding.",
+    "source": "Vietnam list",
+    "lat": 10.7890627,
+    "lng": 106.6911128,
+    "meals": [
+      "breakfast",
+      "lunch",
+      "afternoon"
+    ],
+    "area": "District 1",
+    "category": "Cafe",
+    "tagline": "A cosy specialty coffee roastery serving excellent espresso, pour-over coffee and freshly roasted Vietnamese beans.",
+    "tags": [
+      "specialty coffee",
+      "coffee roastery",
+      "pour-over",
+      "work-friendly",
+      "cosy"
+    ]
+  },
+  {
+    "name": "TEA’SPACE - BẾN THÀNH",
+    "url": "https://www.google.com/maps/place/TEA%E2%80%99SPACE+-+B%E1%BA%BEN+TH%C3%80NH/@10.772883,106.694292,1146m/data=!3m2!1e3!4b1!4m6!3m5!1s0x31752fb1c229d92d:0xf3fa5ee85578091d!8m2!3d10.772883!4d106.6968723!16s%2Fg%2F11w_rsry94",
+    "cuisine": "Tea & Matcha",
+    "district": "Bến Thành, District 1, Ho Chi Minh City",
+    "rating": 4.8,
+    "price": "$",
+    "dishes": "Matcha latte, Summer Delight, fruit tea, premium tea, matcha drinks",
+    "must_try": "Yes",
+    "notes": "A warm and relaxing tea-focused cafe with beige and light-brown interiors, greenery and a peaceful atmosphere. Known for its tea selection, matcha drinks and creative beverages, with indoor and outdoor seating.",
+    "source": "Vietnam list",
+    "lat": 10.772883,
+    "lng": 106.6968723,
+    "meals": [
+      "breakfast",
+      "lunch",
+      "afternoon",
+      "dinner"
+    ],
+    "area": "District 1",
+    "category": "Cafe",
+    "tagline": "A peaceful tea and matcha cafe offering creative drinks in a warm, calming setting near Ben Thanh Market.",
+    "tags": [
+      "tea",
+      "matcha",
+      "cafe",
+      "cosy",
+      "relaxing"
+    ]
+  },
+
    {
     "name": "Sense Tea Hai Bà Trưng",
     "category": "Cafes & Drinks",
@@ -934,7 +994,7 @@
     "lunch",
     "dinner"
   ],
-  "area": "Tan Dinh",
+  "area": "District 1",
   "category": "Vietnamese",
   "tagline": "Modern Vietnamese cuisine with a creative twist in the heart of Tan Dinh.",
   "tags": [
@@ -6133,7 +6193,7 @@
     "brunch",
     "afternoon tea"
   ],
-  "area": "Tan Dinh",
+  "area": "District 1",
   "category": "Cafe",
   "tagline": "A must-visit for authentic Japanese matcha lovers.",
   "tags": [

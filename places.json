@@ -1,5 +1,179 @@
 [
    {
+  "name": "Izakaya TOKI",
+  "category": "Japanese",
+  "subcategory": "Izakaya",
+  "tagline": "A lively Japanese izakaya serving sushi, grilled dishes, sashimi and drinks in a relaxed atmosphere.",
+  "district": "Xuân Hòa, District 3",
+  "price": "$$$",
+  "rating": 4.7,
+  "dishes": "Sushi, sashimi, yakitori, grilled dishes & Japanese small plates",
+  "must_try": "Yes",
+  "notes": "A good choice for Japanese dining with an authentic izakaya-style atmosphere. Best suited to dinner and sharing several dishes with drinks.",
+  "url": "https://www.google.com/maps/place/Izakaya+TOKI/data=!4m2!3m1!1s0x31752fa86a1f5b37:0xbc5c31d05683e3aa",
+  "lat": 10.7819746,
+  "lng": 106.6931471,
+  "meals": [
+    "dinner"
+  ],
+  "area": "District 3",
+  "tagline_short": "Lively Japanese izakaya dining with sushi and grilled dishes.",
+  "tags": [
+    "Japanese",
+    "izakaya",
+    "sushi",
+    "sashimi",
+    "yakitori",
+    "dinner"
+  ]
+},
+{
+  "name": "Casinha",
+  "category": "Portuguese",
+  "subcategory": "Portuguese Restaurant",
+  "tagline": "A warm Portuguese restaurant serving genuine home-style dishes inspired by the food and hospitality of Portugal.",
+  "district": "Xuân Hòa, District 3",
+  "price": "$",
+  "rating": 5.0,
+  "dishes": "Portuguese seafood, meat dishes, traditional Portuguese plates & home-style cooking",
+  "must_try": "Yes",
+  "notes": "A cosy Portuguese restaurant built around the warmth of a traditional family home, with dishes from both land and sea. A particularly interesting choice for something different from the usual Saigon dining scene. [oai_citation:1‡Casinha](https://www.casinha.co/?utm_source=chatgpt.com)",
+  "url": "https://www.google.com/maps/place/Casinha/data=!4m2!3m1!1s0x31752f318b5d2707:0x8e667a81bbb566a3",
+  "lat": 10.7820913,
+  "lng": 106.6931403,
+  "meals": [
+    "breakfast",
+    "lunch",
+    "dinner"
+  ],
+  "area": "District 3",
+  "tagline_short": "Warm, home-style Portuguese dining in District 3.",
+  "tags": [
+    "Portuguese",
+    "European",
+    "seafood",
+    "home-style",
+    "family-style",
+    "dinner"
+  ]
+},
+{
+  "name": "Papaya Papa",
+  "category": "European",
+  "subcategory": "Rooftop Restaurant & Bar",
+  "tagline": "A stylish rooftop restaurant and bar combining modern European dining, cocktails, skyline views and late-night energy.",
+  "district": "Bến Nghé, District 1",
+  "price": "$$$",
+  "rating": 4.9,
+  "dishes": "Pork belly, mushroom puff pastry, spiced cauliflower, French toast & Mediterranean-inspired plates",
+  "must_try": "Yes",
+  "notes": "A sophisticated rooftop destination combining dinner, cocktails, music and panoramic city views. The kitchen draws on classical French technique with Mediterranean and Asian influences. Particularly good for sunset, date nights and drinks after dinner. [oai_citation:2‡Papaya Papa](https://papayapapa.com/?utm_source=chatgpt.com)",
+  "url": "https://www.google.com/maps/place/Papaya+Papa/data=!4m2!3m1!1s0x31752f003ea650b3:0xd99290cc748a8118",
+  "lat": 10.7831204,
+  "lng": 106.6974387,
+  "meals": [
+    "dinner"
+  ],
+  "area": "District 1",
+  "tagline_short": "Stylish rooftop dining, cocktails and skyline views.",
+  "tags": [
+    "rooftop",
+    "European",
+    "cocktails",
+    "bar",
+    "city views",
+    "date night",
+    "dinner",
+    "nightlife"
+  ]
+},
+{
+  "name": "Café Linh",
+  "category": "Vietnamese",
+  "subcategory": "Traditional Café",
+  "tagline": "A charming local café offering a relaxed, nostalgic Vietnamese coffee experience.",
+  "district": "Xuân Hòa, District 3",
+  "price": "$",
+  "rating": 4.4,
+  "dishes": "Vietnamese coffee, iced coffee, tea & traditional café drinks",
+  "must_try": "Yes",
+  "notes": "A simple neighbourhood café suited to a relaxed coffee stop and a more local Saigon experience. Best for visitors wanting something casual rather than a polished specialty-coffee venue.",
+  "url": "https://www.google.com/maps/place/Caf%C3%A9+Linh/data=!4m2!3m1!1s0x31752f006c72afe1:0xd09017af0d745711",
+  "lat": 10.7844551,
+  "lng": 106.6942183,
+  "meals": [
+    "breakfast"
+  ],
+  "area": "District 3",
+  "tagline_short": "A relaxed local café for traditional Vietnamese coffee.",
+  "tags": [
+    "Vietnamese coffee",
+    "café",
+    "local",
+    "traditional",
+    "coffee",
+    "breakfast"
+  ]
+},
+{
+  "name": "Đào Liễu",
+  "category": "Vietnamese",
+  "subcategory": "Vietnamese Restaurant",
+  "tagline": "A local Vietnamese dining spot offering a relaxed setting and traditional flavours away from the main tourist areas.",
+  "district": "Xuân Hòa, District 3",
+  "price": "$$",
+  "rating": 4.7,
+  "dishes": "Vietnamese dishes, local specialities & traditional plates",
+  "must_try": "Yes",
+  "notes": "A neighbourhood-style dining option worth considering for a more local Vietnamese food experience.",
+  "url": "https://www.google.com/maps/place/%C4%90%C3%A0o+Li%E1%BB%85u/data=!4m2!3m1!1s0x31752f003e014391:0x3aea1b68fc8523cc",
+  "lat": 10.7868,
+  "lng": 106.6919,
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "area": "District 3",
+  "tagline_short": "Local Vietnamese dining away from the tourist crowds.",
+  "tags": [
+    "Vietnamese",
+    "local food",
+    "traditional",
+    "neighbourhood",
+    "lunch",
+    "dinner"
+  ]
+},
+   {
+  "name": "Bếp Cuốn Sài Gòn",
+  "category": "Vietnamese",
+  "subcategory": "Vietnamese Cuisine",
+  "tagline": "A polished Vietnamese restaurant showcasing fresh, traditional dishes with a modern presentation.",
+  "district": "Xuân Hòa, District 3",
+  "price": "$$",
+  "rating": 4.9,
+  "dishes": "Vietnamese rice paper rolls, bánh cuốn, grilled meats & traditional Vietnamese dishes",
+  "must_try": "Yes",
+  "notes": "A stylish spot for experiencing classic Vietnamese flavours in a more refined setting. Particularly suitable for visitors wanting to try a range of fresh Vietnamese dishes.",
+  "url": "https://www.google.com/maps/place/B%E1%BA%BFp+Cu%E1%BB%91n+S%C3%A0i+G%C3%B2n/data=!4m2!3m1!1s0x31752f1bbffba687:0xccc4db47e84d7b9d",
+  "lat": 10.7765904,
+  "lng": 106.6900581,
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "area": "District 3",
+  "tagline_short": "Refined Vietnamese cuisine with fresh traditional flavours.",
+  "tags": [
+    "Vietnamese",
+    "bánh cuốn",
+    "rice paper rolls",
+    "local food",
+    "lunch",
+    "dinner"
+  ]
+},
+   {
     "name": "Sense Tea Hai Bà Trưng",
     "category": "Cafes & Drinks",
     "subcategory": "Tea House",

@@ -1,4 +1,33 @@
 [
+  {
+  "name": "Margherí Pizza Phu My Hung",
+  "url": "https://www.google.com/maps/place/Margher%C3%AD+pizza+Phu+My+Hung/data=!4m2!3m1!1s0x31752f478c58124f:0x43e64271ad3c1d67",
+  "cuisine": "Italian Pizza",
+  "district": "Tân Hưng, District 7, Ho Chi Minh City",
+  "rating": 4.8,
+  "price": "$$",
+  "dishes": "Neapolitan-style pizza, Margherita pizza, burrata, pasta and Italian appetisers",
+  "must_try": "Yes",
+  "notes": "A popular Italian pizzeria in Phu My Hung specialising in authentic, wood-fired-style pizzas with quality Italian ingredients and a relaxed neighbourhood atmosphere.",
+  "source": "Vietnam list",
+  "lat": 10.7297896,
+  "lng": 106.7077113,
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "area": "Phu My Hung",
+  "category": "Italian",
+  "tagline": "Authentic Italian pizza and relaxed dining in Phu My Hung.",
+  "tags": [
+    "pizza",
+    "Italian",
+    "Neapolitan",
+    "Phu My Hung",
+    "pasta",
+    "dinner"
+  ]
+},
    {
   "name": "Izakaya TOKI",
   "category": "Japanese",

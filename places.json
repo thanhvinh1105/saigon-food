@@ -30,7 +30,7 @@
 },
    {
   "name": "Izakaya TOKI",
-  "category": "Japanese",
+  "cuisine": "Japanese",
   "subcategory": "Izakaya",
   "tagline": "A lively Japanese izakaya serving sushi, grilled dishes, sashimi and drinks in a relaxed atmosphere.",
   "district": "Xuân Hòa, District 3",
@@ -59,7 +59,7 @@
 },
 {
   "name": "Casinha",
-  "category": "Portuguese",
+  "cuisine": "Portuguese",
   "subcategory": "Portuguese Restaurant",
   "tagline": "A warm Portuguese restaurant serving genuine home-style dishes inspired by the food and hospitality of Portugal.",
   "district": "Xuân Hòa, District 3",
@@ -90,7 +90,7 @@
 },
 {
   "name": "Papaya Papa",
-  "category": "European",
+  "cuisine": "European",
   "subcategory": "Rooftop Restaurant & Bar",
   "tagline": "A stylish rooftop restaurant and bar combining modern European dining, cocktails, skyline views and late-night energy.",
   "district": "Bến Nghé, District 1",
@@ -121,7 +121,7 @@
 },
 {
   "name": "Café Linh",
-  "category": "Vietnamese",
+  "cuisine": "Vietnamese",
   "subcategory": "Traditional Café",
   "tagline": "A charming local café offering a relaxed, nostalgic Vietnamese coffee experience.",
   "district": "Xuân Hòa, District 3",
@@ -151,7 +151,7 @@
 },
 {
   "name": "Đào Liễu",
-  "category": "Vietnamese",
+  "cuisine": "Vietnamese",
   "subcategory": "Vietnamese Restaurant",
   "tagline": "A local Vietnamese dining spot offering a relaxed setting and traditional flavours away from the main tourist areas.",
   "district": "Xuân Hòa, District 3",
@@ -181,7 +181,7 @@
 },
    {
   "name": "Bếp Cuốn Sài Gòn",
-  "category": "Vietnamese",
+  "cuisine": "Vietnamese",
   "subcategory": "Vietnamese Cuisine",
   "tagline": "A polished Vietnamese restaurant showcasing fresh, traditional dishes with a modern presentation.",
   "district": "Xuân Hòa, District 3",
@@ -211,7 +211,7 @@
 },
    {
     "name": "Sense Tea Hai Bà Trưng",
-    "category": "Cafes & Drinks",
+    "cuisine": "Cafes & Drinks",
     "subcategory": "Tea House",
     "tagline": "A cosy tea spot specialising in Vietnamese tea and refreshing tea-based drinks.",
     "district": "Tân Định, District 1",

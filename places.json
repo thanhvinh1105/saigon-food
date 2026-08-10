@@ -17,6 +17,7 @@
     "dinner"
   ],
   "area": "District 3",
+  "category": "Japanese",
   "tagline_short": "Lively Japanese izakaya dining with sushi and grilled dishes.",
   "tags": [
     "Japanese",
@@ -47,6 +48,7 @@
     "dinner"
   ],
   "area": "District 3",
+  "category": "Portugese",
   "tagline_short": "Warm, home-style Portuguese dining in District 3.",
   "tags": [
     "Portuguese",
@@ -75,6 +77,7 @@
     "dinner"
   ],
   "area": "District 1",
+  "category": "European",
   "tagline_short": "Stylish rooftop dining, cocktails and skyline views.",
   "tags": [
     "rooftop",
@@ -106,6 +109,7 @@
   ],
   "area": "District 3",
   "tagline_short": "A relaxed local café for traditional Vietnamese coffee.",
+  "category": "Cafes & Drinks",
   "tags": [
     "Vietnamese coffee",
     "café",
@@ -135,6 +139,7 @@
   ],
   "area": "District 3",
   "tagline_short": "Local Vietnamese dining away from the tourist crowds.",
+  "category": "Vietnamese",
   "tags": [
     "Vietnamese",
     "local food",
@@ -164,6 +169,7 @@
   ],
   "area": "District 3",
   "tagline_short": "Refined Vietnamese cuisine with fresh traditional flavours.",
+  "category": "Vietnamese",
   "tags": [
     "Vietnamese",
     "bánh cuốn",

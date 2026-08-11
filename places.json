@@ -1,5 +1,208 @@
 [
   {
+  "name": "Towa - Japanese Cuisine",
+  "cuisine": "Japanese",
+  "subcategory": "Japanese Fine Dining",
+  "tagline": "An elegant Japanese restaurant offering refined cuisine, premium ingredients and panoramic city views from the 28th floor.",
+  "district": "Bến Nghé, District 1",
+  "price": "$$$$",
+  "rating": 4.6,
+  "dishes": "Sushi, sashimi, Wagyu, tempura & Japanese tasting menus",
+  "must_try": "Yes",
+  "notes": "Located on the 28th floor of Sedona Suites, offering an upscale Japanese dining experience with sophisticated dishes and impressive views across central Saigon.",
+  "url": "https://www.google.com/maps/place/Towa+-+Japanese+Cuisine/data=!4m2!3m1!1s0x31752f93fed80459:0x8b3eb7a461330b6b",
+  "lat": 10.773125,
+  "lng": 106.700606,
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "area": "District 1",
+  "tagline_short": "Refined Japanese dining with panoramic views from the 28th floor.",
+  "tags": [
+    "Japanese",
+    "sushi",
+    "sashimi",
+    "Wagyu",
+    "fine dining",
+    "city views",
+    "dinner"
+  ]
+},
+{
+  "name": "Chill Skybar & Dining",
+  "cuisine": "International",
+  "subcategory": "Rooftop Bar & Dining",
+  "tagline": "A stylish rooftop destination combining panoramic city views, cocktails and contemporary dining high above Saigon.",
+  "district": "Bến Thành, District 1",
+  "price": "$$$$",
+  "rating": 4.4,
+  "dishes": "International dishes, steaks, seafood, tapas & cocktails",
+  "must_try": "Yes",
+  "notes": "One of Saigon's iconic rooftop venues, known for its spectacular skyline views, cocktails, DJ sets and lively evening atmosphere.",
+  "url": "https://www.google.com/maps/place/Chill+Skybar+%26+Dining/data=!4m2!3m1!1s0x31752f3e866e1431:0x622002f1dd05ced4",
+  "lat": 10.7696,
+  "lng": 106.6967,
+  "meals": [
+    "dinner"
+  ],
+  "area": "District 1",
+  "tagline_short": "Iconic rooftop dining, cocktails and panoramic Saigon views.",
+  "tags": [
+    "rooftop",
+    "bar",
+    "cocktails",
+    "city views",
+    "international",
+    "nightlife",
+    "dinner"
+  ]
+},
+{
+  "name": "Laluna Cafe & Brunch - Nguyễn Cao",
+  "cuisine": "Cafe",
+  "subcategory": "Cafe & Brunch",
+  "tagline": "A relaxed cafe and brunch spot serving coffee, breakfast favourites and casual meals in Phú Mỹ Hưng.",
+  "district": "Tân Phú, District 7",
+  "price": "$$",
+  "rating": 4.6,
+  "dishes": "Coffee, eggs, brunch plates, sandwiches, pasta & pastries",
+  "must_try": "Yes",
+  "notes": "A comfortable neighbourhood cafe suited to breakfast and brunch, with a relaxed atmosphere and a broad selection of Western-style cafe dishes.",
+  "url": "https://www.google.com/maps/place/Laluna+Cafe+%26+Brunch+-+Nguyễn+Cao/data=!4m2!3m1!1s0x31752f007e01d3fd:0xd482c643ff24890d",
+  "lat": 10.7225123,
+  "lng": 106.7122113,
+  "meals": [
+    "breakfast",
+    "lunch"
+  ],
+  "area": "District 7",
+  "tagline_short": "Relaxed brunch, coffee and casual dining in Phú Mỹ Hưng.",
+  "tags": [
+    "cafe",
+    "brunch",
+    "coffee",
+    "breakfast",
+    "pastries",
+    "District 7"
+  ]
+},
+{
+  "name": "Chuyện Ba Bữa Signature",
+  "cuisine": "Vietnamese",
+  "subcategory": "Modern Vietnamese",
+  "tagline": "A contemporary Vietnamese restaurant celebrating traditional flavours through refined dishes and modern presentation.",
+  "district": "Bến Nghé, District 1",
+  "price": "$$$",
+  "rating": 4.7,
+  "dishes": "Modern Vietnamese dishes, seafood, grilled meats & traditional specialities",
+  "must_try": "Yes",
+  "notes": "Located at Saigon Marina IFC, offering an elevated interpretation of Vietnamese cuisine in a polished contemporary setting.",
+  "url": "https://www.google.com/maps/place/Chuyện+Ba+Bữa+Signature/data=!4m2!3m1!1s0x31752f89d4a87093:0xfa79ce0b7f7f8173",
+  "lat": 10.7821982,
+  "lng": 106.7079805,
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "area": "District 1",
+  "tagline_short": "Modern Vietnamese cuisine in an elegant riverside setting.",
+  "tags": [
+    "Vietnamese",
+    "modern Vietnamese",
+    "local food",
+    "seafood",
+    "fine dining",
+    "dinner"
+  ]
+},
+{
+  "name": "BÚP Sky Cuisine - Asian Fusion",
+  "cuisine": "Asian Fusion",
+  "subcategory": "Asian Fusion Restaurant",
+  "tagline": "A stylish Asian fusion restaurant combining contemporary Asian flavours with a vibrant rooftop-inspired dining atmosphere.",
+  "district": "Bến Thành, District 1",
+  "price": "$$$",
+  "rating": 4.6,
+  "dishes": "Asian fusion dishes, seafood, grilled meats, sharing plates & cocktails",
+  "must_try": "Yes",
+  "notes": "A contemporary dining venue in central District 1 suited to groups looking for creative Asian-inspired dishes and a lively evening atmosphere.",
+  "url": "https://www.google.com/maps/place/B%C3%9AP+Sky+Cuisine+-+Asian+Fusion/data=!4m2!3m1!1s0x317067fbea1cf50f:0xab1d67d6ddb3b4a3",
+  "lat": 10.7694071,
+  "lng": 106.7001448,
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "area": "District 1",
+  "tagline_short": "Creative Asian fusion dining in the heart of District 1.",
+  "tags": [
+    "Asian fusion",
+    "seafood",
+    "sharing plates",
+    "cocktails",
+    "District 1",
+    "dinner"
+  ]
+},
+{
+  "name": "XoÃ Pizza & Social Room",
+  "cuisine": "Italian",
+  "subcategory": "Pizza & Social Dining",
+  "tagline": "A contemporary pizza and social dining venue combining Italian-inspired food with drinks and a lively atmosphere.",
+  "district": "Bến Nghé, District 1",
+  "price": "$$$",
+  "rating": 4.5,
+  "dishes": "Wood-fired pizza, pasta, antipasti, salads & cocktails",
+  "must_try": "Yes",
+  "notes": "A stylish central venue suited to casual dinners and social occasions, with pizza-focused dining alongside drinks and a lively atmosphere.",
+  "url": "https://www.google.com/maps/place/Xo%C3%83+Pizza+%26+Social+Room/data=!4m2!3m1!1s0x31752fc6149e8645:0x75624b92a195d5c3",
+  "lat": 10.7740,
+  "lng": 106.7050,
+  "meals": [
+    "dinner"
+  ],
+  "area": "District 1",
+  "tagline_short": "Modern pizza, drinks and social dining near the riverfront.",
+  "tags": [
+    "pizza",
+    "Italian",
+    "pasta",
+    "cocktails",
+    "social dining",
+    "dinner"
+  ]
+},
+{
+  "name": "The Log Restaurant",
+  "cuisine": "International",
+  "subcategory": "Fine Dining",
+  "tagline": "An elegant rooftop restaurant offering refined international cuisine in a distinctive timber-inspired setting.",
+  "district": "Đa Kao, District 1",
+  "price": "$$$$",
+  "rating": 4.5,
+  "dishes": "Steak, seafood, pasta, international dishes & desserts",
+  "must_try": "Yes",
+  "notes": "A sophisticated dining destination at GEM Center, known for its distinctive rooftop setting, elegant interiors and upscale dining experience.",
+  "url": "https://www.google.com/maps/place/The+Log+Restaurant/data=!4m2!3m1!1s0x317528b527935a7f:0xabadb66bb424766c",
+  "lat": 10.7908,
+  "lng": 106.7027,
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "area": "District 1",
+  "tagline_short": "Elegant rooftop fine dining at GEM Center.",
+  "tags": [
+    "fine dining",
+    "rooftop",
+    "international",
+    "steak",
+    "seafood",
+    "dinner"
+  ]
+},
+  {
   "name": "Friendship Bakery & Desserts - Thanh My Tay",
   "cuisine": "Bakery & Desserts",
   "subcategory": "Bakery & Dessert Cafe",

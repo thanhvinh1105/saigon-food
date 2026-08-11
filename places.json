@@ -1,5 +1,64 @@
 [
   {
+  "name": "Friendship Bakery & Desserts - Thanh My Tay",
+  "cuisine": "Bakery & Desserts",
+  "subcategory": "Bakery & Dessert Cafe",
+  "tagline": "A neighbourhood bakery and dessert shop offering freshly made cakes, pastries and sweet treats.",
+  "district": "Thạnh Mỹ Tây, Bình Thạnh District",
+  "price": "$$",
+  "rating": 4.8,
+  "dishes": "Cakes, pastries, bread, desserts & sweet treats",
+  "must_try": "Yes",
+  "notes": "A convenient local bakery for freshly made desserts, cakes and pastries, suitable for a casual sweet treat or takeaway.",
+  "url": "https://www.google.com/maps/place/Friendship+Bakery+%26+Desserts+-+Thanh+My+Tay/data=!4m2!3m1!1s0x3175278d1475e55d:0xd0107e4cdb3ff765",
+  "lat": 10.8023992,
+  "lng": 106.7115696,
+  "meals": [
+    "breakfast",
+    "afternoon"
+  ],
+  "area": "Bình Thạnh",
+  "tagline_short": "Fresh cakes, pastries and desserts in Bình Thạnh.",
+  "tags": [
+    "bakery",
+    "desserts",
+    "cakes",
+    "pastries",
+    "sweet treats",
+    "breakfast"
+  ]
+},
+{
+  "name": "Palais Des Douceurs",
+  "cuisine": "Bakery & Desserts",
+  "subcategory": "French Bakery & Patisserie",
+  "tagline": "An elegant French-style patisserie offering refined pastries, cakes and handcrafted desserts.",
+  "district": "Xuân Hòa, District 3",
+  "price": "$$$",
+  "rating": 4.7,
+  "dishes": "French pastries, cakes, tarts, macarons & desserts",
+  "must_try": "Yes",
+  "notes": "A refined dessert destination suited to anyone looking for French-style pastries, beautifully presented cakes and elegant sweet treats.",
+  "url": "https://www.google.com/maps/place/Palais+Des+Douceurs/data=!4m2!3m1!1s0x31752f3daf7791e7:0x4147106bc92d33c",
+  "lat": 10.775234,
+  "lng": 106.6881781,
+  "meals": [
+    "breakfast",
+    "afternoon"
+  ],
+  "area": "District 3",
+  "tagline_short": "Elegant French pastries and refined desserts in District 3.",
+  "tags": [
+    "French",
+    "bakery",
+    "patisserie",
+    "desserts",
+    "pastries",
+    "cakes",
+    "afternoon"
+  ]
+},
+  {
   "name": "Hủ Tiếu Hồng Phát",
   "cuisine": "Vietnamese",
   "subcategory": "Hủ Tiếu & Noodle Restaurant",

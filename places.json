@@ -1,5 +1,63 @@
 [
   {
+  "name": "The Running Bean",
+  "cuisine": "Cafe",
+  "subcategory": "Specialty Coffee & Cafe",
+  "tagline": "A modern specialty coffee shop offering quality coffee, brunch and light meals in a stylish setting.",
+  "district": "Bến Nghé, District 1",
+  "price": "$$",
+  "rating": 4.6,
+  "dishes": "Specialty coffee, brunch, pastries, sandwiches & light meals",
+  "must_try": "Yes",
+  "notes": "A popular cafe in central District 1, known for its specialty coffee, relaxed atmosphere and convenient location near Nguyen Hue Walking Street.",
+  "url": "https://www.google.com/maps/place/The+Running+Bean/data=!4m2!3m1!1s0x31752f46d4b74ae9:0x2afbc95fda75b337",
+  "lat": 10.7728584,
+  "lng": 106.7032662,
+  "meals": [
+    "breakfast",
+    "lunch"
+  ],
+  "area": "District 1",
+  "tagline_short": "Modern specialty coffee and brunch in central District 1.",
+  "tags": [
+    "cafe",
+    "coffee",
+    "brunch",
+    "specialty coffee",
+    "District 1",
+    "breakfast"
+  ]
+},
+{
+  "name": "Hoả Quán",
+  "cuisine": "Vietnamese",
+  "subcategory": "Vietnamese BBQ & Hotpot",
+  "tagline": "A lively Vietnamese restaurant specialising in grilled meats, hotpot and bold local flavours.",
+  "district": "Cầu Ông Lãnh, District 1",
+  "price": "$$",
+  "rating": 4.7,
+  "dishes": "Vietnamese BBQ, grilled meats, hotpot & local dishes",
+  "must_try": "Yes",
+  "notes": "A casual Vietnamese dining spot offering hearty grilled dishes and hotpot in a lively local atmosphere.",
+  "url": "https://www.google.com/maps/place/Ho%E1%BA%A3+Qu%C3%A1n/data=!4m2!3m1!1s0x31752fed57fb12e7:0x3ecda1fd0b087270",
+  "lat": 10.7662131,
+  "lng": 106.6945461,
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "area": "District 1",
+  "tagline_short": "Lively Vietnamese BBQ and hotpot in District 1.",
+  "tags": [
+    "Vietnamese",
+    "BBQ",
+    "hotpot",
+    "grilled meat",
+    "local food",
+    "dinner"
+  ]
+},
+  {
   "name": "Margherí Pizza Phu My Hung",
   "url": "https://www.google.com/maps/place/Margher%C3%AD+pizza+Phu+My+Hung/data=!4m2!3m1!1s0x31752f478c58124f:0x43e64271ad3c1d67",
   "cuisine": "Italian Pizza",
@@ -121,7 +179,7 @@
 },
 {
   "name": "Café Linh",
-  "cuisine": "Vietnamese",
+  "cuisine": "Cafes & Drinks",
   "subcategory": "Traditional Café",
   "tagline": "A charming local café offering a relaxed, nostalgic Vietnamese coffee experience.",
   "district": "Xuân Hòa, District 3",

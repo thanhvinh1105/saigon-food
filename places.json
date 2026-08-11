@@ -1,5 +1,36 @@
 [
   {
+  "name": "Hủ Tiếu Hồng Phát",
+  "cuisine": "Vietnamese",
+  "subcategory": "Hủ Tiếu & Noodle Restaurant",
+  "tagline": "A long-standing Vietnamese noodle restaurant specialising in traditional hủ tiếu with rich, flavourful broths.",
+  "district": "Bàn Cờ, District 3",
+  "price": "$$",
+  "rating": 4.4,
+  "dishes": "Hủ tiếu Nam Vang, dry hủ tiếu, noodle soup, pork & seafood",
+  "must_try": "Yes",
+  "notes": "A well-known destination for hủ tiếu Nam Vang, offering both soup and dry versions with pork, prawns and other traditional toppings.",
+  "url": "https://www.google.com/maps/place/H%E1%BB%A7+Ti%E1%BA%BFu+H%E1%BB%93ng+Ph%C3%A1t/data=!4m2!3m1!1s0x31752f225102ce6b:0xaef4b06b0b8777c9",
+  "lat": 10.7705485,
+  "lng": 106.6847932,
+  "meals": [
+    "breakfast",
+    "lunch",
+    "dinner"
+  ],
+  "area": "District 3",
+  "tagline_short": "Traditional hủ tiếu Nam Vang with rich broth and generous toppings.",
+  "tags": [
+    "Vietnamese",
+    "hủ tiếu",
+    "noodles",
+    "Nam Vang",
+    "local food",
+    "breakfast",
+    "lunch"
+  ]
+},
+  {
   "name": "The Running Bean",
   "cuisine": "Cafe",
   "subcategory": "Specialty Coffee & Cafe",

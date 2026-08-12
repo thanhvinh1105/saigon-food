@@ -5609,32 +5609,6 @@
     ]
   },
   {
-    "name": "Spa Bar",
-    "url": "https://www.google.com/maps/place/Spa+Bar/data=!4m2!3m1!1s0x317527bb51ff4509:0xf40ec47135512fb8",
-    "cuisine": "Spa",
-    "district": "Thao Dien, Thu Duc City",
-    "rating": 4.6,
-    "price": "$$$",
-    "dishes": null,
-    "must_try": null,
-    "notes": "Spa, not a restaurant",
-    "source": "Quan 2 list",
-    "lat": 10.798535,
-    "lng": 106.729735,
-    "meals": [
-      "lunch",
-      "dinner"
-    ],
-    "area": "Thao Dien / D2",
-    "category": "Other",
-    "tagline": "Classic smash burger at an honest price. Ducky's doesn't overthink it.",
-    "tags": [
-      "lunch",
-      "casual",
-      "budget"
-    ]
-  },
-  {
     "name": "The Orange Ball - Coffee Thao Dien",
     "url": "https://www.google.com/maps/place/The+Orange+Ball+-+Coffee+Thao+Dien/data=!4m2!3m1!1s0x3175270032f69a13:0x3cc1542d4ac13784",
     "cuisine": "Cafe",

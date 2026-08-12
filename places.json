@@ -3240,31 +3240,6 @@
     ]
   },
   {
-    "name": "Laairai Thao Dien",
-    "url": "https://www.google.com/maps/place/Laairai+Thao+Dien/data=!4m2!3m1!1s0x31752d6dc8cbcff9:0x23a7178db2a345ed",
-    "cuisine": "Vietnamese-Japanese Fusion Grill",
-    "district": "Thao Dien, Thu Duc City",
-    "rating": 4.8,
-    "price": "$$",
-    "dishes": "Charcoal grill fusion dishes",
-    "must_try": "Yes",
-    "notes": "",
-    "source": "Vietnam list",
-    "lat": 10.803347,
-    "lng": 106.736782,
-    "meals": [
-      "lunch",
-      "dinner"
-    ],
-    "area": "Thao Dien / D2",
-    "category": "Japanese",
-    "tagline": "Charcoal grill meets Japanese technique in Thao Dien. The fusion actually works.",
-    "tags": [
-      "dinner",
-      "date night"
-    ]
-  },
-  {
     "name": "Takailao",
     "url": "https://www.google.com/maps/place/Takailao/data=!4m2!3m1!1s0x31752fa21a1d5c77:0x691accf2bb5c2325",
     "cuisine": "Taiwanese Hot Pot",

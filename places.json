@@ -591,7 +591,7 @@
   },
   {
     "name": "Ramen Shinsen",
-    "category": "Japanese",
+    "cuisine": "Japanese",
     "subcategory": "Ramen",
     "tagline": "A highly rated Japanese ramen shop known for rich broths, tender pork and chewy noodles.",
     "district": "Bến Nghé, District 1",
@@ -608,7 +608,7 @@
       "dinner"
     ],
     "area": "District 1",
-    "category": "Japanese",
+    "cuisine": "Japanese",
     "tagline_short": "Excellent ramen in a small, cosy Japanese noodle shop.",
     "tags": [
       "ramen",
@@ -620,7 +620,7 @@
   },
   {
     "name": "SUSHI & HANDROLL FUJIYAMA",
-    "category": "Japanese",
+    "cuisine": "Japanese",
     "subcategory": "Sushi & Handroll",
     "tagline": "A refined Japanese sushi bar specialising in fresh handrolls, premium seafood and Wagyu.",
     "district": "Bến Nghé, District 1",
@@ -637,7 +637,7 @@
       "dinner"
     ],
     "area": "District 1",
-    "category": "Japanese",
+    "cuisine": "Japanese",
     "tagline_short": "Premium handroll sushi and Japanese dining near the Opera House.",
     "tags": [
       "sushi",
@@ -650,7 +650,7 @@
   },
   {
     "name": "Unagi Yosakura",
-    "category": "Japanese",
+    "cuisine": "Japanese",
     "subcategory": "Unagi & Japanese Dining",
     "tagline": "An elegant Japanese restaurant specialising in authentic grilled eel, Wagyu and traditional Japanese rice dishes.",
     "district": "Xuân Hòa, District 3",
@@ -667,7 +667,7 @@
       "dinner"
     ],
     "area": "District 3",
-    "category": "Japanese",
+    "cuisine": "Japanese",
     "tagline_short": "Elegant Japanese dining with excellent grilled unagi and Wagyu.",
     "tags": [
       "unagi",

@@ -1,5 +1,35 @@
 [
   {
+  "name": "Mille Mille - Xuân Thủy",
+  "url": "https://www.google.com/maps/place/Mille+Mille+-+Gallery+-+Xuân+Thủy/data=!4m2!3m1!1s0x317527006a7c6fed:0xc09151406b862afd",
+  "cuisine": "Bakery",
+  "district": "An Khánh, Thu Duc City, Ho Chi Minh City",
+  "rating": 4.8,
+  "price": "$$",
+  "dishes": "Fresh pastries, bread, cakes, croissants and French-style baked goods",
+  "must_try": "Yes",
+  "notes": "A stylish bakery in the Xuân Thủy area of Thảo Điền offering freshly baked pastries, breads and desserts. A good stop for breakfast, coffee or an afternoon pastry.",
+  "source": "Vietnam list",
+  "lat": 10.8029,
+  "lng": 106.7330,
+  "meals": [
+    "breakfast",
+    "afternoon"
+  ],
+  "area": "Thao Dien",
+  "category": "Bakery",
+  "tagline": "Freshly baked pastries and French-style treats in Thảo Điền.",
+  "tags": [
+    "bakery",
+    "pastries",
+    "bread",
+    "croissants",
+    "cakes",
+    "breakfast",
+    "Thao Dien"
+  ]
+},
+  {
   "name": "Một Bát Trà",
   "url": "https://www.google.com/maps/place/Một+Bát+Trà/data=!4m2!3m1!1s0x31752f5a72aaa725:0xe5e452f20b191ba4",
   "cuisine": "Matcha & Tea",

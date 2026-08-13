@@ -1,5 +1,35 @@
 [
   {
+  "name": "Một Bát Trà",
+  "url": "https://www.google.com/maps/place/Một+Bát+Trà/data=!4m2!3m1!1s0x31752f5a72aaa725:0xe5e452f20b191ba4",
+  "cuisine": "Matcha & Tea",
+  "district": "Bến Nghé, District 1, Ho Chi Minh City",
+  "rating": 4.8,
+  "price": "$$",
+  "dishes": "Premium matcha, houjicha, matcha latte, Japanese tea drinks and matcha desserts",
+  "must_try": "Yes",
+  "notes": "A specialty tea spot focused on premium Japanese matcha and houjicha. A good choice for matcha enthusiasts looking for carefully prepared tea drinks in a cosy setting.",
+  "source": "Vietnam list",
+  "lat": 10.7755,
+  "lng": 106.7060,
+  "meals": [
+    "breakfast",
+    "afternoon",
+    "evening"
+  ],
+  "area": "District 1",
+  "category": "Cafés",
+  "tagline": "Premium Japanese matcha and houjicha in a cosy Saigon tea spot.",
+  "tags": [
+    "matcha",
+    "houjicha",
+    "Japanese tea",
+    "tea",
+    "dessert",
+    "café"
+  ]
+},
+  {
   "name": "Drinking & Healing",
   "url": "https://www.google.com/maps/place/Drinking+%26+Healing/data=!4m2!3m1!1s0x31752f92c23843fd:0x6c9dbe12f73261c6",
   "cuisine": "Bars & Cocktails",

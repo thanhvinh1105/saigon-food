@@ -1,5 +1,35 @@
 [
   {
+  "name": "Rosie Posie 2 - Signature Café",
+  "url": "https://www.google.com/maps/place/Rosie+Posie+2+-+Signature+Caf%C3%A9/@10.790911,106.7020812,1193m/data=!3m1!1e3!4m14!1m7!3m6!1s0x3175290005a0812d:0x4b1ba7f2bce106a7!2sRosie+Posie+2+-+Signature+Caf%C3%A9!8m2!3d10.790911!4d106.7046561!16s%2Fg%2F11yq2y0_wl!3m5!1s0x3175290005a0812d:0x4b1ba7f2bce106a7!8m2!3d10.790911!4d106.7046561!16s%2Fg%2F11yq2y0_wl",
+  "cuisine": "Coffee & Cafe",
+  "district": "Da Kao, District 1, Ho Chi Minh City",
+  "rating": 4.4,
+  "price": "$",
+  "dishes": "Coffee, specialty drinks, tea, pastries, desserts",
+  "must_try": "Yes",
+  "notes": "A charming and intimate cafe with a peaceful atmosphere, thoughtfully decorated interiors and a range of creative drinks. The cafe is known for its cosy setting and is well suited for quiet catch-ups, relaxing or taking photos.",
+  "source": "Vietnam list",
+  "lat": 10.790911,
+  "lng": 106.7046561,
+  "meals": [
+    "breakfast",
+    "lunch",
+    "afternoon",
+    "dinner"
+  ],
+  "area": "Da Kao",
+  "category": "Cafe",
+  "tagline": "A cosy and intimate signature cafe offering creative drinks in a beautifully decorated setting.",
+  "tags": [
+    "coffee",
+    "cosy",
+    "aesthetic",
+    "quiet",
+    "date spot"
+  ]
+},
+  {
     "name": "Sipply Coffee Roastery",
     "url": "https://www.google.com/maps/place/Sipply+Coffee+Roastery/@10.7891184,106.6910435,3a,75y,90t/data=!3m8!1e2!3m6!1sCIABIhDZTcLuWELRzkKulrYVT11j!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-cs-s%2FAHRPTWksZwONbYuX8TA0GURB2GgqTRf3Poa89Iu1JQV_-umgGeFkRQxUHl9DCJa-mKmLLPK_WYb0dHQbDleha2gKfyZBMej3725eF8p7DuAvWXSvOsZJKzXFCkUyr652mE-jkARFh_t6GAjqfdC2%3Dw86-h128-k-no!7i4145!8i6217!4m7!3m6!1s0x31752f097f69a819:0x4c7348a2708942e!8m2!3d10.7890627!4d106.6911128!10e5!16s%2Fg%2F11v6vv29gk",
     "cuisine": "Specialty Coffee",

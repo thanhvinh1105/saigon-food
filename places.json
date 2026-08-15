@@ -1,5 +1,34 @@
 [
   {
+  "name": "SINCE TEA - Nguyễn Huệ",
+  "url": "https://www.google.com/maps/place/SINCE+TEA+-+Nguyễn+Huệ/data=!4m2!3m1!1s0x31752f00490df3a1:0xf3f863605a8fb168",
+  "cuisine": "Bakery & Desserts",
+  "district": "Bến Nghé, District 1, Ho Chi Minh City",
+  "rating": 4.7,
+  "price": "$$",
+  "dishes": "Milk tea, fruit tea, cheese tea and specialty tea drinks",
+  "must_try": "Yes",
+  "notes": "A modern tea shop on Nguyễn Huệ offering a range of contemporary tea and milk tea drinks. A convenient option for a refreshing drink while exploring the Nguyễn Huệ walking street area.",
+  "source": "Vietnam list",
+  "lat": 10.7732,
+  "lng": 106.7045,
+  "meals": [
+    "afternoon",
+    "evening"
+  ],
+  "area": "District 1",
+  "category": "Cafés",
+  "tagline": "Modern tea and milk tea drinks in the heart of Nguyễn Huệ.",
+  "tags": [
+    "tea",
+    "milk tea",
+    "fruit tea",
+    "drinks",
+    "Nguyen Hue",
+    "District 1"
+  ]
+},
+  {
   "name": "Jeonpo Meat Shop Vietnam",
   "url": "https://www.google.com/maps/place/Jeonpo+Meat+Shop+Vietnam/data=!4m2!3m1!1s0x317529282aaefd3d:0x4727a5d58f07b102",
   "cuisine": "BBQ & Korean",

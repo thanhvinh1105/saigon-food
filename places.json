@@ -1,5 +1,34 @@
 [
   {
+  "name": "Jeonpo Meat Shop Vietnam",
+  "url": "https://www.google.com/maps/place/Jeonpo+Meat+Shop+Vietnam/data=!4m2!3m1!1s0x317529282aaefd3d:0x4727a5d58f07b102",
+  "cuisine": "BBQ & Korean",
+  "district": "Thạnh Mỹ Tây, Bình Thạnh District, Ho Chi Minh City",
+  "rating": 4.8,
+  "price": "$$$",
+  "dishes": "Korean BBQ, grilled pork, beef, premium cuts and Korean side dishes",
+  "must_try": "Yes",
+  "notes": "A Korean BBQ restaurant in the Bình Thạnh area specialising in grilled meat and a Korean-style dining experience. A good option for groups looking for quality grilled beef and pork.",
+  "source": "Vietnam list",
+  "lat": 10.8050,
+  "lng": 106.7130,
+  "meals": [
+    "dinner"
+  ],
+  "area": "Binh Thanh",
+  "category": "Korean",
+  "tagline": "Korean BBQ specialising in quality grilled meats and a lively dining experience.",
+  "tags": [
+    "Korean BBQ",
+    "Korean",
+    "beef",
+    "pork",
+    "grilled meat",
+    "dinner",
+    "Binh Thanh"
+  ]
+},
+  {
   "name": "Mille Mille - Xuân Thủy",
   "url": "https://www.google.com/maps/place/Mille+Mille+-+Gallery+-+Xuân+Thủy/data=!4m2!3m1!1s0x317527006a7c6fed:0xc09151406b862afd",
   "cuisine": "Bakery",

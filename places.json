@@ -1,5 +1,34 @@
 [
   {
+  "name": "Hanok Maeul Pasta",
+  "url": "https://www.google.com/maps/place/Hanok+Maeul+Pasta/data=!4m2!3m1!1s0x31752741e4549a45:0x3c06a59353f823f",
+  "cuisine": "BBQ & Korean",
+  "district": "An Khánh, Thu Duc City, Ho Chi Minh City",
+  "rating": 4.8,
+  "price": "$$",
+  "dishes": "Korean-style pasta, Italian pasta dishes, fusion pasta and Korean-inspired sides",
+  "must_try": "Yes",
+  "notes": "A Korean-Italian fusion restaurant in Thảo Điền combining Italian pasta with Korean flavours and ingredients. A fun choice for something different from traditional Korean or Italian dining.",
+  "source": "Vietnam list",
+  "lat": 10.8074739,
+  "lng": 106.7310761,
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "area": "Thao Dien",
+  "category": "Fusion",
+  "tagline": "Korean-inspired pasta and creative Italian-Korean fusion in Thảo Điền.",
+  "tags": [
+    "Korean",
+    "Italian",
+    "fusion",
+    "pasta",
+    "Thao Dien",
+    "dinner"
+  ]
+}
+  {
   "name": "Én’s Kitchen",
   "url": "https://www.google.com/maps/place/Én’s+Kitchen-+Italian+Cuisine+%26+more/data=!4m2!3m1!1s0x3175290000f87075:0x8104871f0a44ca20",
   "cuisine": "Italian",

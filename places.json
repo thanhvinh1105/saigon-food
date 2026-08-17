@@ -1,5 +1,35 @@
 [
   {
+  "name": "YiYinFong - Y Doãn",
+  "url": "https://www.google.com/maps/place/Nhà+hàng+Trung+Hoa+YiYinFong+-+Y+Doãn+Phường/data=!4m2!3m1!1s0x31752f3b8ac5232f:0xd34e80c52a34dd9d",
+  "cuisine": "Chinese",
+  "district": "Bàn Cờ, District 3, Ho Chi Minh City",
+  "rating": 4.8,
+  "price": "$$",
+  "dishes": "Chinese cuisine, dim sum, noodles, rice dishes and traditional Chinese favourites",
+  "must_try": "Yes",
+  "notes": "A Chinese restaurant in the Bàn Cờ area offering traditional Chinese dishes in a casual, local setting. A good option for experiencing Chinese-style comfort food away from the main tourist areas.",
+  "source": "Vietnam list",
+  "lat": 10.7722272,
+  "lng": 106.6870361,
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "area": "District 3",
+  "category": "Chinese",
+  "tagline": "Traditional Chinese comfort food in the Bàn Cờ neighbourhood.",
+  "tags": [
+    "Chinese",
+    "dim sum",
+    "noodles",
+    "rice",
+    "local food",
+    "dinner",
+    "District 3"
+  ]
+},
+  {
   "name": "Hanok Maeul Pasta",
   "url": "https://www.google.com/maps/place/Hanok+Maeul+Pasta/data=!4m2!3m1!1s0x31752741e4549a45:0x3c06a59353f823f",
   "cuisine": "BBQ & Korean",

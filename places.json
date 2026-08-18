@@ -1,5 +1,33 @@
 [
   {
+  "name": "ROYCE' Chocolate",
+  "url": "https://www.google.com/maps/place/ROYCE'+Chocolate/data=!4m2!3m1!1s0x31752f1c0989b335:0x2de0622a8baedf77",
+  "cuisine": "Desserts",
+  "district": "Bến Nghé, District 1, Ho Chi Minh City",
+  "rating": 4.7,
+  "price": "$$$",
+  "dishes": "Nama chocolate, pralines, chocolate bars, chocolate gifts",
+  "must_try": "Yes",
+  "notes": "A premium Japanese chocolate boutique at Takashimaya, best known for its melt-in-the-mouth Nama Chocolate and beautifully packaged chocolate gifts.",
+  "source": "Vietnam list",
+  "lat": 10.7731874,
+  "lng": 106.70092,
+  "meals": [
+    "dessert"
+  ],
+  "area": "District 1",
+  "category": "Desserts",
+  "tagline": "Premium Japanese chocolate and famous Nama Chocolate in central Saigon.",
+  "tags": [
+    "chocolate",
+    "Japanese",
+    "Nama chocolate",
+    "dessert",
+    "gifts",
+    "Takashimaya"
+  ]
+},
+  {
   "name": "Mặn Mòi",
   "url": "https://www.google.com/maps/place/M%E1%BA%B7n+M%C3%B2i/data=!4m2!3m1!1s0x317526148ae824cf:0x9ba6673db7649793",
   "cuisine": "Vietnamese",

@@ -1,8 +1,36 @@
 [
   {
+  "name": "Chidori Crepe® - Thảo Điền",
+  "url": "https://www.google.com/maps/place/Chidori+Crepe%C2%AE+-+Th%E1%BA%A3o+%C4%90i%E1%BB%81n/data=!4m2!3m1!1s0x317527592372322b:0x41d8670b6447ecee",
+  "cuisine": "Bakery & Desserts",
+  "district": "An Khánh, Thu Duc City, Ho Chi Minh City",
+  "rating": 4.8,
+  "price": "$$",
+  "dishes": "Japanese crepes, fresh fruit crepes, matcha desserts, ice cream",
+  "must_try": "Yes",
+  "notes": "A Japanese-style crepe shop in Thao Dien offering freshly made crepes with fruit, cream, ice cream and matcha-based toppings. A good option for a casual Japanese-inspired dessert.",
+  "source": "Vietnam list",
+  "lat": 10.8028794,
+  "lng": 106.7344917,
+  "meals": [
+    "dessert"
+  ],
+  "area": "Thao Dien",
+  "category": "Desserts",
+  "tagline": "Japanese-style crepes with fresh fruit, cream and matcha in Thao Dien.",
+  "tags": [
+    "crepes",
+    "Japanese",
+    "matcha",
+    "dessert",
+    "fruit",
+    "Thao Dien"
+  ]
+},
+  {
   "name": "ROYCE' Chocolate",
   "url": "https://www.google.com/maps/place/ROYCE'+Chocolate/data=!4m2!3m1!1s0x31752f1c0989b335:0x2de0622a8baedf77",
-  "cuisine": "Desserts",
+  "cuisine": "Bakery & Desserts",
   "district": "Bến Nghé, District 1, Ho Chi Minh City",
   "rating": 4.7,
   "price": "$$$",

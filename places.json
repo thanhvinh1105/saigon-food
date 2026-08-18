@@ -1,5 +1,206 @@
 [
   {
+  "name": "Mặn Mòi",
+  "url": "https://www.google.com/maps/place/M%E1%BA%B7n+M%C3%B2i/data=!4m2!3m1!1s0x317526148ae824cf:0x9ba6673db7649793",
+  "cuisine": "Vietnamese",
+  "district": "An Khánh, Thu Duc City, Ho Chi Minh City",
+  "rating": 4.8,
+  "price": "$$",
+  "dishes": "Vietnamese seafood, grilled seafood, traditional Vietnamese dishes",
+  "must_try": "Yes",
+  "notes": "A popular Vietnamese restaurant in Thao Dien focusing on fresh seafood and bold, traditional Vietnamese flavours in a casual modern setting.",
+  "source": "Vietnam list",
+  "lat": 10.8044723,
+  "lng": 106.7439751,
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "area": "Thao Dien",
+  "category": "Vietnamese",
+  "tagline": "Fresh Vietnamese seafood and traditional flavours in the heart of Thao Dien.",
+  "tags": [
+    "Vietnamese",
+    "seafood",
+    "Thao Dien",
+    "local food",
+    "lunch",
+    "dinner"
+  ]
+},
+{
+  "name": "Bếp Mẹ Ỉn",
+  "url": "https://www.google.com/maps/place/B%E1%BA%BFp+M%E1%BA%B9+%E1%BB%8In/data=!4m2!3m1!1s0x31752f38c6940c73:0x45638362bccc0517",
+  "cuisine": "Vietnamese",
+  "district": "Bến Thành, District 1, Ho Chi Minh City",
+  "rating": 4.8,
+  "price": "$$",
+  "dishes": "Vietnamese pancakes, spring rolls, bánh xèo, grilled meats, traditional Vietnamese dishes",
+  "must_try": "Yes",
+  "notes": "A well-known Vietnamese restaurant tucked away in a small alley, offering a broad selection of traditional dishes with a homestyle feel.",
+  "source": "Vietnam list",
+  "lat": 10.7738567,
+  "lng": 106.6980798,
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "area": "District 1",
+  "category": "Vietnamese",
+  "tagline": "Homestyle Vietnamese cooking tucked away in a charming District 1 alley.",
+  "tags": [
+    "Vietnamese",
+    "bánh xèo",
+    "spring rolls",
+    "local food",
+    "District 1",
+    "lunch",
+    "dinner"
+  ]
+},
+{
+  "name": "Upstairs Tasting Room",
+  "url": "https://www.google.com/maps/place/Upstairs+Tasting+Room/data=!4m2!3m1!1s0x3175270023942c07:0x131f5c1b8104d1d9",
+  "cuisine": "European",
+  "district": "An Khánh, Thu Duc City, Ho Chi Minh City",
+  "rating": 4.8,
+  "price": "$$$",
+  "dishes": "European small plates, cheese, charcuterie, wine pairings",
+  "must_try": "Yes",
+  "notes": "An intimate tasting room in Thao Dien specialising in wine and carefully paired small plates, ideal for a relaxed evening.",
+  "source": "Vietnam list",
+  "lat": 10.8042464,
+  "lng": 106.7291538,
+  "meals": [
+    "dinner"
+  ],
+  "area": "Thao Dien",
+  "category": "European",
+  "tagline": "An intimate Thao Dien tasting room pairing European small plates with fine wine.",
+  "tags": [
+    "European",
+    "wine",
+    "tasting room",
+    "small plates",
+    "Thao Dien",
+    "dinner"
+  ]
+},
+{
+  "name": "Xôi Gà Number One (Chính Gốc)",
+  "url": "https://www.google.com/maps/place/X%C3%B4i+G%C3%A0+Number+One+(Ch%C3%ADnh+G%E1%BB%91c)/data=!4m2!3m1!1s0x31752fd7ed4b499b:0x7746669e020252d",
+  "cuisine": "Vietnamese",
+  "district": "Bến Thành, District 1, Ho Chi Minh City",
+  "rating": 4.6,
+  "price": "$",
+  "dishes": "Xôi gà, sticky rice with chicken, Vietnamese savoury sticky rice",
+  "must_try": "Yes",
+  "notes": "A local favourite specialising in Vietnamese sticky rice topped with chicken and savoury accompaniments. A great option for a quick, inexpensive local meal.",
+  "source": "Vietnam list",
+  "lat": 10.7726,
+  "lng": 106.6967,
+  "meals": [
+    "breakfast",
+    "lunch"
+  ],
+  "area": "District 1",
+  "category": "Vietnamese",
+  "tagline": "A beloved local spot for hearty Vietnamese chicken sticky rice.",
+  "tags": [
+    "Vietnamese",
+    "xôi gà",
+    "sticky rice",
+    "local food",
+    "cheap eats",
+    "breakfast",
+    "lunch"
+  ]
+},
+{
+  "name": "Summer Experiment",
+  "url": "https://www.google.com/maps/place/Summer+Experiment/data=!4m2!3m1!1s0x31752fc7c1bd3f15:0xe3f86a15c939ccfc",
+  "cuisine": "Bars & Cocktails",
+  "district": "Bến Thành, District 1, Ho Chi Minh City",
+  "rating": 4.8,
+  "price": "$$$",
+  "dishes": "Modern Asian dishes, creative small plates, cocktails",
+  "must_try": "Yes",
+  "notes": "A creative dining concept in central District 1 combining modern Asian flavours with an experimental approach to food and cocktails.",
+  "source": "Vietnam list",
+  "lat": 10.7746261,
+  "lng": 106.6980124,
+  "meals": [
+    "dinner"
+  ],
+  "area": "District 1",
+  "category": "Asian Fusion",
+  "tagline": "Creative modern Asian dining with experimental flavours and cocktails.",
+  "tags": [
+    "Asian fusion",
+    "modern Asian",
+    "creative dining",
+    "cocktails",
+    "District 1",
+    "dinner"
+  ]
+},
+{
+  "name": "ÚNU Art-inspired Eatery & Bar",
+  "url": "https://www.google.com/maps/place/%C3%9ANU+Art-inspired+Eatery+%26+Bar/data=!4m2!3m1!1s0x31752f596806bb95:0xb1366d669715479e",
+  "cuisine": "Bars & Cocktails",
+  "district": "Bến Nghé, District 1, Ho Chi Minh City",
+  "rating": 4.7,
+  "price": "$$$",
+  "dishes": "Creative Asian dishes, contemporary small plates, cocktails",
+  "must_try": "Yes",
+  "notes": "An art-inspired restaurant and bar combining contemporary Asian cuisine with creative presentation in an atmospheric setting.",
+  "source": "Vietnam list",
+  "lat": 10.7714334,
+  "lng": 106.7040435,
+  "meals": [
+    "dinner"
+  ],
+  "area": "District 1",
+  "category": "Asian Fusion",
+  "tagline": "Art-inspired Asian dining with creative dishes and cocktails in central Saigon.",
+  "tags": [
+    "Asian fusion",
+    "art-inspired",
+    "creative dining",
+    "cocktails",
+    "District 1",
+    "dinner"
+  ]
+},
+{
+  "name": "The Enigma Mansion",
+  "url": "https://www.google.com/maps/place/The+Enigma+Mansion/data=!4m2!3m1!1s0x31752f0009fed0a7:0xdcd1865ba0f6d20",
+  "cuisine": "Bars & Cocktails",
+  "district": "Bến Nghé, District 1, Ho Chi Minh City",
+  "rating": 4.7,
+  "price": "$$$$",
+  "dishes": "European cuisine, premium small plates, cocktails",
+  "must_try": "Yes",
+  "notes": "An atmospheric dining and entertainment venue in a mansion-style setting, suited to special occasions and evening dining.",
+  "source": "Vietnam list",
+  "lat": 10.7803,
+  "lng": 106.7051,
+  "meals": [
+    "dinner"
+  ],
+  "area": "District 1",
+  "category": "European",
+  "tagline": "An atmospheric mansion-style dining experience for an elegant night out.",
+  "tags": [
+    "European",
+    "fine dining",
+    "mansion",
+    "cocktails",
+    "special occasion",
+    "dinner"
+  ]
+},
+  {
   "name": "YiYinFong - Y Doãn",
   "url": "https://www.google.com/maps/place/Nhà+hàng+Trung+Hoa+YiYinFong+-+Y+Doãn+Phường/data=!4m2!3m1!1s0x31752f3b8ac5232f:0xd34e80c52a34dd9d",
   "cuisine": "Chinese",

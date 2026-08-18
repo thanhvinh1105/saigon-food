@@ -145,34 +145,6 @@
   ]
 },
 {
-  "name": "ÚNU Art-inspired Eatery & Bar",
-  "url": "https://www.google.com/maps/place/%C3%9ANU+Art-inspired+Eatery+%26+Bar/data=!4m2!3m1!1s0x31752f596806bb95:0xb1366d669715479e",
-  "cuisine": "Bars & Cocktails",
-  "district": "Bến Nghé, District 1, Ho Chi Minh City",
-  "rating": 4.7,
-  "price": "$$$",
-  "dishes": "Creative Asian dishes, contemporary small plates, cocktails",
-  "must_try": "Yes",
-  "notes": "An art-inspired restaurant and bar combining contemporary Asian cuisine with creative presentation in an atmospheric setting.",
-  "source": "Vietnam list",
-  "lat": 10.7714334,
-  "lng": 106.7040435,
-  "meals": [
-    "dinner"
-  ],
-  "area": "District 1",
-  "category": "Asian Fusion",
-  "tagline": "Art-inspired Asian dining with creative dishes and cocktails in central Saigon.",
-  "tags": [
-    "Asian fusion",
-    "art-inspired",
-    "creative dining",
-    "cocktails",
-    "District 1",
-    "dinner"
-  ]
-},
-{
   "name": "The Enigma Mansion",
   "url": "https://www.google.com/maps/place/The+Enigma+Mansion/data=!4m2!3m1!1s0x31752f0009fed0a7:0xdcd1865ba0f6d20",
   "cuisine": "Bars & Cocktails",

@@ -1,5 +1,35 @@
 [
   {
+  "name": "Sansan House",
+  "url": "https://www.google.com/maps/place/Sansan+House/data=!4m2!3m1!1s0x317527c6db312d23:0x20721f805c63ebee",
+  "cuisine": "Korean",
+  "district": "An Khánh, Thu Duc City, Ho Chi Minh City",
+  "rating": 4.9,
+  "price": "$$",
+  "dishes": "Korean BBQ, grilled meats, Korean side dishes, craft beer",
+  "must_try": "Yes",
+  "notes": "A highly rated Korean-style BBQ and grill restaurant in Thao Dien, known for grilled meats, Korean flavours and a strong selection of self-brewed craft beers. A good choice for a relaxed lunch, dinner or drinks.",
+  "source": "Vietnam list",
+  "lat": 10.8037964,
+  "lng": 106.7335435,
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "area": "Thao Dien",
+  "category": "Korean",
+  "tagline": "Korean BBQ, grilled meats and craft beer in the heart of Thao Dien.",
+  "tags": [
+    "Korean",
+    "Korean BBQ",
+    "BBQ",
+    "grilled meat",
+    "craft beer",
+    "Thao Dien",
+    "dinner"
+  ]
+},
+  {
   "name": "The Matcha Tokyo Vincom Dong Khoi",
   "url": "https://www.google.com/maps/place/The+Matcha+Tokyo+Vincom+Dong+Khoi/data=!4m2!3m1!1s0x31752ffafb78ffc1:0x8b223515b5c9ce75",
   "cuisine": "Cafes & Coffee",

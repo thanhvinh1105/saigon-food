@@ -1,5 +1,6 @@
 [
   {
+{
   "name": "Rosie Posie 2 - Signature Café",
   "url": "https://www.google.com/maps/place/Rosie+Posie+2+-+Signature+Caf%C3%A9/@10.790911,106.7020812,1193m/data=!3m1!1e3!4m14!1m7!3m6!1s0x3175290005a0812d:0x4b1ba7f2bce106a7!2sRosie+Posie+2+-+Signature+Caf%C3%A9!8m2!3d10.790911!4d106.7046561!16s%2Fg%2F11yq2y0_wl!3m5!1s0x3175290005a0812d:0x4b1ba7f2bce106a7!8m2!3d10.790911!4d106.7046561!16s%2Fg%2F11yq2y0_wl",
   "cuisine": "Coffee & Cafe",
@@ -29,69 +30,278 @@
     "date spot"
   ]
 },
-  {
-    "name": "Sipply Coffee Roastery",
-    "url": "https://www.google.com/maps/place/Sipply+Coffee+Roastery/@10.7891184,106.6910435,3a,75y,90t/data=!3m8!1e2!3m6!1sCIABIhDZTcLuWELRzkKulrYVT11j!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-cs-s%2FAHRPTWksZwONbYuX8TA0GURB2GgqTRf3Poa89Iu1JQV_-umgGeFkRQxUHl9DCJa-mKmLLPK_WYb0dHQbDleha2gKfyZBMej3725eF8p7DuAvWXSvOsZJKzXFCkUyr652mE-jkARFh_t6GAjqfdC2%3Dw86-h128-k-no!7i4145!8i6217!4m7!3m6!1s0x31752f097f69a819:0x4c7348a2708942e!8m2!3d10.7890627!4d106.6911128!10e5!16s%2Fg%2F11v6vv29gk",
-    "cuisine": "Specialty Coffee",
-    "district": "Tân Định, District 1, Ho Chi Minh City",
-    "rating": 4.8,
-    "price": "$",
-    "dishes": "Espresso, pour-over coffee, iced coffee, croissants, cheesecake",
-    "must_try": "Yes",
-    "notes": "A cosy specialty coffee roastery known for carefully brewed espresso and filter coffee, its own roasted beans, friendly service and a relaxed atmosphere suitable for working or unwinding.",
-    "source": "Vietnam list",
-    "lat": 10.7890627,
-    "lng": 106.6911128,
-    "meals": [
-      "breakfast",
-      "lunch",
-      "afternoon"
-    ],
-    "area": "District 1",
-    "category": "Cafe",
-    "tagline": "A cosy specialty coffee roastery serving excellent espresso, pour-over coffee and freshly roasted Vietnamese beans.",
-    "tags": [
-      "specialty coffee",
-      "coffee roastery",
-      "pour-over",
-      "work-friendly",
-      "cosy"
-    ]
-  },
-  {
-    "name": "TEA’SPACE - BẾN THÀNH",
-    "url": "https://www.google.com/maps/place/TEA%E2%80%99SPACE+-+B%E1%BA%BEN+TH%C3%80NH/@10.772883,106.694292,1146m/data=!3m2!1e3!4b1!4m6!3m5!1s0x31752fb1c229d92d:0xf3fa5ee85578091d!8m2!3d10.772883!4d106.6968723!16s%2Fg%2F11w_rsry94",
-    "cuisine": "Tea & Matcha",
-    "district": "Bến Thành, District 1, Ho Chi Minh City",
-    "rating": 4.8,
-    "price": "$",
-    "dishes": "Matcha latte, Summer Delight, fruit tea, premium tea, matcha drinks",
-    "must_try": "Yes",
-    "notes": "A warm and relaxing tea-focused cafe with beige and light-brown interiors, greenery and a peaceful atmosphere. Known for its tea selection, matcha drinks and creative beverages, with indoor and outdoor seating.",
-    "source": "Vietnam list",
-    "lat": 10.772883,
-    "lng": 106.6968723,
-    "meals": [
-      "breakfast",
-      "lunch",
-      "afternoon",
-      "dinner"
-    ],
-    "area": "District 1",
-    "category": "Cafe",
-    "tagline": "A peaceful tea and matcha cafe offering creative drinks in a warm, calming setting near Ben Thanh Market.",
-    "tags": [
-      "tea",
-      "matcha",
-      "cafe",
-      "cosy",
-      "relaxing"
-    ]
-  },
+{
+  "name": "Sipply Coffee Roastery",
+  "url": "https://www.google.com/maps/place/Sipply+Coffee+Roastery/@10.7891184,106.6910435,3a,75y,90t/data=!3m8!1e2!3m6!1sCIABIhDZTcLuWELRzkKulrYVT11j!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-cs-s%2FAHRPTWksZwONbYuX8TA0GURB2GgqTRf3Poa89Iu1JQV_-umgGeFkRQxUHl9DCJa-mKmLLPK_WYb0dHQbDleha2gKfyZBMej3725eF8p7DuAvWXSvOsZJKzXFCkUyr652mE-jkARFh_t6GAjqfdC2%3Dw86-h128-k-no!7i4145!8i6217!4m7!3m6!1s0x31752f097f69a819:0x4c7348a2708942e!8m2!3d10.7890627!4d106.6911128!10e5!16s%2Fg%2F11v6vv29gk",
+  "cuisine": "Specialty Coffee",
+  "district": "Tân Định, District 1, Ho Chi Minh City",
+  "rating": 4.8,
+  "price": "$",
+  "dishes": "Espresso, pour-over coffee, iced coffee, croissants, cheesecake",
+  "must_try": "Yes",
+  "notes": "A cosy specialty coffee roastery known for carefully brewed espresso and filter coffee, its own roasted beans, friendly service and a relaxed atmosphere suitable for working or unwinding.",
+  "source": "Vietnam list",
+  "lat": 10.7890627,
+  "lng": 106.6911128,
+  "meals": [
+    "breakfast",
+    "lunch",
+    "afternoon"
+  ],
+  "area": "District 1",
+  "category": "Cafe",
+  "tagline": "A cosy specialty coffee roastery serving excellent espresso, pour-over coffee and freshly roasted Vietnamese beans.",
+  "tags": [
+    "specialty coffee",
+    "coffee roastery",
+    "pour-over",
+    "work-friendly",
+    "cosy"
+  ]
+},
+{
+  "name": "TEA’SPACE - BẾN THÀNH",
+  "url": "https://www.google.com/maps/place/TEA%E2%80%99SPACE+-+B%E1%BA%BEN+TH%C3%80NH/@10.772883,106.694292,1146m/data=!3m2!1e3!4b1!4m6!3m5!1s0x31752fb1c229d92d:0xf3fa5ee85578091d!8m2!3d10.772883!4d106.6968723!16s%2Fg%2F11w_rsry94",
+  "cuisine": "Tea & Matcha",
+  "district": "Bến Thành, District 1, Ho Chi Minh City",
+  "rating": 4.8,
+  "price": "$",
+  "dishes": "Matcha latte, Summer Delight, fruit tea, premium tea, matcha drinks",
+  "must_try": "Yes",
+  "notes": "A warm and relaxing tea-focused cafe with beige and light-brown interiors, greenery and a peaceful atmosphere. Known for its tea selection, matcha drinks and creative beverages, with indoor and outdoor seating.",
+  "source": "Vietnam list",
+  "lat": 10.772883,
+  "lng": 106.6968723,
+  "meals": [
+    "breakfast",
+    "lunch",
+    "afternoon",
+    "dinner"
+  ],
+  "area": "District 1",
+  "category": "Cafe",
+  "tagline": "A peaceful tea and matcha cafe offering creative drinks in a warm, calming setting near Ben Thanh Market.",
+  "tags": [
+    "tea",
+    "matcha",
+    "cafe",
+    "cosy",
+    "relaxing"
+  ]
+},
+{
+  "name": "NOI - Premium Wood Fire Dining Restaurant & Bar",
+  "url": "https://www.google.com/maps/place/NOI+-+Premium+Wood+Fire+Dining+Restaurant+%26+Bar/data=!4m2!3m1!1s0x31752f4240f22491:0xa8eb417799382230",
+  "cuisine": "Mediterranean",
+  "district": "Bến Nghé, District 1, Ho Chi Minh City",
+  "rating": 5.0,
+  "price": "$$$$",
+  "dishes": "Dry-aged beef, dry-aged duck, wood-fired seafood, handmade pizza",
+  "must_try": "Yes",
+  "notes": "A premium Mediterranean restaurant and bar at Union Square, specialising in fresh seafood and premium meats cooked over wood fire. The restaurant also features dry-aged beef, dry-aged duck and handmade pizzas.",
+  "source": "Vietnam list",
+  "lat": 10.7763,
+  "lng": 106.7037,
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "area": "District 1",
+  "tagline": "Premium Mediterranean dining centred around wood-fired meats, seafood and handmade pizza.",
+  "tags": [
+    "Mediterranean",
+    "wood fire",
+    "dry-aged beef",
+    "seafood",
+    "pizza",
+    "fine dining",
+    "District 1",
+    "dinner"
+  ]
+},
+{
+  "name": "Parkview Café",
+  "url": "https://www.google.com/maps/place/Parkview+Caf%C3%A9/data=!4m2!3m1!1s0x31752f0a0bc6d541:0x2154b87c42b01f08",
+  "cuisine": "International",
+  "district": "Bến Thành, District 1, Ho Chi Minh City",
+  "rating": 4.5,
+  "price": "$$$",
+  "dishes": "International buffet, Vietnamese dishes, Mediterranean dishes, Italian dishes, seafood",
+  "must_try": "Yes",
+  "notes": "The all-day dining restaurant at New World Saigon Hotel, offering a broad international selection including Vietnamese and Mediterranean flavours, buffet options and Italian dishes.",
+  "source": "Vietnam list",
+  "lat": 10.7720,
+  "lng": 106.6974,
+  "meals": [
+    "breakfast",
+    "lunch",
+    "dinner"
+  ],
+  "area": "District 1",
+  "tagline": "An all-day international dining venue combining Vietnamese, Mediterranean and Western flavours.",
+  "tags": [
+    "international",
+    "Vietnamese",
+    "Mediterranean",
+    "buffet",
+    "hotel dining",
+    "seafood",
+    "breakfast",
+    "lunch",
+    "dinner"
+  ]
+},
+{
+  "name": "Before Hours",
+  "url": "https://www.google.com/maps/place/Before+Hours/data=!4m2!3m1!1s0x31752f591cf0ddb1:0xfb296da61dd83976",
+  "cuisine": "Bar",
+  "district": "Bến Nghé, District 1, Ho Chi Minh City",
+  "rating": 4.7,
+  "price": "$$$",
+  "dishes": "Cocktails, spirits, beer, bar snacks",
+  "must_try": "Yes",
+  "notes": "A social pub in the heart of District 1 designed around cocktails, drinks and a lively evening atmosphere. Better categorised as a bar than a conventional restaurant.",
+  "source": "Vietnam list",
+  "lat": 10.7741,
+  "lng": 106.7045,
+  "meals": [
+    "dinner"
+  ],
+  "area": "District 1",
+  "tagline": "A lively District 1 social pub focused on cocktails, drinks and nightlife.",
+  "tags": [
+    "bar",
+    "cocktails",
+    "nightlife",
+    "pub",
+    "drinks",
+    "District 1",
+    "dinner"
+  ]
+},
+{
+  "name": "Moa Moa Pasta Club",
+  "url": "https://www.google.com/maps/place/Moa+Moa+Pasta+Club/data=!4m2!3m1!1s0x31752fb4504f017d:0xc22aa05ed7c3e8",
+  "cuisine": "Italian",
+  "district": "Bến Nghé, District 1, Ho Chi Minh City",
+  "rating": 4.8,
+  "price": "$$$",
+  "dishes": "Fresh handmade pasta, carbonara, truffle pasta, seafood pasta, cannelloni, tiramisu",
+  "must_try": "Yes",
+  "notes": "A stylish Italian pasta restaurant on Ngô Đức Kế specialising in fresh handmade pasta. The open pasta-making kitchen is a major part of the experience, with dishes including carbonara, truffle pasta, seafood pasta and cannelloni.",
+  "source": "Vietnam list",
+  "lat": 10.7741,
+  "lng": 106.7024,
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "area": "District 1",
+  "tagline": "Handmade Italian pasta in a stylish open-kitchen setting near Nguyễn Huệ.",
+  "tags": [
+    "Italian",
+    "pasta",
+    "fresh pasta",
+    "carbonara",
+    "truffle",
+    "tiramisu",
+    "District 1",
+    "lunch",
+    "dinner"
+  ]
+},
+{
+  "name": "돈탐 - Dontam Thảo Điền",
+  "url": "https://www.google.com/maps/place/Vietnam,+H%E1%BB%93+Ch%C3%AD+Minh,+An+Kh%C3%A1nh,+%C4%90.+Nguy%E1%BB%85n+C%E1%BB%AB,+%EB%8F%88%ED%83%90+-+Dontam+Th%E1%BA%A3o+%C4%90i%E1%BB%81n/data=!4m2!3m1!1s0x317527dce4b3d8b7:0x72208aa944d545da",
+  "cuisine": "Korean",
+  "district": "An Khánh, Thu Duc City, Ho Chi Minh City",
+  "rating": 4.8,
+  "price": "$$$",
+  "dishes": "Bossam, grilled eel rice, Korean pork dishes, banchan, octopus pasta",
+  "must_try": "Yes",
+  "notes": "A highly regarded Korean restaurant in Thao Dien known for premium pork dishes, bossam and grilled eel. It also incorporates creative Korean-Western fusion dishes such as octopus pasta.",
+  "source": "Vietnam list",
+  "lat": 10.8062,
+  "lng": 106.7299,
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "area": "Thao Dien",
+  "tagline": "High-end Korean dining in Thao Dien with standout bossam, pork and creative fusion dishes.",
+  "tags": [
+    "Korean",
+    "Korean food",
+    "bossam",
+    "pork",
+    "eel",
+    "fusion",
+    "Thao Dien",
+    "lunch",
+    "dinner"
+  ]
+},
+{
+  "name": "Livannah - Sips & Bites Thảo Điền",
+  "url": "https://www.google.com/maps/place/Livannah+-+Sips+%26+Bites+Thảo+Điền,+12+Nguyễn+Ư+Dĩ,+An+Khánh,+Hồ+Chí+Minh+700000,+Vietnam/data=!4m6!3m5!1s0x3175277e4bee3561:0x9b9bcaae6d274480!8m2!3d10.8057456!4d106.7422216!16s%2Fg%2F11y86ngwsf",
+  "cuisine": "Global Street Food Fusion (Tapas & Skewers)",
+  "district": "An Khánh, Thao Dien, Thu Duc City",
+  "rating": 4.8,
+  "price": "$",
+  "dishes": "Grilled skewers, sashimi tacos, pho rolls",
+  "must_try": "Yes",
+  "notes": "Hidden, relaxed, cozy — tapas-style ordering of small plates from around the world, created by Chef Sakal Phoeung. Now has a D1 branch too.",
+  "source": "Manually added",
+  "lat": 10.8057456,
+  "lng": 106.7422216,
+  "meals": ["lunch", "dinner", "drinks"],
+  "area": "Thao Dien / D2",
+  "category": "Fusion & World",
+  "tagline": "A hidden gem doing global street food tapas-style — sashimi tacos and skewers from every corner of the map.",
+  "tags": ["dinner", "casual", "group"]
+},
+{
+  "name": "NÚC Kitchen & Bar",
+  "url": "https://www.google.com/maps/place/NÚC+Kitchen+%26+Bar,+08+Nguyễn+Đăng+Giai,+An+Khánh,+Hồ+Chí+Minh+700000,+Vietnam/data=!4m6!3m5!1s0x317527b719420b0b:0x6caea65e9539b641!8m2!3d10.801888!4d106.7354722!16s%2Fg%2F11sv3mb2d2",
+  "cuisine": "Modern Vietnamese Nature-Inspired Fine Dining",
+  "district": "Thao Dien, Thu Duc City",
+  "rating": 4.9,
+  "price": "$$$",
+  "dishes": "Seasonal tasting menu, bacon duck breast, apricot ice cream with wasabi",
+  "must_try": "Yes",
+  "notes": "Chef Nam Dong's garden-set restaurant, nature-and-cuisine concept. Live acoustic music Fri/Sat nights.",
+  "source": "Manually added",
+  "lat": 10.801888,
+  "lng": 106.7354722,
+  "meals": ["lunch", "dinner", "drinks"],
+  "area": "Thao Dien / D2",
+  "category": "Vietnamese",
+  "tagline": "A garden-hidden kitchen turning seasonal ingredients into a genuinely inventive tasting menu.",
+  "tags": ["dinner", "date night", "splurge"]
+},
+{
+  "name": "DẠ 夜 Dining",
+  "url": "https://www.google.com/maps/place/DẠ+夜+Dining,+Centec+Tower,+72+Nguyễn+Thị+Minh+Khai,+Xuân+Hòa,+Hồ+Chí+Minh+700000,+Vietnam/data=!4m6!3m5!1s0x31752f75aa8dcd25:0xd93314570d26d5e5!8m2!3d10.7827046!4d106.6974352!16s%2Fg%2F11wmq8gs3r",
+  "cuisine": "Modern Chinese Fine Dining",
+  "district": "Xuân Hòa, District 3",
+  "rating": null,
+  "price": "$$$$",
+  "dishes": "14-day dry-aged truffle roasted duck (three chapters), charcoal duck rice",
+  "must_try": "Yes",
+  "notes": "26th floor of Centec Tower. Chef Michael Luong; Highly Recommended Best Chinese Restaurant, Gourmet Vietnam Awards 2025. Cinematic, In-the-Mood-for-Love-inspired setting with live performances; HỢP rooftop bar sits above it.",
+  "source": "Manually added",
+  "lat": 10.7827046,
+  "lng": 106.6974352,
+  "meals": ["dinner", "drinks"],
+  "area": "District 3",
+  "category": "Chinese & Taiwanese",
+  "tagline": "Cinematic 26th-floor Chinese fine dining — a 14-day dry-aged duck served in three acts, with live performances after dark.",
+  "tags": ["dinner", "splurge", "date night"]
+}
 
    {
     "name": "Sense Tea Hai Bà Trưng",
-    "category": "Cafes & Drinks",
+    "cuisine": "Cafes & Drinks",
     "subcategory": "Tea House",
     "tagline": "A cosy tea spot specialising in Vietnamese tea and refreshing tea-based drinks.",
     "district": "Tân Định, District 1",
@@ -120,7 +330,7 @@
   },
   {
     "name": "Ramen Shinsen",
-    "category": "Japanese",
+    "cuisine": "Japanese",
     "subcategory": "Ramen",
     "tagline": "A highly rated Japanese ramen shop known for rich broths, tender pork and chewy noodles.",
     "district": "Bến Nghé, District 1",
@@ -137,7 +347,7 @@
       "dinner"
     ],
     "area": "District 1",
-    "category": "Japanese",
+    "cuisine": "Japanese",
     "tagline_short": "Excellent ramen in a small, cosy Japanese noodle shop.",
     "tags": [
       "ramen",
@@ -149,7 +359,7 @@
   },
   {
     "name": "SUSHI & HANDROLL FUJIYAMA",
-    "category": "Japanese",
+    "cuisine": "Japanese",
     "subcategory": "Sushi & Handroll",
     "tagline": "A refined Japanese sushi bar specialising in fresh handrolls, premium seafood and Wagyu.",
     "district": "Bến Nghé, District 1",
@@ -166,7 +376,7 @@
       "dinner"
     ],
     "area": "District 1",
-    "category": "Japanese",
+    "cuisine": "Japanese",
     "tagline_short": "Premium handroll sushi and Japanese dining near the Opera House.",
     "tags": [
       "sushi",
@@ -179,7 +389,7 @@
   },
   {
     "name": "Unagi Yosakura",
-    "category": "Japanese",
+    "cuisine": "Japanese",
     "subcategory": "Unagi & Japanese Dining",
     "tagline": "An elegant Japanese restaurant specialising in authentic grilled eel, Wagyu and traditional Japanese rice dishes.",
     "district": "Xuân Hòa, District 3",
@@ -196,7 +406,7 @@
       "dinner"
     ],
     "area": "District 3",
-    "category": "Japanese",
+    "cuisine": "Japanese",
     "tagline_short": "Elegant Japanese dining with excellent grilled unagi and Wagyu.",
     "tags": [
       "unagi",
@@ -1385,7 +1595,7 @@
     "name": "Nhâm Coffee",
     "url": "https://www.google.com/maps/place/Nh%C3%A2m+Coffee/data=!4m2!3m1!1s0x31752700732358e3:0xc201daca3f962e43",
     "cuisine": "Vietnamese Coffee Shop",
-    "district": "District 10",
+    "district": "District 2",
     "rating": 4.3,
     "price": "$",
     "dishes": "Vietnamese coffee, cake",
@@ -1400,7 +1610,7 @@
       "lunch",
       "dinner"
     ],
-    "area": "District 1",
+    "area": "District 2",
     "category": "Vietnamese",
     "tagline": "Neighbourhood coffee shop that gets the basics right.",
     "tags": [
@@ -2766,31 +2976,6 @@
       "dinner",
       "date night",
       "splurge"
-    ]
-  },
-  {
-    "name": "Laairai Thao Dien",
-    "url": "https://www.google.com/maps/place/Laairai+Thao+Dien/data=!4m2!3m1!1s0x31752d6dc8cbcff9:0x23a7178db2a345ed",
-    "cuisine": "Vietnamese-Japanese Fusion Grill",
-    "district": "Thao Dien, Thu Duc City",
-    "rating": 4.8,
-    "price": "$$",
-    "dishes": "Charcoal grill fusion dishes",
-    "must_try": "Yes",
-    "notes": "",
-    "source": "Vietnam list",
-    "lat": 10.803347,
-    "lng": 106.736782,
-    "meals": [
-      "lunch",
-      "dinner"
-    ],
-    "area": "Thao Dien / D2",
-    "category": "Japanese",
-    "tagline": "Charcoal grill meets Japanese technique in Thao Dien. The fusion actually works.",
-    "tags": [
-      "dinner",
-      "date night"
     ]
   },
   {
@@ -5131,32 +5316,6 @@
     "area": "Thao Dien / D2",
     "category": "Western",
     "tagline": "Truffle fries and a smash burger from the most consistent burger spot in Thao Dien.",
-    "tags": [
-      "lunch",
-      "casual",
-      "budget"
-    ]
-  },
-  {
-    "name": "Spa Bar",
-    "url": "https://www.google.com/maps/place/Spa+Bar/data=!4m2!3m1!1s0x317527bb51ff4509:0xf40ec47135512fb8",
-    "cuisine": "Spa",
-    "district": "Thao Dien, Thu Duc City",
-    "rating": 4.6,
-    "price": "$$$",
-    "dishes": null,
-    "must_try": null,
-    "notes": "Spa, not a restaurant",
-    "source": "Quan 2 list",
-    "lat": 10.798535,
-    "lng": 106.729735,
-    "meals": [
-      "lunch",
-      "dinner"
-    ],
-    "area": "Thao Dien / D2",
-    "category": "Other",
-    "tagline": "Classic smash burger at an honest price. Ducky's doesn't overthink it.",
     "tags": [
       "lunch",
       "casual",

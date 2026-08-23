@@ -1,5 +1,157 @@
 [
   {
+  "name": "NOI - Premium Wood Fire Dining Restaurant & Bar",
+  "url": "https://www.google.com/maps/place/NOI+-+Premium+Wood+Fire+Dining+Restaurant+%26+Bar/data=!4m2!3m1!1s0x31752f4240f22491:0xa8eb417799382230",
+  "cuisine": "Mediterranean",
+  "district": "Bến Nghé, District 1, Ho Chi Minh City",
+  "rating": 5.0,
+  "price": "$$$$",
+  "dishes": "Dry-aged beef, dry-aged duck, wood-fired seafood, handmade pizza",
+  "must_try": "Yes",
+  "notes": "A premium Mediterranean restaurant and bar at Union Square, specialising in fresh seafood and premium meats cooked over wood fire. The restaurant also features dry-aged beef, dry-aged duck and handmade pizzas.",
+  "source": "Vietnam list",
+  "lat": 10.7763,
+  "lng": 106.7037,
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "area": "District 1",
+  "tagline": "Premium Mediterranean dining centred around wood-fired meats, seafood and handmade pizza.",
+  "tags": [
+    "Mediterranean",
+    "wood fire",
+    "dry-aged beef",
+    "seafood",
+    "pizza",
+    "fine dining",
+    "District 1",
+    "dinner"
+  ]
+},
+{
+  "name": "Parkview Café",
+  "url": "https://www.google.com/maps/place/Parkview+Caf%C3%A9/data=!4m2!3m1!1s0x31752f0a0bc6d541:0x2154b87c42b01f08",
+  "cuisine": "International",
+  "district": "Bến Thành, District 1, Ho Chi Minh City",
+  "rating": 4.5,
+  "price": "$$$",
+  "dishes": "International buffet, Vietnamese dishes, Mediterranean dishes, Italian dishes, seafood",
+  "must_try": "Yes",
+  "notes": "The all-day dining restaurant at New World Saigon Hotel, offering a broad international selection including Vietnamese and Mediterranean flavours, buffet options and Italian dishes.",
+  "source": "Vietnam list",
+  "lat": 10.7720,
+  "lng": 106.6974,
+  "meals": [
+    "breakfast",
+    "lunch",
+    "dinner"
+  ],
+  "area": "District 1",
+  "tagline": "An all-day international dining venue combining Vietnamese, Mediterranean and Western flavours.",
+  "tags": [
+    "international",
+    "Vietnamese",
+    "Mediterranean",
+    "buffet",
+    "hotel dining",
+    "seafood",
+    "breakfast",
+    "lunch",
+    "dinner"
+  ]
+},
+{
+  "name": "Before Hours",
+  "url": "https://www.google.com/maps/place/Before+Hours/data=!4m2!3m1!1s0x31752f591cf0ddb1:0xfb296da61dd83976",
+  "cuisine": "Bar",
+  "district": "Bến Nghé, District 1, Ho Chi Minh City",
+  "rating": 4.7,
+  "price": "$$$",
+  "dishes": "Cocktails, spirits, beer, bar snacks",
+  "must_try": "Yes",
+  "notes": "A social pub in the heart of District 1 designed around cocktails, drinks and a lively evening atmosphere. Better categorised as a bar than a conventional restaurant.",
+  "source": "Vietnam list",
+  "lat": 10.7741,
+  "lng": 106.7045,
+  "meals": [
+    "dinner"
+  ],
+  "area": "District 1",
+  "tagline": "A lively District 1 social pub focused on cocktails, drinks and nightlife.",
+  "tags": [
+    "bar",
+    "cocktails",
+    "nightlife",
+    "pub",
+    "drinks",
+    "District 1",
+    "dinner"
+  ]
+},
+{
+  "name": "Moa Moa Pasta Club",
+  "url": "https://www.google.com/maps/place/Moa+Moa+Pasta+Club/data=!4m2!3m1!1s0x31752fb4504f017d:0xc22aa05ed7c3e8",
+  "cuisine": "Italian",
+  "district": "Bến Nghé, District 1, Ho Chi Minh City",
+  "rating": 4.8,
+  "price": "$$$",
+  "dishes": "Fresh handmade pasta, carbonara, truffle pasta, seafood pasta, cannelloni, tiramisu",
+  "must_try": "Yes",
+  "notes": "A stylish Italian pasta restaurant on Ngô Đức Kế specialising in fresh handmade pasta. The open pasta-making kitchen is a major part of the experience, with dishes including carbonara, truffle pasta, seafood pasta and cannelloni.",
+  "source": "Vietnam list",
+  "lat": 10.7741,
+  "lng": 106.7024,
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "area": "District 1",
+  "tagline": "Handmade Italian pasta in a stylish open-kitchen setting near Nguyễn Huệ.",
+  "tags": [
+    "Italian",
+    "pasta",
+    "fresh pasta",
+    "carbonara",
+    "truffle",
+    "tiramisu",
+    "District 1",
+    "lunch",
+    "dinner"
+  ]
+},
+{
+  "name": "돈탐 - Dontam Thảo Điền",
+  "url": "https://www.google.com/maps/place/Vietnam,+H%E1%BB%93+Ch%C3%AD+Minh,+An+Kh%C3%A1nh,+%C4%90.+Nguy%E1%BB%85n+C%E1%BB%AB,+%EB%8F%88%ED%83%90+-+Dontam+Th%E1%BA%A3o+%C4%90i%E1%BB%81n/data=!4m2!3m1!1s0x317527dce4b3d8b7:0x72208aa944d545da",
+  "cuisine": "Korean",
+  "district": "An Khánh, Thu Duc City, Ho Chi Minh City",
+  "rating": 4.8,
+  "price": "$$$",
+  "dishes": "Bossam, grilled eel rice, Korean pork dishes, banchan, octopus pasta",
+  "must_try": "Yes",
+  "notes": "A highly regarded Korean restaurant in Thao Dien known for premium pork dishes, bossam and grilled eel. It also incorporates creative Korean-Western fusion dishes such as octopus pasta.",
+  "source": "Vietnam list",
+  "lat": 10.8062,
+  "lng": 106.7299,
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "area": "Thao Dien",
+  "tagline": "High-end Korean dining in Thao Dien with standout bossam, pork and creative fusion dishes.",
+  "tags": [
+    "Korean",
+    "Korean food",
+    "bossam",
+    "pork",
+    "eel",
+    "fusion",
+    "Thao Dien",
+    "lunch",
+    "dinner"
+  ]
+},
+  {
         "name": "Livannah - Sips & Bites Thảo Điền",
         "url": "https://www.google.com/maps/place/Livannah+-+Sips+%26+Bites+Thảo+Điền,+12+Nguyễn+Ư+Dĩ,+An+Khánh,+Hồ+Chí+Minh+700000,+Vietnam/data=!4m6!3m5!1s0x3175277e4bee3561:0x9b9bcaae6d274480!8m2!3d10.8057456!4d106.7422216!16s%2Fg%2F11y86ngwsf",
         "cuisine": "Global Street Food Fusion (Tapas & Skewers)",

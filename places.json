@@ -1,5 +1,36 @@
 [
   {
+  "name": "WaW WaW",
+  "url": "https://www.google.com/maps/place/WaW+WaW/data=!4m2!3m1!1s0x3175273e7d4adefd:0xda93909b631a826d",
+  "cuisine": "Bar",
+  "district": "An Khánh, Thu Duc City, Ho Chi Minh City",
+  "rating": 4.8,
+  "price": "$$",
+  "dishes": "Specialty coffee, tea, pastries, cakes and light cafe food",
+  "must_try": "Yes",
+  "notes": "A contemporary cafe on Quốc Hương in Thao Dien, offering coffee, drinks and light food in a relaxed setting. The venue also appears to have barista-focused operations, making it better suited to the Cafe category than a restaurant cuisine category.",
+  "source": "Vietnam list",
+  "lat": 10.8076729,
+  "lng": 106.7307299,
+  "meals": [
+    "breakfast",
+    "lunch",
+    "afternoon"
+  ],
+  "area": "Thao Dien",
+  "category": "Cafe",
+  "tagline": "A contemporary Thao Dien cafe for specialty coffee, drinks and relaxed daytime dining.",
+  "tags": [
+    "cafe",
+    "coffee",
+    "specialty coffee",
+    "Thao Dien",
+    "breakfast",
+    "brunch",
+    "afternoon"
+  ]
+}
+  {
   "name": "Rosie Posie 2 - Signature Café",
   "url": "https://www.google.com/maps/place/Rosie+Posie+2+-+Signature+Caf%C3%A9/@10.790911,106.7020812,1193m/data=!3m1!1e3!4m14!1m7!3m6!1s0x3175290005a0812d:0x4b1ba7f2bce106a7!2sRosie+Posie+2+-+Signature+Caf%C3%A9!8m2!3d10.790911!4d106.7046561!16s%2Fg%2F11yq2y0_wl!3m5!1s0x3175290005a0812d:0x4b1ba7f2bce106a7!8m2!3d10.790911!4d106.7046561!16s%2Fg%2F11yq2y0_wl",
   "cuisine": "Coffee & Cafe",

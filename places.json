@@ -1,5 +1,32 @@
 [
   {
+  "name": "Kyung Bok Gung Thaodien (Korean Dining & BBQ)",
+  "url": "https://www.google.com/maps/place/%EA%B2%BD%EB%B3%B5%EA%B6%81+%ED%83%80%EC%98%A4%EB%94%94%EC%97%94,+Kyung+Bok+Gung+Thaodien(Korean+Dining+%26+BBQ)/data=!4m2!3m1!1s0x317527b156eb423f:0xcb86cbd82eb143b",
+  "cuisine": "Korean",
+  "district": "An Khánh, Thu Duc City, Ho Chi Minh City",
+  "rating": 4.9,
+  "price": "$$$",
+  "dishes": "Korean BBQ, grilled beef, pork, Korean side dishes & traditional Korean dishes",
+  "must_try": "Yes",
+  "notes": "A Korean dining and BBQ restaurant in Thao Dien offering premium grilled meats and traditional Korean dishes in an upscale setting. A good choice for a Korean BBQ dinner.",
+  "source": "Vietnam list",
+  "lat": 10.805073,
+  "lng": 106.7470423,
+  "meals": [
+    "dinner"
+  ],
+  "area": "Thao Dien",
+  "category": "Korean",
+  "tagline": "Premium Korean BBQ and traditional Korean dining in Thao Dien.",
+  "tags": [
+    "Korean",
+    "Korean BBQ",
+    "grilled meat",
+    "Thao Dien",
+    "dinner"
+  ]
+},
+  {
   "name": "WaW WaW",
   "url": "https://www.google.com/maps/place/WaW+WaW/data=!4m2!3m1!1s0x3175273e7d4adefd:0xda93909b631a826d",
   "cuisine": "Bar",

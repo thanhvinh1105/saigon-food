@@ -1,5 +1,35 @@
 [
   {
+  "name": "Shaolu Restaurant",
+  "url": "https://www.google.com/maps/place/Shaolu+Restaurant/data=!4m2!3m1!1s0x31752fd468bed7af:0xbff3255f1bb0fc11",
+  "cuisine": "Chinese",
+  "district": "Bến Nghé, District 1, Ho Chi Minh City",
+  "rating": 4.8,
+  "price": "$$",
+  "dishes": "Chinese noodles, dumplings, stir-fried dishes, rice dishes & traditional Chinese specialties",
+  "must_try": "Yes",
+  "notes": "A Chinese restaurant tucked into the Little Japan area of District 1, offering a range of traditional Chinese dishes in a casual setting.",
+  "source": "Vietnam list",
+  "lat": 10.7795415,
+  "lng": 106.7049513,
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "area": "Little Japan",
+  "category": "Chinese",
+  "tagline": "Traditional Chinese cuisine in the heart of District 1's Little Japan.",
+  "tags": [
+    "Chinese",
+    "noodles",
+    "dumplings",
+    "Little Japan",
+    "District 1",
+    "lunch",
+    "dinner"
+  ]
+},
+  {
   "name": "Kyung Bok Gung Thaodien (Korean Dining & BBQ)",
   "url": "https://www.google.com/maps/place/%EA%B2%BD%EB%B3%B5%EA%B6%81+%ED%83%80%EC%98%A4%EB%94%94%EC%97%94,+Kyung+Bok+Gung+Thaodien(Korean+Dining+%26+BBQ)/data=!4m2!3m1!1s0x317527b156eb423f:0xcb86cbd82eb143b",
   "cuisine": "Korean",

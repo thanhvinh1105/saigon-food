@@ -1,5 +1,35 @@
 [
   {
+  "name": "Tarobu Dessert Chè Đá Bào Khoai Dẻo",
+  "url": "https://www.google.com/maps/place/Tarobu+Dessert+Ch%C3%A8+%C4%90%C3%A1+B%C3%A0o+Khoai+D%E1%BA%BBo+-+CN+%C4%90i%E1%BB%87n+Bi%C3%AAn+Ph%E1%BB%A7/data=!4m2!3m1!1s0x31752f0055b4f20b:0xa8c3f0a42327e4d6",
+  "cuisine": "Vietnamese Dessert",
+  "district": "Võ Thị Sáu, District 3, Ho Chi Minh City",
+  "rating": 4.8,
+  "price": "$",
+  "dishes": "Chè, shaved ice, taro, sweet potato, chewy toppings",
+  "must_try": "Yes",
+  "notes": "A casual Vietnamese dessert shop specialising in chè, shaved ice and chewy sweet potato-based toppings. A good spot for a refreshing and affordable Vietnamese dessert.",
+  "source": "Vietnam list",
+  "lat": 10.7831616,
+  "lng": 106.6902376,
+  "meals": [
+    "afternoon",
+    "dessert"
+  ],
+  "area": "District 3",
+  "category": "Vietnamese",
+  "tagline": "Vietnamese chè and shaved-ice desserts with chewy taro and sweet potato toppings.",
+  "tags": [
+    "Vietnamese",
+    "dessert",
+    "chè",
+    "shaved ice",
+    "taro",
+    "sweet potato",
+    "afternoon"
+  ]
+},
+  {
   "name": "Livannah - Sips & Bites (Thao Dien)",
   "url": "https://www.google.com/maps/place/Livannah+-+Sips+%26+Bites+Th%E1%BA%A3o+%C4%90i%E1%BB%81n/data=!4m6!3m5!1s0x3175277e4bee3561:0x9b9bcaae6d274480!8m2!3d10.8057456!4d106.7422216!16s%2Fg%2F11y86ngwsf",
   "cuisine": "Small Plates / Global Street Food Fusion",

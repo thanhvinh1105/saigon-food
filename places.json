@@ -1,5 +1,215 @@
 [
   {
+    "name": "XIAOYU",
+    "url": "https://www.google.com/maps/place/Xiaoyu/data=!4m2!3m1!1s0x31752f0072149b21:0xc81e169c114260fb",
+    "cuisine": "Chinese",
+    "district": "District 8",
+    "rating": 4.8,
+    "price": "$$$",
+    "dishes": "Sichuan dishes, mapo tofu, water-boiled fish, Chinese dishes",
+    "must_try": "Yes",
+    "notes": "Popular Chinese restaurant known for Sichuan-style dishes. Current listings show a 4.8 rating with more than 200 votes, with mapo tofu and water-boiled fish among the dishes mentioned.",
+    "source": "Vietnam list",
+    "lat": 10.753738,
+    "lng": 106.674392,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "District 8",
+    "category": "Chinese",
+    "tagline": "Popular Chinese restaurant specialising in bold Sichuan-style dishes.",
+    "tags": [
+      "Chinese",
+      "Sichuan",
+      "mapo tofu",
+      "water-boiled fish",
+      "spicy",
+      "dinner"
+    ]
+  },
+  {
+    "name": "KATSU7 Việt Nam - Nhà hàng Tonkatsu",
+    "url": "https://www.google.com/maps/place/KATSU7+Vi%E1%BB%87t+Nam+-+Nh%C3%A0+h%C3%A0ng+Tonkatsu/data=!4m2!3m1!1s0x31752fa764840c57:0xc455ae1de43b419",
+    "cuisine": "Japanese",
+    "district": "Tân Phong, District 7",
+    "rating": 4.9,
+    "price": "$$",
+    "dishes": "Tonkatsu, tenderloin katsu, red carbonara katsu, cheese katsu, ramen, takoyaki",
+    "must_try": "Yes",
+    "notes": "Japanese tonkatsu restaurant in Phú Mỹ Hưng. Known for thick, tender pork katsu and creative sauces. Current Google listing shows 4.9 from around 1.1K reviews; Grab Dine Out shows 4.7 from 333 ratings.",
+    "source": "Vietnam list",
+    "lat": 10.7295906,
+    "lng": 106.7066466,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "District 7",
+    "category": "Japanese",
+    "tagline": "Elevated Japanese tonkatsu with creative sauces and thick, tender pork cutlets.",
+    "tags": [
+      "Japanese",
+      "tonkatsu",
+      "katsu",
+      "ramen",
+      "pork",
+      "Phu My Hung",
+      "District 7"
+    ]
+  },
+  {
+    "name": "MATSUYA VINCOM CENTER ĐỒNG KHỞI",
+    "url": "https://www.google.com/maps/place/MATSUYA+VINCOM+CENTER+%C4%90%E1%BB%92NG+KH%E1%BB%9EI/data=!4m2!3m1!1s0x31752f289fdb820d:0xc0e913a8fd59cfd2",
+    "cuisine": "Japanese",
+    "district": "Bến Nghé, District 1",
+    "rating": 4.5,
+    "price": "$",
+    "dishes": "Gyumeshi, Japanese beef bowls, curry, set meals, Japanese rice dishes",
+    "must_try": "Yes",
+    "notes": "Japanese fast-casual restaurant from the Matsuya chain. The Vincom Center Đồng Khởi branch is located at 28B, B3, 70–72 Lê Thánh Tôn. Matsuya's official overseas-store listing confirms the location.",
+    "source": "Vietnam list",
+    "lat": 10.778097,
+    "lng": 106.7018632,
+    "meals": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "area": "District 1",
+    "category": "Japanese",
+    "tagline": "Affordable Japanese fast food specialising in beef bowls and casual set meals.",
+    "tags": [
+      "Japanese",
+      "gyumeshi",
+      "beef bowl",
+      "curry",
+      "fast food",
+      "budget",
+      "District 1"
+    ]
+  },
+  {
+    "name": "Antico Fornaio - Union Square",
+    "url": "https://www.google.com/maps/place/Antico+Fornaio+-+Union+Square/data=!4m2!3m1!1s0x31752fd1e165ab05:0x4823ab3f43c97d0d",
+    "cuisine": "Italian",
+    "district": "Bến Nghé, District 1",
+    "rating": 4.8,
+    "price": "$$",
+    "dishes": "Focaccia sandwiches, Italian sandwiches, focaccia",
+    "must_try": "Yes",
+    "notes": "Italian bakery and sandwich concept at Union Square specialising in focaccia sandwiches made with Italian ingredients.",
+    "source": "Vietnam list",
+    "lat": 10.7763495,
+    "lng": 106.7023643,
+    "meals": [
+      "breakfast",
+      "lunch",
+      "afternoon"
+    ],
+    "area": "District 1",
+    "category": "Italian",
+    "tagline": "Italian focaccia sandwiches made with authentic ingredients in the heart of Union Square.",
+    "tags": [
+      "Italian",
+      "focaccia",
+      "sandwich",
+      "bakery",
+      "Union Square",
+      "quick bite",
+      "lunch"
+    ]
+  },
+  {
+    "name": "Ebisu Udon",
+    "url": "https://www.google.com/maps/place/Ebisu+Udon/data=!4m2!3m1!1s0x317527ccdb42f8d1:0xd757ee3e315308ad",
+    "cuisine": "Japanese",
+    "district": "An Phú, Thu Duc City",
+    "rating": 4.0,
+    "price": "$$",
+    "dishes": "Udon, sushi, Japanese noodles, tempura",
+    "must_try": "Yes",
+    "notes": "Japanese restaurant specialising in udon and sushi. A casual option for reasonably priced Japanese food.",
+    "source": "Vietnam list",
+    "lat": 10.7816573,
+    "lng": 106.7051456,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "Thu Duc City",
+    "category": "Japanese",
+    "tagline": "Casual Japanese restaurant serving udon, sushi and affordable Japanese favourites.",
+    "tags": [
+      "Japanese",
+      "udon",
+      "sushi",
+      "noodles",
+      "tempura",
+      "casual"
+    ]
+  },
+  {
+    "name": "dining saigon punch",
+    "url": "https://www.google.com/maps/place/dining+saigon+punch/data=!4m2!3m1!1s0x31752f000f5407cf:0x3330b70b6dfb7f88",
+    "cuisine": "Japanese",
+    "district": "Bến Nghé, District 1",
+    "rating": 4.7,
+    "price": "$$",
+    "dishes": "Soup curry, Hokkaido dishes, Japanese izakaya dishes, seafood, grilled dishes",
+    "must_try": "Yes",
+    "notes": "Japanese-style izakaya specialising in Hokkaido cuisine and soup curry. Located at 15/1 Lê Thánh Tôn and suited to casual lunch or dinner.",
+    "source": "Vietnam list",
+    "lat": 10.7797996,
+    "lng": 106.7050403,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "District 1",
+    "category": "Japanese",
+    "tagline": "Hokkaido-inspired Japanese izakaya serving soup curry and casual Japanese dishes.",
+    "tags": [
+      "Japanese",
+      "Hokkaido",
+      "izakaya",
+      "soup curry",
+      "seafood",
+      "dinner",
+      "District 1"
+    ]
+  },
+  {
+    "name": "Itamae Izakaya Sharaku",
+    "url": "https://www.google.com/maps/place/Itamae+Izakaya+Sharaku/data=!4m2!3m1!1s0x31752fc01c26b915:0xb96beae2ceba388f",
+    "cuisine": "Japanese",
+    "district": "Bến Nghé, District 1",
+    "rating": 4.6,
+    "price": "$$$",
+    "dishes": "Sushi, sashimi, tempura, teppanyaki, Japanese set meals",
+    "must_try": "Yes",
+    "notes": "Authentic Japanese restaurant specialising in sushi, tempura and teppanyaki, with itamae-style counter dining and Japanese set meals.",
+    "source": "Vietnam list",
+    "lat": 10.7823699,
+    "lng": 106.7047491,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "District 1",
+    "category": "Japanese",
+    "tagline": "Authentic itamae Japanese dining focused on sushi, tempura and teppanyaki.",
+    "tags": [
+      "Japanese",
+      "izakaya",
+      "sushi",
+      "sashimi",
+      "tempura",
+      "teppanyaki",
+      "omakase"
+    ]
+  },
+  {
   "name": "Tarobu Dessert Chè Đá Bào Khoai Dẻo",
   "url": "https://www.google.com/maps/place/Tarobu+Dessert+Ch%C3%A8+%C4%90%C3%A1+B%C3%A0o+Khoai+D%E1%BA%BBo+-+CN+%C4%90i%E1%BB%87n+Bi%C3%AAn+Ph%E1%BB%A7/data=!4m2!3m1!1s0x31752f0055b4f20b:0xa8c3f0a42327e4d6",
   "cuisine": "Vietnamese Dessert",

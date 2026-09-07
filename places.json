@@ -1,5 +1,37 @@
 [
   {
+  "name": "Lai Restaurant",
+  "url": "https://www.google.com/maps/place/Lai+Restaurant/data=!4m2!3m1!1s0x31752ff4f9abc731:0x1b246818bb91efb1",
+  "cuisine": "Cantonese",
+  "district": "Bến Nghé, District 1",
+  "rating": 4.5,
+  "price": "$$$",
+  "dishes": "Dim sum, Peking duck, Cantonese seafood, sashimi, Shanghai-style buns",
+  "must_try": "Yes",
+  "notes": "Upscale modern Cantonese restaurant on the 28th floor of Sedona Suites, offering indoor and terrace dining with panoramic city views. The restaurant is known for refined Cantonese cuisine, dim sum and seafood, and has received Tripadvisor Travellers’ Choice Best of the Best 2025. Google currently lists it at 4.5 from 873 reviews.",
+  "source": "Vietnam list",
+  "lat": 10.7728907,
+  "lng": 106.7005597,
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "area": "District 1",
+  "category": "Chinese",
+  "tagline": "Refined modern Cantonese dining with panoramic Saigon skyline views from the 28th floor.",
+  "tags": [
+    "Chinese",
+    "Cantonese",
+    "dim sum",
+    "Peking duck",
+    "seafood",
+    "sashimi",
+    "fine dining",
+    "rooftop view",
+    "District 1"
+  ]
+},
+  {
     "name": "XIAOYU",
     "url": "https://www.google.com/maps/place/Xiaoyu/data=!4m2!3m1!1s0x31752f0072149b21:0xc81e169c114260fb",
     "cuisine": "Chinese",

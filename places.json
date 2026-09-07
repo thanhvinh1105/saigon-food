@@ -1,5 +1,36 @@
 [
   {
+  "name": "Da Shifu 大师傅 ĐẠI SƯ PHỤ",
+  "url": "https://www.google.com/maps/place/Da+Shifu+%E5%A4%A7%E5%B8%88%E5%82%85+%C4%90%E1%BA%A0I+S%C6%AF+PH%E1%BB%A4/data=!4m2!3m1!1s0x317529003541829f:0x6e1f0107560301c1",
+  "cuisine": "Chinese",
+  "district": "Thạnh Mỹ Tây, Ho Chi Minh City",
+  "rating": 4.7,
+  "price": "$$",
+  "dishes": "Chinese noodles, dumplings, wonton noodles, dim sum, Chinese rice dishes",
+  "must_try": "Yes",
+  "notes": "Chinese restaurant located at Landmark 81 in Vinhomes Central Park. A convenient option for Chinese comfort food, noodles and dumplings in the Landmark 81 complex.",
+  "source": "Vietnam list",
+  "lat": 10.7951119,
+  "lng": 106.722096,
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "area": "Landmark 81",
+  "category": "Chinese",
+  "tagline": "Casual Chinese dining at Landmark 81 with noodles, dumplings and traditional favourites.",
+  "tags": [
+    "Chinese",
+    "noodles",
+    "dumplings",
+    "wonton",
+    "dim sum",
+    "Landmark 81",
+    "Vinhomes",
+    "casual"
+  ]
+},
+  {
   "name": "Lai Restaurant",
   "url": "https://www.google.com/maps/place/Lai+Restaurant/data=!4m2!3m1!1s0x31752ff4f9abc731:0x1b246818bb91efb1",
   "cuisine": "Cantonese",

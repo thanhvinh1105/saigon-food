@@ -1,5 +1,38 @@
 [
   {
+  "name": "NAGOCHA Matcha Specialty & Tea House @ Ben Thanh Market",
+  "url": "https://www.google.com/maps/place/NAGOCHA+Matcha+Specialty+%2526+Tea+House+%40+Ben+Thanh+Market/data=!4m2!3m1!1s0x31752f91fd84625d:0xd12cb2be5eaddc0a",
+  "cuisine": "Cafe",
+  "district": "Bến Thành, District 1",
+  "rating": 4.9,
+  "price": "$$",
+  "dishes": "Matcha latte, matcha soft serve, matcha desserts, Japanese tea, hojicha",
+  "must_try": "Yes",
+  "notes": "Specialty matcha and Japanese tea house near Ben Thanh Market, focusing on premium matcha drinks and desserts. A good stop for matcha lovers while exploring the market and surrounding District 1 area.",
+  "source": "Vietnam list",
+  "lat": 10.7716678,
+  "lng": 106.6976166,
+  "meals": [
+    "breakfast",
+    "afternoon",
+    "dessert"
+  ],
+  "area": "District 1",
+  "category": "Cafe",
+  "tagline": "Specialty Japanese matcha and tea house serving premium matcha drinks and desserts near Ben Thanh Market.",
+  "tags": [
+    "Cafe",
+    "matcha",
+    "Japanese tea",
+    "matcha latte",
+    "matcha dessert",
+    "hojicha",
+    "dessert",
+    "Ben Thanh Market",
+    "District 1"
+  ]
+},
+  {
     "name": "Cee's Eatery",
     "url": "https://www.google.com/maps/place/Cee's+Eatery/data=!4m2!3m1!1s0x31752f4bba753e03:0xacf6e0c682ac2c1b",
     "cuisine": "European",

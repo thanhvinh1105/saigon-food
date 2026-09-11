@@ -1,5 +1,37 @@
 [
   {
+  "name": "Burger Boss",
+  "url": "https://www.google.com/maps/place/Burger+Boss/data=!4m2!3m1!1s0x317527cea2a8df71:0x92a2bcf70fba8f6b",
+  "cuisine": "American",
+  "district": "An Khánh, Thu Duc City",
+  "rating": 4.8,
+  "price": "$$",
+  "dishes": "Beef burgers, chicken burgers, cheeseburgers, loaded fries, milkshakes",
+  "must_try": "Yes",
+  "notes": "Popular burger restaurant in Thảo Điền known for juicy burgers, generous portions and casual dining. A good option for a relaxed lunch or dinner.",
+  "source": "Vietnam list",
+  "lat": 10.803725,
+  "lng": 106.728176,
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "area": "Thảo Điền",
+  "category": "American",
+  "tagline": "Casual Thảo Điền burger spot serving juicy American-style burgers and loaded sides.",
+  "tags": [
+    "American",
+    "burger",
+    "beef burger",
+    "chicken burger",
+    "cheeseburger",
+    "fries",
+    "milkshake",
+    "casual",
+    "Thao Dien"
+  ]
+  },
+  {
   "name": "NAGOCHA Matcha Specialty & Tea House @ Ben Thanh Market",
   "url": "https://www.google.com/maps/place/NAGOCHA+Matcha+Specialty+%2526+Tea+House+%40+Ben+Thanh+Market/data=!4m2!3m1!1s0x31752f91fd84625d:0xd12cb2be5eaddc0a",
   "cuisine": "Cafe",

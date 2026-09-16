@@ -1,5 +1,37 @@
 [
   {
+  "name": "Kacha Specialty Matcha & Tea Bar",
+  "url": "https://www.google.com/maps/place/Kacha+Specialty+Matcha+%26+Tea+Bar/data=!4m2!3m1!1s0x317527004ee82ed1:0x58f1fb184515cab3",
+  "cuisine": "Cafe",
+  "district": "An Khánh, Thu Duc City",
+  "rating": 4.9,
+  "price": "$$",
+  "dishes": "Matcha latte, ceremonial matcha, hojicha latte, matcha desserts, Japanese tea",
+  "must_try": "Yes",
+  "notes": "Specialty matcha and Japanese tea bar in Thảo Điền focusing on high-quality matcha drinks and tea-based beverages. A good spot for matcha, hojicha and Japanese-inspired desserts.",
+  "source": "Vietnam list",
+  "lat": 10.8041377,
+  "lng": 106.7381252,
+  "meals": [
+    "breakfast",
+    "afternoon",
+    "dessert"
+  ],
+  "area": "Thảo Điền",
+  "category": "Cafe",
+  "tagline": "Specialty matcha and Japanese tea bar serving premium matcha, hojicha and tea-based drinks.",
+  "tags": [
+    "Cafe",
+    "matcha",
+    "Japanese tea",
+    "matcha latte",
+    "hojicha",
+    "matcha dessert",
+    "tea bar",
+    "Thao Dien"
+  ]
+},
+  {
   "name": "Burger Boss",
   "url": "https://www.google.com/maps/place/Burger+Boss/data=!4m2!3m1!1s0x317527cea2a8df71:0x92a2bcf70fba8f6b",
   "cuisine": "American",

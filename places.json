@@ -1,5 +1,37 @@
 [
   {
+  "name": "KIMBO Ramen – Gyukotsu Ramen",
+  "url": "https://www.google.com/maps/place/KIMBO+Ramen/data=!4m2!3m1!1s0x317529000eb2c6c1:0x3259ba91e0e423fb",
+  "cuisine": "Japanese",
+  "district": "Cầu Kiệu, Phú Nhuận",
+  "rating": 4.7,
+  "price": "$$",
+  "dishes": "Gyukotsu ramen, beef bone ramen, phở ramen sữa, crab ramen, beef pho ramen, beef meatballs",
+  "must_try": "Yes",
+  "notes": "Japanese ramen restaurant specialising in gyukotsu ramen made with beef-bone broth. The menu combines Japanese ramen techniques with Vietnamese flavours, including phở ramen sữa and beef-focused bowls. Google is currently listed at 4.7/5, with more than 600 reviews.",
+  "source": "Vietnam list",
+  "lat": 10.8000795,
+  "lng": 106.685047,
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "area": "Phan Xích Long",
+  "category": "Japanese",
+  "tagline": "Specialty gyukotsu ramen blending Japanese ramen technique with rich Vietnamese beef flavours.",
+  "tags": [
+    "Japanese",
+    "ramen",
+    "gyukotsu",
+    "beef bone ramen",
+    "beef",
+    "pho ramen",
+    "crab ramen",
+    "Phan Xich Long",
+    "Phu Nhuan"
+  ]
+},
+  {
   "name": "Kacha Specialty Matcha & Tea Bar",
   "url": "https://www.google.com/maps/place/Kacha+Specialty+Matcha+%26+Tea+Bar/data=!4m2!3m1!1s0x317527004ee82ed1:0x58f1fb184515cab3",
   "cuisine": "Cafe",

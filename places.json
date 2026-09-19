@@ -1,5 +1,37 @@
 [
   {
+  "name": "Kairyu Yatai_Ramen-Yakitori",
+  "url": "https://www.google.com/maps/place/Kairyu+Yatai_Ramen-Yakitori/data=!4m2!3m1!1s0x317529003467b09b:0x8150ce871ba262f2",
+  "cuisine": "Japanese",
+  "district": "Thạnh Mỹ Tây, Ho Chi Minh City",
+  "rating": 4.8,
+  "price": "$$",
+  "dishes": "Ramen, yakitori, grilled skewers, Japanese small plates, gyoza",
+  "must_try": "Yes",
+  "notes": "Japanese yatai-style restaurant specialising in ramen and yakitori, with a casual street-food atmosphere. Located on Nguyễn Hữu Cảnh in the Thạnh Mỹ Tây area.",
+  "source": "Vietnam list",
+  "lat": 10.7898549,
+  "lng": 106.7113172,
+  "meals": [
+    "lunch",
+    "dinner",
+    "late night"
+  ],
+  "area": "Nguyễn Hữu Cảnh",
+  "category": "Japanese",
+  "tagline": "Casual Japanese yatai serving ramen, yakitori and grilled skewers.",
+  "tags": [
+    "Japanese",
+    "ramen",
+    "yakitori",
+    "yatai",
+    "skewers",
+    "grilled",
+    "gyoza",
+    "Thạnh Mỹ Tây"
+  ]
+},
+  {
   "name": "KIMBO Ramen – Gyukotsu Ramen",
   "url": "https://www.google.com/maps/place/KIMBO+Ramen/data=!4m2!3m1!1s0x317529000eb2c6c1:0x3259ba91e0e423fb",
   "cuisine": "Japanese",

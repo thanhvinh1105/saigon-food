@@ -1,5 +1,37 @@
 [
   {
+  "name": "MANUKA.MEE - Thảo Điền",
+  "url": "https://www.google.com/maps/place/MANUKA.MEE+-+TH%E1%BA%A2O+%C4%90I%E1%BB%80N/data=!4m2!3m1!1s0x317527768158c043:0xf10fb2c4e81d3091",
+  "cuisine": "Dessert",
+  "district": "An Khánh, Thu Duc City",
+  "rating": 4.6,
+  "price": "$",
+  "dishes": "Manuka yogurt ice cream, Honeycombee ice cream, Italian gelato, honeycomb desserts, macarons",
+  "must_try": "Yes",
+  "notes": "Dessert and ice cream shop in Thảo Điền specialising in premium Italian ice cream and frozen yogurt paired with Manuka honey. The signature Honeycombee and Manuka yogurt ice cream with honeycomb are popular choices. Google currently shows 4.6/5 from more than 200 reviews. Tripadvisor lists 5.0/5, but from only 4 reviews.",
+  "source": "Vietnam list",
+  "lat": 10.8038975,
+  "lng": 106.7358832,
+  "meals": [
+    "afternoon",
+    "dessert"
+  ],
+  "area": "Thảo Điền",
+  "category": "Cafe",
+  "tagline": "Manuka honey ice cream and frozen yogurt spot serving creamy Italian-style desserts in Thảo Điền.",
+  "tags": [
+    "Cafe",
+    "dessert",
+    "ice cream",
+    "gelato",
+    "frozen yogurt",
+    "Manuka honey",
+    "honeycomb",
+    "macaron",
+    "Thao Dien"
+  ]
+},
+  {
   "name": "Kairyu Yatai_Ramen-Yakitori",
   "url": "https://www.google.com/maps/place/Kairyu+Yatai_Ramen-Yakitori/data=!4m2!3m1!1s0x317529003467b09b:0x8150ce871ba262f2",
   "cuisine": "Japanese",

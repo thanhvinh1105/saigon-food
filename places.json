@@ -1,5 +1,101 @@
 [
   {
+    "name": "Morning Tiger / Japanese Breakfast",
+    "url": "https://www.google.com/maps/place/Morning+Tiger+%2F+Japanese+Breakfast/data=!4m2!3m1!1s0x31752f5e16929a03:0x41d7db0ae312724c",
+    "cuisine": "Japanese",
+    "district": "Bến Nghé, District 1",
+    "rating": 4.8,
+    "price": "$$$",
+    "dishes": "Grilled silver salmon set, Japanese breakfast set, grilled fish, steamed rice, miso soup, Japanese pickles",
+    "must_try": "Yes",
+    "notes": "Japanese breakfast specialist on Lê Thánh Tôn, serving traditional-style morning meals with freshly steamed rice and charcoal-grilled fish. The restaurant currently operates from 7:00–11:00 with four morning seating periods and reservations required via social media. The grilled silver salmon set is a highlighted dish.",
+    "source": "Vietnam list",
+    "lat": 10.7819544,
+    "lng": 106.7051545,
+    "meals": [
+      "breakfast"
+    ],
+    "area": "Lê Thánh Tôn",
+    "category": "Japanese",
+    "tagline": "Traditional Japanese breakfast centred around charcoal-grilled fish, steamed rice and comforting morning dishes.",
+    "tags": [
+      "Japanese",
+      "breakfast",
+      "grilled fish",
+      "salmon",
+      "rice",
+      "miso soup",
+      "Lê Thánh Tôn",
+      "District 1"
+    ]
+  },
+  {
+    "name": "SUSHI DON",
+    "url": "https://www.google.com/maps/place/SUSHI+DON/data=!4m2!3m1!1s0x31752fffce960bfd:0x5fb451a6f5b6a9c",
+    "cuisine": "Japanese",
+    "district": "Bến Nghé, District 1",
+    "rating": 4.8,
+    "price": "$$$",
+    "dishes": "Nigiri sushi, sashimi, grilled fish set, Japanese set meals, miso soup",
+    "must_try": "Yes",
+    "notes": "Casual Japanese sushi restaurant tucked inside the Lê Thánh Tôn Japanese district. Known for approachable sushi, sashimi and set meals, including a popular 12-piece nigiri lunch set and grilled fish set. RestaurantGuru currently lists 4.8/5 from 99 votes.",
+    "source": "Vietnam list",
+    "lat": 10.7808907,
+    "lng": 106.705649,
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "area": "Lê Thánh Tôn",
+    "category": "Japanese",
+    "tagline": "Relaxed Japanese sushi spot serving nigiri, sashimi and generous set meals in Saigon's Japan Town.",
+    "tags": [
+      "Japanese",
+      "sushi",
+      "sashimi",
+      "nigiri",
+      "grilled fish",
+      "set meal",
+      "Japan Town",
+      "Lê Thánh Tôn",
+      "District 1"
+    ]
+  },
+  {
+    "name": "cube cake",
+    "url": "https://www.google.com/maps/place/cube+cake/data=!4m2!3m1!1s0x3175270015c41e17:0x569f0eb86a2707fd",
+    "cuisine": "Bakery",
+    "district": "An Khánh, Thu Duc City",
+    "rating": 4.7,
+    "price": "$$",
+    "dishes": "Chocolate cube cake, Dalat yogurt cheesecake, jasmine forest cake, chestnut Mont Blanc, tropical fruit cakes, wagashi",
+    "must_try": "Yes",
+    "notes": "Japanese-led bakery and dessert shop in Thảo Điền, handcrafted daily by a Japanese pastry chef. The chocolate cube cake is a signature, while other popular creations include Dalat yogurt cheesecake, jasmine forest cake and chestnut Mont Blanc. Current local listings show 4.7/5 from 145 reviews and opening hours of 9:00–22:00.",
+    "source": "Vietnam list",
+    "lat": null,
+    "lng": null,
+    "meals": [
+      "breakfast",
+      "afternoon",
+      "dessert"
+    ],
+    "area": "Thảo Điền",
+    "category": "Cafe",
+    "tagline": "Japanese-crafted cube cakes and refined patisserie made daily in the heart of Thảo Điền.",
+    "tags": [
+      "Cafe",
+      "bakery",
+      "cake",
+      "Japanese",
+      "patisserie",
+      "chocolate",
+      "cheesecake",
+      "Mont Blanc",
+      "wagashi",
+      "Thao Dien"
+    ]
+  },
+  {
   "name": "Bánh Ướt Ban Mê Giang Vương - Tôn Thất Tùng",
   "url": "https://www.google.com/maps/place/B%C3%A1nh+%C6%AF%E1%BB%9At+Ban+M%C3%AA+Giang+V%C6%B0%C6%A1ng+-+T%C3%B4n+Th%E1%BA%A5t+T%C3%B9ng/data=!4m2!3m1!1s0x31752f8225bf86bd:0xd1eab056170686db",
   "cuisine": "Vietnamese",

@@ -1,5 +1,40 @@
 [
   {
+  "name": "Tam Thể Coffee · Bar · Dining",
+  "url": "https://www.google.com/maps/place/Tam+Th%E1%BB%83+Coffee+%C2%B7+Bar+%C2%B7+Dining/data=!4m2!3m1!1s0x31752f6d0ce46d9f:0x5b326ddb08bc068a",
+  "cuisine": "Vietnamese Fusion",
+  "district": "Đa Kao, District 1",
+  "rating": 4.8,
+  "price": "$$",
+  "dishes": "Modern Vietnamese dishes, sharing plates, coffee, cocktails, wine",
+  "must_try": "Yes",
+  "notes": "Stylish all-day coffee, bar and dining venue on Nguyễn Thị Minh Khai, combining modern Vietnamese food with specialty coffee, cocktails and wine. The intimate setting makes it suitable for casual dining, drinks and evening gatherings.",
+  "source": "Vietnam list",
+  "lat": 10.7850103,
+  "lng": 106.7005129,
+  "meals": [
+    "breakfast",
+    "lunch",
+    "dinner",
+    "late night"
+  ],
+  "area": "Nguyễn Thị Minh Khai",
+  "category": "Vietnamese",
+  "tagline": "Modern Vietnamese dining, specialty coffee and cocktails in a stylish all-day space.",
+  "tags": [
+    "Vietnamese",
+    "fusion",
+    "coffee",
+    "bar",
+    "cocktails",
+    "wine",
+    "sharing plates",
+    "all day",
+    "Đa Kao",
+    "District 1"
+  ]
+},
+  {
     "name": "Morning Tiger / Japanese Breakfast",
     "url": "https://www.google.com/maps/place/Morning+Tiger+%2F+Japanese+Breakfast/data=!4m2!3m1!1s0x31752f5e16929a03:0x41d7db0ae312724c",
     "cuisine": "Japanese",

@@ -1,5 +1,39 @@
 [
   {
+  "name": "Dao Niu Guo Thiso Mall Sala",
+  "url": "https://www.google.com/maps/place/Dao+Niu+Guo+Thiso+Mall+Sala/data=!4m2!3m1!1s0x31752f85977b9857:0x6f8ef2ed06182131",
+  "cuisine": "Chinese",
+  "district": "An Khánh, Thu Duc City",
+  "rating": 4.8,
+  "price": "$$",
+  "dishes": "Fresh beef hotpot, Chaoshan beef hotpot, beef tongue, beef hump, beef slices, dumplings, baozi",
+  "must_try": "Yes",
+  "notes": "Casual Chinese restaurant specialising in Chaoshan-style fresh beef hotpot. Dao Niu Guo uses fresh beef delivered daily and hand-sliced to order, with more than 80 hotpot ingredients available. The Thiso Mall Sala branch is located on Level 4 at L4-01-02, 8-10 Mai Chí Thọ. The brand is operated by Golden Gate.",
+  "source": "Vietnam list",
+  "lat": 10.7717926,
+  "lng": 106.7219312,
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "area": "Thiso Mall Sala",
+  "category": "Chinese",
+  "tagline": "Fresh Chaoshan-style beef hotpot with hand-sliced beef and a wide selection of hotpot ingredients.",
+  "tags": [
+    "Chinese",
+    "hotpot",
+    "Chaoshan",
+    "beef hotpot",
+    "fresh beef",
+    "beef",
+    "dumplings",
+    "baozi",
+    "Thiso Mall",
+    "Sala",
+    "An Khanh"
+  ]
+},
+  {
   "name": "Tam Thể Coffee · Bar · Dining",
   "url": "https://www.google.com/maps/place/Tam+Th%E1%BB%83+Coffee+%C2%B7+Bar+%C2%B7+Dining/data=!4m2!3m1!1s0x31752f6d0ce46d9f:0x5b326ddb08bc068a",
   "cuisine": "Vietnamese Fusion",

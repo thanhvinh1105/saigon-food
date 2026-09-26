@@ -1,5 +1,36 @@
 [
   {
+  "name": "Ăn Cơm Uống Nước - Thảo Điền",
+  "url": "https://www.google.com/maps/place/%C4%82n+C%C6%A1m+U%E1%BB%91ng+N%C6%B0%E1%BB%9Bc+-+Th%E1%BA%A3o+%C4%90i%E1%BB%81n/data=!4m2!3m1!1s0x3175275a6a4b1665:0x9038ea24f8aaae32",
+  "cuisine": "Vietnamese",
+  "district": "An Khánh, Thu Duc City",
+  "rating": 4.8,
+  "price": "$$",
+  "dishes": "Vietnamese home-style rice dishes, braised dishes, grilled meats, seasonal vegetables, traditional Vietnamese soups",
+  "must_try": "Yes",
+  "notes": "Vietnamese restaurant in Thảo Điền focusing on traditional home-style cooking and everyday Vietnamese dishes. The name 'Ăn Cơm Uống Nước' reflects the restaurant's focus on familiar Vietnamese meals and a relaxed dining experience.",
+  "source": "Vietnam list",
+  "lat": 10.8040575,
+  "lng": 106.7387717,
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "area": "Thảo Điền",
+  "category": "Vietnamese",
+  "tagline": "Homestyle Vietnamese cooking with traditional dishes and familiar Saigon flavours.",
+  "tags": [
+    "Vietnamese",
+    "home-style",
+    "rice",
+    "traditional",
+    "family-style",
+    "local food",
+    "Thao Dien",
+    "An Khanh"
+  ]
+},
+  {
   "name": "Dao Niu Guo Thiso Mall Sala",
   "url": "https://www.google.com/maps/place/Dao+Niu+Guo+Thiso+Mall+Sala/data=!4m2!3m1!1s0x31752f85977b9857:0x6f8ef2ed06182131",
   "cuisine": "Chinese",

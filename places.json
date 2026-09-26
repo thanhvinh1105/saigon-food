@@ -1,4 +1,37 @@
 [
+{
+  "name": "Mạn - Open Kitchen & Bar",
+  "url": "https://www.google.com/maps/place/M%E1%BA%A1n+-+Open+Kitchen+%26+Bar/data=!4m2!3m1!1s0x31752fc17cc38f89:0x4d0a6115c7b4b4e3",
+  "cuisine": "Vietnamese Fusion",
+  "district": "Bến Nghé, District 1",
+  "rating": null,
+  "price": "$$$",
+  "dishes": "Modern Vietnamese dishes, seasonal plates, grilled meats, seafood, cocktails",
+  "must_try": "Yes",
+  "notes": "Contemporary Vietnamese dining and cocktail bar with an open-kitchen concept on Hàm Nghi. The venue focuses on modern interpretations of Vietnamese flavours alongside cocktails and a stylish dining atmosphere. Rating and specific signature dishes could not be reliably verified from current web sources.",
+  "source": "Vietnam list",
+  "lat": null,
+  "lng": null,
+  "meals": [
+    "dinner",
+    "late night"
+  ],
+  "area": "Hàm Nghi",
+  "category": "Vietnamese",
+  "tagline": "Modern Vietnamese flavours, an open kitchen and cocktails in a stylish Hàm Nghi dining space.",
+  "tags": [
+    "Vietnamese",
+    "fusion",
+    "open kitchen",
+    "bar",
+    "cocktails",
+    "modern Vietnamese",
+    "seafood",
+    "grilled",
+    "Hàm Nghi",
+    "District 1"
+  ]
+},
   {
   "name": "Ăn Cơm Uống Nước - Thảo Điền",
   "url": "https://www.google.com/maps/place/%C4%82n+C%C6%A1m+U%E1%BB%91ng+N%C6%B0%E1%BB%9Bc+-+Th%E1%BA%A3o+%C4%90i%E1%BB%81n/data=!4m2!3m1!1s0x3175275a6a4b1665:0x9038ea24f8aaae32",

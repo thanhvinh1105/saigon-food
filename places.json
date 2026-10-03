@@ -1,4 +1,40 @@
 [
+  {
+  "name": "Chang Kang Kung Thiso Mall Sala",
+  "url": "https://www.google.com/maps/place/Chang+Kang+Kung+Thiso+Mall+Sala/data=!4m2!3m1!1s0x31752f0051f63d85:0xa46501ef4b764f4",
+  "cuisine": "Chinese",
+  "district": "An Khánh, Thu Duc City",
+  "rating": 4.3,
+  "price": "$$$",
+  "dishes": "Steamed seafood, steamed fish, prawns, steamed vegetables, beef, seafood dumplings, rice congee",
+  "must_try": "Yes",
+  "notes": "Chinese-Vietnamese restaurant specialising in healthy steamed dishes cooked at the table. Seafood, fish, meat and vegetables are steamed above a pot of rice, with the cooking juices flowing into the congee underneath for the end of the meal. Google currently shows 4.3/5 from 143 reviews. The official site lists the branch on Level 4 of Thiso Mall Sala, open 10:30–22:00.",
+  "source": "Vietnam list",
+  "lat": 10.7719776,
+  "lng": 106.7210607,
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "area": "Thiso Mall Sala",
+  "category": "Chinese",
+  "tagline": "Healthy Chinese-style steamed seafood and meats cooked at your table with congee underneath.",
+  "tags": [
+    "Chinese",
+    "Vietnamese",
+    "steamed",
+    "seafood",
+    "steamed fish",
+    "prawns",
+    "beef",
+    "dumplings",
+    "congee",
+    "hotpot",
+    "Thiso Mall",
+    "Sala",
+    "An Khanh"
+  ]
+},
 {
   "name": "Mạn - Open Kitchen & Bar",
   "url": "https://www.google.com/maps/place/M%E1%BA%A1n+-+Open+Kitchen+%26+Bar/data=!4m2!3m1!1s0x31752fc17cc38f89:0x4d0a6115c7b4b4e3",

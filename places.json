@@ -1,5 +1,41 @@
 [
   {
+  "name": "Livannah - Sips & Bites Thảo Điền",
+  "url": "https://www.google.com/maps/place/Livannah+-+Sips+%26+Bites+Th%E1%BA%A3o+%C4%90i%E1%BB%81n/data=!4m2!3m1!1s0x3175277e4bee3561:0x9b9bcaae6d274480",
+  "cuisine": "Fusion",
+  "district": "An Khánh, Thu Duc City",
+  "rating": 4.7,
+  "price": "$$$",
+  "dishes": "Prawn nori tacos, lamb rack, chicken skewers, Cambodian beef skewers, BBQ squid, salmon maki, banh khot, pho cuon with Wagyu",
+  "must_try": "Yes",
+  "notes": "Multicultural sharing restaurant in Thảo Điền combining Vietnamese street food with Japanese, Korean, Cambodian, Spanish and other global influences. The menu focuses on small plates, skewers and nori tacos, with an open kitchen and bar seating. Google currently shows 4.7/5 from more than 400 reviews. Weekend brunch is also available.",
+  "source": "Vietnam list",
+  "lat": 10.8057456,
+  "lng": 106.7422216,
+  "meals": [
+    "lunch",
+    "dinner",
+    "late night"
+  ],
+  "area": "Thảo Điền",
+  "category": "Fusion",
+  "tagline": "Creative multicultural small plates, skewers and nori tacos designed for sharing in a lively Thảo Điền setting.",
+  "tags": [
+    "Fusion",
+    "multicultural",
+    "Vietnamese",
+    "Japanese",
+    "Korean",
+    "Cambodian",
+    "Spanish",
+    "nori tacos",
+    "skewers",
+    "small plates",
+    "cocktails",
+    "Thao Dien"
+  ]
+},
+  {
   "name": "Chang Kang Kung Thiso Mall Sala",
   "url": "https://www.google.com/maps/place/Chang+Kang+Kung+Thiso+Mall+Sala/data=!4m2!3m1!1s0x31752f0051f63d85:0xa46501ef4b764f4",
   "cuisine": "Chinese",

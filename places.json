@@ -1,5 +1,36 @@
 [
   {
+  "name": "SABI Sky Omakase",
+  "url": "https://www.google.com/maps/place/SABI+Sky+Omakase/data=!4m2!3m1!1s0x31752fb8c1603c0d:0xda36590919ce50d7",
+  "cuisine": "Japanese",
+  "district": "Xuân Hòa, District 3",
+  "rating": 4.8,
+  "price": "$$$$",
+  "dishes": "Omakase sushi, sashimi, seasonal seafood, premium Japanese ingredients",
+  "must_try": "Yes",
+  "notes": "Upscale Japanese omakase restaurant located on the 19th floor of Centec Tower, offering a chef-led dining experience with panoramic city views. The menu focuses on premium seasonal seafood and traditional Japanese sushi and sashimi.",
+  "source": "Vietnam list",
+  "lat": 10.7827046,
+  "lng": 106.6974352,
+  "meals": [
+    "dinner"
+  ],
+  "area": "Nguyễn Thị Minh Khai",
+  "category": "Japanese",
+  "tagline": "Elevated Japanese omakase with premium seafood and panoramic Saigon skyline views.",
+  "tags": [
+    "Japanese",
+    "omakase",
+    "sushi",
+    "sashimi",
+    "seafood",
+    "fine dining",
+    "skyline view",
+    "Centec Tower",
+    "District 3"
+  ]
+},
+  {
   "name": "Livannah - Sips & Bites Thảo Điền",
   "url": "https://www.google.com/maps/place/Livannah+-+Sips+%26+Bites+Th%E1%BA%A3o+%C4%90i%E1%BB%81n/data=!4m2!3m1!1s0x3175277e4bee3561:0x9b9bcaae6d274480",
   "cuisine": "Fusion",

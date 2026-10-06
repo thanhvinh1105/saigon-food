@@ -1,5 +1,36 @@
 [
   {
+  "name": "Upstairs Tasting Room",
+  "url": "https://www.google.com/maps/place/Upstairs+Tasting+Room/data=!4m2!3m1!1s0x3175270023942c07:0x131f5c1b8104d1d9",
+  "cuisine": "European",
+  "district": "An Khánh, Thu Duc City",
+  "rating": null,
+  "price": "$$$",
+  "dishes": "European small plates, cheese, charcuterie, seasonal dishes, wine-pairing plates",
+  "must_try": "Yes",
+  "notes": "Intimate tasting room and wine-focused dining venue in Thảo Điền, designed around curated wines and small plates. A good choice for an evening of wine tasting, sharing dishes and a more intimate dining experience.",
+  "source": "Vietnam list",
+  "lat": null,
+  "lng": null,
+  "meals": [
+    "dinner",
+    "late night"
+  ],
+  "area": "Thảo Điền",
+  "category": "European",
+  "tagline": "Intimate Thảo Điền tasting room pairing curated wines with refined small plates.",
+  "tags": [
+    "European",
+    "wine",
+    "tasting room",
+    "small plates",
+    "cheese",
+    "charcuterie",
+    "wine pairing",
+    "Thao Dien"
+  ]
+},
+  {
   "name": "Quán Bụi Heritage",
   "url": "https://www.google.com/maps/place/Qu%C3%A1n+B%E1%BB%A5i+Heritage/data=!4m2!3m1!1s0x31752f002982ce89:0xf2e746ac51b3d637",
   "cuisine": "Vietnamese",

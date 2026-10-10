@@ -345,6 +345,12 @@ html,body{height:100%;background:var(--cream);color:var(--ink);font-family:'Inte
         <div class="mode-label">Experiences</div>
         <div class="mode-desc">Spas, shopping, nightlife & culture</div>
       </div>
+      <div class="mode-card" data-mode="map" onclick="goNearMe()">
+  <div class="mode-card-accent"></div>
+  <span class="mode-icon">📍</span>
+  <div class="mode-label">Near me</div>
+  <div class="mode-desc">Places within walking distance</div>
+</div>
     </div>
   </div>
 </div>
@@ -355,6 +361,7 @@ html,body{height:100%;background:var(--cream);color:var(--ink);font-family:'Inte
     <div id="map-header">
       <button class="back-btn" onclick="goTo('landing')">← Back</button>
       <span class="topbar-title">Map</span>
+      <button class="chip" style="margin-left:auto" onclick="locateMe()">📍 Me</button>
     </div>
     <div id="map-filter-chips">
       <span class="chip active" data-cat="all">All</span>
@@ -499,6 +506,38 @@ let mapInstance = null;
 let mapMarkers = [];
 let mapActiveCategory = 'all';
 let currentDetail = null;
+let userLoc = null;
+
+function distanceKm(lat1, lng1, lat2, lng2){
+  const R = 6371, rad = x => x * Math.PI / 180;
+  const a = Math.sin(rad(lat2-lat1)/2)**2 +
+            Math.cos(rad(lat1)) * Math.cos(rad(lat2)) * Math.sin(rad(lng2-lng1)/2)**2;
+  return 2 * R * Math.asin(Math.sqrt(a));
+}
+
+function getUserLocation(){
+  return new Promise((resolve, reject) => {
+    if(!navigator.geolocation) return reject(new Error('Not supported'));
+    navigator.geolocation.getCurrentPosition(
+      pos => { userLoc = { lat: pos.coords.latitude, lng: pos.coords.longitude }; resolve(userLoc); },
+      reject,
+      { enableHighAccuracy: true, timeout: 8000 }
+    );
+  });
+}
+
+async function goNearMe(){
+  try { await getUserLocation(); }
+  catch(e){ showToast('Location blocked — allow it in your browser settings'); return; }
+  const places = PLACES
+    .filter(p => p.lat && p.lng)
+    .map(p => ({ ...p, _km: distanceKm(userLoc.lat, userLoc.lng, p.lat, p.lng) }))
+    .filter(p => p._km <= 3)           // radius in km
+    .sort((a,b) => a._km - b._km);
+  buildList(places, '📍 Near me', 'landing');
+  document.getElementById('list-back').onclick = () => goTo('landing');
+  goTo('list');
+}
 
 // LocalStorage keys
 const LS_RATINGS = 'sg_ratings';
@@ -866,6 +905,23 @@ function showSidebar(p){
 }
 
 function closeSidebar(){ document.getElementById('map-sidebar').classList.remove('open'); }
+let meMarker = null;
+
+async function locateMe(){
+  try { await getUserLocation(); }
+  catch(e){ showToast('Location blocked — allow it in your browser settings'); return; }
+
+  if(meMarker) meMarker.remove();              // remove the old dot if you tap twice
+  meMarker = L.circleMarker([userLoc.lat, userLoc.lng], {
+    radius: 8,
+    color: '#fff',          // white border
+    weight: 3,
+    fillColor: '#2979ff',   // blue dot
+    fillOpacity: 1
+  }).addTo(mapInstance);
+
+  mapInstance.setView([userLoc.lat, userLoc.lng], 15);
+}
 
 // ══════════════════════════════
 //  CUISINE GRID
@@ -928,6 +984,7 @@ function buildList(places, title, fromScreen){
             ${p.rating?`<span>⭐ ${p.rating}</span>`:''}
             ${myR?`<span class="pi-my-rating">My: ${myR}★</span>`:''}
             ${isVisited?'<span class="pi-visited">✓ Visited</span>':''}
+            ${p._km != null ? `<span>📍 ${p._km.toFixed(1)} km</span>` : ''}
           </div>
         </div>
       </div>

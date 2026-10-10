@@ -1,5 +1,24 @@
 [
   {
+  "name": "Olivette Fine Drinking Cocktail Bar",
+  "url": "https://www.google.com/maps/place/Olivette+Fine+Drinking+Cocktail+Bar/data=!4m2!3m1!1s0x31752f25d4d981b5:0xb9caab2d79f642e1",
+  "cuisine": "Cocktail Bar",
+  "district": "District 1, Ho Chi Minh City",
+  "rating": null,
+  "price": "$$",
+  "dishes": null,
+  "must_try": "Yes",
+  "notes": "Cocktail bar at 06 Nguyễn Siêu in central Ho Chi Minh City, focused on cocktails and drinks. Current Google Maps rating, pricing and signature cocktails have not been independently verified.",
+  "source": "Vietnam list",
+  "lat": null,
+  "lng": null,
+  "meals": [],
+  "area": "Nguyễn Siêu",
+  "category": "Bar",
+  "tagline": "A fine-drinking cocktail bar in central Saigon.",
+  "tags": ["cocktail bar", "drinks", "nightlife", "bar", "District 1", "Nguyễn Siêu"]
+},
+  {
   "name": "Peppe's Forno",
   "url": "https://www.google.com/maps/place/Peppe's+Forno/data=!4m2!3m1!1s0x3175278f2d274ac7:0x830e5d8e66e11b7b",
   "cuisine": "Italian",

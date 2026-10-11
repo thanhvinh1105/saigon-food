@@ -1,5 +1,24 @@
 [
   {
+  "name": "El Jannah Chicken Kogarah",
+  "url": "https://www.google.com/maps/place/El+Jannah+Chicken+Kogarah/data=!4m2!3m1!1s0x6b12b99574ca4de5:0x411819d96354a9d8",
+  "cuisine": "Lebanese",
+  "district": "Kogarah, Sydney",
+  "rating": null,
+  "price": "$$",
+  "dishes": "Charcoal chicken, garlic sauce, Lebanese bread, pickles, chips, mixed plates",
+  "must_try": "Yes",
+  "notes": "Branch of El Jannah, known for Lebanese-style charcoal chicken and its signature garlic sauce. A casual takeaway and dine-in option on Railway Parade. Current branch rating and prices have not been independently verified.",
+  "source": "Vietnam list",
+  "lat": null,
+  "lng": null,
+  "meals": ["lunch", "dinner"],
+  "area": "Kogarah",
+  "category": "Lebanese",
+  "tagline": "Lebanese charcoal chicken with famous garlic sauce.",
+  "tags": ["Lebanese", "charcoal chicken", "garlic sauce", "takeaway", "casual dining", "Kogarah", "Sydney"]
+},
+  {
   "name": "MULAN - CANTONESE GRILL HOUSE",
   "url": "https://www.google.com/maps/place/MULAN+-+CANTONESE+GRILL+HOUSE/data=!4m2!3m1!1s0x3174d7877de9f513:0xf5b8e47182b53656",
   "cuisine": "Cantonese Chinese",

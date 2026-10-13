@@ -1,5 +1,24 @@
 [
   {
+  "name": "BOAT NOODLE Bangkok",
+  "url": "https://www.google.com/maps/place/BOAT+NOODLE+Bangkok/data=!4m2!3m1!1s0x31752f895e374a95:0xd98b9b6ec33868a1",
+  "cuisine": "Thai",
+  "district": "District 1, Ho Chi Minh City",
+  "rating": null,
+  "price": "$$",
+  "dishes": "Thai boat noodles, beef noodle soup, pork noodle soup, Thai-style noodle dishes",
+  "must_try": "Yes",
+  "notes": "Thai noodle restaurant at 72 Lê Thánh Tôn in central Ho Chi Minh City. Boat noodles are a traditional Thai noodle soup, but the current menu, signature dishes, pricing and Google Maps rating have not been independently verified.",
+  "source": "Vietnam list",
+  "lat": 10.7783076,
+  "lng": 106.7011623,
+  "meals": ["lunch", "dinner"],
+  "area": "Lê Thánh Tôn",
+  "category": "Thai",
+  "tagline": "Thai-style boat noodles in the heart of Saigon.",
+  "tags": ["Thai", "boat noodles", "noodles", "soup", "Lê Thánh Tôn", "District 1"]
+},
+  {
   "name": "RANKAI",
   "url": "https://www.google.com/maps/place/RANKAI/data=!4m2!3m1!1s0x317527002352136b:0x9c429c89cf8d4731",
   "cuisine": "Japanese",

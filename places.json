@@ -1,5 +1,24 @@
 [
   {
+  "name": "KUKJEDON (국제돈)",
+  "url": "https://www.google.com/maps/place/KUKJEDON/data=!4m2!3m1!1s0x317527001bc94d87:0x9eefd8a73f9009aa",
+  "cuisine": "Korean",
+  "district": "An Khánh, Thu Duc City",
+  "rating": null,
+  "price": "$$",
+  "dishes": "Korean pork dishes, grilled meat, Korean BBQ",
+  "must_try": "Yes",
+  "notes": "Korean-named dining venue on Nguyễn Cừ in the An Khánh area. The exact menu, signature dishes, current pricing and Google Maps rating have not been independently verified.",
+  "source": "Vietnam list",
+  "lat": 10.8041968,
+  "lng": 106.7279634,
+  "meals": ["lunch", "dinner"],
+  "area": "An Khánh",
+  "category": "Korean",
+  "tagline": "A Korean dining spot in the An Khánh area.",
+  "tags": ["Korean", "An Khánh", "Nguyễn Cừ", "Thu Duc City", "restaurant"]
+},
+  {
   "name": "BOAT NOODLE Bangkok",
   "url": "https://www.google.com/maps/place/BOAT+NOODLE+Bangkok/data=!4m2!3m1!1s0x31752f895e374a95:0xd98b9b6ec33868a1",
   "cuisine": "Thai",

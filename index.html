@@ -811,6 +811,13 @@ function initMap(){
     m.addTo(mapInstance);
     mapMarkers.push(m);
   });
+  console.log('Places loaded:', PLACES.length);
+console.log('Markers created:', mapMarkers.length);
+console.log('Places:', PLACES.map(p => ({
+  name: p.name,
+  lat: p.lat,
+  lng: p.lng
+})));
   // filter chips
   document.querySelectorAll('#map-filter-chips .chip').forEach(chip=>{
     chip.addEventListener('click',()=>{

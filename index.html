@@ -747,13 +747,15 @@ function showExpDetail(e){
 const AREAS = [
   { id:'Thảo Điền / Thu Duc City', icon:'🌿', center:[10.8022,106.7333], zoom:14,
     desc:'Expat hub — cafes, Japanese, fusion',
-    match: d => /thao dien|thu duc|district 2|an phu|an phú/i.test(d) },
+    match: d => /thao dien|thu duc|district 2|an phu|an phú|an kh/i.test(d) },
+
   { id:'District 1',               icon:'🏙️', center:[10.7741,106.7001], zoom:15,
     desc:'City centre — cocktail bars, fine dining, street food',
-    match: d => /district 1|bến thành|ben thanh|tân định|tan dinh|japan town/i.test(d) },
+    match: d => /district 1|bến thành|ben thanh|tân định|tan dinh|japan town|bến nghé|ben nghe|cầu ông lãnh|cau ong lanh/i.test(d) },
+
   { id:'District 3',               icon:'🛵', center:[10.7799,106.6890], zoom:15,
     desc:'Local neighbourhood — pho, com tam, coffee',
-    match: d => /district 3/i.test(d) },
+    match: d => /district 3|nhiêu lộc|nhieu loc|xuân hòa|xuan hoa/i.test(d) },,
   { id:'Bình Thạnh',               icon:'🌃', center:[10.8087,106.7120], zoom:15,
     desc:'Saigon Pearl, Landmark 81, rooftop bars',
     match: d => /binh thanh|bình thạnh|landmark/i.test(d) },
@@ -768,7 +770,8 @@ const AREAS = [
     match: d => /district 10/i.test(d) },
   { id:'Phú Nhuận',                icon:'☕', center:[10.7997,106.6840], zoom:15,
     desc:'Quiet residential — specialty coffee',
-    match: d => /phu nhuan|phú nhuận/i.test(d) },
+    match: d => /phu nhuan|phú nhuận|cầu kiệu|cau kieu/i.test(d) },
+
 ];
 
 function getAreaForPlace(p){

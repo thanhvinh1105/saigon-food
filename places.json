@@ -1,5 +1,24 @@
 [
   {
+  "name": "NUA TOFU - Tàu Hũ Dừa Mật",
+  "url": "https://www.google.com/maps/place/NUA+TOFU/data=!4m2!3m1!1s0x317529006d6dd6a9:0x59a48f72f75294cf",
+  "cuisine": "Vietnamese",
+  "district": "Đức Nhuận, Ho Chi Minh City",
+  "rating": null,
+  "price": "$",
+  "dishes": "Silky tofu pudding, coconut tofu pudding, honey coconut tofu dessert",
+  "must_try": "Yes",
+  "notes": "Dessert shop at 459 Nguyễn Kiệm specialising in tàu hũ, a soft Vietnamese tofu pudding. The name highlights coconut and honey flavours. Current Google Maps rating, exact prices and full menu have not been independently verified.",
+  "source": "Vietnam list",
+  "lat": 10.8018132,
+  "lng": 106.679183,
+  "meals": [],
+  "area": "Nguyễn Kiệm",
+  "category": "Dessert",
+  "tagline": "Silky Vietnamese tofu pudding with coconut and honey flavours.",
+  "tags": ["Vietnamese dessert", "tàu hũ", "tofu pudding", "coconut", "honey", "sweet treats", "Nguyễn Kiệm"]
+},
+  {
   "name": "KUKJEDON (국제돈)",
   "url": "https://www.google.com/maps/place/KUKJEDON/data=!4m2!3m1!1s0x317527001bc94d87:0x9eefd8a73f9009aa",
   "cuisine": "Korean",

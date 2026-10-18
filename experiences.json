@@ -1,5 +1,24 @@
 [
   {
+  "name": "0123 Complex",
+  "url": "https://www.google.com/maps/place/0123+Complex/data=!4m2!3m1!1s0x317527ce300c3761:0xd303b4dc51aacbe2",
+  "cuisine": null,
+  "district": "An Khánh, Thu Duc City",
+  "rating": null,
+  "price": null,
+  "dishes": null,
+  "must_try": "No",
+  "notes": "Venue at 06 Đặng Hữu Phổ in An Khánh, near the Thảo Điền area. The exact mix of businesses, facilities and current rating have not been independently verified. Check the individual businesses inside the complex before categorising it as a restaurant or shopping destination.",
+  "source": "Vietnam list",
+  "lat": 10.8030004,
+  "lng": 106.7346991,
+  "meals": [],
+  "area": "An Khánh",
+  "category": "Other",
+  "tagline": "A complex to explore in the An Khánh area.",
+  "tags": ["complex", "An Khánh", "Đặng Hữu Phổ", "Thu Duc City", "venue"]
+},
+  {
   "name": "Vina Design Store Thảo Điền",
   "url": "https://www.google.com/maps/place/Vina+Design+Store+Th%E1%BA%A3o+%C4%90i%E1%BB%81n/data=!4m2!3m1!1s0x43adcf252638bfa5:0x85a7f810116c379b",
   "cuisine": null,

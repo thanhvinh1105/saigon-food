@@ -1,5 +1,24 @@
 [
   {
+  "name": "Omakase Tiger - Thảo Điền",
+  "url": "https://www.google.com/maps/place/Omakase+Tiger+-+Th%E1%BA%A3o+%C4%90i%E1%BB%81n/data=!4m2!3m1!1s0x31752717c4b354fd:0x7fe0edabbedf2701",
+  "cuisine": "Japanese",
+  "district": "An Khánh, Thu Duc City",
+  "rating": null,
+  "price": "$$$",
+  "dishes": "Japanese omakase, chef-selected sushi and sashimi, seasonal Japanese seafood",
+  "must_try": "Yes",
+  "notes": "Japanese dining venue at 48A Trần Ngọc Diện in Thảo Điền. The name suggests an omakase-style experience, where the chef selects the dishes. Current Google Maps rating, menu details and pricing have not been independently verified.",
+  "source": "Vietnam list",
+  "lat": 10.8064873,
+  "lng": 106.7414968,
+  "meals": ["dinner"],
+  "area": "Thảo Điền",
+  "category": "Japanese",
+  "tagline": "A chef-led Japanese omakase experience in Thảo Điền.",
+  "tags": ["Japanese", "omakase", "sushi", "sashimi", "fine dining", "Thảo Điền", "An Khánh"]
+},
+  {
   "name": "NUA TOFU - Tàu Hũ Dừa Mật",
   "url": "https://www.google.com/maps/place/NUA+TOFU/data=!4m2!3m1!1s0x317529006d6dd6a9:0x59a48f72f75294cf",
   "cuisine": "Vietnamese",

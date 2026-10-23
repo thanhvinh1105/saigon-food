@@ -1,5 +1,24 @@
 [
   {
+  "name": "Monito's Taqueria",
+  "url": "https://www.google.com/maps/place/Monito's+Taqueria,+26+%C4%90%E1%BB%97+Quang+%C4%90%E1%BA%A9u,+street,+B%E1%BA%BFn+Th%C3%A0nh,+H%E1%BB%93+Ch%C3%AD+Minh+70000,+Vietnam/@0,0,22z/data=!4m2!3m1!1s0x31752f5607cb3da5:0xa9efff88f357cf0d",
+  "cuisine": "Mexican",
+  "district": "Bến Thành, District 1",
+  "rating": null,
+  "price": "$$",
+  "dishes": "Mexican tacos, taqueria-style street food, Mexican-inspired dishes",
+  "must_try": "Yes",
+  "notes": "Mexican taqueria at 26 Đỗ Quang Đẩu in Bến Thành, District 1, Ho Chi Minh City. The name suggests a casual Mexican restaurant specialising in tacos. Specific menu items, current Google Maps rating and pricing have not been independently verified.",
+  "source": "Vietnam list",
+  "lat": null,
+  "lng": null,
+  "meals": ["lunch", "dinner"],
+  "area": "Bùi Viện",
+  "category": "Mexican",
+  "tagline": "A casual taqueria for Mexican-style tacos in the heart of District 1.",
+  "tags": ["Mexican", "tacos", "taqueria", "street food", "casual dining", "lunch", "dinner", "Bến Thành", "District 1", "Bùi Viện"]
+},
+  {
   "name": "Coucou",
   "url": "https://www.google.com/maps/place/Coucou,+39+%C4%90.+Nguy%E1%BB%85n+C%E1%BB%AB,+An+Kh%C3%A1nh,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.803634,106.72823,16z/data=!4m6!3m5!1s0x3175279e9837cd27:0x3a8377d7aca3342f!8m2!3d10.803634!4d106.72823!16s%2Fg%2F11swv36rnr",
   "cuisine": null,

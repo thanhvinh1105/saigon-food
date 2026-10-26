@@ -1,5 +1,24 @@
 [
   {
+  "name": "386 Concept - Retail Complex",
+  "url": "https://www.google.com/maps/place/386+Concept+-+Retail+Complex,+386%2F41A+%C4%90.+L%C3%AA+V%C4%83n+S%E1%BB%B9,+Nhi%C3%AAu+L%E1%BB%99c,+H%E1%BB%93+Ch%C3%AD+Minh+72422,+Vietnam/@10.7894549,106.6772527,16z/data=!4m6!3m5!1s0x31752fde917ebe09:0x7cd93dae35724d64!8m2!3d10.7894549!4d106.6772527!16s%2Fg%2F11z8hdmqkk",
+  "cuisine": null,
+  "district": "Nhiêu Lộc, Ho Chi Minh City",
+  "rating": null,
+  "price": null,
+  "dishes": null,
+  "must_try": "Yes",
+  "notes": "Retail complex at 386/41A Lê Văn Sỹ in Nhiêu Lộc, Ho Chi Minh City. A shopping destination rather than a restaurant, suitable for browsing retail stores and exploring local shopping options. Individual stores, current Google Maps rating and opening hours have not been independently verified.",
+  "source": "Vietnam list",
+  "lat": 10.7894549,
+  "lng": 106.6772527,
+  "meals": [],
+  "area": "Nhiêu Lộc",
+  "category": "Shopping",
+  "tagline": "A retail complex on Lê Văn Sỹ for shopping and browsing local stores.",
+  "tags": ["shopping", "retail", "concept store", "fashion", "lifestyle", "shopping complex", "Nhiêu Lộc", "Lê Văn Sỹ", "Ho Chi Minh City"]
+},
+  {
   "name": "0123 Complex",
   "url": "https://www.google.com/maps/place/0123+Complex/data=!4m2!3m1!1s0x317527ce300c3761:0xd303b4dc51aacbe2",
   "cuisine": null,

@@ -1,5 +1,24 @@
 [
   {
+  "name": "Wok Of Love CN2 (Take away)",
+  "url": "https://www.google.com/maps/place/Wok+Of+Love+CN2+(Take+away),+311%2Fi32+Đường+Số+05,+An+Khánh,+Hồ+Chí+Minh+700000,+Vietnam/@0,0,22z/data=!4m2!3m1!1s0x317527007c08ae43:0xdfbf985e44690d0b",
+  "cuisine": "Asian",
+  "district": "An Khánh, Thu Duc City",
+  "rating": null,
+  "price": "$$",
+  "dishes": "Wok-fried dishes, stir-fried noodles, rice dishes, Asian takeaway meals",
+  "must_try": "Yes",
+  "notes": "Takeaway food venue at 311/i32 Đường Số 05 in An Khánh, Ho Chi Minh City. The name suggests wok-cooked Asian dishes. Specific menu items, current Google Maps rating and pricing have not been independently verified.",
+  "source": "Vietnam list",
+  "lat": null,
+  "lng": null,
+  "meals": ["lunch", "dinner"],
+  "area": "Thảo Điền",
+  "category": "Asian",
+  "tagline": "A convenient takeaway spot for wok-cooked meals in An Khánh.",
+  "tags": ["Asian", "wok", "stir-fry", "noodles", "rice", "takeaway", "lunch", "dinner", "An Khánh", "Thảo Điền"]
+},
+  {
   "name": "Monito's Taqueria",
   "url": "https://www.google.com/maps/place/Monito's+Taqueria,+26+%C4%90%E1%BB%97+Quang+%C4%90%E1%BA%A9u,+street,+B%E1%BA%BFn+Th%C3%A0nh,+H%E1%BB%93+Ch%C3%AD+Minh+70000,+Vietnam/@0,0,22z/data=!4m2!3m1!1s0x31752f5607cb3da5:0xa9efff88f357cf0d",
   "cuisine": "Mexican",

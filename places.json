@@ -1,5 +1,24 @@
 [
   {
+  "name": "Cubique Bakery | Saigon",
+  "url": "https://www.google.com/maps/place/Vietnam,+H%E1%BB%93+Ch%C3%AD+Minh,+An+Kh%C3%A1nh,+%C4%90%C6%B0%E1%BB%9Dng+s%E1%BB%91+54,+Cubique+Bakery+%7C+Saigon/@10.802159,106.7290073,16z/data=!4m6!3m5!1s0x317527d14e9dc53d:0xa14ac2a9a91dfca7!8m2!3d10.802159!4d106.7290073!16s%2Fg%2F11y0mndp1g",
+  "cuisine": "Bakery",
+  "district": "An Khánh, Thu Duc City",
+  "rating": null,
+  "price": "$$",
+  "dishes": "Freshly baked pastries, cakes, breads and bakery treats",
+  "must_try": "Yes",
+  "notes": "Bakery located on Đường Số 54 in An Khánh, Ho Chi Minh City. A potential stop for pastries and baked goods. Specific signature products, current Google Maps rating and pricing have not been independently verified.",
+  "source": "Vietnam list",
+  "lat": 10.802159,
+  "lng": 106.7290073,
+  "meals": ["breakfast", "snack"],
+  "area": "Thảo Điền",
+  "category": "Bakery",
+  "tagline": "A neighbourhood bakery for pastries and freshly baked treats in Thảo Điền.",
+  "tags": ["bakery", "pastries", "cakes", "bread", "dessert", "coffee", "breakfast", "snack", "Thảo Điền", "An Khánh"]
+},
+  {
   "name": "Wok Of Love CN2 (Take away)",
   "url": "https://www.google.com/maps/place/Wok+Of+Love+CN2+(Take+away),+311%2Fi32+Đường+Số+05,+An+Khánh,+Hồ+Chí+Minh+700000,+Vietnam/@0,0,22z/data=!4m2!3m1!1s0x317527007c08ae43:0xdfbf985e44690d0b",
   "cuisine": "Asian",

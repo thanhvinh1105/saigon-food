@@ -1,5 +1,24 @@
 [
   {
+  "name": "IZAKAYA MARUCO",
+  "url": "https://www.google.com/maps/place/IZAKAYA+MARUCO,+46+M%C3%AA+Linh,+Th%E1%BA%A1nh+M%E1%BB%B9+T%C3%A2y,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/",
+  "cuisine": "Japanese",
+  "district": "Thạnh Mỹ Tây, Bình Thạnh",
+  "rating": null,
+  "price": null,
+  "dishes": "Izakaya-style Japanese dishes",
+  "must_try": "Yes",
+  "notes": "Japanese izakaya at 46 Mê Linh. Likely offers Japanese small plates and drinks; specific signature dishes have not been verified.",
+  "source": "Vietnam list",
+  "lat": 10.7897678,
+  "lng": 106.7095643,
+  "meals": ["dinner"],
+  "area": "Bình Thạnh",
+  "category": "Japanese",
+  "tagline": "Japanese izakaya dining and drinks",
+  "tags": ["Japanese", "izakaya", "small plates", "drinks", "dinner"]
+},
+  {
     "name": "Seventynine Saigon",
     "url": "https://www.google.com/maps/place/Seventynine+Saigon/data=!4m2!3m1!1s0x31752ffb23c2c9ed:0x96b39d9f7dfc0a69",
     "cuisine": null,

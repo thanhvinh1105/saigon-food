@@ -1,5 +1,24 @@
 [
   {
+  "name": "Boulevard Gelato, Pastry & Coffee",
+  "url": "https://www.google.com/maps/place/Boulevard+Gelato,+Pastry+%26+Coffee+-+66+Xu%C3%A2n+Th%E1%BB%A7y,+66+Xu%C3%A2n+Th%E1%BB%A7y,+An+Kh%C3%A1nh,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/",
+  "cuisine": "Dessert",
+  "district": "An Khánh, Thu Duc City",
+  "rating": null,
+  "price": null,
+  "dishes": "Gelato, pastries and coffee",
+  "must_try": "Yes",
+  "notes": "Dessert café specialising in gelato, pastries and coffee, located at 66 Xuân Thủy.",
+  "source": "Vietnam list",
+  "lat": 10.8033007,
+  "lng": 106.7326206,
+  "meals": ["breakfast", "snack", "dessert"],
+  "area": "Thảo Điền",
+  "category": "Dessert",
+  "tagline": "Gelato, pastries and coffee in Thảo Điền",
+  "tags": ["gelato", "ice cream", "pastry", "coffee", "dessert", "cafe"]
+},
+  {
   "name": "IZAKAYA MARUCO",
   "url": "https://www.google.com/maps/place/IZAKAYA+MARUCO,+46+M%C3%AA+Linh,+Th%E1%BA%A1nh+M%E1%BB%B9+T%C3%A2y,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/",
   "cuisine": "Japanese",
